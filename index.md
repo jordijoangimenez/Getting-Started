@@ -27,12 +27,18 @@ With the 5G-MAG Reference Tools we:
     <td markdown="span" width="33%" align="center"><a href="https://hub.5g-mag.com/Getting-Started/"><img src="./assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
     <td markdown="span" width="33%" align="center"><a href="https://hub.5g-mag.com/Tech/"><img src="./assets/images/Reference_Tools_5GC_Service_Consumers.png"><a/></td>
     <td markdown="span" width="33%" align="center"><a href="https://hub.5g-mag.com/Standards/"><img src="./assets/images/Reference_Tools_UE_data_collection.png"><a/></td>
+  </tr>
+  <tr>
     <td markdown="span" width="33%" align="center"><a href="https://hub.5g-mag.com/Getting-Started/"><img src="./assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
     <td markdown="span" width="33%" align="center"><a href="https://hub.5g-mag.com/Tech/"><img src="./assets/images/Reference_Tools_5GC_Service_Consumers.png"><a/></td>
     <td markdown="span" width="33%" align="center"><a href="https://hub.5g-mag.com/Standards/"><img src="./assets/images/Reference_Tools_UE_data_collection.png"><a/></td>
+  </tr>
+  <tr>
     <td markdown="span" width="33%" align="center"><a href="https://hub.5g-mag.com/Getting-Started/"><img src="./assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
     <td markdown="span" width="33%" align="center"><a href="https://hub.5g-mag.com/Tech/"><img src="./assets/images/Reference_Tools_5GC_Service_Consumers.png"><a/></td>
     <td markdown="span" width="33%" align="center"><a href="https://hub.5g-mag.com/Standards/"><img src="./assets/images/Reference_Tools_UE_data_collection.png"><a/></td>
+  </tr>
+  <tr>
     <td markdown="span" width="33%" align="center"><a href="https://hub.5g-mag.com/Getting-Started/"><img src="./assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
     <td markdown="span" width="33%" align="center"><a href="https://hub.5g-mag.com/Tech/"><img src="./assets/images/Reference_Tools_5GC_Service_Consumers.png"><a/></td>
     <td markdown="span" width="33%" align="center"><a href="https://hub.5g-mag.com/Standards/"><img src="./assets/images/Reference_Tools_UE_data_collection.png"><a/></td>
