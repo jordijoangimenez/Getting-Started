@@ -7,14 +7,29 @@ has_children: true
 
 <img src="./assets/images/Banner_RT.png" /> 
 
-This website contains documentation, tutorials and access to the 5G-MAG Reference Tools software libraries.
+Today, specifications in media and connectivity technologies are ultimately realised through software implementations. Developing robust software requires specific expertise, tools, and support – resources the 5G-MAG Reference Tools Developer Community makes available for a structured approach to software development alongside specification work.
+ 
+With the 5G-MAG Reference Tools we:
+* Accelerate progress through early and continuous feedback from implementations
+* Support higher quality specifications thanks to earlier validation in real-world environments
+* Foster adoption through the availability of open-source software and tools that lower entry barriers for product development
+
+# Overview of the 5G-MAG Reference Tools Projects
 
 <iframe width="80%" height="440px" src="./docs/Reference_Tools_Overview.pdf"></iframe>
 
 [Overview slides about the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue } 
 
-# Overview of 5G-MAG Reference Tools Projects
-## Get an overview about the [Projects and Software available](./pages/projects.html).
+# The Projects
+
+<table>
+  <tr>
+    <td width="33%" align="center"><a href="https://hub.5g-mag.com/Getting-Started/"><img src="./assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
+    <td width="33%" align="center"><a href="https://hub.5g-mag.com/Tech/"><img src="./assets/images/Reference_Tools_5GC_Service_Consumers.png"><a/></td>
+    <td width="33%" align="center"><a href="https://hub.5g-mag.com/Standards/"><img src="./assets/images/Reference Tools_UE_data_collection.png"><a/></td>
+  </tr>
+</table>
+      
 ## Get an overview about the [Latest Releases](./pages/releases.html).
 
 ## How to use these pages
