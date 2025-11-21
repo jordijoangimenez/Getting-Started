@@ -17,6 +17,8 @@ With the **5G-MAG Reference Tools** we:
 Find **practical information** about this documentation [here](./pages/how-to-use.html).
 
 # The 5G-MAG Reference Tools Projects
+Find additional information about all the projects here: [All the Projects](./pages/projects.html){: .btn .btn-blue }
+Find the most recent releases of each project here: [Latest Releases](./pages/releases.html){: .btn .btn-blue }
 
 <table>
   <tr>
@@ -74,8 +76,6 @@ Find **practical information** about this documentation [here](./pages/how-to-us
   </tr>
 </table>
       
-## Find the most recent releases of each project here: [Latest Releases](./pages/releases.html).
-
 # Overview of the 5G-MAG Reference Tools Projects
 
 <iframe width="80%" height="440px" src="./docs/Reference_Tools_Overview.pdf"></iframe>
