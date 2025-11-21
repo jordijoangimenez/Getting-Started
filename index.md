@@ -9,19 +9,19 @@ has_children: true
 
 Today, specifications in media and connectivity technologies are ultimately realised through software implementations. Developing robust software requires specific expertise, tools, and support – resources the 5G-MAG Reference Tools Developer Community makes available for a structured approach to software development alongside specification work.
  
-With the 5G-MAG Reference Tools we:
+With the **5G-MAG Reference Tools** we:
 * Accelerate progress through early and continuous feedback from implementations
 * Support higher quality specifications thanks to earlier validation in real-world environments
 * Foster adoption through the availability of open-source software and tools that lower entry barriers for product development
 
-Find practical information about this documentation [here](./pages/how-to-use.html).
+Find **practical information** about this documentation [here](./pages/how-to-use.html).
 
-# The Projects
+# The 5G-MAG Reference Tools Projects
 
 <table>
   <tr>
-    <td markdown="span" width="33%" align="center"><a href="https://hub.5g-mag.com/Getting-Started/"><img src="./assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
-    <td markdown="span" width="33%" align="center"><a href="https://hub.5g-mag.com/Tech/"><img src="./assets/images/Reference_Tools_5GC_Service_Consumers.png"><a/></td>
+    <td markdown="span" width="33%" align="center"><a href="./pages/5g-media-streaming/"><img src="./assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
+    <td markdown="span" width="33%" align="center"><a href="./pages/5g-media-streaming/"><img src="./assets/images/Reference_Tools_5GC_Service_Consumers.png"><a/></td>
   </tr>
   <tr>
     <td markdown="span" width="33%" align="center"><a href="https://hub.5g-mag.com/Standards/"><img src="./assets/images/Reference_Tools_UE_data_collection.png"><a/></td>
