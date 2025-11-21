@@ -14,7 +14,7 @@ With the 5G-MAG Reference Tools we:
 * Support higher quality specifications thanks to earlier validation in real-world environments
 * Foster adoption through the availability of open-source software and tools that lower entry barriers for product development
 
-* Find practical information about this documentation [here](./pages/how-to-use.html).
+Find practical information about this documentation [here](./pages/how-to-use.html).
 
 # The Projects
 
