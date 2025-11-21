@@ -9,9 +9,9 @@ has_children: true
 
 This website contains documentation, tutorials and access to the 5G-MAG Reference Tools software libraries.
 
-<iframe width="40%" height="440" src="https://hub.5g-mag.com/Getting-Started/docs/Reference_Tools_Overview.pdf"></iframe>
+<iframe width="40%" height="440" src="./docs/Reference_Tools_Overview.pdf"></iframe>
 
-[Overview slides about the 5G-MAG Reference Tools](https://hub.5g-mag.com/Getting-Started/docs/Reference_Tools_Overview.pdf){: .btn .btn-blue } 
+[Overview slides about the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue } 
 
 # Overview of 5G-MAG Reference Tools Projects
 ## Get an overview about the [Projects and Software available](./pages/projects.html).
