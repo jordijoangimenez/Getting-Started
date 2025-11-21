@@ -7,7 +7,7 @@ has_children: true
 
 <img src="./assets/images/Banner_RT.png" /> 
 
-Today, specifications in media and connectivity technologies are ultimately realised through software implementations. Developing robust software requires specific expertise, tools, and support – resources the 5G-MAG Reference Tools Developer Community makes available for a structured approach to software development alongside specification work.
+Today, specifications in media and connectivity technologies are ultimately realised through software implementations. Developing robust software requires specific expertise, tools, and support – resources the **5G-MAG Reference Tools Developer Community** makes available for a structured approach to software development alongside specification work.
  
 With the **5G-MAG Reference Tools** we:
 * Accelerate progress through early and continuous feedback from implementations
