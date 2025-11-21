@@ -14,11 +14,7 @@ With the 5G-MAG Reference Tools we:
 * Support higher quality specifications thanks to earlier validation in real-world environments
 * Foster adoption through the availability of open-source software and tools that lower entry barriers for product development
 
-# Overview of the 5G-MAG Reference Tools Projects
-
-<iframe width="80%" height="440px" src="./docs/Reference_Tools_Overview.pdf"></iframe>
-
-[Overview slides about the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue } 
+* Find practical information about this documentation [here](./pages/how-to-use.html).
 
 # The Projects
 
@@ -45,27 +41,30 @@ With the 5G-MAG Reference Tools we:
   </tr>
 </table>
       
-## Get an overview about the [Latest Releases](./pages/releases.html).
+## Find the most recent releases of each project here: [Latest Releases](./pages/releases.html).
 
-## How to use these pages
-* Find practical information about this documentation [here](./pages/how-to-use.html).
+# Overview of the 5G-MAG Reference Tools Projects
 
-## Our video library
+<iframe width="80%" height="440px" src="./docs/Reference_Tools_Overview.pdf"></iframe>
+
+[Overview slides about the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue } 
+
+# Our video library
 Find videos from the different projects in the Tutorial pages.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=cij1rf0oe5TQsn_H&amp;list=PLFqKJZ78_IWU3RXGLPulR4hkStzfBSXTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Developer Community
+# Developer Community
 * Meet the developer community, participate, contribute, join the public calls: [https://www.5g-mag.com/community](https://www.5g-mag.com/community)
 * Discussion are held in [Slack](https://5g-mag.slack.com/).
 * Announcements are communicated through the [Google Group](https://groups.google.com/g/5g-mag-reference-tools)
 * If you have questions which cannot be shared publicly, reach out to us via email: [reference-tools@5g-mag.com](mailto:reference-tools@5g-mag.com)
 
-### Join our Public Monthly Call (Last Friday of the month at 13:00 CET/CEST - unless communicated otherwise)
+## Join our Public Monthly Call (Last Friday of the month at 13:00 CET/CEST - unless communicated otherwise)
 * Find all the information about how to join the Public calls: [https://5g-mag.com/community#calendar](https://5g-mag.com/community#calendar)
 * Agendas are circulated via the [Google Group](https://groups.google.com/g/5g-mag-reference-tools) mailing list
 
-### Contributing
+## Contributing
 * Learn about the License Model and the Contributor License Agreement: [https://www.5g-mag.com/license](https://www.5g-mag.com/license)
 * Guidelines for contributors are available [here](guidelines-contributors.html)
 
