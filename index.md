@@ -9,7 +9,7 @@ has_children: true
 
 This website contains documentation, tutorials and access to the 5G-MAG Reference Tools software libraries.
 
-<iframe class="responsive-iframe" src="./docs/Reference_Tools_Overview.pdf"></iframe>
+<iframe class="responsive-iframe" width="100%" src="./docs/Reference_Tools_Overview.pdf"></iframe>
 
 [Overview slides about the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue } 
 
