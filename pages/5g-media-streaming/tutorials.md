@@ -11,9 +11,6 @@ nav_order: 3
 
 # How to use the Reference Tools
 
-1. TOC
-{:toc}
-
 ## Tutorials, Tests and Examples
 
 ### [Tutorial: Testing the 5GMS Application Server](./tutorials/testing-AS.html)
