@@ -5,7 +5,8 @@ parent: 5G Media Streaming
 has_children: false
 nav_order: 1
 ---
-<img src="../../assets/images/Banner_Roadmap.png" /> 
+
+<img src="../../assets/images/Banner_5GMS.png" /> 
 
 [Scope & Architectures](./scope.html){: .btn .btn-blue } [Projects and Roadmap](./projects.html){: .btn .btn-blue } [GitHub Repositories](./repositories.html){: .btn .btn-github } [Latest Releases](../releases.html#project-5g-media-streaming){: .btn .btn-release } [Tutorials](./tutorials.html){: .btn .btn-blue } [Requirements](./requirements.html){: .btn .btn-blue }
 
