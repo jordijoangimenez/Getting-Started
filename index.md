@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: 5G-MAG Reference Tools
 nav_order: 0
 has_children: true
 ---
