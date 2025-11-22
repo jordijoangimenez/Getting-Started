@@ -11,25 +11,19 @@ nav_order: 2
 
 ## Project: 5G Media Streaming
 
-* **rt-5gms-application-provider**: [](https://github.com/5G-MAG/rt-5gms-application-provider/releases)
-* **rt-5gms-application**: [https://github.com/5G-MAG/rt-5gms-application/releases](https://github.com/5G-MAG/rt-5gms-application/releases)
-* **rt-5gms-application-function**: [https://github.com/5G-MAG/rt-5gms-application-function/releases](https://github.com/5G-MAG/rt-5gms-application-function/releases)
-* **rt-5gms-application-server**: [https://github.com/5G-MAG/rt-5gms-application-server/releases](https://github.com/5G-MAG/rt-5gms-media-stream-handler/releases/tag/rt-5gms-media-stream-handler-v1.2.1)
-* **rt-5gms-media-stream-handler**: [https://github.com/5G-MAG/rt-5gms-media-stream-handler/releases](https://github.com/5G-MAG/rt-5gms-media-stream-handler/releases)
-* **rt-5gms-media-session-handler**: [https://github.com/5G-MAG/rt-5gms-media-session-handler/releases](https://github.com/5G-MAG/rt-5gms-media-session-handler/releases)
-* **rt-5gms-common-android-library**: [https://github.com/5G-MAG/rt-5gms-common-android-library/releases](https://github.com/5G-MAG/rt-5gms-common-android-library/releases)
-* **rt-5gms-examples**: [https://github.com/5G-MAG/rt-5gms-examples/releases](https://github.com/5G-MAG/rt-5gms-examples/releases)
-
 | Repository | Version | Date | Comments |
 |------------|---------|------|----------|
 | [rt-5gms-application-provider](https://github.com/5G-MAG/rt-5gms-application-provider/releases){: .btn .btn-blue } | [1.1.0](https://github.com/5G-MAG/rt-5gms-application-provider/releases/tag/rt-5gms-application-provider-1.1.0-rc){: .btn .btn-blue } | 2024-09-10 |  |
-| rt-5gms-application | [1.2.1](https://github.com/5G-MAG/rt-5gms-application/releases/tag/rt-5gms-application-v1.2.1) | 2025-01-15 |  |
-| rt-5gms-application-function | [1.4.4](https://github.com/5G-MAG/rt-5gms-application-function/releases/tag/rt-5gms-application-function-v1.4.4) | 2024-10-14 |  |
-| rt-5gms-application-server | [1.2.4](https://github.com/5G-MAG/rt-5gms-application-server/releases/tag/rt-5gms-application-server-1.2.4) | 2025-03-20 |  |
-| rt-5gms-media-stream-handler | [1.2.1](https://github.com/5G-MAG/rt-5gms-media-stream-handler/releases/tag/rt-5gms-media-stream-handler-v1.2.1) | 2025-01-28 |  |
-| rt-5gms-media-session-handler | [1.2.1](https://github.com/5G-MAG/rt-5gms-media-session-handler/releases/tag/rt-5gms-media-session-handler-v1.2.1) | 2025-01-15 |  |
-| rt-5gms-common-android-library | [1.2.1](https://github.com/5G-MAG/rt-5gms-common-android-library/releases/tag/rt-5gms-common-android-library-v1.2.1) | 2025-01-15 |  |
-| rt-5gms-examples | [1.2.0](https://github.com/5G-MAG/rt-5gms-examples/releases/tag/rt-5gms-examples-v1.2.0) | 2025-01-28 |  |
+| [https://github.com/5G-MAG/rt-5gms-application/releases](https://github.com/5G-MAG/rt-5gms-application/releases){: .btn .btn-blue } | [1.2.1](https://github.com/5G-MAG/rt-5gms-application/releases/tag/rt-5gms-application-v1.2.1){: .btn .btn-blue } | 2025-01-15 |  |
+| [https://github.com/5G-MAG/rt-5gms-application-function/releases](https://github.com/5G-MAG/rt-5gms-application-function/releases){: .btn .btn-blue } | [1.4.4](https://github.com/5G-MAG/rt-5gms-application-function/releases/tag/rt-5gms-application-function-v1.4.4){: .btn .btn-blue } | 2024-10-14 |  |
+| [https://github.com/5G-MAG/rt-5gms-application-server/releases](https://github.com/5G-MAG/rt-5gms-media-stream-handler/releases/tag/rt-5gms-media-stream-handler-v1.2.1){: .btn .btn-blue } | [1.2.4](https://github.com/5G-MAG/rt-5gms-application-server/releases/tag/rt-5gms-application-server-1.2.4){: .btn .btn-blue } | 2025-03-20 |  |
+| [https://github.com/5G-MAG/rt-5gms-media-stream-handler/releases](https://github.com/5G-MAG/rt-5gms-media-stream-handler/releases){: .btn .btn-blue } | [1.2.1](https://github.com/5G-MAG/rt-5gms-media-stream-handler/releases/tag/rt-5gms-media-stream-handler-v1.2.1){: .btn .btn-blue } | 2025-01-28 |  |
+| [https://github.com/5G-MAG/rt-5gms-media-session-handler/releases](https://github.com/5G-MAG/rt-5gms-media-session-handler/releases){: .btn .btn-blue }
+ | [1.2.1](https://github.com/5G-MAG/rt-5gms-media-session-handler/releases/tag/rt-5gms-media-session-handler-v1.2.1){: .btn .btn-blue } | 2025-01-15 |  |
+| [https://github.com/5G-MAG/rt-5gms-common-android-library/releases](https://github.com/5G-MAG/rt-5gms-common-android-library/releases){: .btn .btn-blue }
+ | [1.2.1](https://github.com/5G-MAG/rt-5gms-common-android-library/releases/tag/rt-5gms-common-android-library-v1.2.1){: .btn .btn-blue } | 2025-01-15 |  |
+| [https://github.com/5G-MAG/rt-5gms-examples/releases](https://github.com/5G-MAG/rt-5gms-examples/releases){: .btn .btn-blue }
+ | [1.2.0](https://github.com/5G-MAG/rt-5gms-examples/releases/tag/rt-5gms-examples-v1.2.0){: .btn .btn-blue } | 2025-01-28 |  |
 
 ---
 
