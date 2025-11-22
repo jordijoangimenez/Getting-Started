@@ -78,16 +78,5 @@ With the **5G-MAG Reference Tools** we:
   </tr>
 </table>
       
-# Overview of the 5G-MAG Reference Tools Projects
-
-<iframe width="80%" height="440px" src="./docs/Reference_Tools_Overview.pdf"></iframe>
-
-[Overview slides about the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue } 
-
-# Our video library
-Find videos from the different projects in the Tutorial pages.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=cij1rf0oe5TQsn_H&amp;list=PLFqKJZ78_IWU3RXGLPulR4hkStzfBSXTJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 {: .note }
 Copyright: 5G Media Action Group (5G-MAG). Please refer to the [Getting-Started](https://github.com/5G-MAG/Getting-Started/tree/main/pages) repository to provide updates to this documentation.
