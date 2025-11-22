@@ -7,10 +7,12 @@ nav_order: 3
 ---
 <img src="../../assets/images/Banner_Tutorials.png" /> 
 
-1. TOC
-{:toc}
+[Scope & Architectures](./scope.html){: .btn .btn-blue } [Projects and Roadmap](./projects.html){: .btn .btn-blue } [GitHub Repositories](./repositories.html){: .btn .btn-green } [Latest Releases](../releases.html#project-5g-media-streaming){: .btn .btn-purple } [Tutorials](./tutorials.html){: .btn .btn-blue } [Requirements](./requirements.html){: .btn .btn-blue }
 
 # How to use the Reference Tools
+
+1. TOC
+{:toc}
 
 ## Tutorials, Tests and Examples
 
@@ -32,7 +34,7 @@ Consumption Collection and Reporting executes the collection of content consumpt
 ### [Tutorial: 5G Media Streaming with QoE Metrics Reporting](./tutorials/metrics-reporting.html)
 QoE Metrics Reporting allows the Quality of Experience of media streaming sessions to be logged by the 5GMS System and exposed for analysis. The 5G-MAG Reference Tools support the scenario in which the metrics collection and reporting is configured by the 5GMSd Application Function. The metrics configuration provided by the 5GMSd AF to the 5GMSd client comprises instructions and rules regarding metrics collection (i.e. measurement and logging) and reporting for different schemes. Each metrics scheme requires the 5GMSd Client to perform metrics collection and subsequent metrics reporting to the 5GMSd AF according to the configuration rules of that scheme. In the simplest case the resulting QoE metrics reports are then saved to disk by the 5GMS Application Function.
 
-## Check our video library
+## Video Library
 Our [YouTube channel](https://www.youtube.com/@5GMAG) hosts some practical videos provided by developers on the use of the 5G-MAG Reference Tools.
 
 Some of the videos are also available here:
