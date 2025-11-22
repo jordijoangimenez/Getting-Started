@@ -25,7 +25,7 @@ Visit the [Standards repository](https://5g-mag.github.io/Standards/pages/5g-med
 
 [5G Media Streaming: Repositories](../5g-media-streaming/repositories.html){: .btn .btn-1 }
 [3GPP RAN and Core Platforms: Repositories](../3gpp-ran-and-core-platforms/repositories.html){: .btn .btn-13 }
-[Common Tools (Auxiliary tools common to various projects): Repositories](../common-tools/){: .btn .btn-14 }
+[Common Tools: Repositories](../common-tools/){: .btn .btn-14 }
 
 ## 5G Downlink Media Streaming (5GMSd) with UE Data Collection Reporting and Event Exposure
 
@@ -34,7 +34,7 @@ Visit the [Standards repository](https://5g-mag.github.io/Standards/pages/5g-med
 [5G Media Streaming: Repositories](../5g-media-streaming/repositories.html){: .btn .btn-1 }
 [UE Data Collection, Reporting and Event Exposure: Repositories](../ue-data-collection-reporting-exposure/repositories.html){: .btn .btn-3 }
 [3GPP RAN and Core Platforms: Repositories](../3gpp-ran-and-core-platforms/repositories.html){: .btn .btn-13 }
-[Common Tools (Auxiliary tools common to various projects): Repositories](../common-tools/){: .btn .btn-14 }
+[Common Tools: Repositories](../common-tools/){: .btn .btn-14 }
 
 ## 5G Downlink Media Streaming (5GMSd) with 5GC Service Consumers
 
@@ -43,7 +43,7 @@ Visit the [Standards repository](https://5g-mag.github.io/Standards/pages/5g-med
 [5G Media Streaming: Repositories](../5g-media-streaming/repositories.html){: .btn .btn-1 }
 [5GC Service Consumers: Repositories](../5g-core-service-consumers/repositories.html){: .btn .btn-2 }
 [3GPP RAN and Core Platforms: Repositories](../3gpp-ran-and-core-platforms/repositories.html){: .btn .btn-13 }
-[Common Tools (Auxiliary tools common to various projects): Repositories](../common-tools/){: .btn .btn-14 }
+[Common Tools: Repositories](../common-tools/){: .btn .btn-14 }
 
 ## 5G Downlink Media Streaming (5GMSd) over eMBMS
 
@@ -52,7 +52,7 @@ Visit the [Standards repository](https://5g-mag.github.io/Standards/pages/5g-med
 [5G Media Streaming: Repositories](../5g-media-streaming/repositories.html){: .btn .btn-1 }
 [5GC Service Consumers: Repositories](../5g-core-service-consumers/repositories.html){: .btn .btn-2 }
 [5G Broadcast: Repositories](../lte-based-5g-broadcast/repositories.html){: .btn .btn-4 }
-[Common Tools (Auxiliary tools common to various projects): Repositories](../common-tools/){: .btn .btn-14 }
+[Common Tools: Repositories](../common-tools/){: .btn .btn-14 }
 
 # Docker deployment support
 Docker-Compose setups are provided to run the 5GMS Application Function, the 5GMS Application Server and the 5GMS Application Provider in Docker container environments.
