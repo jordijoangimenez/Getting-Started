@@ -18,62 +18,62 @@ $btn-c14: #007002;
 .btn-1
 {
   @include btn-color($btn-c1, $white);
-};
+}
 
 .btn-2
 {
   @include btn-color($btn-c2, $white);
-};
+}
 
 .btn-3
 {
   @include btn-color($btn-c3, $white);
-};
+}
 
 .btn-4
 {
   @include btn-color($btn-c4, $white);
-};
+}
 
 .btn-5
 {
   @include btn-color($btn-c5, $white);
-};
+}
 
 .btn-6
 {
   @include btn-color($btn-c6, $white);
-};
+}
 
 .btn-7
 {
   @include btn-color($btn-c7, $white);
-};
+}
 
 .btn-8
 {
   @include btn-color($btn-c8, $white);
-};
+}
 
 .btn-9
 {
   @include btn-color($btn-c9, $white);
-};
+}
 
 .btn-10
 {
   @include btn-color($btn-c10, $white);
-};
+}
 
 .btn-11
 {
   @include btn-color($btn-c11, $white);
-};
+}
 
 .btn-12
 {
   @include btn-color($btn-c12, $white);
-};
+}
 
 .btn-13
 {
@@ -82,5 +82,5 @@ $btn-c14: #007002;
 
 .btn-14
 {
-  @include btn-color($white, $btn-c14);
+  @include btn-color($btn-c14, $white);
 }
