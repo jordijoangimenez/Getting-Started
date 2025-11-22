@@ -5,6 +5,8 @@ parent: Introduction
 nav_order: 0
 ---
 
+<img src="./assets/images/Banner_RT.png" /> 
+
 # How to use these pages
 
 This documentation is organized in a hierarchical structure. The main topics are listed in the left sidebar. Each topic
