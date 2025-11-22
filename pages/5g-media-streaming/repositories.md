@@ -99,7 +99,7 @@ Additional information:
 * [Packages](https://github.com/orgs/5G-MAG/packages?repo_name=rt-5gms-common-android-library)
 
 ### 5GMS Examples
-[rt-5gms-examples](https://github.com/5G-MAG/rt-5gms-examples){: .btn btn-5gms } [Latest Releases](../releases.html#project-5g-media-streaming){: .btn .btn-release }
+[rt-5gms-examples](https://github.com/5G-MAG/rt-5gms-examples){: .btn .btn-5gms } [Latest Releases](../releases.html#project-5g-media-streaming){: .btn .btn-release }
 
 This repository holds example projects that make use of other 5G-MAG repositories or provide additional functionalities to test and implement new features for 5GMS.
 
