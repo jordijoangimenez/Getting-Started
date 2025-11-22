@@ -5,7 +5,7 @@ parent: Introduction
 nav_order: 3
 ---
 
-<img src="./assets/images/Banner_RT.png" /> 
+<img src="../assets/images/Banner_RT.png" /> 
 
 # About the Developer Community
 * Meet the developer community, participate, contribute, join the public calls: [https://www.5g-mag.com/community](https://www.5g-mag.com/community)
