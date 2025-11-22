@@ -83,7 +83,7 @@ With the **5G-MAG Reference Tools** we:
   </tr>
 </table>
 
-<img src="../assets/images/Banner_6.png"/> 
+<img src="./assets/images/Banner_6.png"/> 
 
 ## Auxiliary tools common to various projects
 * Check the [**Pages**](./common-tools/index.html)
@@ -93,7 +93,6 @@ With the **5G-MAG Reference Tools** we:
 
 ## External Tools
 * Check the [**Pages**](./external-tools/index.html)
-
 
 # Videos and Tutorials
 The tutorial pages within the projects provide audiovisual resources that guide users through project setup and offer developer-led explanations of key aspects and features.
