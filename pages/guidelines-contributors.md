@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Guidelines for Contributors
-parent: Home
+parent: 5G-MAG Reference Tools
 nav_order: 3
 ---
 
