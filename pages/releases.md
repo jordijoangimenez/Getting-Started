@@ -11,7 +11,7 @@ nav_order: 2
 
 ## Project: 5G Media Streaming
 
-* **rt-5gms-application-provider**: [https://github.com/5G-MAG/rt-5gms-application-provider/releases](https://github.com/5G-MAG/rt-5gms-application-provider/releases)
+* **rt-5gms-application-provider**: [](https://github.com/5G-MAG/rt-5gms-application-provider/releases)
 * **rt-5gms-application**: [https://github.com/5G-MAG/rt-5gms-application/releases](https://github.com/5G-MAG/rt-5gms-application/releases)
 * **rt-5gms-application-function**: [https://github.com/5G-MAG/rt-5gms-application-function/releases](https://github.com/5G-MAG/rt-5gms-application-function/releases)
 * **rt-5gms-application-server**: [https://github.com/5G-MAG/rt-5gms-application-server/releases](https://github.com/5G-MAG/rt-5gms-media-stream-handler/releases/tag/rt-5gms-media-stream-handler-v1.2.1)
@@ -22,7 +22,7 @@ nav_order: 2
 
 | Repository | Version | Date | Comments |
 |------------|---------|------|----------|
-| rt-5gms-application-provider | [1.1.0](https://github.com/5G-MAG/rt-5gms-application-provider/releases/tag/rt-5gms-application-provider-1.1.0-rc) | 2024-09-10 |  |
+| [rt-5gms-application-provider](https://github.com/5G-MAG/rt-5gms-application-provider/releases){: .btn .btn-blue } | [1.1.0](https://github.com/5G-MAG/rt-5gms-application-provider/releases/tag/rt-5gms-application-provider-1.1.0-rc){: .btn .btn-blue } | 2024-09-10 |  |
 | rt-5gms-application | [1.2.1](https://github.com/5G-MAG/rt-5gms-application/releases/tag/rt-5gms-application-v1.2.1) | 2025-01-15 |  |
 | rt-5gms-application-function | [1.4.4](https://github.com/5G-MAG/rt-5gms-application-function/releases/tag/rt-5gms-application-function-v1.4.4) | 2024-10-14 |  |
 | rt-5gms-application-server | [1.2.4](https://github.com/5G-MAG/rt-5gms-application-server/releases/tag/rt-5gms-application-server-1.2.4) | 2025-03-20 |  |
