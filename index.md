@@ -9,8 +9,6 @@ has_children: true
 
 Today, specifications in media and connectivity technologies are ultimately realised through software implementations. Developing robust software requires specific expertise, tools, and support – resources the **5G-MAG Reference Tools Developer Community** makes available for a structured approach to software development alongside specification work.
 
-<iframe width="80%" height="440px" src="./docs/Reference_Tools_Overview.pdf"></iframe>
-
 [Overview slides about the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue }
 
 ---
@@ -94,6 +92,12 @@ With the **5G-MAG Reference Tools** we:
 
 ## External Tools
 [Documentation](./external-tools/index.html){: .btn .btn-blue }
+
+# Overview of the 5G-MAG Reference Tools
+
+<iframe width="80%" height="440px" src="./docs/Reference_Tools_Overview.pdf"></iframe>
+
+[Overview slides about the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue }
 
 # Videos and Tutorials
 The tutorial pages within the projects provide audiovisual resources that guide users through project setup and offer developer-led explanations of key aspects and features.
