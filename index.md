@@ -98,7 +98,7 @@ With the **5G-MAG Reference Tools** we:
 
 <iframe width="80%" height="440px" src="./docs/Reference_Tools_Overview.pdf"></iframe>
 
-[Download the slides about the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue }
+[Download the slidedeck of the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue }
 
 # Videos and Tutorials
 The tutorial pages within the projects provide audiovisual resources that guide users through project setup and offer developer-led explanations of key aspects and features.
