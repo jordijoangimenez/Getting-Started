@@ -5,7 +5,7 @@ parent: Introduction
 nav_order: 0
 ---
 
-<img src="./assets/images/Banner_RT.png" /> 
+<img src="../assets/images/Banner_RT.png" /> 
 
 # How to use these pages
 
