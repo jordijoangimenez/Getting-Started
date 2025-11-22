@@ -16,14 +16,9 @@ $btn-c13: #006002;
 $btn-c14: #007002;
 
 
-.btn-1 {
-color: #ffffff;
-background-color: $btn-c1;
-}
-
-.btn-2
+.btn-1
 {
-  @include btn-color($btn-c2, $white);
+  @include btn-color($btn-c1, $white) !default;
 }
 
 .btn-3
