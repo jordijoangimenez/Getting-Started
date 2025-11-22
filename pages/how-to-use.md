@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to use these pages
-parent: Home
+parent: 5G-MAG Reference Tools
 nav_order: 0
 ---
 
