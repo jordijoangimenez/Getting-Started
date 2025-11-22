@@ -14,7 +14,7 @@ nav_order: 1
 
 ## Project Overview
 
-[Scope & Architectures](./scope.html){: .btn .btn-blue } [Projects and Roadmap](./projects.html){: .btn .btn-blue } [GitHub Repositories](./repositories.html){: .btn .btn-github } [Latest Releases](../releases.html#project-5g-media-streaming){: .btn .btn-purple } [Tutorials](./tutorials.html){: .btn .btn-blue } [Requirements](./requirements.html){: .btn .btn-blue }
+[Scope & Architectures](./scope.html){: .btn .btn-blue } [Projects and Roadmap](./projects.html){: .btn .btn-blue } [GitHub Repositories](./repositories.html){: .btn .btn-github } [Latest Releases](../releases.html#project-5g-media-streaming){: .btn .btn-release } [Tutorials](./tutorials.html){: .btn .btn-blue } [Requirements](./requirements.html){: .btn .btn-blue }
 
 <iframe width="80%" height="440px" src="../../docs/Reference_Tools_5G_Media_Streaming.pdf"></iframe>
 
