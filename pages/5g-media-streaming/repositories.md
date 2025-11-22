@@ -20,6 +20,7 @@ The following repositories are available. Please refer to the "Scope & Architect
 
 ## 5GMS-Aware Application
 [rt-5gms-application](https://github.com/5G-MAG/rt-5gms-application){: .btn .btn-blue }
+
 This repository holds applications that can be used to test and demonstrate other 5G-MAG Reference Tools related to 5GMS.
 This is a list of the current applications available:
 
@@ -32,6 +33,7 @@ Additional information:
 
 ## 5GMS Media Session Handler
 [rt-5gms-media-session-handler](https://github.com/5G-MAG/rt-5gms-media-session-handler){: .btn .btn-blue }
+
 The 5GMS Media Session Handler is a 5GMS Client component that forms part of the 5G Media Services framework as defined
 in ETSI TS 126.501.
 
@@ -41,6 +43,7 @@ Additional information:
 
 ## 5GMSd Media Stream Handler
 [rt-5gms-media-stream-handler](https://github.com/5G-MAG/rt-5gms-media-stream-handler){: .btn .btn-blue }
+
 The 5GMS Media Stream Handler is a 5GMS client component that forms part of the 5G Media Services framework as defined in ETSI TS 126.501.
 
 Additional information:
@@ -50,6 +53,7 @@ Additional information:
 
 ## 5GMSd Application Function
 [rt-5gms-application-function](https://github.com/5G-MAG/rt-5gms-application-function){: .btn .btn-blue }
+
 The 5GMS Application Function (AF) is a Network Function that forms part of the 5G Media Services framework as defined in ETSI TS 126.501.
 
 Additional information:
@@ -58,6 +62,7 @@ Additional information:
 
 ## 5GMSd Application Server
 [rt-5gms-application-server](https://github.com/5G-MAG/rt-5gms-application-server){: .btn .btn-blue }
+
 The 5GMS Application Server (AS) is a Network Function that forms part of the 5G Media Streaming framework as defined in ETSI TS 126.501.
 
 Additional information:
@@ -66,6 +71,7 @@ Additional information:
 
 ## 5GMS Application Provider
 [rt-5gms-application-provider](https://github.com/5G-MAG/rt-5gms-application-provider){: .btn .btn-blue }
+
 This repository provides multiple tools to interact with the 5GMS Application Function.
 
 The following tools are available:
@@ -84,6 +90,7 @@ Additional information:
 
 ### 5GMS Common Android Library
 [rt-5gms-common-android-library](https://github.com/5G-MAG/rt-5gms-common-android-library){: .btn .btn-blue }
+
 The 5GMS Common Library is an Android library that includes models and helper classes used within the different client-side Android applications such as the 5GMSd-Aware Application, 5GMSd Media Stream Handler and the 5GMSd Media Session Handler.
 
 Additional information:
@@ -93,6 +100,7 @@ Additional information:
 
 ### 5GMS Examples
 [rt-5gms-examples](https://github.com/5G-MAG/rt-5gms-examples){: .btn .btn-blue }
+
 This repository holds example projects that make use of other 5G-MAG repositories or provide additional functionalities to test and implement new features for 5GMS.
 
 The following tools are available:
