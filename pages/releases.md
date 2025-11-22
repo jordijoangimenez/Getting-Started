@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Reference Tools Releases
-parent: Home
+parent: 5G-MAG Reference Tools
 nav_order: 2
 ---
 
