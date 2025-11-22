@@ -11,12 +11,9 @@ nav_order: 1
 
 # Projects & Roadmap
 
-1. TOC
-{:toc}
+[Kanban board: Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/6){: .btn .btn-blue }
 
-* Check the [**Roadmap**](https://github.com/orgs/5G-MAG/projects/48/views/6) for 5G Media Streaming.
-
-# Related Projects
+# Developer Kanban Boards
 
 ## 5GMS: Basic Media stream handling (MVP#1)
 The main objective for MVP#1 is to implement a starting point for 5G Media Streaming with DASH-based media streaming using 5GMS formats and protocols as the basis. This includes a basic Media Player talking to a simple 5GMS Application Server.
