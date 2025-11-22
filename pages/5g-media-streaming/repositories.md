@@ -8,10 +8,12 @@ nav_order: 2
 
 <img src="../../assets/images/Banner_Repositories.png" /> 
 
-1. TOC
-{:toc}
+[Scope & Architectures](./scope.html){: .btn .btn-blue } [Projects and Roadmap](./projects.html){: .btn .btn-blue } [GitHub Repositories](./repositories.html){: .btn .btn-green } [Latest Releases](../releases.html#project-5g-media-streaming){: .btn .btn-purple } [Tutorials](./tutorials.html){: .btn .btn-blue } [Requirements](./requirements.html){: .btn .btn-blue }
 
 # Repositories
+
+1. TOC
+{:toc}
 
 The following repositories are available. Please refer to the "Scope & Architecture" sections of the different projects for more context.
 
