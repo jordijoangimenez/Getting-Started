@@ -5,7 +5,7 @@ parent: Home
 nav_order: 2
 ---
 
-# Latest Releases
+# Reference Tools Projects: Releases
 
 <img src="../assets/images/Banner_5GMS.png"/> 
 
@@ -34,6 +34,8 @@ nav_order: 2
 
 [Project Documentation](./pages/5g-core-service-consumers/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/17){: .btn .btn-blue }
 
+### Latest Releases
+
 | Repository | Version | Date | Comments |
 |------------|---------|------|----------|
 | [rt-5gc-service-consumers](https://github.com/5G-MAG/rt-5gc-service-consumers/releases){: .btn } | [2.0.1](https://github.com/5G-MAG/rt-5gc-service-consumers/releases/tag/rt-5gc-service-consumers-2.0.1){: .btn } | 2025-10-24 | |
@@ -46,6 +48,8 @@ nav_order: 2
 
 [Project Documentation](./pages/ue-data-collection-reporting-exposure/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/8){: .btn .btn-blue }
 
+### Latest Releases
+
 | Repository | Version | Date | Comments |
 |------------|---------|------|----------|
 | [rt-data-collection-application-function](https://github.com/5G-MAG/rt-data-collection-application-function/releases){: .btn } | [1.1.0](https://github.com/5G-MAG/rt-data-collection-application-function/releases/tag/rt-data-collection-application-function-1.1.0){: .btn } | 2025-05-13 | |
@@ -57,6 +61,8 @@ nav_order: 2
 ## Project: 5G Broadcast: TV and Radio Hybrid Services
 
 [Project Documentation](./pages/lte-based-5g-broadcast/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/7){: .btn .btn-blue }
+
+### Latest Releases
 
 | Repository | Version | Date | Comments |
 |------------|---------|------|----------|
@@ -76,6 +82,8 @@ nav_order: 2
 
 [Project Documentation](./pages/emergency-alerts/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/12){: .btn .btn-blue }
 
+### Latest Releases
+
 | Repository | Version | Date | Comments |
 |------------|---------|------|----------|
 | [rt-mbms-tx-for-qrd-and-crd](https://github.com/5G-MAG/rt-mbms-tx-for-qrd-and-crd/releases){: .btn } | [1.0.0](https://github.com/5G-MAG/rt-mbms-tx-for-qrd-and-crd/releases/tag/rt-mbms-tx-for-qrd-and-crd-ea-1.0.0){: .btn } | 2024-09-05 | Related to `emergency-alerts` branch |
@@ -87,6 +95,8 @@ nav_order: 2
 ## Project: 5G Multicast Broadcast Services
 
 [Project Documentation](./pages/5g-multicast-broadcast-services/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/13){: .btn .btn-blue }
+
+### Latest Releases
 
 | Repository | Version | Date | Comments |
 |------------|---------|------|----------|
@@ -103,6 +113,8 @@ nav_order: 2
 
 [Project Documentation](./pages/xr-media-integration-in-5g/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/16){: .btn .btn-blue }
 
+### Latest Releases
+
 | Repository | Version | Date | Comments |
 |------------|---------|------|----------|
 | [rt-xr-unity-player](https://github.com/5G-MAG/rt-xr-unity-player/releases){: .btn } | [1.1.0](https://github.com/5G-MAG/rt-xr-unity-player/releases/tag/v1.1.0){: .btn } | 2025-02-27 | |
@@ -116,6 +128,8 @@ nav_order: 2
 ## Project: Volumetric Video Experiences with MPEG V3C
 
 [Project Documentation](./pages/v3c-immersive-platform/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/15){: .btn .btn-blue }
+
+### Latest Releases
 
 | Repository | Version | Date | Comments |
 |------------|---------|------|----------|
@@ -131,6 +145,8 @@ nav_order: 2
 
 [Project Documentation](./pages/beyond-2d-evaluation-framework/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/10){: .btn .btn-blue }
 
+### Latest Releases
+
 | Repository | Version | Date | Comments |
 |------------|---------|------|----------|
 | [rt-beyond2d-evaluation-framework](https://github.com/5G-MAG/rt-beyond2d-evaluation-framework/releases){: .btn } | [0.2.1](https://github.com/5G-MAG/rt-beyond2d-evaluation-framework/releases/tag/v0.2.1){: .btn } | 2025-07-24 | |
@@ -143,6 +159,8 @@ nav_order: 2
 
 [Project Documentation](./pages/ai-ml-evaluation-framework/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/9){: .btn .btn-blue }
 
+### Latest Releases
+
 | Repository | Version | Date | Comments |
 |------------|---------|------|----------|
 | [rt-ai-ml-evaluation-framework](https://github.com/5G-MAG/rt-ai-ml-evaluation-framework/releases){: .btn } | | | |
@@ -154,6 +172,8 @@ nav_order: 2
 ## Project: Multimedia Content Delivery Protocols
 
 [Project Documentation](./pages/multimedia-content-delivery/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/14){: .btn .btn-blue }
+
+### Latest Releases
 
 | Repository | Version | Date | Comments |
 |------------|---------|------|----------|
@@ -174,6 +194,8 @@ nav_order: 2
 ## Auxiliary tools common to various projects
 
 [Documentation](./common-tools/index.html){: .btn .btn-blue }
+
+### Latest Releases
 
 | Repository | Version | Date | Comments |
 |------------|---------|------|----------|
