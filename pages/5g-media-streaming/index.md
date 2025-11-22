@@ -9,9 +9,6 @@ nav_order: 1
 
 # 5G Media Streaming - Reference Tools Project
 
-## Relevant Documentation
-[Technical Resources](https://hub.5g-mag.com/Tech/pages/5g-media-streaming.html){: .btn .btn-blue } [Specifications](https://hub.5g-mag.com/Standards/pages/5g-media-streaming.html){: .btn .btn-blue }
-
 ## Project Overview
 
 [Scope & Architectures](./scope.html){: .btn .btn-blue } [Projects and Roadmap](./projects.html){: .btn .btn-blue } [GitHub Repositories](./repositories.html){: .btn .btn-github } [Latest Releases](../releases.html#project-5g-media-streaming){: .btn .btn-release } [Tutorials](./tutorials.html){: .btn .btn-blue } [Requirements](./requirements.html){: .btn .btn-blue }
