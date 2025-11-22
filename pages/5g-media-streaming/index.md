@@ -13,7 +13,7 @@ nav_order: 1
 
 ## Project Overview
 
-[Scope & Architecture](./scope.html){: .btn .btn-blue } [Kanban boards](./projects.html){: .btn .btn-blue } [GitHub Repositories](./repositories.html){: .btn .btn-black } [Tutorials](./tutorials.html){: .btn .btn-blue } [Requirements](./requirements.html){: .btn .btn-blue }
+[Scope & Architecture](./scope.html){: .btn .btn-blue } [Kanban boards](./projects.html){: .btn .btn-blue } [GitHub Repositories](./repositories.html){: .btn .btn-green } [Tutorials](./tutorials.html){: .btn .btn-blue } [Requirements](./requirements.html){: .btn .btn-blue }
 
 <iframe width="80%" height="440px" src="../../docs/Reference_Tools_5G_Media_Streaming.pdf"></iframe>
 
