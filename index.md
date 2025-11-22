@@ -17,21 +17,22 @@ With the **5G-MAG Reference Tools** we:
 [How to use this documentation](./pages/how-to-use.html){: .btn .btn-blue }
 [Guidelines for Contributors: Learn How to Contribute](./pages/guidelines-contributors.html){: .btn .btn-blue }
 
-# The 5G-MAG Reference Tools Projects
-
 <iframe width="80%" height="440px" src="./docs/Reference_Tools_Overview.pdf"></iframe>
 
 [Overview slides about the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue }
+
+# The 5G-MAG Reference Tools Projects
+
 [Latest Releases of all the Projects](./pages/releases.html){: .btn .btn-blue }
 
 <table>
   <tr>
-    <td markdown="span" width="50%" align="center"><a href="./pages/5g-media-streaming/"><img src="./assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
+    <td markdown="span" width="50%" align="center"><a href="./pages/5g-media-streaming/"><img style="border:5px solid black;" src="./assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
     <td markdown="span" width="50%" align="center"><a href="./pages/5g-core-service-consumers/"><img src="./assets/images/Reference_Tools_5GC_Service_Consumers.png"><a/></td>
   </tr>
   <tr>
-    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/5g-media-streaming/){: .btn .btn-blue } [Project Roadmap](./pages/5g-media-streaming/){: .btn .btn-blue } </td>
-    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/5g-core-service-consumers/){: .btn .btn-blue } [Project Roadmap](./pages/5g-media-streaming/){: .btn .btn-blue } </td>
+    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/5g-media-streaming/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/6){: .btn .btn-blue } </td>
+    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/5g-core-service-consumers/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/17){: .btn .btn-blue } </td>
   </tr>
     <td><br></td>
   <tr>
@@ -39,8 +40,8 @@ With the **5G-MAG Reference Tools** we:
     <td markdown="span" width="50%" align="center"><a href="./pages/lte-based-5g-broadcast/"><img src="./assets/images/Reference_Tools_5G_Broadcast.png"><a/></td>
   </tr>
   <tr>
-    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/ue-data-collection-reporting-exposure/){: .btn .btn-blue }</td>
-    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/lte-based-5g-broadcast/){: .btn .btn-blue }</td>
+    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/ue-data-collection-reporting-exposure/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/8){: .btn .btn-blue } </td>
+    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/lte-based-5g-broadcast/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/7){: .btn .btn-blue } </td>
   </tr>
     <td><br></td>
   <tr>
@@ -48,8 +49,8 @@ With the **5G-MAG Reference Tools** we:
     <td markdown="span" width="50%" align="center"><a href="./pages/5g-multicast-broadcast-services/"><img src="./assets/images/Reference_Tools_5G_Multicast_Broadcast.png"><a/></td>
   </tr>
   <tr>
-    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/emergency-alerts/){: .btn .btn-blue }</td>
-    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/5g-multicast-broadcast-services/){: .btn .btn-blue }</td>
+    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/emergency-alerts/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/12){: .btn .btn-blue } </td>
+    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/5g-multicast-broadcast-services/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/13){: .btn .btn-blue } </td>
   </tr>
     <td><br></td>
   <tr>
@@ -57,8 +58,8 @@ With the **5G-MAG Reference Tools** we:
     <td markdown="span" width="50%" align="center"><a href="./pages/v3c-immersive-platform/"><img src="./assets/images/Reference_Tools_V3C_Immersive_Platform.png"><a/></td>
   </tr>
   <tr>
-    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/xr-media-integration-in-5g/){: .btn .btn-blue }</td>
-    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/v3c-immersive-platform/){: .btn .btn-blue }</td>
+    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/xr-media-integration-in-5g/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/16){: .btn .btn-blue } </td>
+    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/v3c-immersive-platform/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/15){: .btn .btn-blue } </td>
   </tr>
     <td><br></td>
   <tr>
@@ -66,8 +67,8 @@ With the **5G-MAG Reference Tools** we:
     <td markdown="span" width="50%" align="center"><a href="./pages/ai-ml-evaluation-framework/"><img src="./assets/images/Reference_Tools_AIML_Evaluation_Framework.png"><a/></td>
   </tr>
   <tr>
-    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/beyond-2d-evaluation-framework/){: .btn .btn-blue }</td>
-    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/ai-ml-evaluation-framework/){: .btn .btn-blue }</td>
+    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/beyond-2d-evaluation-framework/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/10){: .btn .btn-blue } </td>
+    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/ai-ml-evaluation-framework/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/9){: .btn .btn-blue } </td>
   </tr>
     <td><br></td>
   <tr>
@@ -75,10 +76,22 @@ With the **5G-MAG Reference Tools** we:
     <td markdown="span" width="50%" align="center"><a href="./pages/dvbi-over-5g/"><img src="./assets/images/Reference_Tools_DVB_I_over_5G.png"><a/></td>
   </tr>
   <tr>
-    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/multimedia-content-delivery/){: .btn .btn-blue }</td>
-    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/dvbi-over-5g/){: .btn .btn-blue }</td>
+    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/multimedia-content-delivery/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/14){: .btn .btn-blue } </td>
+    <td markdown="span" width="50%" align="center">[Project Documentation](./pages/dvbi-over-5g/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/11){: .btn .btn-blue } </td>
   </tr>
 </table>
+
+<img src="../assets/images/Banner_6.png"/> 
+
+## Auxiliary tools common to various projects
+* Check the [**Pages**](./common-tools/index.html)
+
+## 3GPP RAN and Core Platforms
+* Check the [**Pages**](./3gpp-ran-and-core-platforms/index.html)
+
+## External Tools
+* Check the [**Pages**](./external-tools/index.html)
+
 
 # Videos and Tutorials
 The tutorial pages within the projects provide audiovisual resources that guide users through project setup and offer developer-led explanations of key aspects and features.
