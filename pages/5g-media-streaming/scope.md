@@ -50,8 +50,8 @@ Visit the [Standards repository](https://5g-mag.github.io/Standards/pages/5g-med
 <img src="../../assets/images/projects/5gms_5gbc_diagram.png" style="width: 80%">
 
 [5G Media Streaming: Repositories](../5g-media-streaming/repositories.html){: .btn .btn-1 }
-[5GC Service Consumers: Repositories](../5g-core-service-consumers/repositories.html){: .btn .btn-2 }
 [5G Broadcast: Repositories](../lte-based-5g-broadcast/repositories.html){: .btn .btn-4 }
+[Multimedia content delivery protocols: Repositories](../multimedia-content-delivery/repositories.html){: .btn .btn-11 }
 [Common Tools: Repositories](../common-tools/){: .btn .btn-14 }
 
 # Docker deployment support
