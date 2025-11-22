@@ -1,5 +1,6 @@
 $link-color: #00A0D2;
 $content-width: 100rem;
+$white: #000000;
 $btn-c1: #10A002;
 $btn-c2: #20A002;
 $btn-c3: #30A002;
@@ -18,4 +19,69 @@ $btn-c14: #00A002;
 .btn-1
 {
   @include btn-color($white, $btn-c1);
+}
+
+.btn-2
+{
+  @include btn-color($white, $btn-c2);
+}
+
+.btn-3
+{
+  @include btn-color($white, $btn-c3);
+}
+
+.btn-4
+{
+  @include btn-color($white, $btn-c4);
+}
+
+.btn-5
+{
+  @include btn-color($white, $btn-c5);
+}
+
+.btn-6
+{
+  @include btn-color($white, $btn-c6);
+}
+
+.btn-7
+{
+  @include btn-color($white, $btn-c7);
+}
+
+.btn-8
+{
+  @include btn-color($white, $btn-c8);
+}
+
+.btn-9
+{
+  @include btn-color($white, $btn-c9);
+}
+
+.btn-10
+{
+  @include btn-color($white, $btn-c10);
+}
+
+.btn-11
+{
+  @include btn-color($white, $btn-c11);
+}
+
+.btn-12
+{
+  @include btn-color($white, $btn-c12);
+}
+
+.btn-13
+{
+  @include btn-color($white, $btn-c13);
+}
+
+.btn-14
+{
+  @include btn-color($white, $btn-c14);
 }
