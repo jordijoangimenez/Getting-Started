@@ -2,7 +2,7 @@
 layout: default
 title: Guidelines for Contributors
 parent: Introduction
-nav_order: 3
+nav_order: 1
 ---
 
 <img src="../assets/images/Banner_RT.png" /> 
