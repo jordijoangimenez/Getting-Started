@@ -12,8 +12,6 @@ Today, specifications in media and connectivity technologies are ultimately real
 [Overview about the 5G-MAG Reference Tools](#overview-of-the-5g-mag-reference-tools){: .btn .btn-blue }
 [Videos and Tutorials](#videos-and-tutorials){: .btn .btn-blue }
 
----
-
 With the **5G-MAG Reference Tools** we:
 * Accelerate progress through early and continuous feedback from implementations
 * Support higher quality specifications thanks to earlier validation in real-world environments
