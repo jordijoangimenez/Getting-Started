@@ -3,7 +3,7 @@ layout: default
 title: Requirements
 parent: 5G Broadcast - TV/Radio
 has_children: false
-nav_order: 4
+nav_order: 5
 ---
 
 <img src="../../assets/images/Banner_5GBCTVR.png" /> 
