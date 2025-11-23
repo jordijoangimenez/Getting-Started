@@ -22,7 +22,7 @@ This page contains information such as the specifications within the scope of th
 
 ## Generic UE Data Collection, Reporting and Event Exposure
 
-<img src="../../assets/images/projects/uedc_diagram.png">
+<img src="../../assets/images/projects/uedc_diagram.png" style="width: 80%">
 
 [UE Data Collection, Reporting and Event Exposure: Repositories](../ue-data-collection-reporting-exposure/repositories.html){: .btn .btn-uedc }
 [3GPP RAN and Core Platforms: Repositories](../3gpp-ran-and-core-platforms/repositories.html){: .btn .btn-3gpp }
