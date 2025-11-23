@@ -24,7 +24,7 @@ With the **5G-MAG Reference Tools** we:
 
 # The 5G-MAG Reference Tools Projects
 
-<table>
+<table style="width:80%">
   <tr>
     <td markdown="span" width="50%" align="center"><a href="./pages/5g-media-streaming/"><img style="border:5px solid black;" src="./assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
     <td markdown="span" width="50%" align="center"><a href="./pages/5g-core-service-consumers/"><img style="border:5px solid black;" src="./assets/images/Reference_Tools_5GC_Service_Consumers.png"><a/></td>
