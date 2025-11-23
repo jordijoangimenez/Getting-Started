@@ -32,7 +32,7 @@ This page contains information such as the specifications within the scope of th
 
 <img src="../../assets/images/projects/mbs_diagram.png" style="width: 80%">
 
-[5G Multicast Broadcast Services: Repositories](../5g-multicast-broadcast-services/repositories.html){: .btn .btn-5gbc }
+[5G Multicast Broadcast Services: Repositories](../5g-multicast-broadcast-services/repositories.html){: .btn .btn-5mbs }
 [Multimedia content delivery protocols: Repositories](../multimedia-content-delivery/repositories.html){: .btn .btn-md }
 [3GPP RAN and Core Platforms: Repositories](../3gpp-ran-and-core-platforms/repositories.html){: .btn .btn-3gpp }
 [Common Tools: Repositories](../common-tools/){: .btn .btn-common }
