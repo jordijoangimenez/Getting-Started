@@ -6,7 +6,7 @@ has_children: false
 nav_order: 0
 ---
 
-<img src="../../assets/images/Banner_Scope.png" /> 
+<img src="../../assets/images/Banner_5GC.png" /> 
 
 1. TOC
 {:toc}
