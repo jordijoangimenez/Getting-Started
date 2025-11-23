@@ -21,7 +21,7 @@ Note that these repositories are currently private and under testing. **Early ac
 ---
 
 ## AI/ML Evaluation Framework
-[rt-ai-ml-evaluation-framework](https://github.com/5G-MAG/rt-ai-ml-evaluation-framework){: .btn .btn-aiml } [Latest Releases](../releases.html){: .btn .btn-release }
+[rt-ai-ml-evaluation-framework](https://github.com/5G-MAG/rt-ai-ml-evaluation-framework){: .btn .btn-aiml } [Releases](../releases.html){: .btn .btn-release }
 
 This repository holds code related to the implementation of the AI/ML evaluation framework as defined in 3GPP SA4 TR26.927.
 
