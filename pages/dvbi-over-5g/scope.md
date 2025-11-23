@@ -18,7 +18,7 @@ This page contains information such as the specifications within the scope of th
 
 [Technical Resources](https://hub.5g-mag.com/Tech/pages/dvb-i-5g.html){: .btn .btn-blue } [Specifications](https://hub.5g-mag.com/Standards/pages/dvb-i-5g.html){: .btn .btn-blue }
 
-# High-level architecture
+# High-level architectures
 
 ## DVB-I Services over 5G Systems: 5GMSd with 5G Broadcast
 
