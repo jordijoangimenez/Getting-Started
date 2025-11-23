@@ -20,7 +20,7 @@ The following repositories are available. Please refer to the "Scope & Architect
 ---
 
 ## 5GC Service Consumers
-[rt-5gc-service-consumers](https://github.com/5G-MAG/rt-5gc-service-consumers){: .btn .btn-5gcsc }
+[rt-5gc-service-consumers](https://github.com/5G-MAG/rt-5gc-service-consumers){: .btn .btn-5gcsc } [Releases](../releases.html#project-5g-core-service-consumers){: .btn .btn-release }
 This repository contains a collection of reusable service consumer libraries designed to talk to the 5G Core Network Functions using service interfaces.
 
 Additional information:
