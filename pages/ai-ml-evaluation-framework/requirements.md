@@ -5,7 +5,9 @@ parent: AI / ML Evaluation Framework
 has_children: false
 nav_order: 4
 ---
-<img src="../../assets/images/Banner_Requirements.png" /> 
 
-1. TOC
-{:toc}
+<img src="../../assets/images/Banner_AIML.png" /> 
+
+[Scope & Architectures](./scope.html){: .btn .btn-blue } [Project Roadmap](./projects.html){: .btn .btn-blue } [Features](./features.html){: .btn .btn-blue } [GitHub Repos](./repositories.html){: .btn .btn-github } [Releases](../releases.html){: .btn .btn-release } [Tutorials](./tutorials.html){: .btn .btn-blue } [Requirements](./requirements.html){: .btn .btn-blue }
+
+# Requirements
