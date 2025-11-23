@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 5G Multicast Broadcast Services
-has_children: true
+title: Features
+parent: 5G Multicast Broadcast Services
+has_children: false
 nav_order: 2
 ---
 
