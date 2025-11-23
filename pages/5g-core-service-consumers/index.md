@@ -9,26 +9,10 @@ nav_order: 2
 
 # 5G Core Service Consumers - Reference Tools Project
 
-* Check the [**Roadmap**](https://github.com/orgs/5G-MAG/projects/48/views/17) for 5G Core Service Consumers.
+## Project Overview
 
-## Overview
-<iframe width="60%" height="520" src="https://drive.google.com/file/d/1-TPp-cVL8xW5WD8n8dJ2JyDPIfbbygli/preview"></iframe>
+[Scope & Architectures](./scope.html){: .btn .btn-blue } [Project Roadmap](./projects.html){: .btn .btn-blue } [Features](./features.html){: .btn .btn-blue } [GitHub Repos](./repositories.html){: .btn .btn-github } [Releases](../releases.html#project-5g-media-streaming){: .btn .btn-release } [Tutorials](./tutorials.html){: .btn .btn-blue } [Requirements](./requirements.html){: .btn .btn-blue }
 
-[DOWNLOAD THE PRESENTATION](https://drive.google.com/file/d/1-TPp-cVL8xW5WD8n8dJ2JyDPIfbbygli/preview){: .btn}
+<iframe width="80%" height="440px" src="../../docs/Reference_Tools_5GC_Service_Consumers.pdf"></iframe>
 
-## Contents of this project
-
-### What is this project about?
-* Find [here](./scope.html) information about specifications, architecture, APIs, etc.
-
-### What is the roadmap and development status?
-* Find [here](./projects.html) information about the Projects.
- 
-### Where can I find the repositories and relevant resources?
-* Find [here](./repositories.html) information about the GitHub Repositories.
-
-### How can I use the tools?
-* Find [here](./tutorials.html) practical guidelines to use the tools.
-
-### What are the requirements to run the tools?
-* Find [here](./requirements.html) practical information about hardware and device support. 
+[Download the slidedeck of this Project](../../docs/Reference_Tools_5GC_Service_Consumers.pdf){: .btn .btn-blue }
