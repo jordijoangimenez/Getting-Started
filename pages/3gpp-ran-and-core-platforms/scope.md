@@ -5,7 +5,7 @@ parent: 3GPP RAN and Core Platforms
 has_children: false
 nav_order: 0
 ---
-<img src="../../assets/images/Banner_Scope.png" /> 
+<img src="../../assets/images/Banner_3GPP_Platforms.png" /> 
 
 1. TOC
 {:toc}
