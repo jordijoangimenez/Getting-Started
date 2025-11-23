@@ -94,7 +94,7 @@ With the **5G-MAG Reference Tools** we:
 
 # Overview of the 5G-MAG Reference Tools
 
-<iframe width="80%" height="440px" src="./docs/Reference_Tools_Overview.pdf"></iframe>
+<iframe width="60%" height="520" src="./docs/Reference_Tools_Overview.pdf"></iframe>
 
 [Download the slidedeck of the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue }
 
