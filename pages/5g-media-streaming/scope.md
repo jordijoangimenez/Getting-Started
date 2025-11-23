@@ -53,6 +53,7 @@ This page contains information such as the specifications within the scope of th
 [5G Media Streaming: Repositories](../5g-media-streaming/repositories.html){: .btn .btn-5gms }
 [5G Broadcast: Repositories](../lte-based-5g-broadcast/repositories.html){: .btn .btn-5gbc }
 [Multimedia content delivery protocols: Repositories](../multimedia-content-delivery/repositories.html){: .btn .btn-md }
+[3GPP RAN and Core Platforms: Repositories](../3gpp-ran-and-core-platforms/repositories.html){: .btn .btn-3gpp }
 [Common Tools: Repositories](../common-tools/){: .btn .btn-common }
 
 # Docker deployment support
