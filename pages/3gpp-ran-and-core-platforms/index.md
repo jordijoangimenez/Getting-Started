@@ -13,6 +13,6 @@ nav_order: 13
 
 [Scope & Architectures](./scope.html){: .btn .btn-blue } [GitHub Repos](./repositories.html){: .btn .btn-github } [Tutorials](./tutorials.html){: .btn .btn-blue }
 
-<iframe width="80%" height="440px" src="../../docs/Reference_Tools_3GPP_Platforms.pdf"></iframe>
+<iframe width="60%" height="520" src="../../docs/Reference_Tools_3GPP_Platforms.pdf"></iframe>
 
 [Download the slidedeck of this Project](../../docs/Reference_Tools_3GPP_Platforms.pdf){: .btn .btn-blue }
