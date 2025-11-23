@@ -7,8 +7,7 @@ nav_order: 0
 ---
 <img src="../../assets/images/Banner_3GPP_Platforms.png" /> 
 
-1. TOC
-{:toc}
+[Scope & Architectures](./scope.html){: .btn .btn-blue } [GitHub Repos](./repositories.html){: .btn .btn-github } [Tutorials](./tutorials.html){: .btn .btn-blue }
 
 # Information
 
