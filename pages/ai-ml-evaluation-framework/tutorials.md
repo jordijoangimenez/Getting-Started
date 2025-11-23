@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tutorials
-parent: AI / ML Evaluation Framework
+parent: AI / ML Evaluation
 has_children: true
 nav_order: 4
 ---
