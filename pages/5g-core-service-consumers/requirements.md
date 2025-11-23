@@ -5,7 +5,7 @@ parent: 5GC Service Consumers
 has_children: false
 nav_order: 4
 ---
-<img src="../../assets/images/Banner_Requirements.png" /> 
+<img src="../../assets/images/Banner_5GC.png" /> 
 
 1. TOC
 {:toc}
