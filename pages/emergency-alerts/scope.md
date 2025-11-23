@@ -18,7 +18,7 @@ This page contains information such as the specifications within the scope of th
 
 [Technical Resources](https://hub.5g-mag.com/Tech/pages/lte-based-5g-broadcast.html){: .btn .btn-blue } [Specifications](https://hub.5g-mag.com/Standards/pages/lte-based-5g-broadcast.html){: .btn .btn-blue }
 
-# High-level architecture
+# High-level architectures
 
 ## 5G Broadcast extended with Emergency Alerts
 
