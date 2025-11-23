@@ -19,8 +19,8 @@ The following repositories are available. Please refer to the "Scope & Architect
 ---
 
 ## Open5GS fork
-
 [open5gs](https://github.com/5G-MAG/open5gs){: .btn .btn-3gpp }
+
 5G-MAG maintains a fork of open5gs for the development and adaptation of 5GC network functions to support other Reference Tools.
 
 The branches available under this repository are:
@@ -29,8 +29,8 @@ The branches available under this repository are:
 * **5mbs-development** - Acts as the "development" brach for the 5mbs branch.
 
 ## srsRAN Project
-
 [rt-srsRAN_Project](https://github.com/5G-MAG/rt-srsRAN_Project){: .btn .btn-3gpp }
+
 5G-MAG maintains a fork of srsRAN_Project for the development and adaptation of NG-RAN procedures to support other Reference Tools.
 
 The branches available under this repository are:
@@ -40,8 +40,8 @@ The branches available under this repository are:
 * **5mbs-development** - Acts as the "development" brach for the 5mbs branch.
 
 ## srsRAN_4G
-
 [srsRAN_4G](https://github.com/5G-MAG/srsRAN_4G){: .btn .btn-3gpp }
+
 5G-MAG maintains a fork of srsRAN_4G for the development and adaptation of NG-RAN procedures to support other Reference Tools.
 
 The branches available under this repository are:
@@ -51,6 +51,6 @@ The branches available under this repository are:
 * **pws-enb** - Acts as the "main" brach for implementations related to Emergency Alerts.
 
 ## srsRAN (discontinued version prior to srsRAN_4G)
-
 [srsRAN](https://github.com/5G-MAG/srsRAN){: .btn .btn-3gpp }
+
 5G-MAG maintains a fork of a legacy/discontinued version of srsRAN prior to its conversion into srsRAN_4G.
