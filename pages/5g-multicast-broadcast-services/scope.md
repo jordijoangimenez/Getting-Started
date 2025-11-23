@@ -18,7 +18,7 @@ This page contains information such as the specifications within the scope of th
 
 [Technical Resources](https://hub.5g-mag.com/Tech/pages/5g-multicast-broadcast-services.html){: .btn .btn-blue } [Specifications](https://hub.5g-mag.com/Standards/pages/5g-multicast-broadcast-services.html){: .btn .btn-blue }
 
-# High-level architecture
+# High-level architectures
 
 ## 5G Multicast Broadcast Services (MBS)
 
