@@ -15,7 +15,7 @@ has_children: true
 
 Today’s media and connectivity specifications are ultimately realized through code, and our goal is to accelerate that journey from the drafting table to the developer’s toolkit.
 
-<table width="80%">
+<table>
   <tr>
     <td width="65%" valign="top">
       <p>The <b>5G-MAG Reference Tools Developer Community</b> provides a structured environment where software development and specification work move in sync. We:</p>
@@ -25,7 +25,7 @@ Today’s media and connectivity specifications are ultimately realized through 
         <li><b>Drive Global Adoption:</b> Through open-source software and tutorials, we empower users and creators to adopt and scale new technologies with confidence.</li>
       </ul>
     </td>
-    <td width="35%" align="center" valign="middle">
+    <td width="35%" align="left" valign="middle">
       <img src="./assets/images/Reference_Tools_Members.png" alt="Reference Tools Members" style="width:100%; max-width:200px;">
     </td>
   </tr>
