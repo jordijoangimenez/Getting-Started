@@ -26,7 +26,7 @@ Today’s media and connectivity specifications are ultimately realized through 
       </ul>
     </td>
     <td width="35%" align="left" valign="middle">
-      <img src="./assets/images/Reference_Tools_Members.png" alt="Reference Tools Members" style="width:100%; max-width:200px;">
+      <img width="60%" src="./assets/images/Reference_Tools_Members.png">
     </td>
   </tr>
 </table>
