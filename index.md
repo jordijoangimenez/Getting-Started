@@ -35,7 +35,7 @@ Today’s media and connectivity specifications are ultimately realized through 
 
 [Guidelines for Contributors: Learn How to Contribute](./pages/guidelines-contributors.html){: .btn .btn-blue }
 
-<img width="80%" src="./assets/images/Reference_Tools_Contributors.png">
+<img width="70%" src="./assets/images/Reference_Tools_Contributors.png">
 
 ---
 
