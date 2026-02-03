@@ -30,14 +30,6 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
   </tr>
 </table>
 
-The **5G-MAG Reference Tools Developer Community** provides a structured environment where software development and specification work move in sync. We:
-
-* **Make Technology Accessible:** We put the latest innovations directly into the hands of developers, lowering entry barriers for product development.
-
-* **Ensure Quality:** We use software implementations to provide early feedback, ensuring specifications are tested and ready for the real world.
-
-* **Drive Global Adoption:** Through open-source software and tutorials, we empower users and creators to adopt and scale new technologies with confidence.
-
 ## Join us and Contribute!
 
 [Guidelines for Contributors: Learn How to Contribute](./pages/guidelines-contributors.html){: .btn .btn-blue }
