@@ -18,14 +18,13 @@ Today’s media and connectivity specifications are ultimately realized through 
 <table>
   <tr>
     <td markdown="span" align="left">     
-The <b>5G-MAG Reference Tools Developer Community</b> provides a structured environment where software development and specification work move in sync. We:
-
-* **Make Technology Accessible:** We put the latest innovations directly into the hands of developers, lowering entry barriers for product development.
-
-* **Ensure Quality:** We use software implementations to provide early feedback, ensuring specifications are tested and ready for the real world.
-
-* **Drive Global Adoption:** Through open-source software and tutorials, we empower users and creators to adopt and scale new technologies with confidence.
-      </td>
+      <p>The <b>5G-MAG Reference Tools Developer Community</b> provides a structured environment where software development and specification work move in sync. We:</p>
+        <ul>
+          <li><b>Make Technology Accessible:</b> We put the latest innovations directly into the hands of developers, lowering entry barriers for product development.</li>
+          <li><b>Ensure Quality:</b> We use software implementations to provide early feedback, ensuring specifications are tested and ready for the real world.</li>
+          <li><b>Drive Global Adoption:</b> Through open-source software and tutorials, we empower users and creators to adopt and scale new technologies with confidence.</li>
+        </ul>
+    </td>
     <td markdown="span" align="center"><img width="60%" style="border:0px solid black;" src="./assets/images/Reference_Tools_Members.png"></td>
   </tr>
 </table>
