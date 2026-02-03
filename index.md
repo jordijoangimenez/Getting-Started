@@ -11,6 +11,8 @@ has_children: true
 
 # About the 5G-MAG Reference Tools
 
+[Download an overview about the 5G-MAG Reference Tools](#overview-of-the-5g-mag-reference-tools){: .btn .btn-blue }
+
 Today’s media and connectivity specifications are ultimately realized through code, and our goal is to accelerate that journey from the drafting table to the developer’s toolkit.
 
 The **5G-MAG Reference Tools Developer Community** provides a structured environment where software development and specification work move in sync. We:
@@ -21,18 +23,17 @@ The **5G-MAG Reference Tools Developer Community** provides a structured environ
 
 * **Drive Global Adoption:** Through open-source software and tutorials, we empower users and creators to adopt and scale new technologies with confidence.
 
-[Overview about the 5G-MAG Reference Tools](#overview-of-the-5g-mag-reference-tools){: .btn .btn-blue }
-
 ## Join us and Contribute!
+
+[Guidelines for Contributors: Learn How to Contribute](./pages/guidelines-contributors.html){: .btn .btn-blue }
 
 <table>
   <tr>
     <td markdown="span" align="center"><img width="90%" style="border:0px solid black;" src="./assets/images/Reference_Tools_Contributors.png"></td>
-    <td markdown="span" align="center"><img width="50%" style="border:0px solid black;" src="./assets/images/Reference_Tools_Members.png"></td>
+    <td markdown="span" align="center"><img width="60%" style="border:0px solid black;" src="./assets/images/Reference_Tools_Members.png"></td>
   </tr>
 </table>
 
-[Guidelines for Contributors: Learn How to Contribute](./pages/guidelines-contributors.html){: .btn .btn-blue }
 
 ---
 
