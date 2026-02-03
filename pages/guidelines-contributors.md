@@ -22,7 +22,7 @@ Only individuals and/or companies with a signed CLA can contribute code. Please 
 * [5G-MAG Individual Contributor License Agreement (CLA)](https://5g-mag.github.io/Getting-Started/OFFICIAL_5G-MAG_Contributor_License_Agreement.pdf)
 * [5G-MAG Corporate Contributor License Agreement (CCLA)](https://5g-mag.github.io/Getting-Started/OFFICIAL_5G-MAG_Corporate_Contributor_License_Agreement.pdf)
 
-<img src="../assets/images/Reference_Tools_Contributors.png" style="width: 80%">
+<img src="../assets/images/Reference_Tools_Contributors.png" style="width: 60%">
 
 ## Join our Public Monthly Call
 
