@@ -7,17 +7,9 @@ nav_order: 1
 
 <img src="../assets/images/Banner_RT.png" /> 
 
-# About the Developer Community
-* Meet the developer community, participate, contribute, join the public calls: [https://www.5g-mag.com/community](https://www.5g-mag.com/community)
-* Discussions among developers are held in [Slack](https://5g-mag.slack.com/).
-* Announcements are communicated through the [Google Group](https://groups.google.com/g/5g-mag-reference-tools)
-* If you have questions which cannot be shared publicly, reach out to us via email: [reference-tools@5g-mag.com](mailto:reference-tools@5g-mag.com)
+# Guidelines for Contributors
 
-## Join our Public Monthly Call (Last Friday of the month at 13:00 CET/CEST - unless communicated otherwise)
-* Find all the information about how to join the Public calls: [https://5g-mag.com/community#calendar](https://5g-mag.com/community#calendar)
-* Agendas are circulated via the [Google Group](https://groups.google.com/g/5g-mag-reference-tools) mailing list
-
-## Contributing
+# Contributing
 
 If you wish to contribute code to the projects then you will first need to send us a signed version of the **Contributor License Agreement (CLA)**.
 
@@ -27,9 +19,9 @@ Only individuals and/or companies with a signed CLA can contribute code. Please 
 * [5G-MAG Individual Contributor License Agreement (CLA)](https://5g-mag.github.io/Getting-Started/OFFICIAL_5G-MAG_Contributor_License_Agreement.pdf)
 * [5G-MAG Corporate Contributor License Agreement (CCLA)](https://5g-mag.github.io/Getting-Started/OFFICIAL_5G-MAG_Corporate_Contributor_License_Agreement.pdf)
 
-<img src="../assets/images/projects/contributors.png" style="width: 80%">
 
-# Guidelines for Contributors
+<img src="../assets/images/Reference_Tools_Contributors.png" style="width: 80%">
+
 
 ## Raising Issues
 
