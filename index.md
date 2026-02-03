@@ -35,13 +35,7 @@ Today’s media and connectivity specifications are ultimately realized through 
 
 [Guidelines for Contributors: Learn How to Contribute](./pages/guidelines-contributors.html){: .btn .btn-blue }
 
-<table>
-  <tr>
-    <td markdown="span" align="center"><img width="90%" style="border:0px solid black;" src="./assets/images/Reference_Tools_Contributors.png"></td>
-    <td markdown="span" align="center"><img width="60%" style="border:0px solid black;" src="./assets/images/Reference_Tools_Members.png"></td>
-  </tr>
-</table>
-
+<img width="80%" style="border:0px solid black;" src="./assets/images/Reference_Tools_Contributors.png"></td>
 
 ---
 
