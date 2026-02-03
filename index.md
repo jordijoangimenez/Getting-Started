@@ -7,22 +7,55 @@ has_children: true
 
 <img src="./assets/images/Banner_RT.png" /> 
 
-Today, specifications in media and connectivity technologies are ultimately realised through software implementations. Developing robust software requires specific expertise, tools, and support – resources the **5G-MAG Reference Tools Developer Community** makes available for a structured approach to software development alongside specification work.
+"Bridging the gap between standards and real-world applications by transforming media and connectivity specifications into living software. Bringing validated technologies directly into the hands of developers and users worldwide."
+
+# About the 5G-MAG Reference Tools
+
+Today’s media and connectivity specifications are ultimately realized through code, and our goal is to accelerate that journey from the drafting table to the developer’s toolkit.
+
+The **5G-MAG Reference Tools Developer Community** provides a structured environment where software development and specification work move in sync. We:
+
+* **Make Technology Accessible:** We put the latest innovations directly into the hands of developers, lowering entry barriers for product development.
+
+* **Ensure Quality:** We use software implementations to provide early feedback, ensuring specifications are tested and ready for the real world.
+
+* **Drive Global Adoption:** Through open-source software and tutorials, we empower users and creators to adopt and scale new technologies with confidence.
 
 [Overview about the 5G-MAG Reference Tools](#overview-of-the-5g-mag-reference-tools){: .btn .btn-blue }
 [Videos and Tutorials](#videos-and-tutorials){: .btn .btn-blue }
 
-With the **5G-MAG Reference Tools** we:
-* Accelerate progress through early and continuous feedback from implementations
-* Support higher quality specifications thanks to earlier validation in real-world environments
-* Foster adoption through the availability of open-source software and tools that lower entry barriers for product development
+## Join us and Contribute!
 
-[How to use this documentation](./pages/how-to-use.html){: .btn .btn-blue }
+<table>
+  <tr>
+    <td markdown="span" align="center"><a href="./pages/5g-media-streaming/"><img width="100%" style="border:0px solid black;" src="./assets/images/Reference_Tools_Contributors.png"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/5g-media-streaming/"><img width="50%" style="border:0px solid black;" src="./assets/images/Reference_Tools_Members.png"><a/></td>
+  </tr>
+</table>
+
 [Guidelines for Contributors: Learn How to Contribute](./pages/guidelines-contributors.html){: .btn .btn-blue }
+
+* Meet the developer community, participate, contribute, join the public calls: [https://www.5g-mag.com/community](https://www.5g-mag.com/community)
+* Discussions among developers are held in [Slack](https://5g-mag.slack.com/).
+* Announcements are communicated through the [Google Group](https://groups.google.com/g/5g-mag-reference-tools)
+* If you have questions which cannot be shared publicly, reach out to us via email: [reference-tools@5g-mag.com](mailto:reference-tools@5g-mag.com)
+
+## Join our Public Monthly Call (Last Friday of the month at 13:00 CET/CEST - unless communicated otherwise)
+* Join our Public Call on the last Friday of the month, with news and invited speakers.
+
+* Agendas are circulated via the [Google Group](https://groups.google.com/g/5g-mag-reference-tools) mailing list
+
+[Google Group](https://groups.google.com/g/5g-mag-reference-tools){: .btn .btn-blue }
+
+[Download your Calendar Invite (ICS file)](https://calendar.google.com/calendar/ical/5gmag.web%40gmail.com/public/basic.ics){: .btn .btn-blue }
+
+<iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=2&ctz=Europe%2FZurich&showPrint=0&showTabs=0&showCalendars=0&hl=en_GB&src=NWdtYWcud2ViQGdtYWlsLmNvbQ&color=%23039be5" style="border:solid 1px #777" width="800" height="400" frameborder="0" scrolling="no"></iframe>
 
 ---
 
 # The 5G-MAG Reference Tools Projects
+
+[How to use this documentation](./pages/how-to-use.html){: .btn .btn-blue }
 
 <table>
   <tr>
