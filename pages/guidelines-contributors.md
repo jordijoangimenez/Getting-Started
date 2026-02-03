@@ -9,6 +9,11 @@ nav_order: 1
 
 # Guidelines for Contributors
 
+* Meet the developer community, participate, contribute, join the public calls: [https://www.5g-mag.com/community](https://www.5g-mag.com/community)
+* Discussions among developers are held in [Slack](https://5g-mag.slack.com/).
+* Announcements are communicated through the [Google Group](https://groups.google.com/g/5g-mag-reference-tools)
+* If you have questions which cannot be shared publicly, reach out to us via email: [reference-tools@5g-mag.com](mailto:reference-tools@5g-mag.com)
+
 If you wish to contribute code to the projects then you will first need to send us a signed version of the **Contributor License Agreement (CLA)**.
 
 Only individuals and/or companies with a signed CLA can contribute code. Please visit <https://www.5g-mag.com/license> for more details. The 5G-MAG Public License and CLAs can be downloaded from the following links:
@@ -17,8 +22,19 @@ Only individuals and/or companies with a signed CLA can contribute code. Please 
 * [5G-MAG Individual Contributor License Agreement (CLA)](https://5g-mag.github.io/Getting-Started/OFFICIAL_5G-MAG_Contributor_License_Agreement.pdf)
 * [5G-MAG Corporate Contributor License Agreement (CCLA)](https://5g-mag.github.io/Getting-Started/OFFICIAL_5G-MAG_Corporate_Contributor_License_Agreement.pdf)
 
-
 <img src="../assets/images/Reference_Tools_Contributors.png" style="width: 80%">
+
+## Join our Public Monthly Call (Last Friday of the month at 13:00 CET/CEST - unless communicated otherwise)
+
+* Join our Public Call on the last Friday of the month, with news and invited speakers.
+
+* Agendas are circulated via the [Google Group](https://groups.google.com/g/5g-mag-reference-tools) mailing list
+
+[Google Group](https://groups.google.com/g/5g-mag-reference-tools){: .btn .btn-blue }
+
+[Download your Calendar Invite (ICS file)](https://calendar.google.com/calendar/ical/5gmag.web%40gmail.com/public/basic.ics){: .btn .btn-blue }
+
+<iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=2&ctz=Europe%2FZurich&showPrint=0&showTabs=0&showCalendars=0&hl=en_GB&src=NWdtYWcud2ViQGdtYWlsLmNvbQ&color=%23039be5" style="border:solid 1px #777" width="800" height="400" frameborder="0" scrolling="no"></iframe>
 
 ## Raising Issues
 
