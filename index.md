@@ -15,7 +15,7 @@ has_children: true
 
 Today’s media and connectivity specifications are ultimately realized through code, and our goal is to accelerate that journey from the drafting table to the developer’s toolkit.
 
-<table style="width:80%">
+<table width="80%">
   <tr>
     <td width="65%" valign="top">
       <p>The <b>5G-MAG Reference Tools Developer Community</b> provides a structured environment where software development and specification work move in sync. We:</p>
