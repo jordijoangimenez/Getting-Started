@@ -24,9 +24,9 @@ Only individuals and/or companies with a signed CLA can contribute code. Please 
 
 <img src="../assets/images/Reference_Tools_Contributors.png" style="width: 80%">
 
-## Join our Public Monthly Call (Last Friday of the month at 13:00 CET/CEST - unless communicated otherwise)
+## Join our Public Monthly Call
 
-* Join our Public Call on the last Friday of the month, with news and invited speakers.
+* Join our Public Call on the **last Friday of the month at 13:00 CET/CEST**, with news and invited speakers.
 
 * Agendas are circulated via the [Google Group](https://groups.google.com/g/5g-mag-reference-tools) mailing list
 
