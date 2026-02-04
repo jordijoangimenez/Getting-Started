@@ -5,7 +5,7 @@ parent: Introduction
 nav_order: 1
 ---
 
-<img src="../assets/images/Banner_RT.png" /> 
+<img src="../assets/images/Banner_ReferenceTools.png" /> 
 
 # Guidelines for Contributors
 
