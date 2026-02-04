@@ -65,8 +65,6 @@ If you find problems or have requests for new features related to the code, plea
 
 The status of the different software releases can be found here: [Reference Tools Projects: Releases](./pages/releases.html)
 
-### Release Process
-
 ### Testing release candidates
 
 Availability of a RC for testing is announned in the Google Group and/or during the 5G-MAG Developers Calls. Feedback can be provided via issues during the testing period.
