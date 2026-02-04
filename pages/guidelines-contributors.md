@@ -49,13 +49,17 @@ If you find problems or have requests for new features related to the code, plea
 
 <img src="../assets/images/Contributing_Workflow_1.png" style="width: 60%">
 
-### 2. Create a new issue, select the type from the menu and fill the description
+### 2. Create a new issue, select the type from the menu
 
 <img src="../assets/images/Contributing_Workflow_2.png" style="width: 60%">
 
-### 3. Add a label, project,...
+### 3. Fill the description
 
-<img src="../assets/images/Contributing_Workflow_2.png" style="width: 60%">
+<img src="../assets/images/Contributing_Workflow_3.png" style="width: 60%">
+
+### 4. Add a label, project,...
+
+<img src="../assets/images/Contributing_Workflow_4.png" style="width: 60%">
 
 ## Releases
 
