@@ -5,7 +5,7 @@ nav_order: 0
 has_children: true
 ---
 
-<img src="./assets/images/Banner_RT.png" /> 
+<img src="./assets/images/Banner_ReferenceTools.png" /> 
 
 [About the 5G-MAG Reference Tools](#about-the-5g-mag-reference-tools){: .btn .btn-blue } [Join us and Contribute!](#join-us-and-contribute){: .btn .btn-blue } [Public Monthly Call](./pages/public-call.html){: .btn .btn-blue } [Releases](./pages/releases.html){: .btn .btn-release } [Videos and Tutorials](#videos-and-tutorials){: .btn .btn-blue }
 
