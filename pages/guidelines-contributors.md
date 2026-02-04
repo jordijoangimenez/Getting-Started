@@ -75,13 +75,13 @@ If after the testing period no issues have been found which block the release, a
 ## Git Branching strategy
 We are using a slightly modified version of Gitflow as a branching model. A detailed introduction to Gitflow can be found [here](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
 
-#### Main branch
+### Main branch
 The _main_ branch stores the official release history. The current version of the _main_ branch always stores the latest release.
 
-#### Development branch
+### Development branch
 The _development_ branch serves as the integration branch for new feature and bugfix branches. It reflects the latest stable changes in the current development cycle.
 
-#### Feature branches
+### Feature branches
 Each new feature is implemented in a separate _feature_ branch. Feature branches use _development_ as their parent branch. When a feature is completed the respective branch gets merged back into development. 
 
 A feature branch is created the following way:
@@ -90,7 +90,7 @@ git checkout development
 git checkout -b feature/newfeature
 ````
 
-#### Release branches
+### Release branches
 Once the _development_ branch has acquired enough features and bugfixes for a release, a release candidate branch is created based on the current version of the _development_ branch. For details on the release procedure please refer to the [release procedure](https://github.com/Dash-Industry-Forum/DASH-IF-Conformance/wiki/Release-Procedure) documentation.
 
 The release candidate always includes a version number and is created in the following way:
@@ -102,7 +102,7 @@ git checkout -b RC-1.2.0
 
 Once a release candidate is approved the respective branch is merged into the _main_ branch.
 
-#### Bugfix branches
+### Bugfix branches
 Similar to _feature_ branches, the _bugfix_ branches are created directly from _development_. In contrast to hotfixes, bugfixes are not considered criticial and do not require a fast new release. _Bugfix_ branches are created the following way:
 
 ````
@@ -110,7 +110,7 @@ git checkout development
 git checkout -b bugfix/newbugfix
 ````
 
-#### Hotfix branches
+### Hotfix branches
 _Hotfix_ branches are used to quickly patch production releases in case of critical errors. _Hotfix_ branches are created directly from _main_ and merged back into _main_ and _development_ as soon as they are completed. Once the hotfix is applied a new release shall be created.
 
 ````
@@ -118,7 +118,7 @@ git checkout main
 git checkout -b hotfix/newhotfix
 ````
 
-#### Cloning a repository with a specific branch
+### Cloning a repository with a specific branch
 It is also possible to clone a repository and specify the target branch directly:
 
 `git clone -b <branchname> <remote-repo-url>`
