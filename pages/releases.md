@@ -60,7 +60,7 @@ nav_order: 3
 
 ---
 
-<img src="../assets/images/Banner_5GBC.png"/> 
+<img src="../assets/images/Banner_5GBCTVR.png"/> 
 
 ## Project: 5G Broadcast: TV and Radio Hybrid Services
 
