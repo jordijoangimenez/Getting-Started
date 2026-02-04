@@ -127,9 +127,9 @@ nav_order: 3
 
 ---
 
-<img src="../assets/images/Banner_V3C.png"/> 
+<img src="../assets/images/Banner_V3C_Platform.png"/> 
 
-## Project: Volumetric Video Experiences with MPEG V3C
+## Project: V3C Immersive Platform
 
 [Project Documentation](./v3c-immersive-platform/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/15){: .btn .btn-blue }
 
