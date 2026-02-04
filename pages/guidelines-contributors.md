@@ -14,49 +14,61 @@ nav_order: 1
 * Announcements are communicated through the [Google Group](https://groups.google.com/g/5g-mag-reference-tools)
 * If you have questions which cannot be shared publicly, reach out to us via email: [reference-tools@5g-mag.com](mailto:reference-tools@5g-mag.com)
 
+## 5G-MAG Public License v1.0
+
+The 5G-MAG repositories which are not hosting a fork of a third-party project are covered by the **5G-MAG Public License v1.0**.
+
+* Download the [**5G-MAG Public License v1.0**](http://5g-mag.github.io/Getting-Started/OFFICIAL_5G-MAG_Public_License_v1.0.pdf)
+
+## Individual Contributor License Agreement (CLA) and Corporate CLA
+
 If you wish to contribute code to the projects then you will first need to send us a signed version of the **Contributor License Agreement (CLA)**.
+Only individuals and/or companies with a signed CLA can contribute code. Please visit <https://www.5g-mag.com/license> for more details. The 5G-MAG Public License and CLAs can be downloaded from the links below.
 
-Only individuals and/or companies with a signed CLA can contribute code. Please visit <https://www.5g-mag.com/license> for more details. The 5G-MAG Public License and CLAs can be downloaded from the following links:
-
-* [5G-MAG Public License v1.0](http://5g-mag.github.io/Getting-Started/OFFICIAL_5G-MAG_Public_License_v1.0.pdf)
-* [5G-MAG Individual Contributor License Agreement (CLA)](https://5g-mag.github.io/Getting-Started/OFFICIAL_5G-MAG_Contributor_License_Agreement.pdf)
-* [5G-MAG Corporate Contributor License Agreement (CCLA)](https://5g-mag.github.io/Getting-Started/OFFICIAL_5G-MAG_Corporate_Contributor_License_Agreement.pdf)
+* Download the [**5G-MAG Individual Contributor License Agreement (CLA)**](https://5g-mag.github.io/Getting-Started/OFFICIAL_5G-MAG_Contributor_License_Agreement.pdf)
+* Download the [**5G-MAG Corporate Contributor License Agreement (CCLA)**](https://5g-mag.github.io/Getting-Started/OFFICIAL_5G-MAG_Corporate_Contributor_License_Agreement.pdf)
 
 <img src="../assets/images/Reference_Tools_Contributors.png" style="width: 60%">
 
-## Join our Public Monthly Call
+# How we work
 
-* Join our Public Call on the **last Friday of the month at 13:00 CET/CEST**, with news and invited speakers.
+Find here the following information about:
+* [Raising issues](#raising-issues)
+* [Releases](#releases)
+* [Git Branching strategy](#git-branching-strategy)
+* [Forking the project](#forking-the-project)
+* [Pull requests](#pull-requests)
 
-* Agendas are circulated via the [Google Group](https://groups.google.com/g/5g-mag-reference-tools) mailing list
+## Raising issues
 
-[Google Group](https://groups.google.com/g/5g-mag-reference-tools){: .btn .btn-blue }
+If you find problems or have requests for new features related to the code, please alert us by submitting an issue.
 
-[Download your Calendar Invite (ICS file)](https://calendar.google.com/calendar/ical/5gmag.web%40gmail.com/public/basic.ics){: .btn .btn-blue }
+**Who can raise issues?** Anyone can raise issues against the projects, you do not need to have signed the Contributor License Agreement (CLA) to do so.
 
-<iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=2&ctz=Europe%2FZurich&showPrint=0&showTabs=0&showCalendars=0&hl=en_GB&src=NWdtYWcud2ViQGdtYWlsLmNvbQ&color=%23039be5" style="border:solid 1px #777" width="800" height="400" frameborder="0" scrolling="no"></iframe>
+### 1. Go to the relevant repository
 
-## Raising Issues
+<img src="../assets/images/Contributing_Workflow_1.png" style="width: 60%">
 
-Anyone can raise issues against projects, you do not need to have signed the Contributor License Agreement (CLA) to do so.
+### 2. Create a new issue, select the type from the menu and fill the description
+
+<img src="../assets/images/Contributing_Workflow_2.png" style="width: 60%">
+
+### 3. Add a label, project,...
+
+<img src="../assets/images/Contributing_Workflow_2.png" style="width: 60%">
 
 ## Releases
 
-### Release Process
+The status of the different software releases can be found here: [Reference Tools Projects: Releases](./pages/releases.html)
 
-**TODO: Details of the release process**
-- Tagging for release candidates
-- Period of RC testing (see [Testing release candidates](#testing-release-candidates))
-- If there are blocking issues
-  - Fix blockers
-  - Create new release candidate
-- ... otherwise
-  - Package up the release
-  - Announce the release on Slack and Google Groups
+### Release Process
 
 ### Testing release candidates
 
 Availability of a RC for testing is announned in the Google Group and/or during the 5G-MAG Developers Calls. Feedback can be provided via issues during the testing period.
+If there are blokcing issues, these will be fixed and a new release candidate will be created.
+
+If after the testing period no issues have been found which block the release, a release will be created and announced.
 
 ## Git Branching strategy
 We are using a slightly modified version of Gitflow as a branching model. A detailed introduction to Gitflow can be found [here](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
@@ -82,7 +94,7 @@ Once the _development_ branch has acquired enough features and bugfixes for a re
 The release candidate always includes a version number and is created in the following way:
 
 ````
-git checkout develop
+git checkout development
 git checkout -b RC-1.2.0
 ````
 
