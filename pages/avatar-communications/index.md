@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Avatar Communication
+title: Avatar Communications
 has_children: true
 nav_order: 15
 ---
