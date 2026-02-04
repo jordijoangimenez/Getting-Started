@@ -129,15 +129,18 @@ To work on a new feature or a bugfix you first need to fork the repository that 
 ## Pull requests
 Once a feature or a hotfix branch is completed a new pull request against the _development_ (in case of _feature_ branches) or the _main_ branch (in case of _hotfix_ branches) is created:
 
-1.  Navigate to the list of available branches. Depending on the concrete setup the new branch is available directly on the main repository or on your fork of the main repository.
+### 1.  Navigate to the list of available branches.
+Depending on the concrete setup the new branch is available directly on the main repository or on your fork of the main repository.
 
-<img width="1233" alt="Bildschirmfoto 2022-03-22 um 14 30 29" src="https://user-images.githubusercontent.com/2427039/159494521-b5566dfc-0809-48a8-bc0e-071a69ec29ce.png">
+<img src="../assets/images/Contributing_Workflow_5.png" style="width: 60%">
 
-2. Click on "New pull request"
-<img width="1345" alt="Bildschirmfoto 2022-03-22 um 14 38 22" src="https://user-images.githubusercontent.com/2427039/159494412-57e45c2a-2e5d-4cb4-bb8c-dc45d14b82b6.png">
+### 2. Click on "New pull request"
 
-3. Select the target (base) branch:
+<img src="../assets/images/Contributing_Workflow_6.png" style="width: 60%">
+
+### 3. Select the target (base) branch:
    * For `feature` branches select the `development` branch
    * For `hotfix` branches select the `main` branch
-4. Provide a summary of your changes in the textfield
-5. Click on "Create pull request"
+### 4. Provide a summary of your changes in the textfield
+
+### 5. Click on "Create pull request"
