@@ -7,7 +7,7 @@ has_children: true
 
 <img src="./assets/images/Banner_RT.png" /> 
 
-[About the 5G-MAG Reference Tools](#about-the-5g-mag-reference-tools){: .btn .btn-blue } [Join us and Contribute!](#join-us-and-contribute){: .btn .btn-blue } [Public Monthly Call](guidelines-contributors.html#join-our-public-monthly-call){: .btn .btn-blue } [Releases](./releases.html){: .btn .btn-release } [Videos and Tutorials](#videos-and-tutorials){: .btn .btn-blue }
+[About the 5G-MAG Reference Tools](#about-the-5g-mag-reference-tools){: .btn .btn-blue } [Join us and Contribute!](#join-us-and-contribute){: .btn .btn-blue } [Public Monthly Call](./pages/guidelines-contributors.html#join-our-public-monthly-call){: .btn .btn-blue } [Releases](./pages/releases.html){: .btn .btn-release } [Videos and Tutorials](#videos-and-tutorials){: .btn .btn-blue }
 
 # About the 5G-MAG Reference Tools
 
