@@ -141,6 +141,7 @@ Depending on the concrete setup the new branch is available directly on the main
 ### 3. Select the target (base) branch:
    * For `feature` branches select the `development` branch
    * For `hotfix` branches select the `main` branch
+
 ### 4. Provide a summary of your changes in the textfield
 
 ### 5. Click on "Create pull request"
