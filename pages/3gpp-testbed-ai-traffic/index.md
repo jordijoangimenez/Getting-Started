@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Testbed - AI Traffic
+title: 6G Testbed - AI Traffic
 has_children: true
 nav_order: 16
 ---
 
-<img src="../../assets/images/Banner_TestbedAITraffic.png" /> 
+<img src="../../assets/images/Banner_6GTestbedAITraffic.png" /> 
 
-# Testbed - AI Traffic Characterization
+# 6G Testbed - AI Traffic Characterization
 
 ## Project Overview
 
