@@ -48,10 +48,10 @@ Only individuals and/or companies with a signed CLA can contribute code. Please 
 <table>
   <tr>
     <td width="65%" align="center" valign="top">
-      <img width="100%" src="./assets/images/Reference_Tools_Contributors.png">
+      <img width="100%" src="../assets/images/Reference_Tools_Contributors.png">
     </td>
     <td width="35%" align="center" valign="middle">
-      <img width="100%" src="./assets/images/Reference_Tools_Members.png">
+      <img width="100%" src="../assets/images/Reference_Tools_Members.png">
     </td>
   </tr>
 </table>
