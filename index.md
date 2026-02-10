@@ -26,9 +26,9 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
 
 <table>
   <tr>
-    <td markdown="span" align="center"><a href="./pages/projects.html#content-delivery-streaming-and-data-analytics"><img width="33%" style="border:5px solid black;" src="./assets/images/Category_1.png"><a/></td>
-    <td markdown="span" align="center"><a href="./pages/projects.html#5g-broadcast-for-tv-radio-and-emergency-alerts"><img width="33%" style="border:5px solid black;" src="./assets/images/Category_2.png"><a/></td>
-    <td markdown="span" align="center"><a href="./pages/projects.html#multicast-and-broadcast-services-in-5g-networks"><img width="33%" style="border:5px solid black;" src="./assets/images/Category_3.png"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./pages/projects.html#content-delivery-streaming-and-data-analytics"><img style="border:5px solid black;" src="./assets/images/Category_1.png"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#5g-broadcast-for-tv-radio-and-emergency-alerts"><img style="border:5px solid black;" src="./assets/images/Category_2.png"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#multicast-and-broadcast-services-in-5g-networks"><img style="border:5px solid black;" src="./assets/images/Category_3.png"><a/></td>
   </tr>
   <tr>
     <td markdown="span" align="center"><a href="./pages/projects.html#content-delivery-streaming-and-data-analytics"><b>Content delivery, Streaming and Data Analytics</b></td>
@@ -37,9 +37,9 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
   </tr>
     <td><br></td>
   <tr>
-    <td markdown="span" align="center"><a href="./pages/projects.html#extended-reality-xr-3d-scenes-and-avatar-communications"><img width="33%" style="border:5px solid black;" src="./assets/images/Category_4.png"><a/></td>
-    <td markdown="span" align="center"><a href="./pages/projects.html#volumetric-video-and-beyond-2d-video-experiences"><img width="33%" style="border:5px solid black;" src="./assets/images/Category_5.png"><a/></td>
-    <td markdown="span" align="center"><a href="./pages/projects.html#test-beds-and-evaluation-frameworks"><img width="33%" style="border:5px solid black;" src="./assets/images/Category_6.png"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#extended-reality-xr-3d-scenes-and-avatar-communications"><img style="border:5px solid black;" src="./assets/images/Category_4.png"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#volumetric-video-and-beyond-2d-video-experiences"><img style="border:5px solid black;" src="./assets/images/Category_5.png"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#test-beds-and-evaluation-frameworks"><img style="border:5px solid black;" src="./assets/images/Category_6.png"><a/></td>
   </tr>
   <tr>
     <td markdown="span" align="center"><a href="./pages/projects.html#extended-reality-xr-3d-scenes-and-avatar-communications"><b>eXtended Reality (XR): 3D Scenes and Avatar Communications</b></td>
@@ -48,9 +48,9 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
   </tr>
     <td><br></td>
   <tr>
-    <td markdown="span" align="center"><a href="./pages/projects.html#auxiliary-tools-common-to-various-projects"><img width="33%" style="border:5px solid black;" src="./assets/images/Category_7.png"><a/></td>
-    <td markdown="span" align="center"><a href="./pages/projects.html#3gpp-ran-and-core-platforms"><img width="33%" style="border:5px solid black;" src="./assets/images/Category_8.png"><a/></td>
-    <td markdown="span" align="center"><a href="./pages/projects.html#external-tools"><img width="33%" style="border:5px solid black;" src="./assets/images/Category_9.png"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#auxiliary-tools-common-to-various-projects"><img style="border:5px solid black;" src="./assets/images/Category_7.png"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#3gpp-ran-and-core-platforms"><img style="border:5px solid black;" src="./assets/images/Category_8.png"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#external-tools"><img style="border:5px solid black;" src="./assets/images/Category_9.png"><a/></td>
   </tr>
   <tr>
     <td markdown="span" align="center"><a href="./pages/projects.html#auxiliary-tools-common-to-various-projects"><b>Auxiliary tools common to various projects</b></td>
