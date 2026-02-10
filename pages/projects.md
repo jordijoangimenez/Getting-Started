@@ -104,7 +104,7 @@ The 5G-MAG Reference Tools are hosting the following projects.
   </tr>
 </table>
 
-## Test-beds, Evaluation Frameworks and Traffic Characterization
+## Test-beds and Evaluation Frameworks
 
 <table>
   <tr>
