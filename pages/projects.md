@@ -31,9 +31,6 @@ The 5G-MAG Reference Tools are hosting the following projects.
     <td markdown="span" align="center">[Project Documentation](./5g-core-service-consumers/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/17){: .btn .btn-blue } [Latest Releases](./releases.html#project-5g-core-service-consumers){: .btn .btn-blue } </td>
     <td markdown="span" align="center">[Project Documentation](./dvbi-over-5g/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/11){: .btn .btn-blue } [Latest Releases](./releases.html#project-dvb-i-services-over-5g-systems){: .btn .btn-blue } </td>
   </tr>
-    <td><br></td>
-  <tr>
-  </tr>
 </table>
 
 ## 5G Broadcast for TV, Radio and Emergency Alerts
@@ -81,51 +78,42 @@ The 5G-MAG Reference Tools are hosting the following projects.
 </table>
 
 
-## Immersive Media: XR and Volumetric Video
+## eXtended Reality (XR): 3D Scenes and Avatar Communications
 
 <table>
   <tr>
     <td markdown="span" align="center"><a href="./xr-media-integration-in-5g/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_XR_Media_MPEG_I_SD.png"><a/></td>
-    <td markdown="span" align="center"><a href="./v3c-immersive-platform/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_V3C_Immersive_Platform.png"><a/></td>
+    <td markdown="span" align="center"><a href="./avatar-communications/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_Avatar_Communications.png"><a/></td>
   </tr>
   <tr>
     <td markdown="span" align="center">[Project Documentation](./xr-media-integration-in-5g/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/16){: .btn .btn-blue } [Latest Releases](./releases.html#project-xr-media-with-mpeg-i-scene-description){: .btn .btn-blue } </td>
-    <td markdown="span" align="center">[Project Documentation](./v3c-immersive-platform/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/15){: .btn .btn-blue } [Latest Releases](./releases.html#project-volumetric-video-experiences-with-mpeg-v3c){: .btn .btn-blue } </td>
+    <td markdown="span" align="center">[Project Documentation](./avatar-communications/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/xx){: .btn .btn-blue } [Latest Releases](./releases.html#project-avatar-communications){: .btn .btn-blue } </td>
   </tr>
-    <td><br></td>
+</table>
+
+## Volumetric Video and Beyond 2D Video Experiences
+
+<table>
   <tr>
-    <td markdown="span" align="center"><a href="./avatar-communications/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_Avatar_Communications.png"><a/></td>
+    <td markdown="span" align="center"><a href="./v3c-immersive-platform/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_V3C_Immersive_Platform.png"><a/></td>
     <td markdown="span" align="center"><a href="./beyond-2d-evaluation-framework/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_Beyond2D_Video_Evaluation.png"><a/></td>
   </tr>
   <tr>
-    <td markdown="span" align="center">[Project Documentation](./avatar-communications/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/xx){: .btn .btn-blue } [Latest Releases](./releases.html#project-avatar-communications){: .btn .btn-blue } </td>
+    <td markdown="span" align="center">[Project Documentation](./v3c-immersive-platform/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/15){: .btn .btn-blue } [Latest Releases](./releases.html#project-volumetric-video-experiences-with-mpeg-v3c){: .btn .btn-blue } </td>
     <td markdown="span" align="center">[Project Documentation](./beyond-2d-evaluation-framework/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/10){: .btn .btn-blue } [Latest Releases](./releases.html#project-beyond-2d-video-experiences){: .btn .btn-blue } </td>
   </tr>
 </table>
 
-## Evaluation framework for AI/ML in 5G media services
-
-<table>
-  <tr>
-    <td markdown="span" align="center"><a href="./ai-ml-evaluation-framework/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_AIML_Evaluation_Framework.png"><a/></td>
-    <td markdown="span" align="center"></td>
-  </tr>
-  <tr>
-    <td markdown="span" align="center">[Project Documentation](./ai-ml-evaluation-framework/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/9){: .btn .btn-blue } [Latest Releases](./releases.html#project-aiml-in-mobile-media-services){: .btn .btn-blue } </td>
-    <td markdown="span" align="center"></td>
-  </tr>
-</table>
-
-## 6G Testbed and AI Traffic Characterization
+## Test-beds, Evaluation Frameworks and Traffic Characterization
 
 <table>
   <tr>
     <td markdown="span" align="center"><a href="./6g-testbed-ai-traffic/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_6G_Testbed_AI_Traffic.png"><a/></td>
-    <td markdown="span" align="center"></td>  
+    <td markdown="span" align="center"><a href="./ai-ml-evaluation-framework/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_AIML_Evaluation_Framework.png"><a/></td>
   </tr>
   <tr>
     <td markdown="span" align="center">[Project Documentation](./6g-testbed-ai-traffic/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/yy){: .btn .btn-blue } [Latest Releases](./releases.html#project-6g-testbed-ai-traffic){: .btn .btn-blue } </td>
-    <td markdown="span" align="center"></td>
+    <td markdown="span" align="center">[Project Documentation](./ai-ml-evaluation-framework/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/9){: .btn .btn-blue } [Latest Releases](./releases.html#project-aiml-in-mobile-media-services){: .btn .btn-blue } </td>
   </tr>
 </table>
       
