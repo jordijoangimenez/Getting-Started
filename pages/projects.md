@@ -9,7 +9,9 @@ nav_order: 0
 
 [How to use this documentation](./how-to-use.html){: .btn .btn-blue }
 
-## 5G Media Streaming (5GMS) and UE Data Collection
+The 5G-MAG Reference Tools are hosting the following projects.
+
+## Content delivery, Streaming and Data Analytics
 
 <table>
   <tr>
@@ -34,7 +36,7 @@ nav_order: 0
   </tr>
 </table>
 
-## 5G Broadcast
+## 5G Broadcast for TV, Radio and Emergency Alerts
 
 <table>
   <tr>
@@ -56,7 +58,7 @@ nav_order: 0
   </tr>
 </table>
 
-## 5G Multicast and Broadcast Services (MBS)
+## Multicast and Broadcast Services in 5G Networks
 
 <table>
   <tr>
@@ -101,19 +103,32 @@ nav_order: 0
   </tr>
 </table>
 
-## AI/ML
+## Evaluation framework for AI/ML in 5G media services
 
 <table>
   <tr>
     <td markdown="span" align="center"><a href="./ai-ml-evaluation-framework/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_AIML_Evaluation_Framework.png"><a/></td>
-    <td markdown="span" align="center"><a href="./6g-testbed-ai-traffic/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_6G_Testbed_AI_Traffic.png"><a/></td>
+    <td markdown="span" align="center"></td>
   </tr>
   <tr>
     <td markdown="span" align="center">[Project Documentation](./ai-ml-evaluation-framework/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/9){: .btn .btn-blue } [Latest Releases](./releases.html#project-aiml-in-mobile-media-services){: .btn .btn-blue } </td>
-    <td markdown="span" align="center">[Project Documentation](./6g-testbed-ai-traffic/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/yy){: .btn .btn-blue } [Latest Releases](./releases.html#project-6g-testbed-ai-traffic){: .btn .btn-blue } </td>
+    <td markdown="span" align="center"></td>
   </tr>
 </table>
 
+## 6G Testbed and AI Traffic Characterization
+
+<table>
+  <tr>
+    <td markdown="span" align="center"><a href="./6g-testbed-ai-traffic/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_6G_Testbed_AI_Traffic.png"><a/></td>
+    <td markdown="span" align="center"></td>  
+  </tr>
+  <tr>
+    <td markdown="span" align="center">[Project Documentation](./6g-testbed-ai-traffic/){: .btn .btn-blue } [Project Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/yy){: .btn .btn-blue } [Latest Releases](./releases.html#project-6g-testbed-ai-traffic){: .btn .btn-blue } </td>
+    <td markdown="span" align="center"></td>
+  </tr>
+</table>
+      
 <img width="80%" src="../assets/images/Banner_CommonTools.png"/> 
 
 ## Auxiliary tools common to various projects
