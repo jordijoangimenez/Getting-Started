@@ -13,7 +13,7 @@ nav_order: 0
 
 <table>
   <tr>
-    <td markdown="span" align="center"><a href="./5g-media-streaming/"><img width="80%" style="border:5px solid black;" src=".../assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
+    <td markdown="span" align="center"><a href="./5g-media-streaming/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
     <td markdown="span" align="center"><a href="./ue-data-collection-reporting-exposure/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_UE_data_collection.png"><a/></td>
   </tr>
   <tr>
