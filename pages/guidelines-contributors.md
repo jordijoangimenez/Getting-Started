@@ -14,7 +14,7 @@ nav_order: 1
 * Announcements are communicated through the [Google Group](https://groups.google.com/g/5g-mag-reference-tools)
 * If you have questions which cannot be shared publicly, reach out to us via email: [reference-tools@5g-mag.com](mailto:reference-tools@5g-mag.com)
 
-## The Open-Source Licenses
+## The Open-Source Software Licenses
 
 The 5G-MAG Reference Tools software makes use of various licenses to distribute and accept contributions from the community. This allows developers and organizations to choose the framework that works for them, given our main purpose is to build and put technology into action. The more the contributors, testers and developers, the better. 
 
@@ -35,7 +35,7 @@ The 5G-MAG GitHub includes various third-party repositories that are either usef
 Each repository typically maintains a dedicated branch that tracks the original upstream project to ensure a baseline of compatibility. Alongside these, 5G-MAG contributors maintain several other branches containing specific modifications and patches. These custom versions are designed to optimize the third-party code for the 5G-MAG architecture, ensuring seamless integration across the entire reference suite, and are just hosted there.
 
 {: .note }
-Please check each repository and learn about the Licenses and potential dependencies when contributing code.
+Please check each repository and learn about the Licenses and potential dependencies when contributing code to repositories hosting third-party dependencies.
 
 ## Individual Contributor License Agreement (CLA) and Corporate CLA
 
