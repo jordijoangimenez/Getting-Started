@@ -11,7 +11,7 @@ has_children: true
 
 # About the 5G-MAG Reference Tools
 
-[Download an overview about the 5G-MAG Reference Tools](#overview-of-the-5g-mag-reference-tools){: .btn .btn-blue }
+[Get an overview about the 5G-MAG Reference Tools](#overview-of-the-5g-mag-reference-tools){: .btn .btn-blue }
 
 Today’s media and connectivity specifications are ultimately realized through code, and our goal is to accelerate that journey from the drafting table to the developer’s toolkit.
 
@@ -21,10 +21,6 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
   <li><b>Ensure Quality:</b> We use software implementations to provide early feedback, ensuring specifications are tested and ready for the real world.</li>
   <li><b>Drive Global Adoption:</b> Through open-source software and tutorials, we empower users and creators to adopt and scale new technologies with confidence.</li>
 </ul>
-
-<iframe width="60%" height="520" src="./docs/Reference_Tools_Overview.pdf"></iframe>
-
-[Download the slidedeck of the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue }
 
 # The Projects
 
@@ -86,7 +82,13 @@ The tutorial pages within the projects provide audiovisual resources that guide 
 
 # Join the Public Monthly Call
 
-[Public Monthly Call](./pages/public-call.html){: .btn .btn-blue } 
+[Find more information avout the Public Monthly Call](./pages/public-call.html){: .btn .btn-blue } 
+
+# Overview of the 5G-MAG Reference Tools
+
+<iframe width="60%" height="520" src="./docs/Reference_Tools_Overview.pdf"></iframe>
+
+[Download the slidedeck of the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue }
 
 {: .note }
 Please refer to the [Getting-Started](https://github.com/5G-MAG/Getting-Started/) repository to provide updates to this documentation.
