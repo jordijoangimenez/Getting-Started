@@ -117,8 +117,6 @@ The 5G-MAG Reference Tools are hosting the following projects.
   </tr>
 </table>
       
-<img width="80%" src="../assets/images/Banner_CommonTools.png"/> 
-
 ## Auxiliary tools common to various projects
 [Documentation](./common-tools/index.html){: .btn .btn-blue }
 [Latest Releases](./releases.html#auxiliary-tools-common-to-various-projects){: .btn .btn-blue }
