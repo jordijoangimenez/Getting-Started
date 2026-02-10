@@ -114,7 +114,7 @@ nav_order: 0
   </tr>
 </table>
 
-<img width="80%" src=".../assets/images/Banner_CommonTools.png"/> 
+<img width="80%" src="../assets/images/Banner_CommonTools.png"/> 
 
 ## Auxiliary tools common to various projects
 [Documentation](./common-tools/index.html){: .btn .btn-blue }
