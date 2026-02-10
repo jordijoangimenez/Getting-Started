@@ -26,6 +26,43 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
 
 [Download the slidedeck of the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue }
 
+# The Projects
+
+<table>
+  <tr>
+    <td markdown="span" align="center"><a href="./5g-media-streaming/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
+    <td markdown="span" align="center"><a href="./5g-media-streaming/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
+    <td markdown="span" align="center"><a href="./5g-media-streaming/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
+  </tr>
+  <tr>
+    <td markdown="span" align="center"><a href="./pages/projects.html#content-delivery-streaming-and-data-analytics"><b>Content delivery, Streaming and Data Analytics</b></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#5g-broadcast-for-tv-radio-and-emergency-alerts"><b>5G Broadcast for TV, Radio and Emergency Alerts</b></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#multicast-and-broadcast-services-in-5g-networks"><b>Multicast and Broadcast Services in 5G Networks</b></td>
+  </tr>
+    <td><br></td>
+  <tr>
+    <td markdown="span" align="center"><a href="./5g-media-streaming/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
+    <td markdown="span" align="center"><a href="./5g-media-streaming/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
+    <td markdown="span" align="center"><a href="./5g-media-streaming/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
+  </tr>
+  <tr>
+    <td markdown="span" align="center"><a href="./pages/projects.html#extended-reality-xr-3d-scenes-and-avatar-communications"><b>eXtended Reality (XR): 3D Scenes and Avatar Communications</b></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#volumetric-video-and-beyond-2d-video-experiences"><b>Volumetric Video and Beyond 2D Video Experiences</b></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#test-beds-evaluation-frameworks-and-traffic-characterization"><b>Test-beds, Evaluation Frameworks and Traffic Characterization</b></td>
+  </tr>
+    <td><br></td>
+  <tr>
+    <td markdown="span" align="center"><a href="./5g-media-streaming/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
+    <td markdown="span" align="center"><a href="./5g-media-streaming/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
+    <td markdown="span" align="center"><a href="./5g-media-streaming/"><img width="80%" style="border:5px solid black;" src="../assets/images/Reference_Tools_5G_Media_Streaming.png"><a/></td>
+  </tr>
+  <tr>
+    <td markdown="span" align="center"><a href="./pages/projects.html#auxiliary-tools-common-to-various-projects"><b>Auxiliary tools common to various projects</b></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#3gpp-ran-and-core-platforms"><b>3GPP RAN and Core Platforms</b></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#external-tools"><b>External Tools</b></td>
+  </tr>
+</table>
+
 # Join us and Contribute!
 
 [Guidelines for Contributors: Learn How to Contribute](./pages/guidelines-contributors.html){: .btn .btn-blue }
