@@ -14,11 +14,28 @@ nav_order: 1
 * Announcements are communicated through the [Google Group](https://groups.google.com/g/5g-mag-reference-tools)
 * If you have questions which cannot be shared publicly, reach out to us via email: [reference-tools@5g-mag.com](mailto:reference-tools@5g-mag.com)
 
-## 5G-MAG Public License v1.0
+## The Open-Source Licenses
 
-The 5G-MAG repositories which are not hosting a fork of a third-party project are covered by the **5G-MAG Public License v1.0**.
+The 5G-MAG Reference Tools software makes use of various licenses to distribute and accept contributions from the community. This allows developers and organizations to choose the framework that works for them, given our main purpose is to build and put technology into action. The more the contributors, testers and developers, the better. 
+
+The 5G-MAG Reference Tools may be used in validation, verification, demonstrations, trials and possibly even in commercial services. For this purpose, some of the repositories are covered by the 5G-MAG Public License, a permissible license aimed at protecting contributors' IPR and aligned with ETSI and 3GPP FRAND policy.
+
+Individuals and/or companies with a signed Contributor License Agreement (CLA) can contribute code.
+
+### Repositories covered by the 5G-MAG Public License v1.0
+
+The main 5G-MAG repositories are covered by the **5G-MAG Public License v1.0**. The 5G-MAG Public License v1.0, which is a modified version of the Apache 2.0 license, includes a patent clause which allows contributors to make patent license available to third parties under FRAND (fair, reasonable and non-discriminatory) terms for commercial exploitation. The 5G-MAG Reference Tools code is free for non-commercial, study, testing and research purposes. This scheme is aligned with ETSI and 3GPP FRAND policy with respect to licensing. This aspect is key in particular to encourage companies which own significant portfolio of patents to be able to contribute code while keeping their essential IPR.
 
 * Download the [**5G-MAG Public License v1.0**](http://5g-mag.github.io/Getting-Started/OFFICIAL_5G-MAG_Public_License_v1.0.pdf)
+
+### Third-party dependencies
+
+The 5G-MAG GitHub includes various third-party repositories that are either useful or strictly necessary for building the core components of the 5G-MAG Reference Tools. Rather than starting from scratch, these repositories serve as forks of external projects, inheriting their own license without modifications.
+
+Each repository typically maintains a dedicated branch that tracks the original upstream project to ensure a baseline of compatibility. Alongside these, 5G-MAG contributors maintain several other branches containing specific modifications and patches. These custom versions are designed to optimize the third-party code for the 5G-MAG architecture, ensuring seamless integration across the entire reference suite, and are just hosted there.
+
+{: .note }
+Please check each repository and learn about the Licenses and potential dependencies when contributing code.
 
 ## Individual Contributor License Agreement (CLA) and Corporate CLA
 
@@ -28,7 +45,16 @@ Only individuals and/or companies with a signed CLA can contribute code. Please 
 * Download the [**5G-MAG Individual Contributor License Agreement (CLA)**](https://5g-mag.github.io/Getting-Started/OFFICIAL_5G-MAG_Contributor_License_Agreement.pdf)
 * Download the [**5G-MAG Corporate Contributor License Agreement (CCLA)**](https://5g-mag.github.io/Getting-Started/OFFICIAL_5G-MAG_Corporate_Contributor_License_Agreement.pdf)
 
-<img src="../assets/images/Reference_Tools_Contributors.png" style="width: 60%">
+<table>
+  <tr>
+    <td width="65%" align="center" valign="top">
+      <img width="100%" src="./assets/images/Reference_Tools_Contributors.png">
+    </td>
+    <td width="35%" align="center" valign="middle">
+      <img width="100%" src="./assets/images/Reference_Tools_Members.png">
+    </td>
+  </tr>
+</table>
 
 # How we work
 
