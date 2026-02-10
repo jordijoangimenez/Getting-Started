@@ -7,7 +7,7 @@ has_children: true
 
 <img src="./assets/images/Banner_ReferenceTools.png" /> 
 
-[About the 5G-MAG Reference Tools](#about-the-5g-mag-reference-tools){: .btn .btn-blue } [Join us and Contribute!](#join-us-and-contribute){: .btn .btn-blue } [Public Monthly Call](./pages/public-call.html){: .btn .btn-blue } [Releases](./pages/releases.html){: .btn .btn-release } [Videos and Tutorials](#videos-and-tutorials){: .btn .btn-blue }
+[ALL THE PROJECTS](./pages/projects.html){: .btn .btn-blue } [Join us and Contribute!](#join-us-and-contribute){: .btn .btn-blue } [Public Monthly Call](./pages/public-call.html){: .btn .btn-blue } [Releases](./pages/releases.html){: .btn .btn-release } [Videos and Tutorials](#videos-and-tutorials){: .btn .btn-blue }
 
 # About the 5G-MAG Reference Tools
 
@@ -41,8 +41,6 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
     </td>
   </tr>
 </table>
-
----
 
 # Videos and Tutorials
 The tutorial pages within the projects provide audiovisual resources that guide users through project setup and offer developer-led explanations of key aspects and features.
