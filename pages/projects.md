@@ -18,7 +18,7 @@ The 5G-MAG Reference Tools are hosting the following projects:
 * [**Test-beds and Evaluation Frameworks**](#test-beds-and-evaluation-frameworks)
 * [**Other Tools**](#other-tools)
 
-# Content delivery, Streaming and Data Analytics
+## Content delivery, Streaming and Data Analytics
 
 <table>
   <tr>
@@ -42,7 +42,7 @@ The 5G-MAG Reference Tools are hosting the following projects:
 
 ---
 
-# 5G Broadcast for TV, Radio and Emergency Alerts
+## 5G Broadcast for TV, Radio and Emergency Alerts
 
 <table>
   <tr>
@@ -66,7 +66,7 @@ The 5G-MAG Reference Tools are hosting the following projects:
 
 ---
 
-# Multicast and Broadcast Services in 5G Networks
+## Multicast and Broadcast Services in 5G Networks
 
 <table>
   <tr>
@@ -90,7 +90,7 @@ The 5G-MAG Reference Tools are hosting the following projects:
 
 ---
 
-# eXtended Reality (XR): 3D Scenes and Avatar Communications
+## eXtended Reality (XR): 3D Scenes and Avatar Communications
 
 <table>
   <tr>
@@ -105,7 +105,7 @@ The 5G-MAG Reference Tools are hosting the following projects:
 
 ---
 
-# Volumetric Video and Beyond 2D Video Experiences
+## Volumetric Video and Beyond 2D Video Experiences
 
 <table>
   <tr>
@@ -120,7 +120,7 @@ The 5G-MAG Reference Tools are hosting the following projects:
 
 ---
 
-# Test-beds and Evaluation Frameworks
+## Test-beds and Evaluation Frameworks
 
 <table>
   <tr>
@@ -133,14 +133,14 @@ The 5G-MAG Reference Tools are hosting the following projects:
   </tr>
 </table>
 
-# Other Tools
+## Other Tools
 
-## Auxiliary tools common to various projects
+### Auxiliary tools common to various projects
 [Documentation](./common-tools/index.html){: .btn .btn-blue }
 [Latest Releases](./releases.html#auxiliary-tools-common-to-various-projects){: .btn .btn-blue }
 
-## 3GPP RAN and Core Platforms
+### 3GPP RAN and Core Platforms
 [Documentation](./3gpp-ran-and-core-platforms/index.html){: .btn .btn-blue }
 
-## External Tools
+### External Tools
 [Documentation](./external-tools/index.html){: .btn .btn-blue }
