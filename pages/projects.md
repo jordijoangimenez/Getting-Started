@@ -9,7 +9,14 @@ nav_order: 0
 
 [How to use this documentation](./how-to-use.html){: .btn .btn-blue }
 
-The 5G-MAG Reference Tools are hosting the following projects.
+The 5G-MAG Reference Tools are hosting the following projects:
+* [Content delivery, Streaming and Data Analytics](#content-delivery-streaming-and-data-analytics)
+* [5G Broadcast for TV, Radio and Emergency Alerts](#5g-broadcast-for-tv-radio-and-emergency-alerts)
+* [Multicast and Broadcast Services in 5G Networks](#multicast-and-broadcast-services-in-5g-networks)
+* [eXtended Reality (XR): 3D Scenes and Avatar Communications](#extended-reality-xr-3d-scenes-and-avatar-communications)
+* [Volumetric Video and Beyond 2D Video Experiences](#volumetric-video-and-beyond-2d-video-experiences)
+* [Test-beds and Evaluation Frameworks](#test-beds-and-evaluation-frameworks)
+* [Other Tools](#other-tools)
 
 # Content delivery, Streaming and Data Analytics
 
