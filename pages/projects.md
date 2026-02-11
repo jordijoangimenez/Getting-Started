@@ -9,7 +9,7 @@ nav_order: 0
 
 [How to use this documentation](./how-to-use.html){: .btn .btn-blue }
 
-The 5G-MAG Reference Tools are hosting the following projects:
+The 5G-MAG Reference Tools are hosting project within the following categories:
 * [**Content delivery, Streaming and Data Analytics**](#content-delivery-streaming-and-data-analytics)
 * [**5G Broadcast for TV, Radio and Emergency Alerts**](#5g-broadcast-for-tv-radio-and-emergency-alerts)
 * [**Multicast and Broadcast Services in 5G Networks**](#multicast-and-broadcast-services-in-5g-networks)
