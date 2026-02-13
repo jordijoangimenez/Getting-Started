@@ -10,15 +10,36 @@ nav_order: 2
 
 [Scope & Architectures](./scope.html){: .btn .btn-blue } [Project Roadmap](./projects.html){: .btn .btn-blue } [Features](./features.html){: .btn .btn-blue } [GitHub Repos](./repositories.html){: .btn .btn-github } [Releases](../releases.html#project-5g-media-streaming){: .btn .btn-release } [Tutorials](./tutorials.html){: .btn .btn-blue } [Requirements](./requirements.html){: .btn .btn-blue }
 
-# Features under implementation
+# Specification coverage in Reference Tools
 
-## 5GMS Application Function Supported Features
+The **5G Media Streaming Project** provides reference implementations within the scope of the 5G Media Streaming architecture defined in 3GPP.
+
+The following links provide Technical Documentation and references to specifications for which software implementations are provided in the Reference Tools.
+
+[Technical Documentation](https://hub.5g-mag.com/Tech/pages/5g-media-streaming.html){: .btn .btn-blue } [Specifications](https://hub.5g-mag.com/Standards/pages/5g-media-streaming.html){: .btn .btn-blue }
+
+## 5G Downlink Media Streaming (5GMSd)
+
+<img src="./images/5GMS_Downlink_RT.png" width="60%">
+
+## Feature: Content Hosting
+- Basic explanation. Link to Tech
+- Tutorial: How to build and run the reference tools to use 5GMSd for Content Hosting.
+- Example Content Hosting Configuration: rt-5gms-application-provider,...
+
+## Feature: Consumption Reporting
+- Basic explanation. Link to Tech
+- Tutorial: How to build and run the reference tools to use 5GMSd for Consumption Reporting.
+- Example: rt-5gms-application-provider,...
+
+
+### 5GMS Application Function Supported Features
 
 The release versions of the 5GMSd Application Function support differing sets of interfaces, as described by the different
 versions of the 3GPP specifications, and differing levels of feature support for those interfaces. The page attempts to capture
 the feature sets and specification versions for each release, starting with the most recent release or upcoming releases.
 
-### Key
+#### Key
 
 Where a feature of the specifications is supported the entry will be marked with &#x2611;, where it is being worked on and slated for the next release the feature will be marked with &#x270E; and where it is unimplemented in that
 version the feature will be marked with &#x2610;.
@@ -141,7 +162,7 @@ version the feature will be marked with &#x2610;.
 </tfoot>
 </table>
 
-## Supported APIs for 5G Media Streaming
+### Supported APIs for 5G Media Streaming
 
 ## Relevant specifications
 The table contains the 3GPP 5G Media Streaming APIs for Release 17 (TS 26.512) and Release 18 (TS 26.510 & TS 26.512). Note that the current reference implementation of the 5GMSd AF and 5GMSd AS are based on Release 17 (TS 26.510 does not exist in Release 17). In Release 18, the media session handling APIs were moved from TS 26.512 into TS 26.510 to generalise them to support the Real-Time media Communication (RTC) System as well as the 5G Media Streaming (5GMS) System.
