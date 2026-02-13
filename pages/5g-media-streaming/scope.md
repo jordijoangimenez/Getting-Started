@@ -12,11 +12,13 @@ nav_order: 0
 
 # Scope and Architectures
 
-This page contains information such as the specifications within the scope of the tools and high-level architectures that bring context to their applicability.
+The **5G Media Streaming Project** provides reference implementations within the scope of the 5G Media Streaming architecture defined in 3GPP.
 
-## Technical Resources and Specifications
+## Technical Documentation and Specifications
 
-[Technical Resources](https://hub.5g-mag.com/Tech/pages/5g-media-streaming.html){: .btn .btn-blue } [Specifications](https://hub.5g-mag.com/Standards/pages/5g-media-streaming.html){: .btn .btn-blue }
+The following links provide Technical Documentation and references to specifications for which software implementations are provided in the Reference Tools.
+
+[Technical Documentation](https://hub.5g-mag.com/Tech/pages/5g-media-streaming.html){: .btn .btn-blue } [Specifications](https://hub.5g-mag.com/Standards/pages/5g-media-streaming.html){: .btn .btn-blue }
 
 # High-level architectures
 
