@@ -26,36 +26,36 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
 
 <table width="80%">
   <tr>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#content-delivery-streaming-and-data-analytics"><img style="border:5px solid black;" src="./assets/images/Category_1.png" width="33%"><a/></td>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#5g-broadcast-for-tv-radio-and-emergency-alerts"><img style="border:5px solid black;" src="./assets/images/Category_2.png" width="33%"><a/></td>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#multicast-and-broadcast-services-in-5g-networks"><img style="border:5px solid black;" src="./assets/images/Category_3.png" width="33%"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#content-delivery-streaming-and-data-analytics"><img style="border:5px solid black;" src="./assets/images/Category_1.png" width="80%"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#5g-broadcast-for-tv-radio-and-emergency-alerts"><img style="border:5px solid black;" src="./assets/images/Category_2.png" width="80%"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#multicast-and-broadcast-services-in-5g-networks"><img style="border:5px solid black;" src="./assets/images/Category_3.png" width="80%"><a/></td>
   </tr>
   <tr>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#content-delivery-streaming-and-data-analytics"><b>Content delivery, Streaming and Data Analytics</b></td>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#5g-broadcast-for-tv-radio-and-emergency-alerts"><b>5G Broadcast for TV, Radio and Emergency Alerts</b></td>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#multicast-and-broadcast-services-in-5g-networks"><b>Multicast and Broadcast Services in 5G Networks</b></td>
-  </tr>
-    <td><br></td>
-  <tr>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#extended-reality-xr-3d-scenes-and-avatar-communications"><img style="border:5px solid black;" src="./assets/images/Category_4.png" width="33%"><a/></td>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#volumetric-video-and-beyond-2d-video-experiences"><img style="border:5px solid black;" src="./assets/images/Category_5.png" width="33%"><a/></td>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#test-beds-and-evaluation-frameworks"><img style="border:5px solid black;" src="./assets/images/Category_6.png" width="33%"><a/></td>
-  </tr>
-  <tr>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#extended-reality-xr-3d-scenes-and-avatar-communications"><b>eXtended Reality (XR): 3D Scenes and Avatar Communications</b></td>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#volumetric-video-and-beyond-2d-video-experiences"><b>Volumetric Video and Beyond 2D Video Experiences</b></td>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#test-beds-and-evaluation-frameworks"><b>Test-beds and Evaluation Frameworks</b></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#content-delivery-streaming-and-data-analytics"><b>Content delivery, Streaming and Data Analytics</b></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#5g-broadcast-for-tv-radio-and-emergency-alerts"><b>5G Broadcast for TV, Radio and Emergency Alerts</b></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#multicast-and-broadcast-services-in-5g-networks"><b>Multicast and Broadcast Services in 5G Networks</b></td>
   </tr>
     <td><br></td>
   <tr>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#auxiliary-tools-common-to-various-projects"><img style="border:5px solid black;" src="./assets/images/Category_7.png" width="33%"><a/></td>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#3gpp-ran-and-core-platforms"><img style="border:5px solid black;" src="./assets/images/Category_8.png" width="33%"><a/></td>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#external-tools"><img style="border:5px solid black;" src="./assets/images/Category_9.png" width="33%"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#extended-reality-xr-3d-scenes-and-avatar-communications"><img style="border:5px solid black;" src="./assets/images/Category_4.png" width="80%"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#volumetric-video-and-beyond-2d-video-experiences"><img style="border:5px solid black;" src="./assets/images/Category_5.png" width="80%"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#test-beds-and-evaluation-frameworks"><img style="border:5px solid black;" src="./assets/images/Category_6.png" width="80%"><a/></td>
   </tr>
   <tr>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#auxiliary-tools-common-to-various-projects"><b>Auxiliary tools common to various projects</b></td>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#3gpp-ran-and-core-platforms"><b>3GPP RAN and Core Platforms</b></td>
-    <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#external-tools"><b>External Tools</b></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#extended-reality-xr-3d-scenes-and-avatar-communications"><b>eXtended Reality (XR): 3D Scenes and Avatar Communications</b></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#volumetric-video-and-beyond-2d-video-experiences"><b>Volumetric Video and Beyond 2D Video Experiences</b></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#test-beds-and-evaluation-frameworks"><b>Test-beds and Evaluation Frameworks</b></td>
+  </tr>
+    <td><br></td>
+  <tr>
+    <td markdown="span" align="center"><a href="./pages/projects.html#auxiliary-tools-common-to-various-projects"><img style="border:5px solid black;" src="./assets/images/Category_7.png" width="80%"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#3gpp-ran-and-core-platforms"><img style="border:5px solid black;" src="./assets/images/Category_8.png" width="80%"><a/></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#external-tools"><img style="border:5px solid black;" src="./assets/images/Category_9.png" width="80%"><a/></td>
+  </tr>
+  <tr>
+    <td markdown="span" align="center"><a href="./pages/projects.html#auxiliary-tools-common-to-various-projects"><b>Auxiliary tools common to various projects</b></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#3gpp-ran-and-core-platforms"><b>3GPP RAN and Core Platforms</b></td>
+    <td markdown="span" align="center"><a href="./pages/projects.html#external-tools"><b>External Tools</b></td>
   </tr>
 </table>
 
