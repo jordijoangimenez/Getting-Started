@@ -1,13 +1,13 @@
 ---
 layout: default
-title: How to use this documentation
+title: Using this documentation
 parent: Introduction
 nav_order: 2
 ---
 
 <img src="../assets/images/Banner_ReferenceTools.png" /> 
 
-# How to use the documentation
+# Using this documentation
 
 This documentation is organized in a hierarchical structure. The main topics are listed in the left sidebar. Each topic
 has subcategories, which are listed in the dropdown menu of the main topic.
