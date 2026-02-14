@@ -25,9 +25,9 @@ Today’s media and connectivity specifications are ultimately realized through 
 
 
 
-<table width="80%">
+<table>
   <tr>
-    <td markdown="span" align="left">
+    <td markdown="span" align="left" width="60%">
       <p>The <b>5G-MAG Reference Tools Developer Community</b> provides a structured environment where software development and specification work move in sync. We:</p>
 <ul>
   <li><b>Make Technology Accessible:</b> We put the latest innovations directly into the hands of developers, lowering entry barriers for product development.</li>
@@ -36,7 +36,7 @@ Today’s media and connectivity specifications are ultimately realized through 
 </ul>
     </td>
     <td align="center">
-      <iframe width="60%" height="520" src="./docs/Reference_Tools_Overview.pdf"></iframe>
+      <iframe width="100%" height="520" src="./docs/Reference_Tools_Overview.pdf"></iframe>
     </td>
   </tr>
 </table>
