@@ -5,6 +5,8 @@ parent: Introduction
 nav_order: 0
 ---
 
+<img src="../assets/images/Banner_ReferenceTools.png" /> 
+
 # The 5G-MAG Reference Tools Projects
 
 [How to use this documentation](./how-to-use.html){: .btn .btn-blue }
