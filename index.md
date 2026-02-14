@@ -24,7 +24,7 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
 
 # The Projects
 
-<table>
+<table width="80%">
   <tr>
     <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#content-delivery-streaming-and-data-analytics"><img style="border:5px solid black;" src="./assets/images/Category_1.png"><a/></td>
     <td markdown="span" align="center" width="22%"><a href="./pages/projects.html#5g-broadcast-for-tv-radio-and-emergency-alerts"><img style="border:5px solid black;" src="./assets/images/Category_2.png"><a/></td>
