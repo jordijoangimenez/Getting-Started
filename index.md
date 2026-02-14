@@ -7,7 +7,7 @@ has_children: true
 
 <img src="./assets/images/Banner_ReferenceTools.png" /> 
 
-[All the Projects](./pages/projects.html){: .btn .btn-blue } [Join us and Contribute!](#join-us-and-contribute){: .btn .btn-blue } [Public Monthly Call](./pages/public-call.html){: .btn .btn-blue } [Releases](./pages/releases.html){: .btn .btn-release }
+[All the Projects](./pages/projects.html){: .btn .btn-blue } [Releases](./pages/releases.html){: .btn .btn-release } [Join us and Contribute!](#join-us-and-contribute){: .btn .btn-blue } [Public Monthly Call](./pages/public-call.html){: .btn .btn-blue }
 
 # Learn more about the 5G-MAG Reference Tools
 
