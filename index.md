@@ -11,25 +11,17 @@ has_children: true
 
 # Learn more about the 5G-MAG Reference Tools
 
-[Download an overview about the 5G-MAG Reference Tools](#overview-of-the-5g-mag-reference-tools){: .btn .btn-blue }
+[Download an overview about the 5G-MAG Reference Tools](https://hub.5g-mag.com/Getting-Started/docs/Reference_Tools_Overview.pdf){: .btn .btn-blue }
 
 Today’s media and connectivity specifications are ultimately realized through code, and our goal is to accelerate that journey from the drafting table to the developer’s toolkit.
 
-<table>
-  <tr>
-    <td align="left" width="50%">
-      <p>The <b>5G-MAG Reference Tools Developer Community</b> provides a structured environment where software development and specification work move in sync. We:</p>
-      <ul>
-        <li><b>Make Technology Accessible:</b> We put the latest innovations directly into the hands of developers, lowering entry barriers for product development.</li>
-        <li><b>Ensure Quality:</b> We use software implementations to provide early feedback, ensuring specifications are tested and ready for the real world.</li>
-        <li><b>Drive Global Adoption:</b> Through open-source software and tutorials, we empower users and creators to adopt and scale new technologies with confidence.</li>
-      </ul>
-    </td>
-    <td align="center">
-      <iframe width="100%" height="520" src="./docs/Reference_Tools_Overview.pdf"></iframe>
-    </td>
-  </tr>
-</table>
+The <b>5G-MAG Reference Tools Developer Community</b> provides a structured environment where software development and specification work move in sync. We:
+
+<ul>
+  <li><b>Make Technology Accessible:</b> We put the latest innovations directly into the hands of developers, lowering entry barriers for product development.</li>
+  <li><b>Ensure Quality:</b> We use software implementations to provide early feedback, ensuring specifications are tested and ready for the real world.</li>
+  <li><b>Drive Global Adoption:</b> Through open-source software and tutorials, we empower users and creators to adopt and scale new technologies with confidence.</li>
+</ul>
 
 # What are the focus areas of the projects?
 
