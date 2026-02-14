@@ -2,7 +2,7 @@
 layout: default
 title: Public Monthly Call
 parent: Introduction
-nav_order: 2
+nav_order: 5
 ---
 
 <img src="../assets/images/Banner_ReferenceTools.png" /> 
