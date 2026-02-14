@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How to use these pages
+title: How to use this documentation
 parent: Introduction
 nav_order: 2
 ---
