@@ -35,7 +35,7 @@ Today’s media and connectivity specifications are ultimately realized through 
   <li><b>Drive Global Adoption:</b> Through open-source software and tutorials, we empower users and creators to adopt and scale new technologies with confidence.</li>
 </ul>
     </td>
-    <td markdown="span" align="center">
+    <td align="center">
       <iframe width="60%" height="520" src="./docs/Reference_Tools_Overview.pdf"></iframe>
     </td>
   </tr>
