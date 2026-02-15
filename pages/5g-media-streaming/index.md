@@ -3,7 +3,7 @@ layout: default
 title: 5G Media Streaming
 parent: The Projects
 has_children: true
-nav_order: 1
+nav_order: 4
 ---
 
 <img src="../../assets/images/Banner_5GMS.png" /> 
