@@ -11,9 +11,9 @@ has_children: true
 
 <table>
   <tr>
-    <td markdown="span" align="center" width="33%"><a href="./streaming.html"><img style="border:5px solid black;" src="../assets/images/Category_Streaming.png" width="80%"><a/></td>
-    <td markdown="span" align="center" width="33%"><a href="./5gbroadcast.html"><img style="border:5px solid black;" src="../assets/images/Category_5GBroadcast.png" width="80%"><a/></td>
-    <td markdown="span" align="center" width="33%"><a href="./multicastbroadcast.html"><img style="border:5px solid black;" src="../assets/images/Category_Multicast.png" width="80%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./streaming.html"><img style="border:5px solid black;" src="../assets/images/Category_Streaming.png" width="90%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./5gbroadcast.html"><img style="border:5px solid black;" src="../assets/images/Category_5GBroadcast.png" width="90%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./multicastbroadcast.html"><img style="border:5px solid black;" src="../assets/images/Category_Multicast.png" width="90%"><a/></td>
   </tr>
   <tr>
     <td markdown="span" align="center" width="33%">[Streaming, Media Delivery and Data Analytics](./streaming.html){: .btn .btn-blue }</td>
@@ -22,9 +22,9 @@ has_children: true
   </tr>
     <td><br></td>
   <tr>
-    <td markdown="span" align="center" width="33%"><a href="./xr.html"><img style="border:5px solid black;" src="../assets/images/Category_XR.png" width="80%"><a/></td>
-    <td markdown="span" align="center" width="33%"><a href="./volumetric.html"><img style="border:5px solid black;" src="../assets/images/Category_Volumetric.png" width="80%"><a/></td>
-    <td markdown="span" align="center" width="33%"><a href="./testbeds.html"><img style="border:5px solid black;" src="../assets/images/Category_Testbeds.png" width="80%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./xr.html"><img style="border:5px solid black;" src="../assets/images/Category_XR.png" width="90%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./volumetric.html"><img style="border:5px solid black;" src="../assets/images/Category_Volumetric.png" width="90%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./testbeds.html"><img style="border:5px solid black;" src="../assets/images/Category_Testbeds.png" width="90%"><a/></td>
   </tr>
   <tr>
     <td markdown="span" align="center" width="33%">[eXtended Reality (XR): 3D Scenes and Avatar Communications](./xr.html){: .btn .btn-blue }</td>
@@ -33,9 +33,9 @@ has_children: true
   </tr>
     <td><br></td>
   <tr>
-    <td markdown="span" align="center" width="33%"><a href="./common-tools/index.html"><img style="border:5px solid black;" src="../assets/images/Category_CommonTools.png" width="80%"><a/></td>
-    <td markdown="span" align="center" width="33%"><a href="./3gpp-ran-and-core-platforms/index.html"><img style="border:5px solid black;" src="../assets/images/Category_3GPPPlatforms.png" width="80%"><a/></td>
-    <td markdown="span" align="center" width="33%"><a href="./external-tools/index.html"><img style="border:5px solid black;" src="../assets/images/Category_ExternalTools.png" width="80%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./common-tools/index.html"><img style="border:5px solid black;" src="../assets/images/Category_CommonTools.png" width="90%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./3gpp-ran-and-core-platforms/index.html"><img style="border:5px solid black;" src="../assets/images/Category_3GPPPlatforms.png" width="90%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./external-tools/index.html"><img style="border:5px solid black;" src="../assets/images/Category_ExternalTools.png" width="90%"><a/></td>
   </tr>
   <tr>
     <td markdown="span" align="center" width="33%">[Auxiliary Tools common to various projects](./common-tools/index.html){: .btn .btn-blue } [Latest Releases](./releases.html#auxiliary-tools-common-to-various-projects){: .btn .btn-blue }
