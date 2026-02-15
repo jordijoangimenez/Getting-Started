@@ -56,8 +56,10 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
   <tr>
     <td markdown="span" align="center" width="33%">[Auxiliary Tools common to various projects](./pages/common-tools/index.html){: .btn .btn-blue } [Latest Releases](./releases.html#auxiliary-tools-common-to-various-projects){: .btn .btn-blue }
 </td>
+    <td markdown="span" align="center">[3GPP RAN and Core Platforms](./pages/3gpp-ran-and-core-platforms/index.html){: .btn .btn-blue }</td>
     <td markdown="span" align="center" width="33%">[3GPP RAN and Core Platforms](./pages/3gpp-ran-and-core-platforms/index.html){: .btn .btn-blue }</td>
-
+  </tr>
+</table>
 # How can I join and contribute?
 
 [Guidelines for Contributors: Learn How to Contribute](./pages/guidelines-contributors.html){: .btn .btn-blue }
