@@ -1,13 +1,13 @@
 ---
 layout: default
-title: The Projects
-nav_order: 1
+title: All the Projects (A-Z)
+nav_order: 2
 has_children: true
 ---
 
 <img src="../assets/images/Banner_ReferenceTools.png" /> 
 
-# The 5G-MAG Reference Tools Projects
+# All the 5G-MAG Reference Tools Projects (A-Z)
 
 [How to use this documentation](./how-to-use.html){: .btn .btn-blue }
 
