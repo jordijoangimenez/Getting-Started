@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Software Releases
-parent: The Projects
-nav_order: 0
+nav_order: 1
 ---
 
 <img src="../assets/images/Banner_ReferenceTools.png" /> 
