@@ -11,7 +11,7 @@ has_children: true
 
 <table>
   <tr>
-    <td markdown="span" align="center"><a href="./3gpp-ran-and-core-platforms/"><img width="70%" style="border:5px solid black;" src="../assets/images/Reference_Tools_3GPP_Platforms.png"><a/></td>
+    <td markdown="span" align="center"><a href="./3gpp-ran-and-core-platforms/"><img width="70%" style="border:5px solid black;" src="../assets/images/Reference_Tools_3GPPPlatforms.png"><a/></td>
     <td markdown="span" align="center"><a href="./lte-based-5g-broadcast/"><img width="70%" style="border:5px solid black;" src="../assets/images/Reference_Tools_5G_Broadcast.png"><a/></td>
   </tr>
   <tr>
