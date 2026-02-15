@@ -8,9 +8,7 @@ has_children: true
 
 <img src="../assets/images/Banner_ReferenceTools.png" /> 
 
-# Focus Areas
-
-## Test-beds and Evaluation Frameworks
+# Test-beds and Evaluation Frameworks
 
 <table>
   <tr>
