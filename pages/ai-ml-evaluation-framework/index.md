@@ -1,7 +1,7 @@
 ---
 layout: default
 title: AI / ML Evaluation
-ancestor: The Projects
+parent: The Projects
 has_children: true
 nav_order: 11
 ---
