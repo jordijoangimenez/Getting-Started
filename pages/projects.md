@@ -1,6 +1,6 @@
 ---
 layout: default
-title: All the Projects (A-Z)
+title: The Projects
 nav_order: 3
 has_children: true
 ---
