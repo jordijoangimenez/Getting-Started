@@ -23,7 +23,7 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
   <li><b>Drive Global Adoption:</b> Through open-source software and tutorials, we empower users and creators to adopt and scale new technologies with confidence.</li>
 </ul>
 
-# What are the focus areas of the projects?
+# What are the domains covered by the projects?
 
 <table>
   <tr>
