@@ -1,8 +1,9 @@
 ---
 layout: default
 title: External Tools
+ancestor: The Projects
 has_children: false
-nav_order: 15
+nav_order: 16
 ---
 <img src="../../assets/images/Banner_ExternalTools.png" /> 
 
