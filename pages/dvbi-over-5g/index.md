@@ -3,7 +3,7 @@ layout: default
 title: DVB-I Services over 5G
 parent: The Projects
 has_children: true
-nav_order: 13
+nav_order: 11
 ---
 
 <img src="../../assets/images/Banner_DVBI.png" /> 
