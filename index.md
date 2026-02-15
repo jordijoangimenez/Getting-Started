@@ -61,7 +61,7 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
   </tr>
 </table>
       
-# How can I join and contribute?
+# Join us and Contribute!
 
 [Guidelines for Contributors: Learn How to Contribute](./pages/guidelines-contributors.html){: .btn .btn-blue }
 [Guidelines for Contributors: The Open-Source Software Licenses](./pages/guidelines-contributors.md#the-open-source-software-licenses){: .btn .btn-blue }
