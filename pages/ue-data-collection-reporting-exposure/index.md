@@ -3,7 +3,7 @@ layout: default
 title: UE Data Collection
 parent: The Projects
 has_children: true
-nav_order: 4
+nav_order: 13
 ---
 
 <img src="../../assets/images/Banner_UEDC.png" /> 
