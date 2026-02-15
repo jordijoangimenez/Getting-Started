@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Focus Areas
+parent: Domains of the Projects
 title: Streaming & Delivery
 nav_order: 0
 has_children: true
