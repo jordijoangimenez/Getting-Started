@@ -11,7 +11,7 @@ has_children: true
 
 <table>
   <tr>
-    <td markdown="span" align="center"><a href="./streaming.html"><img style="border:5px solid black;" src=".../assets/images/Category_Streaming.png" width="80%"><a/></td>
+    <td markdown="span" align="center"><a href="./streaming.html"><img style="border:5px solid black;" src="../assets/images/Category_Streaming.png" width="80%"><a/></td>
     <td markdown="span" align="center"><a href="./5gbroadcast.html"><img style="border:5px solid black;" src="../assets/images/Category_5GBroadcast.png" width="80%"><a/></td>
     <td markdown="span" align="center"><a href="./multicastbroadcast.html"><img style="border:5px solid black;" src="../assets/images/Category_Multicast.png" width="80%"><a/></td>
   </tr>
