@@ -3,7 +3,7 @@ layout: default
 title: 5G Multicast Broadcast Services
 parent: The Projects
 has_children: true
-nav_order: 7
+nav_order: 5
 ---
 
 <img src="../../assets/images/Banner_5MBS.png" /> 
