@@ -1,8 +1,9 @@
 ---
 layout: default
 title: AI / ML Evaluation
+ancestor: The Projects
 has_children: true
-nav_order: 10
+nav_order: 11
 ---
 
 <img src="../../assets/images/Banner_AIML.png" /> 
