@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: Focus Areas
-title: Streaming
+title: Streaming & Delivery
 nav_order: 0
 has_children: true
 ---
