@@ -1,7 +1,7 @@
 ---
 layout: default
 title: DVB-I Services over 5G
-ancestor: The Projects
+parent: The Projects
 has_children: true
 nav_order: 13
 ---
