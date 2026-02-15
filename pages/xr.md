@@ -2,7 +2,7 @@
 layout: default
 parent: Focus Areas
 title: XR & Avatar
-nav_order: 0
+nav_order:3
 has_children: true
 ---
 
