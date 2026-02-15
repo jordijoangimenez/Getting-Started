@@ -8,9 +8,7 @@ has_children: true
 
 <img src="../assets/images/Banner_ReferenceTools.png" /> 
 
-# Focus Areas
-
-## eXtended Reality (XR): 3D Scenes and Avatar Communications
+# eXtended Reality (XR): 3D Scenes and Avatar Communications
 
 <table>
   <tr>
