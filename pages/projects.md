@@ -1,8 +1,8 @@
 ---
 layout: default
 title: The Projects
-parent: Introduction
-nav_order: 0
+nav_order: 1
+has_children: true
 ---
 
 <img src="../assets/images/Banner_ReferenceTools.png" /> 
