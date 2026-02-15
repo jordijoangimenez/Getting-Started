@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Focus Areas
+title: Domains of the Projects
 nav_order: 2
 has_children: true
 ---
 
 <img src="../assets/images/Banner_ReferenceTools.png" /> 
 
-# Focus Areas
+# Domains of the Projects
 
 <table>
   <tr>
