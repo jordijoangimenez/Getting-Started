@@ -38,18 +38,9 @@ has_children: true
     <td markdown="span" align="center" width="33%"><a href="./external-tools/index.html"><img style="border:5px solid black;" src="../assets/images/Category_ExternalTools.png" width="80%"><a/></td>
   </tr>
   <tr>
-    <td markdown="span" align="center" width="33%">[Auxiliary Tools common to various projects](./projects.html#auxiliary-tools-common-to-various-projects){: .btn .btn-blue }</td>
-    <td markdown="span" align="center" width="33%">[3GPP RAN and Core Platforms](./projects.html#3gpp-ran-and-core-platforms){: .btn .btn-blue }</td>
-    <td markdown="span" align="center" width="33%">[External Tools from related projects](./projects.html#external-tools){: .btn .btn-blue }</td>
+    <td markdown="span" align="center" width="33%">[Auxiliary Tools common to various projects](./common-tools/index.html){: .btn .btn-blue } [Latest Releases](./releases.html#auxiliary-tools-common-to-various-projects){: .btn .btn-blue }
+</td>
+    <td markdown="span" align="center" width="33%">[3GPP RAN and Core Platforms](./3gpp-ran-and-core-platforms/index.html){: .btn .btn-blue }</td>
+    <td markdown="span" align="center" width="33%">[External Tools from related projects](./external-tools/index.html){: .btn .btn-blue }</td>
   </tr>
 </table>
-
-### Auxiliary tools common to various projects
-[Documentation](./common-tools/index.html){: .btn .btn-blue }
-[Latest Releases](./releases.html#auxiliary-tools-common-to-various-projects){: .btn .btn-blue }
-
-### 3GPP RAN and Core Platforms
-[Documentation](./3gpp-ran-and-core-platforms/index.html){: .btn .btn-blue }
-
-### External Tools
-[Documentation](./external-tools/index.html){: .btn .btn-blue }
