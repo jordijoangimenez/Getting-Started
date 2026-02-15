@@ -1,7 +1,6 @@
 ---
 layout: default
 title: External Tools
-parent: The Projects
 has_children: false
 nav_order: 4
 ---
