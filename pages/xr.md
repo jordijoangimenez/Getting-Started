@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Focus Areas
+parent: Domains of the Projects
 title: XR & Avatar
 nav_order: 3
 has_children: true
