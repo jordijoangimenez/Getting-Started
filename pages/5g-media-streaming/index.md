@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 5G Media Streaming
-parent: The Projects
+ancestor: The Projects
 has_children: true
 nav_order: 1
 ---
