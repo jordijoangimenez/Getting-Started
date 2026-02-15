@@ -3,7 +3,7 @@ layout: default
 title: 6G Testbed - AI Traffic
 parent: The Projects
 has_children: true
-nav_order: 17
+nav_order: 7
 ---
 
 <img src="../../assets/images/Banner_6GTestbedAITraffic.png" /> 
