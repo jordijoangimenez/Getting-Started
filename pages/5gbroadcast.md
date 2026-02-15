@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Focus Areas
+parent: Domains of the Projects
 title: 5G Broadacast
 nav_order: 1
 has_children: true
