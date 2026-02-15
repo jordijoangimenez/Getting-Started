@@ -1,7 +1,7 @@
 ---
 layout: default
 title: UE Data Collection
-ancestor: The Projects
+parent: The Projects
 has_children: true
 nav_order: 4
 ---
