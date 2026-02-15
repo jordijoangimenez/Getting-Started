@@ -27,9 +27,9 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
 
 <table>
   <tr>
-    <td markdown="span" align="center" width="33%"><a href="./pages/streaming.html"><img style="border:5px solid black;" src="./assets/images/Category_Streaming.png" width="80%"><a/></td>
-    <td markdown="span" align="center" width="33%"><a href="./pages/5gbroadcast.html"><img style="border:5px solid black;" src="./assets/images/Category_5GBroadcast.png" width="80%"><a/></td>
-    <td markdown="span" align="center" width="33%"><a href="./pages/multicastbroadcast.html"><img style="border:5px solid black;" src="./assets/images/Category_Multicast.png" width="80%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./pages/streaming.html"><img style="border:5px solid black;" src="./assets/images/Category_Streaming.png" width="95%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./pages/5gbroadcast.html"><img style="border:5px solid black;" src="./assets/images/Category_5GBroadcast.png" width="95%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./pages/multicastbroadcast.html"><img style="border:5px solid black;" src="./assets/images/Category_Multicast.png" width="95%"><a/></td>
   </tr>
   <tr>
     <td markdown="span" align="center" width="33%">[Streaming, Media Delivery and Data Analytics](./pages/streaming.html){: .btn .btn-blue }</td>
@@ -38,9 +38,9 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
   </tr>
     <td><br></td>
   <tr>
-    <td markdown="span" align="center" width="33%"><a href="./pages/xr.html"><img style="border:5px solid black;" src="./assets/images/Category_XR.png" width="80%"><a/></td>
-    <td markdown="span" align="center" width="33%"><a href="./pages/volumetric.html"><img style="border:5px solid black;" src="./assets/images/Category_Volumetric.png" width="80%"><a/></td>
-    <td markdown="span" align="center" width="33%"><a href="./pages/testbeds.html"><img style="border:5px solid black;" src="./assets/images/Category_Testbeds.png" width="80%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./pages/xr.html"><img style="border:5px solid black;" src="./assets/images/Category_XR.png" width="95%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./pages/volumetric.html"><img style="border:5px solid black;" src="./assets/images/Category_Volumetric.png" width="95%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./pages/testbeds.html"><img style="border:5px solid black;" src="./assets/images/Category_Testbeds.png" width="95%"><a/></td>
   </tr>
   <tr>
     <td markdown="span" align="center" width="33%">[eXtended Reality (XR): 3D Scenes and Avatar Communications](./pages/xr.html){: .btn .btn-blue }</td>
@@ -49,9 +49,9 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
   </tr>
     <td><br></td>
   <tr>
-    <td markdown="span" align="center" width="33%"><a href="./pages/common-tools/index.html"><img style="border:5px solid black;" src="./assets/images/Category_CommonTools.png" width="80%"><a/></td>
-    <td markdown="span" align="center" width="33%"><a href="./pages/3gpp-ran-and-core-platforms/index.html"><img style="border:5px solid black;" src="./assets/images/Category_3GPPPlatforms.png" width="80%"><a/></td>
-    <td markdown="span" align="center" width="33%"><a href="./pages/external-tools/index.html"><img style="border:5px solid black;" src="./assets/images/Category_ExternalTools.png" width="80%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./pages/common-tools/index.html"><img style="border:5px solid black;" src="./assets/images/Category_CommonTools.png" width="95%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./pages/3gpp-ran-and-core-platforms/index.html"><img style="border:5px solid black;" src="./assets/images/Category_3GPPPlatforms.png" width="95%"><a/></td>
+    <td markdown="span" align="center" width="33%"><a href="./pages/external-tools/index.html"><img style="border:5px solid black;" src="./assets/images/Category_ExternalTools.png" width="95%"><a/></td>
   </tr>
   <tr>
     <td markdown="span" align="center" width="33%">[Auxiliary Tools common to various projects](./pages/common-tools/index.html){: .btn .btn-blue } [Latest Releases](./releases.html#auxiliary-tools-common-to-various-projects){: .btn .btn-blue }
