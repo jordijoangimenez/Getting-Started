@@ -3,7 +3,7 @@ layout: default
 title: 5GC Service Consumers
 parent: The Projects
 has_children: true
-nav_order: 3
+nav_order: 6
 ---
 
 <img src="../../assets/images/Banner_5GC.png" /> 
