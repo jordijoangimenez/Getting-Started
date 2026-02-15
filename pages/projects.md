@@ -1,7 +1,7 @@
 ---
 layout: default
 title: All the Projects (A-Z)
-nav_order: 2
+nav_order: 3
 has_children: true
 ---
 
