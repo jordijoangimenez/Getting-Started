@@ -8,9 +8,7 @@ has_children: true
 
 <img src="../assets/images/Banner_ReferenceTools.png" /> 
 
-# Focus Areas
-
-## Volumetric Video and Beyond 2D Video Experiences
+# Volumetric Video and Beyond 2D Video Experiences
 
 <table>
   <tr>
