@@ -10,7 +10,7 @@ has_children: true
 
 # Focus Areas
 
-## Streaming, Media delivery and Data Collection
+## Streaming, Media Delivery and Data Collection
 
 <table>
   <tr>
