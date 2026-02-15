@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Multimedia Delivery Protocols
-ancestor: The Projects
+parent: The Projects
 has_children: true
 nav_order: 12
 ---
