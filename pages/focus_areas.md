@@ -5,7 +5,7 @@ nav_order: 2
 has_children: true
 ---
 
-<img src=".../assets/images/Banner_ReferenceTools.png" /> 
+<img src="../assets/images/Banner_ReferenceTools.png" /> 
 
 # Focus Areas
 
