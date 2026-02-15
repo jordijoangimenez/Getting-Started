@@ -3,7 +3,7 @@ layout: default
 title: 5G Broadcast - Emergency Alerts
 parent: The Projects
 has_children: true
-nav_order: 6
+nav_order: 3
 ---
 
 <img src="../../assets/images/Banner_5GBCEA.png" /> 
