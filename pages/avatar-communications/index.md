@@ -3,7 +3,7 @@ layout: default
 title: Avatar Communications
 parent: The Projects
 has_children: true
-nav_order: 16
+nav_order: 9
 ---
 
 <img src="../../assets/images/Banner_Avatar.png" /> 
