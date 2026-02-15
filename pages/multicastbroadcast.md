@@ -8,9 +8,7 @@ has_children: true
 
 <img src="../assets/images/Banner_ReferenceTools.png" /> 
 
-# Focus Areas
-
-## Multicast and Broadcast Services in 5G Networks
+# Multicast and Broadcast Services in 5G Networks
 
 <table>
   <tr>
