@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Focus Areas
+parent: Domains of the Projects
 title: Volumetric Video
 nav_order: 4
 has_children: true
