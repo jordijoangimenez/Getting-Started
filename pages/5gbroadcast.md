@@ -8,9 +8,7 @@ has_children: true
 
 <img src="../assets/images/Banner_ReferenceTools.png" /> 
 
-# Focus Areas
-
-## 5G Broadcast for TV, Radio and Emergency Alerts
+# 5G Broadcast for TV, Radio and Emergency Alerts
 
 <table>
   <tr>
