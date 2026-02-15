@@ -25,14 +25,14 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
 
 # What are the focus areas of the projects?
 
-<table width="80%">
+<table>
   <tr>
     <td markdown="span" align="center"><a href="./pages/projects.html#content-delivery-streaming-and-data-analytics"><img style="border:5px solid black;" src="./assets/images/Category_Streaming.png" width="80%"><a/></td>
     <td markdown="span" align="center"><a href="./pages/projects.html#5g-broadcast-for-tv-radio-and-emergency-alerts"><img style="border:5px solid black;" src="./assets/images/Category_5GBroadcast.png" width="80%"><a/></td>
     <td markdown="span" align="center"><a href="./pages/projects.html#multicast-and-broadcast-services-in-5g-networks"><img style="border:5px solid black;" src="./assets/images/Category_Multicast.png" width="80%"><a/></td>
   </tr>
   <tr>
-    <td markdown="span" align="center"><a href="./pages/projects.html#content-delivery-streaming-and-data-analytics"><b>Content delivery, Streaming and Data Analytics</b></td>
+    <td markdown="span" align="center">[Content delivery, Streaming and Data Analytics](./pages/projects.html#content-delivery-streaming-and-data-analytics){: .btn .btn-blue }</td>
     <td markdown="span" align="center"><a href="./pages/projects.html#5g-broadcast-for-tv-radio-and-emergency-alerts"><b>5G Broadcast for TV, Radio and Emergency Alerts</b></td>
     <td markdown="span" align="center"><a href="./pages/projects.html#multicast-and-broadcast-services-in-5g-networks"><b>Multicast and Broadcast Services in 5G Networks</b></td>
   </tr>
