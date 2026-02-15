@@ -8,9 +8,7 @@ has_children: true
 
 <img src="../assets/images/Banner_ReferenceTools.png" /> 
 
-# Focus Areas
-
-## Streaming, Media Delivery and Data Collection
+# Streaming, Media Delivery and Data Collection
 
 <table>
   <tr>
