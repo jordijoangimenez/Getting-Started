@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Avatar Communications
+ancestor: The Projects
 has_children: true
-nav_order: 15
+nav_order: 16
 ---
 
 <img src="../../assets/images/Banner_Avatar.png" /> 
