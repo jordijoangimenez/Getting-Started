@@ -52,8 +52,8 @@ callouts:
   important:
     title: Important
     color: green
-  new:
-    title: New
+  inshort:
+    title: In Short...
     color: blue
   note:
     title: Note
