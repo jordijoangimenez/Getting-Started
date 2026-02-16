@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Domains of the Projects
+parent: Application Domains
 title: Multicast Broadcast Services
 nav_order: 2
 has_children: true
