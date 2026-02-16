@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Domains of the Projects
+parent: Application Domains
 title: Volumetric Video
 nav_order: 4
 has_children: true
