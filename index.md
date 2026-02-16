@@ -43,7 +43,7 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
     <td markdown="span" align="center" width="33%"><a href="./pages/testbeds.html"><img style="border:5px solid black;" src="./assets/images/Category_Testbeds.png" width="95%"><a/></td>
   </tr>
   <tr>
-    <td markdown="span" align="center" width="33%">[eXtended Reality (XR): 3D Scenes and Avatar Communications](./pages/xr.html){: .btn .btn-blue }</td>
+    <td markdown="span" align="center" width="33%">[XR: 3D Scenes and Avatar Communications](./pages/xr.html){: .btn .btn-blue }</td>
     <td markdown="span" align="center" width="33%">[Volumetric Video and Beyond 2D Video Experiences](./pages/volumetric.html){: .btn .btn-blue }</td>
     <td markdown="span" align="center" width="33%">[Test-beds and Evaluation Frameworks](./pages/testbeds.html){: .btn .btn-blue }</td>
   </tr>
