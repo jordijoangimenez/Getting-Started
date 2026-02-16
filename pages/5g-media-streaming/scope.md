@@ -115,7 +115,7 @@ A functional 5GMSd implementation is available with the building blocks highligh
 
 The content hosting feature provides a service equivalent to a Content Delivery Network (CDN) deployed inside or outside the Trusted DN.
 
-<img src="./images/5GMS_ContentHosting.png" width="60%">
+<img src="./images/5GMS_ContentHosting.png">
 
 The following are the reference points and interactions according to 3GPP TS 26.510.
 
@@ -134,7 +134,7 @@ M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.ht
 
 The network assistance feature enables the 5GMS Client in the UE to interrogate or manipulate the network Quality of Service for an ongoing media streaming session. It defines two mechanisms for obtaining network assistance via interactions with the PCF (AF-based network assistance) or via ANBR signalling interactions between the UE modem and the RAN (ANBR-based network assistance). 
 
-<img src="./images/5GMS_NetworkAssistance.png" width="60%">
+<img src="./images/5GMS_NetworkAssistance.png">
 
 Both mechanisms allow to obtain:
 
@@ -159,7 +159,7 @@ M5 | 5.3.4 | [Network Assistance API](https://jdegre.github.io/loader.html?yaml=
 
 The dynamic policies feature enables the 5GMS Client in the UE to manipulate the network traffic handling policies for an ongoing media streaming session.
 
-<img src="./images/5GMS_DynamicPolicies.png" width="60%">
+<img src="./images/5GMS_DynamicPolicies.png">
 
 The following are the reference points and interactions according to 3GPP TS 26.510.
 
@@ -174,7 +174,7 @@ M5 | 5.3.3 | [Dynamic Policies API](https://jdegre.github.io/loader.html?yaml=TS
 
 The consumption reporting feature allows consumption of downlink media streaming to be logged by the 5GMS System and exposed for analysis.
 
-<img src="./images/5GMS_ConsumptionReporting.png" width="60%">
+<img src="./images/5GMS_ConsumptionReporting.png">
 
 The following are the reference points and interactions according to 3GPP TS 26.510.
 
@@ -189,7 +189,7 @@ M5 | 5.3.6| [Consumption Reporting API](https://jdegre.github.io/loader.html?yam
 
 The QoE metrics reporting feature enables the 5GMS System to log and expose streaming performance data for further analysis.
 
-<img src="./images/5GMS_MetricsReporting.png" width="60%">
+<img src="./images/5GMS_MetricsReporting.png">
 
 The framework defines two distinct reporting paths:
 
