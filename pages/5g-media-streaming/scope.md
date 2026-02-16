@@ -56,19 +56,6 @@ The main functional entities are:
 
 * **5GMSd-Aware Application**: An external app (e.g., a streaming service) that holds the provider's specific logic. Uses standardized APIs to initiate and manage media sessions.
 
-The 5GMSd Client may include several subfunctions which are depicted below:
-
-<table>
-  <tr>
-    <td markdown="span" align="center" style="width:40%"><img src="./images/5GMS_MediaPlayer.png" width="60%"><a/></td>
-    <td markdown="span" align="center" style="width:40%"><img src="./images/5GMS_MediaSessionHandler.png" width="60%"><a/></td>
-  </tr>
-  <tr>
-    <td markdown="span" align="center">Subfunctions of the Media Player</td>
-    <td markdown="span" align="center">Subfunctions of the Media Session Handler</td>
-  </tr>
-</table>
-
 ### Interfaces for 5GMSd
 
 The interfaces are:
