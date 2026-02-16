@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 3GPP RAN and Core Platforms
+title: 3GPP RAN and Core
 parent: The Projects
 has_children: true
 nav_order: 1
