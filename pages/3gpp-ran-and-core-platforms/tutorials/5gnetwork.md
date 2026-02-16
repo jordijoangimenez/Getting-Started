@@ -7,7 +7,7 @@ has_children: false
 nav_order: 1
 ---
 
-# Tutorial - 5G Network with COTS UE
+# Tutorial - 5G Network with Open5GS, srsRAN and COTS UE
 
 ## Introduction
 
