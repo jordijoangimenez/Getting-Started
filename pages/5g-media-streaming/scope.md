@@ -43,7 +43,7 @@ The functional entities of 5G Media Streaming, instantiated for 5G Unicast Downl
 
 [Check this Tutorial to deploy 5GMSd end-to-end](./tutorials/end-to-end.html){: .btn .btn-blue }
 
-[Check this Tutorial to deploy 5GMSd end-to-end including a 5G Network](/tutorials/end-to-end-with-5g.html){: .btn .btn-blue }
+[Check this Tutorial to deploy 5GMSd end-to-end including a 5G Network](./tutorials/end-to-end-with-5g.html){: .btn .btn-blue }
 
 [Obtain the code in GitHub](./repositories.html){: .btn .btn-github }
 
