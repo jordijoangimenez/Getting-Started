@@ -45,7 +45,13 @@ The following libraries are available:
 * This library implements the service consumer end of the following service-based APIs:
   * `Npcf_PolicyAuthorization`
 
-[Check this Tutorial](./tutorials/using-libscBSF.html){: .btn .btn-blue }
+[Check this Tutorial](./tutorials/using-libscPCF.html){: .btn .btn-blue }
+
+### Command line tool: pcf-policyauthorization
+
+The **pcf-policyauthorization** tool manipulates the network Quality of Service parameters of Application Session Contexts in the PCF by using the PCF service consumer library to invoke operations on the `Npcf_PolicyAuthorization` service API.
+
+The PCF address can be explicitly specified at the command line if this is already known. Alternatively, the tool can also use the BSF service consumer library to look up which PCF instance is managing the PDU Session of interest ( based on the IP address of a UE registered with the AMF).
 
 ---
 
@@ -66,6 +72,14 @@ The following libraries are available:
   * `Nmbsmf_MBSSession`
 
 [Check this Tutorial](./tutorials/using-libscMBSMF.html){: .btn .btn-blue }
+
+### Command line tool: tmgi-tool
+
+The **tmgi-tool** provides a simple command line interface to either request the creation or destruction of a TMGI using the interfaces provided by the MB-SMF service consumer library to invoke operations on the Nmbsmf_TMGI service API.
+
+### Command line tool: mbs-service-tool
+
+The **mbs-service-tool** can register an MBS Session and will then wait for notifications for that MBS Session. It does this by using the interfaces provided by the MB-SMF service consumer library to invoke operations on the Nmbsmf_MBSSession service API.
 
 ## 5G Downlink Media Streaming (5GMSd) with 5GC Service Consumers
 
