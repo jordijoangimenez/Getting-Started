@@ -8,7 +8,7 @@ nav_order: 0
 
 <img src="../../assets/images/Banner_5GMS.png" /> 
 
-[Scope](./scope.html){: .btn .btn-blue } [Project Roadmap](./projects.html){: .btn .btn-blue } [GitHub Repos](./repositories.html){: .btn .btn-github } [Releases](../releases.html#project-5g-media-streaming){: .btn .btn-release } [Tutorials](./tutorials.html){: .btn .btn-blue } [Requirements](./requirements.html){: .btn .btn-blue }
+[Scope](./scope.html){: .btn .btn-blue } [Project Roadmap](./projects.html){: .btn .btn-blue } [GitHub Repos](./repositories.html){: .btn .btn-github } [Releases](../releases.html#project-5g-media-streaming){: .btn .btn-release } [Tutorials](./tutorials.html){: .btn .btn-tutorial } [Requirements](./requirements.html){: .btn .btn-blue }
 
 # Scope
 
@@ -99,17 +99,17 @@ A functional 5GMSd implementation is available with the building blocks highligh
 
 [Check this Tutorial to deploy 5GMSd end-to-end](./tutorials/end-to-end.html){: .btn .btn-tutorial }
 
-[Check this Tutorial to deploy 5GMSd end-to-end including a 5G Network](./tutorials/end-to-end-with-5g.html){: .btn .btn-blue }
+[Check this Tutorial to deploy 5GMSd end-to-end including a 5G Network](./tutorials/end-to-end-with-5g.html){: .btn .btn-tutorial }
 
-[Check this Tutorial to test the 5GMS Application Function](./tutorials/testing-AS.html){: .btn .btn-blue }
+[Check this Tutorial to test the 5GMS Application Function](./tutorials/testing-AS.html){: .btn .btn-tutorial }
 
-[Check this Tutorial to deploy 5GMSd end-to-end including a 5G Network](./tutorials/testing-AF.html){: .btn .btn-blue }
+[Check this Tutorial to deploy 5GMSd end-to-end including a 5G Network](./tutorials/testing-AF.html){: .btn .btn-tutorial }
 
 ### Feature: Content Hosting
 
 [Obtain the code in GitHub](./repositories.html){: .btn .btn-github }
 
-[Check this Tutorial to create an example Content Hosting Configuration](./tutorials/Content_Hosting.html){: .btn .btn-blue }
+[Check this Tutorial to create an example Content Hosting Configuration](./tutorials/Content_Hosting.html){: .btn .btn-tutorial }
 
 The content hosting feature provides a service equivalent to a Content Delivery Network (CDN) deployed inside or outside the Trusted DN.
 
