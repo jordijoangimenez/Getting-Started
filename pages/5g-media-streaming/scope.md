@@ -104,7 +104,13 @@ Data collection, reporting and exposure | 3GPP TS 26.501 5.11 | 3GPP TS 26.510 +
 {: .inshort }
 The functional entities of 5G Media Streaming, instantiated for 5G Unicast Downlink Media Streaming (5GMSd), including support for various of the features specified.
 
+### Implementing 5G Unicast Downlink Media Streaming (5GMSd)
+
+A functional 5GMSd implementation is available with the building blocks highlighted with the green tick below.
+
 <img src="./images/5GMS_Downlink_RT.png">
+
+[Obtain the code in GitHub](./repositories.html){: .btn .btn-github }
 
 [Check this Tutorial to deploy 5GMSd end-to-end](./tutorials/end-to-end.html){: .btn .btn-blue }
 
@@ -114,20 +120,17 @@ The functional entities of 5G Media Streaming, instantiated for 5G Unicast Downl
 
 [Check this Tutorial to deploy 5GMSd end-to-end including a 5G Network](./tutorials/testing-AF.html){: .btn .btn-blue }
 
-[Obtain the code in GitHub](./repositories.html){: .btn .btn-github }
-
 ### Feature: Content Hosting
+
+[Obtain the code in GitHub](./repositories.html){: .btn .btn-github }
 
 [Check this Tutorial to create an example Content Hosting Configuration](./tutorials/Content_Hosting.html){: .btn .btn-blue }
 
-[Obtain the code in GitHub](./repositories.html){: .btn .btn-github }
-
-### Description
 The content hosting feature provides a service equivalent to a Content Delivery Network (CDN) deployed inside or outside the Trusted DN.
 
 <img src="./images/5GMS_ContentHosting.png" width="60%">
 
-### Reference points and interactions (according to 3GPP TS 26.510)
+The following are the reference points and interactions according to 3GPP TS 26.510.
 
 Reference Point | Interactions | API Name | Description
 --- | --- | --- | ---
@@ -142,7 +145,6 @@ M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.ht
 
 ## Feature: Network Assistance
 
-### Description
 The network assistance feature enables the 5GMS Client in the UE to interrogate or manipulate the network Quality of Service for an ongoing media streaming session. It defines two mechanisms for obtaining network assistance via interactions with the PCF (AF-based network assistance) or via ANBR signalling interactions between the UE modem and the RAN (ANBR-based network assistance). 
 
 <img src="./images/5GMS_NetworkAssistance.png" width="60%">
@@ -159,7 +161,7 @@ Both mechanisms allow to obtain:
   * The Action: If the network has spare capacity, the boost is granted. The client uses this "boost" of speed to quickly refill a depleted buffer or finish a large file transfer faster.
   * The Benefit: It helps the user recover from potential playback interruptions or speeds up time-sensitive data tasks.
 
-### Reference points and interactions (according to 3GPP TS 26.510)
+The following are the reference points and interactions according to 3GPP TS 26.510.
 
 Reference Point | Interactions | API Name | Description
 --- | --- | --- | ---
@@ -168,12 +170,11 @@ M5 | 5.3.4 | [Network Assistance API](https://jdegre.github.io/loader.html?yaml=
 
 ## Feature: Dynamic Policies
 
-### Description
 The dynamic policies feature enables the 5GMS Client in the UE to manipulate the network traffic handling policies for an ongoing media streaming session.
 
 <img src="./images/5GMS_DynamicPolicies.png" width="60%">
 
-### Reference points and interactions (according to 3GPP TS 26.510)
+The following are the reference points and interactions according to 3GPP TS 26.510.
 
 Reference Point | Interactions | API Name | Description
 --- | --- | --- | ---
@@ -184,15 +185,11 @@ M5 | 5.3.3 | [Dynamic Policies API](https://jdegre.github.io/loader.html?yaml=TS
 
 ## Feature: Consumption Reporting
 
-{: .referencetools }
-Go to the [5G Media Streaming Project](https://hub.5g-mag.com/Getting-Started/pages/5g-media-streaming/)
-
-### Description
 The consumption reporting feature allows consumption of downlink media streaming to be logged by the 5GMS System and exposed for analysis.
 
 <img src="./images/5GMS_ConsumptionReporting.png" width="60%">
 
-### Reference points and interactions (according to 3GPP TS 26.510)
+The following are the reference points and interactions according to 3GPP TS 26.510.
 
 Reference Point | Interactions | API Name | API
 --- | --- | --- | ---
@@ -202,11 +199,6 @@ M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.ht
 M5 | 5.3.6| [Consumption Reporting API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ConsumptionReporting.yaml) | 9.6
 
 ## Feature: QoE Metrics Reporting
-
-{: .referencetools }
-Go to the [5G Media Streaming Project](https://hub.5g-mag.com/Getting-Started/pages/5g-media-streaming/)
-
-### Description
 
 The QoE metrics reporting feature enables the 5GMS System to log and expose streaming performance data for further analysis.
 
@@ -218,7 +210,7 @@ The framework defines two distinct reporting paths:
 
 * AF-based Reporting: Metrics are sent directly to the network-side components (AF) of the 5GMS System.
 
-### Reference points and interactions (according to 3GPP TS 26.510)
+The following are the reference points and interactions according to 3GPP TS 26.510.
 
 Reference Point | Interactions | API Name | API
 --- | --- | --- | ---
@@ -229,15 +221,10 @@ M5 | 5.3.5 | [Metrics Reporting API](https://jdegre.github.io/loader.html?yaml=T
 
 ## Feature: Data collection, reporting and exposure (TS 26.510)
 
-{: .referencetools }
-Go to the [5G Media Streaming Project](https://hub.5g-mag.com/Getting-Started/pages/5g-media-streaming/) and the [UE Data Collection, Reporting and Event Exposure Project](https://hub.5g-mag.com/Getting-Started/pages/ue-data-collection-reporting-exposure/)
-
-### Description
-
 The data collection, reporting and exposure feature enables the 5GMS System to log data relating to media streaming sessions and to expose this to 
 subscribers in the form of Events.
 
-### Reference points and interactions (according to 3GPP TS 26.510)
+The following are the reference points and interactions according to 3GPP TS 26.510.
 
 Reference Point | Interactions | API Name | API
 --- | --- | --- | ---
