@@ -8,7 +8,7 @@ nav_order: 0
 
 <img src="../../assets/images/Banner_5GC.png" /> 
 
-[Scope](./scope.html){: .btn .btn-blue } [Project Roadmap](./projects.html){: .btn .btn-blue } [GitHub Repos](./repositories.html){: .btn .btn-github } [Releases](../releases.html#project-5g-core-service-consumers){: .btn .btn-release } [Tutorials](./tutorials.html){: .btn .btn-blue } [Requirements](./requirements.html){: .btn .btn-blue }
+[Scope](./scope.html){: .btn .btn-blue } [Project Roadmap](./projects.html){: .btn .btn-blue } [GitHub Repos](./repositories.html){: .btn .btn-github } [Releases](../releases.html#project-5g-core-service-consumers){: .btn .btn-release } [Tutorials](./tutorials.html){: .btn .btn-tutorial } [Requirements](./requirements.html){: .btn .btn-blue }
 
 # Scope
 
@@ -25,7 +25,7 @@ A series of reusable service consumer libraries to invoke service operations on 
 
 Within the context of 5G Media Streaming, the 5GMS AF needs to communicate with the 5G Core in order to manipulate network Quality of Service (QoS) for ongoing media streaming sessions.
 
-<img src="./images/context_5gms.png">
+<img src="../../assets/images/5gcsc/5GCSC_libscbsf_libscpcf.png">
 
 The following libraries are available:
 * **libscbsf** - Binding Support Function (BSF) service consumer library
@@ -33,7 +33,7 @@ The following libraries are available:
 
 ## libscbsf - Binding Support Function (BSF) service consumer library
 
-[Obtain the code in GitHub](./repositories.html){: .btn .btn-github }
+[To the GitHub Repos](./repositories.html){: .btn .btn-github }
 
 * Responsible for maintaining a mapping between UE PDU Session and the PCF which is managing that PDU Session.
 * The `libscbsf` library aids in discovery of the BSF in the 5G Core (by interrogating the NRF) and subsequently looking up which PCF is managing the PDU Session for a UE, identified by its IP address.
@@ -42,9 +42,9 @@ The following libraries are available:
 
 ## libscpcf - Policy Control Function (PCF) service consumer library
 
-[Check this Tutorial to test libscpcf](./tutorials/using-libscPCF.html){: .btn .btn-blue }
+[To the GitHub Repos](./repositories.html){: .btn .btn-github }
 
-[Obtain the code in GitHub](./repositories.html){: .btn .btn-github }
+[Tutorial: Test libscpcf](./tutorials/using-libscPCF.html){: .btn .btn-tutorial }
 
 * Responsible for applying charging and network policy to the PDU sessions of UEs. The `Npcf_PolicyAuthorization` service API is used at reference point N5 by an Application Function (AF) to request policy changes to the PDU session on behalf of the UE. This allows an Application Function to manipulate particular network QoS parameters for selected IP traffic flows within the PDU session.
 * The `libscpcf` library allows an application to connect to a PCF and request an `AppSessionContext` which it can then use to manipulate the network routing policies for traffic passing across specific application flows within a UE's PDU Session.
@@ -61,16 +61,16 @@ The PCF address can be explicitly specified at the command line if this is alrea
 
 Within the context of 5G Multicast/Broadcast Services (MBS), the Multicast/Broadcast Session Management Function (MB-SMF) is responsible for allocating and deallocating Temporary Mobile Group Identities (TMGIs) and for the management of Multicast/Broadcast Services on the Multicast/Broadcast User Plane Function (MB-UPF).
 
-<img src="./images/context_mbs.png">
+<img src="../../assets/images/5gcsc/5GCSC_libscmbsmf.png">
 
 The following libraries are available:
 * **libscmbsmf** - Multicast/Broadcast Session Management Function (MB-SMF) service consumer library
 
 ## libscmbsmf - Multicast/Broadcast Session Management Function (MB-SMF) service consumer library
 
-[Check this Tutorial to test libscmbsmf](./tutorials/using-libscMBSMF.html){: .btn .btn-blue }
+[To the GitHub Repos](./repositories.html){: .btn .btn-github }
 
-[Obtain the code in GitHub](./repositories.html){: .btn .btn-github }
+[Tutorial: Test libscmbsmf](./tutorials/using-libscMBSMF.html){: .btn .btn-tutorial }
 
 * Responsible for allocating and deallocating Temporary Mobile Group Identities (`TMGIs`) and for the management of Multicast/Broadcast Services (`MBS`) on the Multicast/Broadcast User Plane Function (`MB-UPF`).
 * The `Nmbsmf_TMGI` service API is used at reference point `Nmb1` for the allocation and deallocation of `TMGIs`, and the `Nmbsmf_MBSSession` service API is used to reference point `Nmb1` for the creation, modification and destruction of MBS Sessions and for the management of notification subscriptions to events arising on those MBS Sessions.
