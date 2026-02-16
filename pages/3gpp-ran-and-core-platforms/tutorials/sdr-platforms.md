@@ -2,7 +2,7 @@
 layout: default
 title: SDR for 5G Broadcast
 parent: Tutorials
-grand_parent: 3GPP RAN and Core Platforms
+grand_parent: 3GPP RAN and Core
 has_children: false
 nav_order: 0
 ---
