@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Scope
-title: 3GPP RAN and Core
+parent: 3GPP RAN and Core
 has_children: false
 nav_order: 0
 ---
