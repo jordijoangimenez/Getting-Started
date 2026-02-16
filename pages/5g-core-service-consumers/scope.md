@@ -33,6 +33,8 @@ The following libraries are available:
 
 ## libscbsf - Binding Support Function (BSF) service consumer library
 
+[Obtain the software](./repositories.html){: .btn .btn-github }
+
 * Responsible for maintaining a mapping between UE PDU Session and the PCF which is managing that PDU Session.
 * The `libscbsf` library aids in discovery of the BSF in the 5G Core (by interrogating the NRF) and subsequently looking up which PCF is managing the PDU Session for a UE, identified by its IP address.
 * This library implements the service consumer end of the following service-based APIs:
@@ -40,13 +42,13 @@ The following libraries are available:
 
 ## libscpcf - Policy Control Function (PCF) service consumer library
 
+[Check this Tutorial](./tutorials/using-libscPCF.html){: .btn .btn-blue }
+[Obtain the software](./repositories.html){: .btn .btn-github }
+
 * Responsible for applying charging and network policy to the PDU sessions of UEs. The `Npcf_PolicyAuthorization` service API is used at reference point N5 by an Application Function (AF) to request policy changes to the PDU session on behalf of the UE. This allows an Application Function to manipulate particular network QoS parameters for selected IP traffic flows within the PDU session.
 * The `libscpcf` library allows an application to connect to a PCF and request an `AppSessionContext` which it can then use to manipulate the network routing policies for traffic passing across specific application flows within a UE's PDU Session.
 * This library implements the service consumer end of the following service-based APIs:
   * `Npcf_PolicyAuthorization`
-
-[Check this Tutorial](./tutorials/using-libscPCF.html){: .btn .btn-blue }
-[Obtain the software](./repositories.html){: .btn .btn-github }
 
 ### Command line tool: pcf-policyauthorization
 
@@ -65,15 +67,15 @@ The following libraries are available:
 
 ## libscmbsmf - Multicast/Broadcast Session Management Function (MB-SMF) service consumer library
 
+[Check this Tutorial](./tutorials/using-libscMBSMF.html){: .btn .btn-blue }
+[Obtain the software](./repositories.html){: .btn .btn-github }
+
 * Responsible for allocating and deallocating Temporary Mobile Group Identities (`TMGIs`) and for the management of Multicast/Broadcast Services (`MBS`) on the Multicast/Broadcast User Plane Function (`MB-UPF`).
 * The `Nmbsmf_TMGI` service API is used at reference point `Nmb1` for the allocation and deallocation of `TMGIs`, and the `Nmbsmf_MBSSession` service API is used to reference point `Nmb1` for the creation, modification and destruction of MBS Sessions and for the management of notification subscriptions to events arising on those MBS Sessions.
 * The `libscmbsmf` library provides a simple create/destroy interface for `TMGI` management and an MBS Session and notifications subscriptions model for management of MBS Sessions.
 * This library implements the service consumer end of the following service-based APIs:
   * `Nmbsmf_TMGI`
   * `Nmbsmf_MBSSession`
-
-[Check this Tutorial](./tutorials/using-libscMBSMF.html){: .btn .btn-blue }
-[Obtain the software](./repositories.html){: .btn .btn-github }
 
 ### Command line tool: tmgi-tool
 
