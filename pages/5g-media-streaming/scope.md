@@ -42,7 +42,9 @@ The functional entities of 5G Media Streaming, instantiated for 5G Unicast Downl
 ### 5G Unicast Downlink Media Streaming (5GMSd)
 
 [Check this Tutorial to deploy 5GMSd end-to-end](./tutorials/end-to-end.html){: .btn .btn-blue }
+
 [Check this Tutorial to deploy 5GMSd end-to-end including a 5G Network](/tutorials/end-to-end-with-5g.html){: .btn .btn-blue }
+
 [Obtain the code in GitHub](./repositories.html){: .btn .btn-github }
 
 To deliver downlink streaming services, the network is the origin of the media and the UE acts as the consumption device.
