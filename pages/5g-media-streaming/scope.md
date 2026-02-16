@@ -16,7 +16,7 @@ In the context of 3GPP standards, 5G Media Streaming (5GMS) is defined as a fram
 
 5GMS is not a separate network but a functional extension of the standard 5G System Architecture. It is the bridge that allows 5G networks to move away from being a "data pipe" and instead become an active, optimized platform for professional and user-generated media content.
 
-<img src="./images/5GMS_General.png">
+<img src="../../assets/images/5gms/5GMS_General.png">
 
 The main functional entities are:
 
@@ -36,7 +36,7 @@ A list of relevant specifications can be found in the link below.
 
 To deliver downlink streaming services, the network is the origin of the media and the UE acts as the consumption device.
  
-<img src="./images/5GMS_Downlink.png">
+<img src="../../assets/images/5gms/5GMS_Downlink.png">
 
 The main functional entities are:
 
@@ -100,7 +100,7 @@ The functional entities of 5G Media Streaming, instantiated for 5G Unicast Downl
 
 A functional 5GMSd implementation is available with the building blocks highlighted with the green tick below.
 
-<img src="./images/5GMS_Downlink_RT.png">
+<img src="../../assets/images/5gms/5GMS_Downlink_RT.png">
 
 [To the GitHub Repos](./repositories.html){: .btn .btn-github }
 
@@ -118,7 +118,7 @@ A functional 5GMSd implementation is available with the building blocks highligh
 
 The content hosting feature provides a service equivalent to a Content Delivery Network (CDN) deployed inside or outside the Trusted DN.
 
-<img src="./images/5GMS_ContentHosting.png">
+<img src="../../assets/images/5gms/5GMS_ContentHosting.png">
 
 The following are the reference points and interactions and APIs according to 3GPP TS 26.510.
 
@@ -139,7 +139,7 @@ M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.ht
 
 The network assistance feature enables the 5GMS Client in the UE to interrogate or manipulate the network Quality of Service for an ongoing media streaming session. It defines two mechanisms for obtaining network assistance via interactions with the PCF (AF-based network assistance) or via ANBR signalling interactions between the UE modem and the RAN (ANBR-based network assistance). 
 
-<img src="./images/5GMS_NetworkAssistance.png">
+<img src="../../assets/images/5gms/5GMS_NetworkAssistance.png">
 
 Both mechanisms allow to obtain:
 
@@ -166,7 +166,7 @@ M5 | 5.3.4 | [Network Assistance API](https://jdegre.github.io/loader.html?yaml=
 
 The dynamic policies feature enables the 5GMS Client in the UE to manipulate the network traffic handling policies for an ongoing media streaming session.
 
-<img src="./images/5GMS_DynamicPolicies.png">
+<img src="../../assets/images/5gms/5GMS_DynamicPolicies.png">
 
 The following are the reference points and interactions and APIs according to 3GPP TS 26.510.
 
@@ -185,7 +185,7 @@ M5 | 5.3.3 | [Dynamic Policies API](https://jdegre.github.io/loader.html?yaml=TS
 
 The consumption reporting feature allows consumption of downlink media streaming to be logged by the 5GMS System and exposed for analysis.
 
-<img src="./images/5GMS_ConsumptionReporting.png">
+<img src="../../assets/images/5gms/5GMS_ConsumptionReporting.png">
 
 The following are the reference points and interactions and APIs according to 3GPP TS 26.510.
 
@@ -204,7 +204,7 @@ M5 | 5.3.6| [Consumption Reporting API](https://jdegre.github.io/loader.html?yam
 
 The QoE metrics reporting feature enables the 5GMS System to log and expose streaming performance data for further analysis.
 
-<img src="./images/5GMS_MetricsReporting.png">
+<img src="../../assets/images/5gms/5GMS_MetricsReporting.png">
 
 The framework defines two distinct reporting paths:
 
