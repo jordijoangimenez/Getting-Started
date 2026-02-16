@@ -19,13 +19,15 @@ The 5G Core presents several Network Functions, each of which has its own set of
 {: .inshort }
 A series of reusable service consumer libraries to invoke service operations on various 5GC network functions.
 
-Within the scope of 5G Media Streaming, the 5GMS AF needs to communicate with the 5G Core in order to manipulate network Quality of Service (QoS) for ongoing media streaming sessions.
+Within the context of 5G Media Streaming, the 5GMS AF needs to communicate with the 5G Core in order to manipulate network Quality of Service (QoS) for ongoing media streaming sessions.
+
+<img src="./images/context_5gms.png">
 
 The following libraries are available:
 * **libscbsf** - Binding Support Function (BSF) service consumer library
 * **libscpcf** - Policy Control Function (PCF) service consumer library
 
-Within the scope of 5G Multicast/Broadcast Services (MBS), the Multicast/Broadcast Session Management Function (MB-SMF) is responsible for allocating and deallocating Temporary Mobile Group Identities (TMGIs) and for the management of Multicast/Broadcast Services on the Multicast/Broadcast User Plane Function (MB-UPF).
+Within the context of 5G Multicast/Broadcast Services (MBS), the Multicast/Broadcast Session Management Function (MB-SMF) is responsible for allocating and deallocating Temporary Mobile Group Identities (TMGIs) and for the management of Multicast/Broadcast Services on the Multicast/Broadcast User Plane Function (MB-UPF).
 
 The following libraries are available:
 * **libscmbsmf** - Multicast/Broadcast Session Management Function (MB-SMF) service consumer library
