@@ -46,6 +46,7 @@ The following libraries are available:
   * `Npcf_PolicyAuthorization`
 
 [Check this Tutorial](./tutorials/using-libscPCF.html){: .btn .btn-blue }
+[Obtain the codel](./repositories.html){: .btn .btn-github }
 
 ### Command line tool: pcf-policyauthorization
 
@@ -72,6 +73,7 @@ The following libraries are available:
   * `Nmbsmf_MBSSession`
 
 [Check this Tutorial](./tutorials/using-libscMBSMF.html){: .btn .btn-blue }
+[Obtain the codel](./repositories.html){: .btn .btn-github }
 
 ### Command line tool: tmgi-tool
 
