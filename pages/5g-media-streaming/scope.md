@@ -82,7 +82,14 @@ Feature | Description | Procedure | APIs
 **QoE metrics reporting** | 3GPP TS 26.501 4.0.9 | 3GPP TS 26.501 5.5 | 3GPP TS 26.510 + 26.512
 **Edge processing** | 3GPP TS 26.501 4.0.10 | 3GPP TS 26.501 8 | 3GPP TS 26.510 + 26.512
 **eMBMS delivery** | 3GPP TS 26.501 4.0.11 | 3GPP TS 26.501 5.10 | 3GPP TS 26.510 + 26.512
-**Data collection, reporting and exposure** | 3GPP TS 26.501 5.11 | 3GPP TS 26.510 + 26.512
+**Data collection, reporting and exposure** | 3GPP TS 26.501 4.0.12 | 3GPP TS 26.501 5.11 | 3GPP TS 26.510 + 26.512
+
+## Creation of Provisioning Session
+Note that before the required features of the 5GMS System can be used by 5GMS Clients, they are first provisioned by a 5GMS Application Provider creating one or more _Provisioning Sessions_. The 5GMSd Application Provider can then specify one or more 5GMSd features in the Provisioning Session. 
+
+## Retrieval of Service Access Information
+The Service Access Information is the set of parameters and addresses which are needed by the 5GMSd Client to activate and control the reception of a downlink streaming session, and to report service/content consumption and/or QoE metrics. 
+The Service Access Information may be provided together with other service announcement information using M8d. Alternatively, the 5GMSd Client fetches the Service Access Information from the 5GMSd AF.
 
 # What is being implemented? 
 
@@ -101,15 +108,13 @@ A functional 5GMSd implementation is available with the building blocks highligh
 
 [Tutorial: Deploy 5GMSd end-to-end including a 5G Network](./tutorials/end-to-end-with-5g.html){: .btn .btn-tutorial }
 
-[Tutorial: Test the 5GMS Application Function](./tutorials/testing-AF.html){: .btn .btn-tutorial }
-
-[Tutorial: Test the 5GMS Application Server](./tutorials/testing-AS.html){: .btn .btn-tutorial }
-
 ## Feature: Content Hosting
 
 [To the GitHub Repos](./repositories.html){: .btn .btn-github }
 
-[Tutorial: Create a Content Hosting Configuration](./tutorials/Content_Hosting.html){: .btn .btn-tutorial }
+[Tutorial: Test the 5GMS Application Function](./tutorials/testing-AF.html){: .btn .btn-tutorial }
+
+[Tutorial: Test the 5GMS Application Server](./tutorials/testing-AS.html){: .btn .btn-tutorial }
 
 The content hosting feature provides a service equivalent to a Content Delivery Network (CDN) deployed inside or outside the Trusted DN.
 
@@ -131,8 +136,6 @@ M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.ht
 ## Feature: Network Assistance
 
 [To the GitHub Repos](./repositories.html){: .btn .btn-github }
-
-[Tutorial: Create an example Content Hosting Configuration](./tutorials/Content_Hosting.html){: .btn .btn-tutorial }
 
 The network assistance feature enables the 5GMS Client in the UE to interrogate or manipulate the network Quality of Service for an ongoing media streaming session. It defines two mechanisms for obtaining network assistance via interactions with the PCF (AF-based network assistance) or via ANBR signalling interactions between the UE modem and the RAN (ANBR-based network assistance). 
 
@@ -161,8 +164,6 @@ M5 | 5.3.4 | [Network Assistance API](https://jdegre.github.io/loader.html?yaml=
 
 [To the GitHub Repos](./repositories.html){: .btn .btn-github }
 
-[Tutorial: Create an example Content Hosting Configuration](./tutorials/Content_Hosting.html){: .btn .btn-tutorial }
-
 The dynamic policies feature enables the 5GMS Client in the UE to manipulate the network traffic handling policies for an ongoing media streaming session.
 
 <img src="./images/5GMS_DynamicPolicies.png">
@@ -180,7 +181,7 @@ M5 | 5.3.3 | [Dynamic Policies API](https://jdegre.github.io/loader.html?yaml=TS
 
 [To the GitHub Repos](./repositories.html){: .btn .btn-github }
 
-[Tutorial: Deploy 5GMSd with Consumption Reporting](./tutorials/Content_Hosting.html){: .btn .btn-tutorial }
+[Tutorial: Deploy 5GMSd with Consumption Reporting](./tutorials/consumption-reporting.html){: .btn .btn-tutorial }
 
 The consumption reporting feature allows consumption of downlink media streaming to be logged by the 5GMS System and exposed for analysis.
 
@@ -199,7 +200,7 @@ M5 | 5.3.6| [Consumption Reporting API](https://jdegre.github.io/loader.html?yam
 
 [To the GitHub Repos](./repositories.html){: .btn .btn-github }
 
-[Tutorial: Deploy 5GMSd with QoE Metrics Reporting](./tutorials/Content_Hosting.html){: .btn .btn-tutorial }
+[Tutorial: Deploy 5GMSd with QoE Metrics Reporting](./tutorials/metrics-reporting.html){: .btn .btn-tutorial }
 
 The QoE metrics reporting feature enables the 5GMS System to log and expose streaming performance data for further analysis.
 
