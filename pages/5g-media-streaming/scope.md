@@ -32,7 +32,7 @@ The main functional entities are:
 
 A list of relevant specifications can be found in the link below.
 
-[Specifications](https://hub.5g-mag.com/Standards/pages/5g-core-service-consumers.html){: .btn .btn-blue }
+[Specifications](https://hub.5g-mag.com/Standards/pages/5g-media-streaming.html){: .btn .btn-blue }
 
 ## What is being implemented? 
 
