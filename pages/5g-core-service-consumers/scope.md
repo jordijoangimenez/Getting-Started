@@ -45,7 +45,7 @@ The following libraries are available:
 
 Within the context of 5G Multicast/Broadcast Services (MBS), the Multicast/Broadcast Session Management Function (MB-SMF) is responsible for allocating and deallocating Temporary Mobile Group Identities (TMGIs) and for the management of Multicast/Broadcast Services on the Multicast/Broadcast User Plane Function (MB-UPF).
 
-<img src="./images/context_5mbs.png">
+<img src="./images/context_mbs.png">
 
 The following libraries are available:
 * **libscmbsmf** - Multicast/Broadcast Session Management Function (MB-SMF) service consumer library
