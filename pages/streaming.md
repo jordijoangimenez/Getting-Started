@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Domains of the Projects
+parent: Application Domains
 title: Streaming & Delivery
 nav_order: 0
 has_children: true
