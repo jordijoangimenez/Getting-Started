@@ -12,7 +12,7 @@ nav_order: 1
 
 ## Overview
 
-[Scope & Architectures](./scope.html){: .btn .btn-blue } [GitHub Repos](./repositories.html){: .btn .btn-github } [Tutorials](./tutorials.html){: .btn .btn-blue }
+[Scope](./scope.html){: .btn .btn-blue } [GitHub Repos](./repositories.html){: .btn .btn-github } [Tutorials](./tutorials.html){: .btn .btn-blue }
 
 <iframe width="60%" height="520" src="../../docs/Reference_Tools_3GPP_Platforms.pdf"></iframe>
 
