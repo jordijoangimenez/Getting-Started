@@ -43,7 +43,7 @@ A list of relevant specifications can be found in the link below.
 <table style="width: 100%">
   <tr>
     <td align="center" style="width:20%"><img src="./images/libscbsf.png"><a/></td>
-    <td align="left; font-size: 1.2em">
+    <td align="left; font-size: 14px">
       <ul>
         <li>Responsible for maintaining a mapping between UE PDU Session and the PCF which is managing that PDU Session.</li>
         <li>The <code>libscbsf</code> library aids in discovery of the BSF in the 5G Core (by interrogating the NRF) and subsequently looking up which PCF is managing the PDU Session for a UE, identified by its IP address.</li>
