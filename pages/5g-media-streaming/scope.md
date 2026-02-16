@@ -118,9 +118,7 @@ The functional entities of 5G Media Streaming, instantiated for 5G Unicast Downl
 
 ### Feature: Content Hosting
 
-{: .referencetools }
-
-[Check this Tutorial to create an example Content Hosting Configuration](./tutorials/end-to-end-with-5g.html){: .btn .btn-blue }
+[Check this Tutorial to create an example Content Hosting Configuration](./tutorials/Content_Hosting.html){: .btn .btn-blue }
 
 [Obtain the code in GitHub](./repositories.html){: .btn .btn-github }
 
