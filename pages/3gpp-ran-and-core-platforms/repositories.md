@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Repositories
-parent: 3GPP RAN and Core Platforms
+title: 3GPP RAN and Core
 has_children: false
 nav_order: 1
 ---
