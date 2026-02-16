@@ -12,8 +12,6 @@ nav_order: 0
 
 # Scope
 
-## 5G Media Streaming - An overview
-
 In the context of 3GPP standards, 5G Media Streaming (5GMS) is defined as a framework designed to enable high-quality, efficient delivery of media. The architecture supports services from mobile network operators and third parties including both Downlink (5GMSd) and Uplink (5GMSu) Media Streaming. The 5GMS architecture is functionally divided into independent components enabling deployments with various degrees of integration between 5G MNOs and Content Providers.
 
 5GMS is not a separate network but a functional extension of the standard 5G System Architecture. It is the bridge that allows 5G networks to move away from being a "data pipe" and instead become an active, optimized platform for professional and user-generated media content.
@@ -34,7 +32,7 @@ A list of relevant specifications can be found in the link below.
 
 [Specifications](https://hub.5g-mag.com/Standards/pages/5g-media-streaming.html){: .btn .btn-blue }
 
-### 5G Unicast Downlink Media Streaming (5GMSd)
+## 5G Unicast Downlink Media Streaming (5GMSd)
 
 To deliver downlink streaming services, the network is the origin of the media and the UE acts as the consumption device.
  
@@ -56,7 +54,7 @@ The main functional entities are:
 
 * **5GMSd-Aware Application**: An external app (e.g., a streaming service) that holds the provider's specific logic. Uses standardized APIs to initiate and manage media sessions.
 
-### Interfaces for 5GMSd
+## Interfaces for 5GMSd
 
 The interfaces are:
 
@@ -71,9 +69,9 @@ The interfaces are:
 | **M7d** | **UE Media Player APIs** | Internal UE APIs used by the **5GMSd-Aware App** and **Session Handler** to control playback and media engine functions. |
 | **M8d** | **Application API** | An external interface for "service-level" exchange (like metadata or login) between the **App** and the **Provider**. This is **not specified** by 3GPP. |
 
-### Key Features for 5GMSd and APIs
+## Key Features for 5GMSd and APIs
 
-The following features are defined for Downlink Media Streaming.
+The following features are defined for 5GMSd.
 
 Feature | Description | Procedure | APIs 
 --- | --- | --- | ---
@@ -86,12 +84,12 @@ Feature | Description | Procedure | APIs
 **eMBMS delivery** | 3GPP TS 26.501 4.0.11 | 3GPP TS 26.501 5.10 | 3GPP TS 26.510 + 26.512
 **Data collection, reporting and exposure** | 3GPP TS 26.501 5.11 | 3GPP TS 26.510 + 26.512
 
-## What is being implemented? 
+# What is being implemented? 
 
 {: .inshort }
 The functional entities of 5G Media Streaming, instantiated for 5G Unicast Downlink Media Streaming (5GMSd), including support for various of the features specified.
 
-### Implementing 5G Unicast Downlink Media Streaming (5GMSd)
+## 5G Unicast Downlink Media Streaming (5GMSd)
 
 A functional 5GMSd implementation is available with the building blocks highlighted with the green tick below.
 
@@ -99,7 +97,7 @@ A functional 5GMSd implementation is available with the building blocks highligh
 
 [Obtain the code in GitHub](./repositories.html){: .btn .btn-github }
 
-[Check this Tutorial to deploy 5GMSd end-to-end](./tutorials/end-to-end.html){: .btn .btn-blue }
+[Check this Tutorial to deploy 5GMSd end-to-end](./tutorials/end-to-end.html){: .btn .btn-tutorial }
 
 [Check this Tutorial to deploy 5GMSd end-to-end including a 5G Network](./tutorials/end-to-end-with-5g.html){: .btn .btn-blue }
 
@@ -130,7 +128,7 @@ M1 | 5.2.7 | [Policy Templates provisioning API](https://jdegre.github.io/loader
 M1 | 5.2.8 | [Content Hosting provisioning API](https://jdegre.github.io/loader.html?yaml=TS26512_M1_ContentHostingProvisioning.yaml) | 8.8
 M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ServiceAccessInformation.yaml) | 9.2
 
-## Feature: Network Assistance
+### Feature: Network Assistance
 
 The network assistance feature enables the 5GMS Client in the UE to interrogate or manipulate the network Quality of Service for an ongoing media streaming session. It defines two mechanisms for obtaining network assistance via interactions with the PCF (AF-based network assistance) or via ANBR signalling interactions between the UE modem and the RAN (ANBR-based network assistance). 
 
@@ -138,15 +136,15 @@ The network assistance feature enables the 5GMS Client in the UE to interrogate 
 
 Both mechanisms allow to obtain:
 
-* Bit Rate Recommendation (Throughput Estimation), which allows the 5GMS Client to stay synchronized with the network's current capabilities.
-  * The Process: The client asks the 5GMS System for a bit rate estimate. The system then queries the Policy Control Function (PCF) to determine the available throughput for that specific session.
-  * The Action: The client uses this data to proactively adjust its streaming speed—either by switching media quality levels (downlink).
-  * The Benefit: It prevents stuttering and lag, ensuring a stable and consistent Quality of Experience (QoE) by staying within the network's "QoS envelope."
+* _Bit Rate Recommendation (Throughput Estimation)_, which allows the 5GMS Client to stay synchronized with the network's current capabilities.
+  * The client asks the 5GMS System for a bit rate estimate. The system then queries the Policy Control Function (PCF) to determine the available throughput for that specific session.
+  * The client uses this data to proactively adjust its streaming speed—either by switching media quality levels (downlink).
+  * It prevents stuttering and lag, ensuring a stable and consistent Quality of Experience (QoE) by staying within the network's "QoS envelope."
 
-* Delivery Boost, which is a reactive feature used to request extra network performance when needed.
-  * The Process: The client requests a temporary increase in bit rate. The 5GMS System asks the PCF to modify the session parameters to grant this extra capacity.
-  * The Action: If the network has spare capacity, the boost is granted. The client uses this "boost" of speed to quickly refill a depleted buffer or finish a large file transfer faster.
-  * The Benefit: It helps the user recover from potential playback interruptions or speeds up time-sensitive data tasks.
+* _Delivery Boost_, which is a reactive feature used to request extra network performance when needed.
+  * The client requests a temporary increase in bit rate. The 5GMS System asks the PCF to modify the session parameters to grant this extra capacity.
+  * If the network has spare capacity, the boost is granted. The client uses this "boost" of speed to quickly refill a depleted buffer or finish a large file transfer faster.
+  * It helps the user recover from potential playback interruptions or speeds up time-sensitive data tasks.
 
 The following are the reference points and interactions according to 3GPP TS 26.510.
 
@@ -155,7 +153,7 @@ Reference Point | Interactions | API Name | Description
 M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ServiceAccessInformation.yaml) | 9.2
 M5 | 5.3.4 | [Network Assistance API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_NetworkAssistance.yaml) | 9.4
 
-## Feature: Dynamic Policies
+### Feature: Dynamic Policies
 
 The dynamic policies feature enables the 5GMS Client in the UE to manipulate the network traffic handling policies for an ongoing media streaming session.
 
@@ -170,7 +168,7 @@ M1 | 5.2.7 | [Policy Templates provisioning API](https://jdegre.github.io/loader
 M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ServiceAccessInformation.yaml) | 9.2
 M5 | 5.3.3 | [Dynamic Policies API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_DynamicPolicies.yaml) | 9.3
 
-## Feature: Consumption Reporting
+### Feature: Consumption Reporting
 
 The consumption reporting feature allows consumption of downlink media streaming to be logged by the 5GMS System and exposed for analysis.
 
@@ -185,7 +183,7 @@ M1 | 5.2.12 | [Consumption Reporting provisioning API](https://jdegre.github.io/
 M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ServiceAccessInformation.yaml) | 9.2
 M5 | 5.3.6| [Consumption Reporting API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ConsumptionReporting.yaml) | 9.6
 
-## Feature: QoE Metrics Reporting
+### Feature: QoE Metrics Reporting
 
 The QoE metrics reporting feature enables the 5GMS System to log and expose streaming performance data for further analysis.
 
@@ -206,7 +204,7 @@ M1 | 5.2.11 | [Metrics Reporting provisioning API](https://jdegre.github.io/load
 M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ServiceAccessInformation.yaml) | 9.2
 M5 | 5.3.5 | [Metrics Reporting API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_MetricsReporting.yaml) | 9.5
 
-## Feature: Data collection, reporting and exposure (TS 26.510)
+### Feature: Data collection, reporting and exposure (TS 26.510)
 
 The data collection, reporting and exposure feature enables the 5GMS System to log data relating to media streaming sessions and to expose this to 
 subscribers in the form of Events.
@@ -219,33 +217,13 @@ M1 | 5.2.13 | [Event Data Processing provisioning API](https://jdegre.github.io/
 M5 | 5.3.5 | [Metrics Reporting API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_MetricsReporting.yaml) | 9.5
 M5 | 5.3.6 | [Consumption Reporting API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ConsumptionReporting.yaml) | 9.6
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Features supported by the 5GMS Application Function
+## Features supported by the 5GMS Application Function
 
 The release versions of the 5GMSd Application Function support differing sets of interfaces, as described by the different
 versions of the 3GPP specifications, and differing levels of feature support for those interfaces. The following attempts to capture
 the feature sets and specification versions for each release, starting with the most recent release or upcoming releases.
 
-#### Key
+### Key
 
 Where a feature of the specifications is supported the entry will be marked with &#x2611;, where it is being worked on and slated for the next release the feature will be marked with &#x270E; and where it is unimplemented in that
 version the feature will be marked with &#x2610;.
@@ -368,15 +346,13 @@ version the feature will be marked with &#x2610;.
 </tfoot>
 </table>
 
-### Supported APIs for 5G Media Streaming
+## APIs supported for 5G Media Streaming
 
 ## Relevant specifications
 The table contains the 3GPP 5G Media Streaming APIs for Release 17 (TS 26.512) and Release 18 (TS 26.510 & TS 26.512). Note that the current reference implementation of the 5GMSd AF and 5GMSd AS are based on Release 17 (TS 26.510 does not exist in Release 17). In Release 18, the media session handling APIs were moved from TS 26.512 into TS 26.510 to generalise them to support the Real-Time media Communication (RTC) System as well as the 5G Media Streaming (5GMS) System.
 More information about the relevant specifications can be found in the following pages:
  - 5G Media Streaming Architecture: [Standards pages](https://5g-mag.github.io/Standards/pages/5g-media-streaming.html)
  - UE Data Collection and Event Exposure: [Standards pages](https://5g-mag.github.io/Standards/pages/data-collection-event-exposure.html)
-
-### Classification
 
  Release 17 | Release 18
  ---------- | ----------
