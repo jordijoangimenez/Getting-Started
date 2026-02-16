@@ -43,6 +43,7 @@ The following libraries are available:
 ## libscpcf - Policy Control Function (PCF) service consumer library
 
 [Check this Tutorial to test libscpcf](./tutorials/using-libscPCF.html){: .btn .btn-blue }
+
 [Obtain the code in GitHub](./repositories.html){: .btn .btn-github }
 
 * Responsible for applying charging and network policy to the PDU sessions of UEs. The `Npcf_PolicyAuthorization` service API is used at reference point N5 by an Application Function (AF) to request policy changes to the PDU session on behalf of the UE. This allows an Application Function to manipulate particular network QoS parameters for selected IP traffic flows within the PDU session.
@@ -68,6 +69,7 @@ The following libraries are available:
 ## libscmbsmf - Multicast/Broadcast Session Management Function (MB-SMF) service consumer library
 
 [Check this Tutorial to test libscmbsmf](./tutorials/using-libscMBSMF.html){: .btn .btn-blue }
+
 [Obtain the code in GitHub](./repositories.html){: .btn .btn-github }
 
 * Responsible for allocating and deallocating Temporary Mobile Group Identities (`TMGIs`) and for the management of Multicast/Broadcast Services (`MBS`) on the Multicast/Broadcast User Plane Function (`MB-UPF`).
