@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Domains of the Projects
+parent: Application Domains
 title: 5G Broadacast
 nav_order: 1
 has_children: true
