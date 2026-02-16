@@ -133,7 +133,7 @@ to `1fd61716-fe25-41ee-8d9e-cb36a16378a2`.
 Start Postman and navigate to the Postman `Environments` located on the left side. Replace the `provisioning_session_id`
 variable with the value from the JSON file:
 
-![Postman Env](../../../assets/images/5gms/postman-env.png)
+<img src="../../../assets/images/5gms/postman-env.png" width="80%" /> 
 
 #### Step 7.4 Postman - Create Metrics Reporting Configuration
 
@@ -160,7 +160,7 @@ configuration. An example configuration looks the following:
 
 Click on `Send` once the configuration is set:
 
-![Postman M1 Metrics](../../../assets/images/5gms/postman-m1-metrics.png)
+<img src="../../../assets/images/5gms/postman-m1-metrics.png" width="80%" /> 
 
 The REST call should return a `201` response code indicating that the call was accepted by the Application Function.
 
@@ -171,7 +171,7 @@ should contain the relevant information for the 5GMSd Client. We can validate th
 Select `Collections` in Postman and navigate to `5G-MAG M5`. Select `Service Access Information API` and then `GET SAI`.
 Click `Send` and confirm that the Service Access Information contains a `clientMetricsReportingConfigurations`:
 
-![Postman M5 Metrics](../../../assets/images/5gms/postman-m5-metrics.png)
+<img src="../../../assets/images/5gms/postman-m5-metrics.png" width="80%" /> 
 
 ## Client-side Setup
 
