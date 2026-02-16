@@ -95,27 +95,27 @@ A functional 5GMSd implementation is available with the building blocks highligh
 
 <img src="./images/5GMS_Downlink_RT.png">
 
-[Obtain the code in GitHub](./repositories.html){: .btn .btn-github }
+[To the GitHub Repos](./repositories.html){: .btn .btn-github }
 
-[Check this Tutorial to deploy 5GMSd end-to-end](./tutorials/end-to-end.html){: .btn .btn-tutorial }
+[Tutorial: Deploy 5GMSd end-to-end](./tutorials/end-to-end.html){: .btn .btn-tutorial }
 
-[Check this Tutorial to deploy 5GMSd end-to-end including a 5G Network](./tutorials/end-to-end-with-5g.html){: .btn .btn-tutorial }
+[Tutorial: Deploy 5GMSd end-to-end including a 5G Network](./tutorials/end-to-end-with-5g.html){: .btn .btn-tutorial }
 
-[Check this Tutorial to test the 5GMS Application Function](./tutorials/testing-AS.html){: .btn .btn-tutorial }
+[Tutorial: Test the 5GMS Application Function](./tutorials/testing-AF.html){: .btn .btn-tutorial }
 
-[Check this Tutorial to deploy 5GMSd end-to-end including a 5G Network](./tutorials/testing-AF.html){: .btn .btn-tutorial }
+[Tutorial: Test the 5GMS Application Server](./tutorials/testing-AS.html){: .btn .btn-tutorial }
 
-### Feature: Content Hosting
+## Feature: Content Hosting
 
-[Obtain the code in GitHub](./repositories.html){: .btn .btn-github }
+[To the GitHub Repos](./repositories.html){: .btn .btn-github }
 
-[Check this Tutorial to create an example Content Hosting Configuration](./tutorials/Content_Hosting.html){: .btn .btn-tutorial }
+[Tutorial: Create a Content Hosting Configuration](./tutorials/Content_Hosting.html){: .btn .btn-tutorial }
 
 The content hosting feature provides a service equivalent to a Content Delivery Network (CDN) deployed inside or outside the Trusted DN.
 
 <img src="./images/5GMS_ContentHosting.png">
 
-The following are the reference points and interactions according to 3GPP TS 26.510.
+The following are the reference points and interactions and APIs according to 3GPP TS 26.510.
 
 Reference Point | Interactions | API Name | Description
 --- | --- | --- | ---
@@ -128,7 +128,11 @@ M1 | 5.2.7 | [Policy Templates provisioning API](https://jdegre.github.io/loader
 M1 | 5.2.8 | [Content Hosting provisioning API](https://jdegre.github.io/loader.html?yaml=TS26512_M1_ContentHostingProvisioning.yaml) | 8.8
 M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ServiceAccessInformation.yaml) | 9.2
 
-### Feature: Network Assistance
+## Feature: Network Assistance
+
+[To the GitHub Repos](./repositories.html){: .btn .btn-github }
+
+[Tutorial: Create an example Content Hosting Configuration](./tutorials/Content_Hosting.html){: .btn .btn-tutorial }
 
 The network assistance feature enables the 5GMS Client in the UE to interrogate or manipulate the network Quality of Service for an ongoing media streaming session. It defines two mechanisms for obtaining network assistance via interactions with the PCF (AF-based network assistance) or via ANBR signalling interactions between the UE modem and the RAN (ANBR-based network assistance). 
 
@@ -146,20 +150,24 @@ Both mechanisms allow to obtain:
   * If the network has spare capacity, the boost is granted. The client uses this "boost" of speed to quickly refill a depleted buffer or finish a large file transfer faster.
   * It helps the user recover from potential playback interruptions or speeds up time-sensitive data tasks.
 
-The following are the reference points and interactions according to 3GPP TS 26.510.
+The following are the reference points and interactions and APIs according to 3GPP TS 26.510.
 
 Reference Point | Interactions | API Name | Description
 --- | --- | --- | ---
 M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ServiceAccessInformation.yaml) | 9.2
 M5 | 5.3.4 | [Network Assistance API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_NetworkAssistance.yaml) | 9.4
 
-### Feature: Dynamic Policies
+## Feature: Dynamic Policies
+
+[To the GitHub Repos](./repositories.html){: .btn .btn-github }
+
+[Tutorial: Create an example Content Hosting Configuration](./tutorials/Content_Hosting.html){: .btn .btn-tutorial }
 
 The dynamic policies feature enables the 5GMS Client in the UE to manipulate the network traffic handling policies for an ongoing media streaming session.
 
 <img src="./images/5GMS_DynamicPolicies.png">
 
-The following are the reference points and interactions according to 3GPP TS 26.510.
+The following are the reference points and interactions and APIs according to 3GPP TS 26.510.
 
 Reference Point | Interactions | API Name | Description
 --- | --- | --- | ---
@@ -168,13 +176,17 @@ M1 | 5.2.7 | [Policy Templates provisioning API](https://jdegre.github.io/loader
 M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ServiceAccessInformation.yaml) | 9.2
 M5 | 5.3.3 | [Dynamic Policies API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_DynamicPolicies.yaml) | 9.3
 
-### Feature: Consumption Reporting
+## Feature: Consumption Reporting
+
+[To the GitHub Repos](./repositories.html){: .btn .btn-github }
+
+[Tutorial: Deploy 5GMSd with Consumption Reporting](./tutorials/Content_Hosting.html){: .btn .btn-tutorial }
 
 The consumption reporting feature allows consumption of downlink media streaming to be logged by the 5GMS System and exposed for analysis.
 
 <img src="./images/5GMS_ConsumptionReporting.png">
 
-The following are the reference points and interactions according to 3GPP TS 26.510.
+The following are the reference points and interactions and APIs according to 3GPP TS 26.510.
 
 Reference Point | Interactions | API Name | API
 --- | --- | --- | ---
@@ -183,7 +195,11 @@ M1 | 5.2.12 | [Consumption Reporting provisioning API](https://jdegre.github.io/
 M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ServiceAccessInformation.yaml) | 9.2
 M5 | 5.3.6| [Consumption Reporting API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ConsumptionReporting.yaml) | 9.6
 
-### Feature: QoE Metrics Reporting
+## Feature: QoE Metrics Reporting
+
+[To the GitHub Repos](./repositories.html){: .btn .btn-github }
+
+[Tutorial: Deploy 5GMSd with QoE Metrics Reporting](./tutorials/Content_Hosting.html){: .btn .btn-tutorial }
 
 The QoE metrics reporting feature enables the 5GMS System to log and expose streaming performance data for further analysis.
 
@@ -195,7 +211,7 @@ The framework defines two distinct reporting paths:
 
 * AF-based Reporting: Metrics are sent directly to the network-side components (AF) of the 5GMS System.
 
-The following are the reference points and interactions according to 3GPP TS 26.510.
+The following are the reference points and interactions and APIs according to 3GPP TS 26.510.
 
 Reference Point | Interactions | API Name | API
 --- | --- | --- | ---
@@ -204,12 +220,14 @@ M1 | 5.2.11 | [Metrics Reporting provisioning API](https://jdegre.github.io/load
 M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ServiceAccessInformation.yaml) | 9.2
 M5 | 5.3.5 | [Metrics Reporting API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_MetricsReporting.yaml) | 9.5
 
-### Feature: Data collection, reporting and exposure (TS 26.510)
+## Feature: Data collection, reporting and exposure (TS 26.510)
+
+[To the GitHub Repos](./repositories.html){: .btn .btn-github }
 
 The data collection, reporting and exposure feature enables the 5GMS System to log data relating to media streaming sessions and to expose this to 
 subscribers in the form of Events.
 
-The following are the reference points and interactions according to 3GPP TS 26.510.
+The following are the reference points and interactions and APIs according to 3GPP TS 26.510.
 
 Reference Point | Interactions | API Name | API
 --- | --- | --- | ---
@@ -217,7 +235,7 @@ M1 | 5.2.13 | [Event Data Processing provisioning API](https://jdegre.github.io/
 M5 | 5.3.5 | [Metrics Reporting API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_MetricsReporting.yaml) | 9.5
 M5 | 5.3.6 | [Consumption Reporting API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ConsumptionReporting.yaml) | 9.6
 
-## Features supported by the 5GMS Application Function
+## Summary of features supported by the 5GMS Application Function
 
 The release versions of the 5GMSd Application Function support differing sets of interfaces, as described by the different
 versions of the 3GPP specifications, and differing levels of feature support for those interfaces. The following attempts to capture
@@ -346,7 +364,7 @@ version the feature will be marked with &#x2610;.
 </tfoot>
 </table>
 
-## APIs supported for 5G Media Streaming
+## Summary of APIs supported for 5G Media Streaming
 
 ## Relevant specifications
 The table contains the 3GPP 5G Media Streaming APIs for Release 17 (TS 26.512) and Release 18 (TS 26.510 & TS 26.512). Note that the current reference implementation of the 5GMSd AF and 5GMSd AS are based on Release 17 (TS 26.510 does not exist in Release 17). In Release 18, the media session handling APIs were moved from TS 26.512 into TS 26.510 to generalise them to support the Real-Time media Communication (RTC) System as well as the 5G Media Streaming (5GMS) System.
