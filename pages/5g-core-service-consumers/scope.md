@@ -42,8 +42,8 @@ A list of relevant specifications can be found in the link below.
 
 <table style="width: 100%">
   <tr>
-    <td align="center" style="width:40%"><img src="./images/libscbsf.png"><a/></td>
-    <td align="left" style="width:60%">
+    <td align="center" style="width:30%"><img src="./images/libscbsf.png"><a/></td>
+    <td align="left" style="width:70%">
       <ul>
         <li>Responsible for maintaining a mapping between UE PDU Session and the PCF which is managing that PDU Session.</li>
         <li>The <code>libscbsf</code> library aids in discovery of the BSF in the 5G Core (by interrogating the NRF) and subsequently looking up which PCF is managing the PDU Session for a UE, identified by its IP address.</li>
@@ -59,10 +59,10 @@ A list of relevant specifications can be found in the link below.
 
 ## libscpcf - Policy Control Function (PCF) service consumer library
 
-<table>
+<table style="width: 100%">
   <tr>
-    <td markdown="span" align="center" style="width:40%"><img src="./images/libscpcf.png"><a/></td>
-    <td markdown="span" align="left" style="width:40%">
+    <td markdown="span" align="center" style="width:30%"><img src="./images/libscpcf.png"><a/></td>
+    <td markdown="span" align="left" style="width:70%">
       <ul>
         <li>Responsible for applying charging and network policy to the PDU sessions of UEs. The <code>Npcf_PolicyAuthorization</code> service API is used at reference point N5 by an Application Function (AF) to request policy changes to the PDU session on behalf of the UE. This allows an Application Function to manipulate particular network QoS parameters for selected IP traffic flows within the PDU session.</li>
         <li>The <code>libscpcf</code> library allows an application to connect to a PCF and request an <code>AppSessionContext</code> which it can then use to manipulate the network routing policies for traffic passing across specific application flows within a UE's PDU Session.</li>
@@ -75,27 +75,27 @@ A list of relevant specifications can be found in the link below.
     </td>
   </tr>
 </table>
-      
-* Responsible for applying charging and network policy to the PDU sessions of UEs. The Npcf_PolicyAuthorization service API is used at reference point N5 by an Application Function (AF) to request policy changes to the PDU session on behalf of the UE. This allows an Application Function to manipulate particular network QoS parameters for selected IP traffic flows within the PDU session.
-
-* The `libscpcf` library allows an application to connect to a PCF and request an AppSessionContext which it can then use to manipulate the network routing policies for traffic passing across specific application flows within a UE's PDU Session.
-
-* This library implements the service consumer end of the following service-based APIs:
-  * `Npcf_PolicyAuthorization`
 
 ## libscmbsmf - Multicast/Broadcast Session Management Function (MB-SMF) service consumer library
 
-<img src="./images/libscmbsmf.png" width="200px">
-
-* Responsible for allocating and deallocating Temporary Mobile Group Identities (TMGIs) and for the management of Multicast/Broadcast Services (MBS) on the Multicast/Broadcast User Plane Function (MB-UPF).
-
-* The Nmbsmf_TMGI service API is used at reference point Nmb1 for the allocation and deallocation of TMGIs, and the Nmbsmf_MBSSession service API is used to reference point Nmb1 for the creation, modification and destruction of MBS Sessions and for the management of notification subscriptions to events arising on those MBS Sessions. 
-
-* The `libscmbsmf` library provides a simple create/destroy interface for TMGI management and an MBS Session and notifications subscriptions model for management of MBS Sessions.
-
-* This library implements the service consumer end of the following service-based APIs:
-  * `Nmbsmf_TMGI`
-  * `Nmbsmf_MBSSession`
+<table style="width: 100%">
+  <tr>
+    <td markdown="span" align="center" style="width:30%"><img src="./images/libscmbsmf.png"><a/></td>
+    <td markdown="span" align="left" style="width:70%">
+      <ul>
+        <li>Responsible for allocating and deallocating Temporary Mobile Group Identities (<code>TMGIs</code>) and for the management of Multicast/Broadcast Services (<code>MBS</code>) on the Multicast/Broadcast User Plane Function (<code>MB-UPF</code>).</li>
+        <li>The <code>Nmbsmf_TMGI</code> service API is used at reference point <code>Nmb1</code> for the allocation and deallocation of <code>TMGIs</code>, and the <code>Nmbsmf_MBSSession</code> service API is used to reference point <code>Nmb1</code> for the creation, modification and destruction of MBS Sessions and for the management of notification subscriptions to events arising on those MBS Sessions.</li>
+        <li>The <code>libscmbsmf</code> library provides a simple create/destroy interface for <code>TMGI</code> management and an MBS Session and notifications subscriptions model for management of MBS Sessions.</li>
+        <li>This library implements the service consumer end of the following service-based APIs:
+          <ul>
+            <li><code>Nmbsmf_TMGI</code></li>
+            <li><code>Nmbsmf_MBSSession</code></li>
+          </ul>
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ## 5G Downlink Media Streaming (5GMSd) with 5GC Service Consumers
 
