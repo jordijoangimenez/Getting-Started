@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tutorials
-parent: 3GPP RAN and Core Platforms
+title: 3GPP RAN and Core
 has_children: true
 nav_order: 2
 ---
