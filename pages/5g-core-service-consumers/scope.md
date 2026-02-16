@@ -42,7 +42,7 @@ A list of relevant specifications can be found in the link below.
 
 <table style="width: 100%">
   <tr>
-    <td align="center" style="width:30%"><img src="./images/libscbsf.png"><a/></td>
+    <td align="center" style="width:20%"><img src="./images/libscbsf.png"><a/></td>
     <td align="left">
       <ul>
         <li>Responsible for maintaining a mapping between UE PDU Session and the PCF which is managing that PDU Session.</li>
@@ -61,7 +61,7 @@ A list of relevant specifications can be found in the link below.
 
 <table style="width: 100%">
   <tr>
-    <td markdown="span" align="center" style="width:30%"><img src="./images/libscpcf.png"><a/></td>
+    <td markdown="span" align="center" style="width:20%"><img src="./images/libscpcf.png"><a/></td>
     <td align="left">
       <ul>
         <li>Responsible for applying charging and network policy to the PDU sessions of UEs. The <code>Npcf_PolicyAuthorization</code> service API is used at reference point N5 by an Application Function (AF) to request policy changes to the PDU session on behalf of the UE. This allows an Application Function to manipulate particular network QoS parameters for selected IP traffic flows within the PDU session.</li>
@@ -80,7 +80,7 @@ A list of relevant specifications can be found in the link below.
 
 <table style="width: 100%">
   <tr>
-    <td markdown="span" align="center" style="width:30%"><img src="./images/libscmbsmf.png"><a/></td>
+    <td markdown="span" align="center" style="width:20%"><img src="./images/libscmbsmf.png"><a/></td>
     <td align="left">
       <ul>
         <li>Responsible for allocating and deallocating Temporary Mobile Group Identities (<code>TMGIs</code>) and for the management of Multicast/Broadcast Services (<code>MBS</code>) on the Multicast/Broadcast User Plane Function (<code>MB-UPF</code>).</li>
