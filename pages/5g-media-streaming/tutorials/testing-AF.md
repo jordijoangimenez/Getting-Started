@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Testing the 5GMS AF
+title: Testing 5GMS AF
 parent: Tutorials
 grand_parent: 5G Media Streaming
 has_children: true
