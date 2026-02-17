@@ -9,7 +9,7 @@ nav_order: 3
 
 <img src="../../../assets/images/Banner_5GMS.png" /> 
 
-# Tutorial - 5G MSd End-to-End Setup with 5G Network
+# Tutorial - 5G MSd End-to-End deployment with 5G Network
 
 This guide describes how to setup and configure the 5G-MAG Reference Tools to create an end to end setup consisting of
 the 5G Downlink Media Streaming components and a 5G Network based on Open5GS and srsRAN.
