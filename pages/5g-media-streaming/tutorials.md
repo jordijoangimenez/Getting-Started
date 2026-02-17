@@ -15,7 +15,7 @@ nav_order: 4
 ## [Tutorial: Testing the 5GMS Application Server](./tutorials/testing-AS.html)
 A series of instructions and examples to test the 5GMS Application Server.
 
-## [Tutorial: Testing the 5GMS Application Function](./tutorials/testing-AF.html)
+## [Tutorial: Developing and Testing the 5GMS Application Function](./tutorials/testing-AF.html)
 A series of instructions and examples to test the 5GMS Application Function.
 
 ## [Tutorial: Basic 5G Media Streaming end-to-end setup](./tutorials/end-to-end.html)
