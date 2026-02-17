@@ -176,7 +176,7 @@ the [basic end-to-end guide](end-to-end.html) setup guide.
 While consuming content configured and provided via our previously installed 5GMSd Application Server and 5GMSd
 Application Function the client is automatically creating and sending Consumption Reports.
 
-![App Playback](../../../assets/images/5gms/app-playback.png)
+<img src="../../../assets/images/5gms/app-playback.png" height="50" /> 
 
 ### Step 3: Inspecting the Consumption Report
 
