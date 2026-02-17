@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 5GMSd (with Docker)
+title: 5GMSd (Docker)
 parent: Tutorials
 grand_parent: 5G Media Streaming
 has_children: false
