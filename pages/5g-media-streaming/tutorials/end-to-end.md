@@ -9,7 +9,7 @@ nav_order: 2
 
 <img src="../../../assets/images/Banner_5GMS.png" /> 
 
-# Tutorial - 5G MSd: Basic End-to-End Setup (with Docker)
+# Tutorial - 5G MSd End-to-End Setup (with Docker)
 
 This guide describes how to setup and configure the 5G-MAG Reference Tools - 5G Downlink Media Streaming components to
 create an end to end setup as depicted in the illustration below.
