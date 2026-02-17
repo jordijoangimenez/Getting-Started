@@ -118,13 +118,13 @@ sudo 5gms-application-server
 ````
 
 For additional options, refer to
-the [documentation](../usage/application-server/testing-AS.html#running-the-example-without-building). Pay attention to
+the [documentation](../tutorials/application-server/testing-AS.html#running-the-example-without-building). Pay attention to
 the port configuration of the AS, as it requires root permission to run on the standard ports (`80` & `443`).
 
 ### 4. Running the Application Function
 
 Now that we installed the AF and the AS we can configure the AF. A detailed configuration guide is available in
-the [documentation](../usage/application-function/configuration-5GMSAF.html) of the AF.
+the [documentation](../tutorials/application-function/configuration-5GMSAF.html) of the AF.
 
 #### Configuration of the AF
 
@@ -155,7 +155,7 @@ As we installed the AF as a local user, we start it with the following command:
 #### Creating a content hosting configuration
 
 There is a guide on how to test the AS with the AF in
-the [documentation](../usage/application-server/testing-AS.html#testing-with-the-application-function). We are following
+the [documentation](../tutorials/application-server/testing-AS.html#testing-with-the-application-function). We are following
 a slightly different approach as we use the `msaf-configuration` tool that ships with version `1.3.0` of the Application
 Function. The `msaf-configuration` tool creates a `provisioningSession` and a `contentHostingConfiguration` based on a
 JSON input file. Moreover, it automatically generates the required `M8` information for us that we will later need on
@@ -298,13 +298,13 @@ selection drowdown and to query the Application Function via `M5`.
 #### Optional: Creating a server certificate
 
 Optionally, you can now
-also [create server certificate](../usage/application-function/testing-m1-v130.html#server-certificates). For plain
+also [create server certificate](../tutorials/application-function/testing-m1-v130.html#server-certificates). For plain
 `http` based playback we can omit this step.
 
 #### Optional: Checking the M5 interface
 
 The complete documentation on how to test the M5 interface for AF versions 1.2.0 and above can be
-found [here](../usage/application-function/testing-m5-v120.html)
+found [here](../tutorials/application-function/testing-m5-v120.html)
 
 What we will need on the client side later is the `ServiceAccessInformation`. This will be requested via `M5d` by our
 MediaSessionHandler. Since retrieving this information is done via a simple HTTP GET request, we can access the
