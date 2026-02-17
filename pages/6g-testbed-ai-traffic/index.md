@@ -12,6 +12,8 @@ nav_order: 7
 
 # 6G Testbed - AI Traffic Characterization
 
+Explore this slide deck for a concise introduction and a set of essential resources to help you get started. For deeper detail—including the scope of the reference tools, development roadmaps, and release information—use the navigation menu above or to the side. There you’ll also find direct links to the GitHub repositories and hands‑on tutorials designed to support you as you build, test, and deploy the reference tools.
+
 ## Project Overview
 
 <iframe width="60%" height="520" src="../../docs/Reference_Tools_3GPP_Testbed_AI_Traffic.pdf"></iframe>
