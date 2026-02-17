@@ -7,7 +7,7 @@ has_children: false
 nav_order: 4
 ---
 
-<img src="../../assets/images/Banner_5GMS.png" /> 
+<img src="../../../assets/images/Banner_5GMS.png" /> 
 
 # Tutorial - Consumption Reporting
 
