@@ -14,87 +14,18 @@ nav_order: 0
 
 In the context of 3GPP standards, 5G Media Streaming (5GMS) is defined as a framework designed to enable high-quality, efficient delivery of media. The architecture supports services from mobile network operators and third parties including both Downlink (5GMSd) and Uplink (5GMSu) Media Streaming. The 5GMS architecture is functionally divided into independent components enabling deployments with various degrees of integration between 5G MNOs and Content Providers.
 
-5GMS is not a separate network but a functional extension of the standard 5G System Architecture. It is the bridge that allows 5G networks to move away from being a "data pipe" and instead become an active, optimized platform for professional and user-generated media content.
-
-<img src="../../assets/images/5gms/5GMS_General.png">
-
-The main functional entities are:
-
-* **5GMS Application Provider**: The entity that uses the 5G network to deliver content. It provides a 5GMS Aware-Application on the UE to make use of 5GMS Client and network functions via 5GMS interfaces and APIs.
-
-* **5GMS Application Function (5GMS AF)**: A specialized application function dedicated to the management and optimization of media streaming sessions.
-
-* **5GMS Application Server (5GMS AS)**:  A specialized application server which primary job is to store, cache, and deliver media content to the User Equipment (UE) or to receive and ingest media from the UE
-
-* **5GMS Client**: The functional part of the user's device (UE) that handles the media session and the player/streamer logic.
-
 A list of relevant specifications can be found in the link below.
 
 [Specifications](https://hub.5g-mag.com/Standards/pages/5g-media-streaming.html){: .btn .btn-blue }
 
-## 5G Unicast Downlink Media Streaming (5GMSd)
+Technical documentation including explainers can be found in the link below.
 
-To deliver downlink streaming services, the network is the origin of the media and the UE acts as the consumption device.
- 
-<img src="../../assets/images/5gms/5GMS_Downlink.png">
-
-The main functional entities are:
-
-* **5GMSd Application Provider**: The external entity responsible for the "source" side of the media—creating, encoding, and formatting the content. It utilizes 5GMSd interfaces to deliver this media to the user's application.
-
-* **5GMSd AS**: The hosting environment for media content. It can be a single server or a distributed network, such as a Content Delivery Network (CDN), to optimize delivery.
-
-* **5GMSd AF**: The control-plane entity providing management functions to the device’s Media Session Handler and the Application Provider. It also acts as the bridge to the 5G Core, interacting with the PCF or NEF.
-
-* **5GMSd Client**: The primary receiver on the device for downlink streaming services. It can be implemented with exposing APIs (M6d/M7d) for external use or as a self-contained entity where those interfaces are internal. It consists of two sub-components:
-
-  * **Media Session Handler**: The "control brain" on the device. It coordinates with the 5GMSd AF to set up and manage sessions while gathering data like Quality of Experience (QoE) and consumption metrics.
-
-  * **Media Player**: The "data engine" on the device. It communicates with the 5GMSd AS to fetch and play the actual media stream. It provides playback controls to the app and session status to the Session Handler.
-
-* **5GMSd-Aware Application**: An external app (e.g., a streaming service) that holds the provider's specific logic. Uses standardized APIs to initiate and manage media sessions.
-
-## Interfaces for 5GMSd
-
-The interfaces are:
-
-| Interface | Name | Description |
-| :--- | :--- | :--- |
-| **M1d** | **5GMSd Provisioning API** | External API exposed by the **5GMSd AF**; allows the Application Provider to configure the system for downlink streaming and receive feedback. |
-| **M2d** | **5GMSd Ingest API** | Optional external API exposed by the **5GMSd AS**; used for uploading content when the AS is hosted within a trusted Data Network. |
-| **M3d** | Internal Interface | An **unspecified internal API** used for information exchange between the 5GMSd AF and AS regarding content hosting. |
-| **M4d** | **Media Streaming APIs** | The primary data-plane APIs exposed by the **5GMSd AS** to the **Media Player** for streaming media content. |
-| **M5d** | **Media Session Handling API** | Control-plane APIs between the **5GMSd AF** and **Media Session Handler** for session control, QoE reporting, and security (auth/auth). |
-| **M6d** | **UE Media Session Handling APIs** | Internal UE APIs that allow the **5GMSd-Aware App** and the **Media Player** to access 5GMS session functions. |
-| **M7d** | **UE Media Player APIs** | Internal UE APIs used by the **5GMSd-Aware App** and **Session Handler** to control playback and media engine functions. |
-| **M8d** | **Application API** | An external interface for "service-level" exchange (like metadata or login) between the **App** and the **Provider**. This is **not specified** by 3GPP. |
-
-## Key Features for 5GMSd and APIs
-
-The following features are defined for 5GMSd.
-
-Feature | Description | Procedure | APIs 
---- | --- | --- | ---
-**Content hosting** | 3GPP TS 26.501 4.0.2 | 3GPP TS 26.501 5.4 | 3GPP TS 26.510 + 26.512
-**Network assistance** | 3GPP TS 26.501 4.0.5 | 3GPP TS 26.501 5.9 | 3GPP TS 26.510 + 26.512
-**Dynamic policies** | 3GPP TS 26.501 4.0.6 | 3GPP TS 26.501 5.8 | 3GPP TS 26.510 + 26.512
-**Consumption reporting** | 3GPP TS 26.501 4.0.8 | 3GPP TS 26.501 5.6 | 3GPP TS 26.510 + 26.512
-**QoE metrics reporting** | 3GPP TS 26.501 4.0.9 | 3GPP TS 26.501 5.5 | 3GPP TS 26.510 + 26.512
-**Edge processing** | 3GPP TS 26.501 4.0.10 | 3GPP TS 26.501 8 | 3GPP TS 26.510 + 26.512
-**eMBMS delivery** | 3GPP TS 26.501 4.0.11 | 3GPP TS 26.501 5.10 | 3GPP TS 26.510 + 26.512
-**Data collection, reporting and exposure** | 3GPP TS 26.501 4.0.12 | 3GPP TS 26.501 5.11 | 3GPP TS 26.510 + 26.512
-
-## Creation of Provisioning Session
-Note that before the required features of the 5GMS System can be used by 5GMS Clients, they are first provisioned by a 5GMS Application Provider creating one or more _Provisioning Sessions_. The 5GMSd Application Provider can then specify one or more 5GMSd features in the Provisioning Session. 
-
-## Retrieval of Service Access Information
-The Service Access Information is the set of parameters and addresses which are needed by the 5GMSd Client to activate and control the reception of a downlink streaming session, and to report service/content consumption and/or QoE metrics. 
-The Service Access Information may be provided together with other service announcement information using M8d. Alternatively, the 5GMSd Client fetches the Service Access Information from the 5GMSd AF.
+[Technical Documentation](https://hub.5g-mag.com/Tech/pages/5g-media-streaming.html){: .btn .btn-blue }
 
 # What is being implemented? 
 
 {: .inshort }
-The functional entities of 5G Media Streaming, instantiated for 5G Unicast Downlink Media Streaming (5GMSd), including support for various of the features specified.
+The functional entities of 5G Media Streaming, instantiated for 5G Unicast Downlink Media Streaming (5GMSd), including support for various of the features specified, reference points and APIs.
 
 ## 5G Unicast Downlink Media Streaming (5GMSd)
 
@@ -102,21 +33,27 @@ A functional 5GMSd implementation is available with the building blocks highligh
 
 <img src="../../assets/images/5gms/5GMS_Downlink_RT.png">
 
-[To the GitHub Repos](./repositories.html){: .btn .btn-github }
-
-[Tutorial: Deploy 5GMSd end-to-end](./tutorials/end-to-end.html){: .btn .btn-tutorial }
-
-[Tutorial: Deploy 5GMSd end-to-end including a 5G Network](./tutorials/end-to-end-with-5g.html){: .btn .btn-tutorial }
-
-## Feature: Content Hosting
+This includes the implementation of the following entities: **5GMSd Application Provider**, **5GMSd AS**, **5GMSd AF**, **5GMSd Client** (with **Media Session Handler** and **Media Player**) and **5GMSd-Aware Application**.
 
 [To the GitHub Repos](./repositories.html){: .btn .btn-github }
+
+[Tutorial: Deploy 5GMSd End-to-End](./tutorials/end-to-end.html){: .btn .btn-tutorial }
+
+[Tutorial: Deploy 5GMSd End-to-End including a 5G Network and UE](./tutorials/end-to-end-with-5g.html){: .btn .btn-tutorial }
 
 [Tutorial: Test the 5GMS Application Function](./tutorials/testing-AF.html){: .btn .btn-tutorial }
 
 [Tutorial: Test the 5GMS Application Server](./tutorials/testing-AS.html){: .btn .btn-tutorial }
 
-The content hosting feature provides a service equivalent to a Content Delivery Network (CDN) deployed inside or outside the Trusted DN.
+Note that before the required features of the 5GMS System can be used by 5GMS Clients, they are first provisioned by a 5GMS Application Provider creating one or more _Provisioning Sessions_. The 5GMSd Application Provider can then specify one or more 5GMSd features in the Provisioning Session. The Provisioning Session information may include Content Hosting Configurations, Content Preparation Templates, Server Certificates, Policy Templates, a Consumption Reporting Configuration, Metrics Reporting Configurations, Edge Resources Configurations and Event Data Processing Configurations.
+
+Examples of such configuration are avaiable in GitHub.
+
+[Find sample files in rt-5gms-examples](./repositories.html){: .btn .btn-5gms }
+
+## Feature: Content Hosting
+
+The content hosting feature provides a service equivalent to a Content Delivery Network (CDN) deployed inside or outside the Trusted DN. It includes selecting the ingest protocol and format, caching and proxying of media objects, content preparation, access protection (e.g. URL signing) and indicating a target distribution area (e.g. through geofencing).
 
 <img src="../../assets/images/5gms/5GMS_ContentHosting.png">
 
@@ -133,9 +70,17 @@ M1 | 5.2.7 | [Policy Templates provisioning API](https://jdegre.github.io/loader
 M1 | 5.2.8 | [Content Hosting provisioning API](https://jdegre.github.io/loader.html?yaml=TS26512_M1_ContentHostingProvisioning.yaml) | 8.8
 M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ServiceAccessInformation.yaml) | 9.2
 
-## Feature: Network Assistance
+Once a Provisioning Session is established using the API at interface M1d, **Content Hosting** can be configured. The security of the content published to the 5GMS System may be guaranteed by a provisioned **Server Certificate**.
 
-[To the GitHub Repos](./repositories.html){: .btn .btn-github }
+[Find sample files in rt-5gms-examples](./repositories.html){: .btn .btn-5gms }
+
+The following tutorials contain several steps showing how to create a Provisioning Session, add Content Hosting configuration and provisioning of Server Certificates.
+
+[Tutorial: Deploy 5GMSd End-to-End](./tutorials/end-to-end.html){: .btn .btn-tutorial }
+
+[Tutorial: Test the 5GMS AF](./tutorials/testing-AF.html){: .btn .btn-tutorial }
+
+## Feature: Network Assistance
 
 The network assistance feature enables the 5GMS Client in the UE to interrogate or manipulate the network Quality of Service for an ongoing media streaming session. It defines two mechanisms for obtaining network assistance via interactions with the PCF (AF-based network assistance) or via ANBR signalling interactions between the UE modem and the RAN (ANBR-based network assistance). 
 
@@ -160,9 +105,11 @@ Reference Point | Interactions | API Name | Description
 M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ServiceAccessInformation.yaml) | 9.2
 M5 | 5.3.4 | [Network Assistance API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_NetworkAssistance.yaml) | 9.4
 
-## Feature: Dynamic Policies
+Note that the network assistance feature is not explicitly provisioned by the 5GMS Application Provider. It is either available for a particular media streaming session or not, depending on system pre-configuration and/or policy.
 
-[To the GitHub Repos](./repositories.html){: .btn .btn-github }
+[Find sample files in rt-5gms-examples](./repositories.html){: .btn .btn-5gms }
+
+## Feature: Dynamic Policies
 
 The dynamic policies feature enables the 5GMS Client in the UE to manipulate the network traffic handling policies for an ongoing media streaming session.
 
@@ -177,9 +124,12 @@ M1 | 5.2.7 | [Policy Templates provisioning API](https://jdegre.github.io/loader
 M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ServiceAccessInformation.yaml) | 9.2
 M5 | 5.3.3 | [Dynamic Policies API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_DynamicPolicies.yaml) | 9.3
 
-## Feature: Consumption Reporting
+When the dynamic policy feature is offered and selected, the 5GMSd Application Provider specifies a set of policies which can be invoked for the unicast downlink streaming session. The UE becomes aware of the 
+selected policies in the form of a list of valid Policy Template Ids.
 
-[To the GitHub Repos](./repositories.html){: .btn .btn-github }
+[Find sample files in rt-5gms-examples](./repositories.html){: .btn .btn-5gms }
+
+## Feature: Consumption Reporting
 
 [Tutorial: Deploy 5GMSd with Consumption Reporting](./tutorials/consumption-reporting.html){: .btn .btn-tutorial }
 
@@ -196,9 +146,17 @@ M1 | 5.2.12 | [Consumption Reporting provisioning API](https://jdegre.github.io/
 M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ServiceAccessInformation.yaml) | 9.2
 M5 | 5.3.6| [Consumption Reporting API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ConsumptionReporting.yaml) | 9.6
 
-## Feature: QoE Metrics Reporting
+Once a Provisioning Session is established using the API at interface M1d, **Consumption Reporting** can be configured.
 
-[To the GitHub Repos](./repositories.html){: .btn .btn-github }
+[Find sample files in rt-5gms-examples](./repositories.html){: .btn .btn-5gms }
+
+The following tutorials contain several steps showing how to create a Consumption Reporting Configuration.
+
+[Tutorial: Deploy 5GMSd End-to-End](./tutorials/consumption-reporting.html){: .btn .btn-tutorial }
+
+[Tutorial: Test the 5GMS AF](./tutorials/testing-AF.html){: .btn .btn-tutorial }
+
+## Feature: QoE Metrics Reporting
 
 [Tutorial: Deploy 5GMSd with QoE Metrics Reporting](./tutorials/metrics-reporting.html){: .btn .btn-tutorial }
 
@@ -220,6 +178,16 @@ M1 | 5.2.2 | [Provisioning Sessions API](https://jdegre.github.io/loader.html?ya
 M1 | 5.2.11 | [Metrics Reporting provisioning API](https://jdegre.github.io/loader.html?yaml=TS26512_M1_MetricsReportingProvisioning.yaml) | 8.10
 M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ServiceAccessInformation.yaml) | 9.2
 M5 | 5.3.5 | [Metrics Reporting API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_MetricsReporting.yaml) | 9.5
+
+Once a Provisioning Session is established using the API at interface M1d, **QoE Metrics Reporting** can be configured.
+
+[Find sample files in rt-5gms-examples](./repositories.html){: .btn .btn-5gms }
+
+The following tutorials contain several steps showing how to create a QoE Metrics Reporting Configuration.
+
+[Tutorial: Deploy 5GMSd End-to-End](./tutorials/metrics-reporting.html){: .btn .btn-tutorial }
+
+[Tutorial: Test the 5GMS AF](./tutorials/testing-AF.html){: .btn .btn-tutorial }
 
 ## Feature: Data collection, reporting and exposure (TS 26.510)
 
