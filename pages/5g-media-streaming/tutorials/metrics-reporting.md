@@ -67,12 +67,12 @@ session. In this guide we use
 the [Postman Collection](https://github.com/5G-MAG/rt-5gms-application-provider/tree/master/postman) for this. However,
 the same configuration is possible using any other REST client.
 
-#### Step 7.1 Install and Import the Postman Collection
+### Step 7.1 Install and Import the Postman Collection
 
 Follow the instructions [here](https://github.com/5G-MAG/rt-5gms-application-provider/tree/master/postman) to install
 and import the Postman collection.
 
-#### Step 7.2 Retrieving the Provisioning Session ID
+### Step 7.2 Retrieving the Provisioning Session ID
 
 Open a browser and navigate to `http://<YOUR_MACHINE_IP>/m8.json`. Replace `<YOUR_MACHINE_IP_HERE>` with the IP of the
 machine that the 5GMS Application Function is running on. Then copy the `provisioningSessionId` from the JSON to your
@@ -130,14 +130,14 @@ to `1fd61716-fe25-41ee-8d9e-cb36a16378a2`.
 }
 ````
 
-#### Step 7.3 Postman - Environment Configuration
+### Step 7.3 Postman - Environment Configuration
 
 Start Postman and navigate to the Postman `Environments` located on the left side. Replace the `provisioning_session_id`
 variable with the value from the JSON file:
 
 <img src="../../../assets/images/5gms/postman-env.png" width="80%" /> 
 
-#### Step 7.4 Postman - Create Metrics Reporting Configuration
+### Step 7.4 Postman - Create Metrics Reporting Configuration
 
 In Postman navigate to `Collections` and select `5G-MAG M1`. Navigate to `Metrics Reporting` and
 select `Create Metrics Reporting Configuration`. Then adjust the attributes in the payload section based on the desired
@@ -166,7 +166,7 @@ Click on `Send` once the configuration is set:
 
 The REST call should return a `201` response code indicating that the call was accepted by the Application Function.
 
-#### Step 7.5 Postman - Validate the Service Access Information
+### Step 7.5 Postman - Validate the Service Access Information
 
 Now that we have provided a QoE Metrics Reporting configuration via the `M1` interface our Service Access Information
 should contain the relevant information for the 5GMSd Client. We can validate that via the M5 interface.
