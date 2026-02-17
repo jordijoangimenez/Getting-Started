@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 5GMSd Setup with 5G Network
+title: 5GMSd with 5G Network
 parent: Tutorials
 grand_parent: 5G Media Streaming
 has_children: false
