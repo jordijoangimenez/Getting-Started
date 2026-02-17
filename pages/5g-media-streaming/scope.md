@@ -191,8 +191,6 @@ The following tutorials contain several steps showing how to create a QoE Metric
 
 ## Feature: Data collection, reporting and exposure (TS 26.510)
 
-[To the GitHub Repos](./repositories.html){: .btn .btn-github }
-
 The data collection, reporting and exposure feature enables the 5GMS System to log data relating to media streaming sessions and to expose this to 
 subscribers in the form of Events.
 
