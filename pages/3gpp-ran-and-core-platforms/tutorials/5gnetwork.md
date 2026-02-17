@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 5G Network with COTS UE
+title: 5G Network & COTS UE
 parent: Tutorials
 grand_parent: 3GPP RAN and Core
 has_children: false
