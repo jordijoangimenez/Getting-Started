@@ -7,6 +7,8 @@ has_children: false
 nav_order: 3
 ---
 
+<img src="../../../assets/images/Banner_5GMS.png" /> 
+
 # Tutorial - 5G MSd: Basic End-to-End Setup with 5G Network
 
 This guide describes how to setup and configure the 5G-MAG Reference Tools to create an end to end setup consisting of
