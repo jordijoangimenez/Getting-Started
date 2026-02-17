@@ -7,6 +7,8 @@ has_children: false
 nav_order: 1
 ---
 
+<img src="../../../assets/images/Banner_3GPP_Platforms.png" /> 
+
 # Tutorial - 5G Network with Open5GS, srsRAN and COTS UE
 
 ## Introduction
