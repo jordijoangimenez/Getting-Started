@@ -53,8 +53,6 @@ Note that before the required features of the 5GMS System can be used by 5GMS Cl
 
 Examples of such configuration are avaiable in GitHub.
 
-TODO [Find sample files in rt-5gms-examples](./repositories.html){: .btn .btn-5gms }
-
 ## Feature: Content Hosting
 
 The content hosting feature provides a service equivalent to a Content Delivery Network (CDN) deployed inside or outside the Trusted DN. It includes selecting the ingest protocol and format, caching and proxying of media objects, content preparation, access protection (e.g. URL signing) and indicating a target distribution area (e.g. through geofencing).
@@ -75,8 +73,6 @@ M1 | 5.2.8 | [Content Hosting provisioning API](https://jdegre.github.io/loader.
 M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ServiceAccessInformation.yaml) | 9.2
 
 Once a Provisioning Session is established using the API at interface M1d, **Content Hosting** can be configured. The security of the content published to the 5GMS System may be guaranteed by a provisioned **Server Certificate**.
-
-TODO [Find sample files in rt-5gms-examples](./repositories.html){: .btn .btn-5gms }
 
 The following tutorials describe several steps showing how to create a Provisioning Session, add Content Hosting configuration and provisioning of Server Certificates.
 
@@ -111,8 +107,6 @@ M5 | 5.3.4 | [Network Assistance API](https://jdegre.github.io/loader.html?yaml=
 
 Note that the network assistance feature is not explicitly provisioned by the 5GMS Application Provider. It is either available for a particular media streaming session or not, depending on system pre-configuration and/or policy.
 
-TODO [Find sample files in rt-5gms-examples](./repositories.html){: .btn .btn-5gms }
-
 ## Feature: Dynamic Policies
 
 The dynamic policies feature enables the 5GMS Client in the UE to manipulate the network traffic handling policies for an ongoing media streaming session.
@@ -130,8 +124,6 @@ M5 | 5.3.3 | [Dynamic Policies API](https://jdegre.github.io/loader.html?yaml=TS
 
 When the dynamic policy feature is offered and selected, the 5GMSd Application Provider specifies a set of policies which can be invoked for the unicast downlink streaming session. The UE becomes aware of the 
 selected policies in the form of a list of valid Policy Template Ids.
-
-TODO [Find sample files in rt-5gms-examples](./repositories.html){: .btn .btn-5gms }
 
 ## Feature: Consumption Reporting
 
@@ -151,8 +143,6 @@ M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.ht
 M5 | 5.3.6| [Consumption Reporting API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_ConsumptionReporting.yaml) | 9.6
 
 Once a Provisioning Session is established using the API at interface M1d, **Consumption Reporting** can be configured.
-
-TODO [Find sample files in rt-5gms-examples](./repositories.html){: .btn .btn-5gms }
 
 The following tutorials describe several steps showing how to create a Consumption Reporting Configuration.
 
@@ -184,8 +174,6 @@ M5 | 5.3.2 | [Service Access Information API](https://jdegre.github.io/loader.ht
 M5 | 5.3.5 | [Metrics Reporting API](https://jdegre.github.io/loader.html?yaml=TS26512_M5_MetricsReporting.yaml) | 9.5
 
 Once a Provisioning Session is established using the API at interface M1d, **QoE Metrics Reporting** can be configured.
-
-TODO [Find sample files in rt-5gms-examples](./repositories.html){: .btn .btn-5gms }
 
 The following tutorials describe several steps showing how to create a QoE Metrics Reporting Configuration.
 
