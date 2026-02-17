@@ -7,15 +7,6 @@ has_children: false
 nav_order: 0
 ---
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
 # Developing and Testing the 5GMSd Application Server
 
 Here you will find information to assist with development and testing of the 5G-MAG Reference Tools 5GMS Application
