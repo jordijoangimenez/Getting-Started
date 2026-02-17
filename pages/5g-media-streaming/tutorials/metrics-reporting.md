@@ -189,7 +189,7 @@ the [basic end-to-end guide](end-to-end.html) setup guide.
 While consuming content configured and provided via our previously installed 5GMSd Application Server and 5GMSd
 Application Function the client is automatically creating and sending QoE Metrics Reports.
 
-<img src="../../../assets/images/5gms/app-playback.png" width="40%" /> 
+<img src="../../../assets/images/5gms/app-playback.png" width="30%" /> 
 
 ### Step 3: Inspecting the QoE Metrics Report
 
