@@ -127,8 +127,6 @@ selected policies in the form of a list of valid Policy Template Ids.
 
 ## Feature: Consumption Reporting
 
-[Tutorial: Deploy 5GMSd with Consumption Reporting](./tutorials/consumption-reporting.html){: .btn .btn-tutorial }
-
 The consumption reporting feature allows consumption of downlink media streaming to be logged by the 5GMS System and exposed for analysis.
 
 <img src="../../assets/images/5gms/5GMS_ConsumptionReporting.png">
@@ -146,13 +144,11 @@ Once a Provisioning Session is established using the API at interface M1d, **Con
 
 The following tutorials describe several steps showing how to create a Consumption Reporting Configuration.
 
-[Tutorial: Deploy 5GMSd End-to-End](./tutorials/consumption-reporting.html){: .btn .btn-tutorial }
+[Tutorial: Deploy 5GMSd with Consumption Reporting](./tutorials/consumption-reporting.html){: .btn .btn-tutorial }
 
 [Tutorial: Test the 5GMS AF](./tutorials/testing-AF.html){: .btn .btn-tutorial }
 
 ## Feature: QoE Metrics Reporting
-
-[Tutorial: Deploy 5GMSd with QoE Metrics Reporting](./tutorials/metrics-reporting.html){: .btn .btn-tutorial }
 
 The QoE metrics reporting feature enables the 5GMS System to log and expose streaming performance data for further analysis.
 
@@ -177,7 +173,7 @@ Once a Provisioning Session is established using the API at interface M1d, **QoE
 
 The following tutorials describe several steps showing how to create a QoE Metrics Reporting Configuration.
 
-[Tutorial: Deploy 5GMSd End-to-End](./tutorials/metrics-reporting.html){: .btn .btn-tutorial }
+[Tutorial: Deploy 5GMSd with QoE Metrics Reporting](./tutorials/metrics-reporting.html){: .btn .btn-tutorial }
 
 [Tutorial: Test the 5GMS AF](./tutorials/testing-AF.html){: .btn .btn-tutorial }
 
