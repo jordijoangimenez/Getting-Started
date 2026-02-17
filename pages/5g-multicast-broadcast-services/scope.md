@@ -10,7 +10,7 @@ nav_order: 0
 
 [Scope](./scope.html){: .btn .btn-blue } [Project Roadmap](./projects.html){: .btn .btn-blue } [GitHub Repos](./repositories.html){: .btn .btn-github } [Releases](../releases.html#project-5g-multicast-broadcast-services){: .btn .btn-release } [Tutorials](./tutorials.html){: .btn .btn-tutorial } [Requirements](./requirements.html){: .btn .btn-blue }
 
-# Scope and Architectures
+# Scope
 
 This page contains information such as the specifications within the scope of the tools and high-level architectures that bring context to their applicability.
 
