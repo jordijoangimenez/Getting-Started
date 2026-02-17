@@ -7,6 +7,8 @@ has_children: true
 nav_order: 1
 ---
 
+<img src="../../../assets/images/Banner_5GMS.png" /> 
+
 # Testing the 5GMS Application Function
 
 ## Installation of the 5GMS AF as a Local User
