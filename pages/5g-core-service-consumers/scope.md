@@ -18,7 +18,7 @@ A list of relevant specifications can be found in the link below.
 
 [Specifications](https://hub.5g-mag.com/Standards/pages/5g-core-service-consumers.html){: .btn .btn-blue }
 
-## What is being implemented? 
+# What is being implemented? 
 
 {: .inshort }
 A series of reusable service consumer libraries to invoke service operations on various 5GC network functions.
