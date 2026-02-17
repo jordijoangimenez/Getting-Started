@@ -7,6 +7,8 @@ has_children: false
 nav_order: 0
 ---
 
+<img src="../../../assets/images/Banner_3GPP_Platforms.png" /> 
+
 # Tutorial - SDR Platforms for srsRAN
 
 This page collects instructions to install and run some SDR Platforms which developers have used to build demonstrators for the 5G Broadcast project, which work for srsRAN
