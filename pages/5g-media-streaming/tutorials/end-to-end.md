@@ -118,7 +118,7 @@ sudo 5gms-application-server
 ````
 
 For additional options, refer to
-the [documentation](../tutorials/application-server/testing-AS.html#running-the-example-without-building). Pay attention to
+the [documentation](../tutorials/testing-AS.html#running-the-example-without-building). Pay attention to
 the port configuration of the AS, as it requires root permission to run on the standard ports (`80` & `443`).
 
 ### 4. Running the Application Function
@@ -155,7 +155,7 @@ As we installed the AF as a local user, we start it with the following command:
 ### 7. Creating a Content Hosting Configuration
 
 There is a guide on how to test the AS with the AF in
-the [documentation](../tutorials/application-server/testing-AS.html#testing-with-the-application-function). We are following
+the [documentation](../tutorials/testing-AS.html#testing-with-the-application-function). We are following
 a slightly different approach as we use the `msaf-configuration` tool that ships with version `1.3.0` of the Application
 Function. The `msaf-configuration` tool creates a `provisioningSession` and a `contentHostingConfiguration` based on a
 JSON input file. Moreover, it automatically generates the required `M8` information for us that we will later need on
