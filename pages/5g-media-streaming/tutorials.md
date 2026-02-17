@@ -18,10 +18,10 @@ A series of instructions and examples to test the 5GMS Application Server.
 ## [Tutorial: Testing the 5GMS Application Function](./tutorials/testing-AF.html)
 A series of instructions and examples to test the 5GMS Application Function.
 
-## [Tutorial: Basic 5G Media Streaming End-to-End deployment](./tutorials/end-to-end.html)
+## [Tutorial: 5G Media Streaming End-to-End deployment](./tutorials/end-to-end.html)
 This guide describes how to setup and configure the 5G-MAG Reference Tools - 5G Downlink Media Streaming components to create an end to end setup using Application Function, Application Server, 5GMSd Aware Application, Media Session Handler, Media Stream Handler and Common Android Library.
 
-## [Tutorial: Basic 5G Media Streaming End-to-End deployment with 5G Network and COTS UE](./tutorials/end-to-end-with-5g.html)
+## [Tutorial: 5G Media Streaming End-to-End deployment with 5G Network and COTS UE](./tutorials/end-to-end-with-5g.html)
 This guide describes how to setup and configure the 5G-MAG Reference Tools to create an end to end setup consisting of the 5G Downlink Media Streaming components and a 5G Network based on Open5GS and srsRAN.
 
 ## [Tutorial: 5G Media Streaming with Consumption Reporting](./tutorials/consumption-reporting.html)
