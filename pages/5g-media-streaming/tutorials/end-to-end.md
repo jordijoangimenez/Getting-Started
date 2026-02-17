@@ -7,14 +7,7 @@ has_children: false
 nav_order: 2
 ---
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
+<img src="../../../assets/images/Banner_5GMS.png" /> 
 
 # Tutorial - 5G MSd: Basic End-to-End Setup (with Docker)
 
