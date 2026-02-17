@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Testing 5GMSd AS
+title: Testing 5GMS AS
 parent: Tutorials
 grand_parent: 5G Media Streaming
 has_children: false
@@ -9,7 +9,7 @@ nav_order: 0
 
 <img src="../../../assets/images/Banner_5GMS.png" /> 
 
-# Tutorial - Developing and Testing the 5GMSd Application Server
+# Tutorial - Developing and Testing the 5GMS Application Server
 
 Here you will find information to assist with development and testing of the 5G-MAG Reference Tools 5GMS Application Server (AS).
 
