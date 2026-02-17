@@ -7,6 +7,8 @@ has_children: false
 nav_order: 2
 ---
 
+<img src="../../../assets/images/Banner_5GC.png" /> 
+
 # Tutorial - Using the 5GC Service Consumer libraries: libscMBSMF
 
 ## Introduction
