@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Application Domains
+title: Application Areas
 nav_order: 2
 has_children: true
 ---
 
 <img src="../assets/images/Banner_ReferenceTools.png" /> 
 
-# Application Domains of the Projects
+# Application Areas of the Projects
 
 <table>
   <tr>
