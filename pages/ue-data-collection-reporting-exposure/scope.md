@@ -115,7 +115,7 @@ R6 supports interactions between the Event Consumer AF (in the Application Servi
 - To expose data reporting events to the Event Consumer AF (by means of [Naf_EventExposure_Notify](https://jdegre.github.io/editor/?url=https://raw.githubusercontent.com/jdegre/5GC_APIs/Rel-17/TS29517_Naf_EventExposure.yaml) or Nnef_EventExposure_Notify services) - when subsequently used by the Data Collection AF.
 
 ### Subscribing for Events
-An example of a request body when Creating a new -individual Application Event Exposure Subscription is shown below:
+An example of a request body when Creating a new Individual Application Event Exposure Subscription is shown below:
 ```
 {
   "eventsSubs": [
