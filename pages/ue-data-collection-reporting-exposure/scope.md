@@ -46,7 +46,7 @@ The following tutorial covers the setup of a Data Collection Application Functio
 [Go to the Tutorial: Data Collection Application Function with Docker and Insomnia REST client](tutorials/docker-with-insomnia.md){: .btn .btn-tutorial }
 
 
-## R1 (Provisining API) - Ndcaf_DataReportingProvisioning
+## R1 (Provisioning API) - Ndcaf_DataReportingProvisioning
 
 R1 supports interactions between a Provisioning AF (in the Application Service Provider) and the Data Collection AF to:
 - Provision data collection and reporting in a Data Collection AF (by means of [Ndcaf_DataReportingProvisioning](https://jdegre.github.io/loader.html?yaml=TS26532_Ndcaf_DataReportingProvisioning.yaml) service.
