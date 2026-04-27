@@ -72,6 +72,7 @@ jobs:
                   print(f"Error fetching {url}: {e}")
                   return None
 
+          # Load existing stats for historical accumulation
           existing_comm_data = {}
           if os.path.exists('_data/community_stats.json'):
               try:
@@ -91,10 +92,10 @@ jobs:
                   if not repo_data: continue
                   repo_name = repo.split('/')[-1]
                   
-                  # 1. Descriptions
-                  repo_descriptions[repo_name] = repo_data.get('description', '')
+                  # 1. Store Description (Cleaned for YAML)
+                  repo_descriptions[repo_name] = (repo_data.get('description') or "").replace('\n', ' ').strip()
 
-                  # 2. Stats
+                  # 2. Community Stats (Views/Clones/Stars)
                   v_api = get_json(f"https://api.github.com/repos/{repo}/traffic/views")
                   c_api = get_json(f"https://api.github.com/repos/{repo}/traffic/clones")
                   c_v_14 = v_api.get('count', 0) if v_api else 0
@@ -113,23 +114,23 @@ jobs:
                       "repo_url": f"https://github.com/{repo}"
                   })
 
-                  # 3. Releases with BLINK Logic
+                  # 3. Releases with Blinking/Color Logic
                   all_rels = get_json(f"https://api.github.com/repos/{repo}/releases") or []
                   f_tag = (filtered_projects[p_name]['filter'].lower() if p_name in filtered_projects else "")
-                  
                   target = next((r for r in all_rels if f_tag in r.get('tag_name', '').lower()), None) if f_tag else next((r for r in all_rels if not r.get('prerelease')), None) or (all_rels[0] if all_rels else None)
                   
                   rel_date = target.get('published_at', '').split('T')[0] if target else "-"
-                  rel_blink = False
-                  if rel_date != "-":
-                      rel_blink = (datetime.now() - datetime.strptime(rel_date, "%Y-%m-%d")).days <= 30
-
+                  rel_days = (datetime.now() - datetime.strptime(rel_date, "%Y-%m-%d")).days if rel_date != "-" else 999
+                  
                   rel_list.append({
                       "short_name": repo_name, "tag": target.get('tag_name') if target else "No Release",
-                      "date": rel_date, "blink": rel_blink, "url": target.get('html_url') if target else f"https://github.com/{repo}/releases"
+                      "date": rel_date, 
+                      "blink": (rel_days <= 30),
+                      "color": "green" if rel_days <= 90 else "orange" if rel_days <= 180 else "red",
+                      "url": target.get('html_url') if target else f"https://github.com/{repo}/releases"
                   })
 
-                  # 4. PRs with BLINK Logic
+                  # 4. Pull Requests with 3m/6m Logic
                   prs = get_json(f"https://api.github.com/repos/{repo}/pulls?state=open") or []
                   for pr in prs:
                       created_date = pr.get('created_at', '').split('T')[0]
@@ -138,39 +139,47 @@ jobs:
                           "repo": repo_name, "title": pr.get('title'), "url": pr.get('html_url'),
                           "user": pr.get('user', {}).get('login'),
                           "date": created_date, "days_ago": days_ago, 
-                          "color": "green" if days_ago <= 60 else "orange" if days_ago <= 120 else "red",
+                          "color": "green" if days_ago <= 90 else "orange" if days_ago <= 180 else "red",
                           "blink": (days_ago <= 30)
                       })
 
               rel_out[p_name], pr_out[p_name], comm_out[p_name] = rel_list, pull_list, comm_list
 
-          # 5. Save files
+          # 5. Save all JSON Files
           if not os.path.exists('_data'): os.makedirs('_data')
           ts = datetime.now().strftime("%Y-%m-%d %H:%M")
           for n, d in [('releases', rel_out), ('pull_requests', pr_out), ('community_stats', comm_out)]:
               with open(f'_data/{n}.json', 'w') as f: json.dump({"last_updated": ts, "projects": d}, f, indent=2)
 
-          # 6. YAML Sync
+          # 6. Surgical YAML Update for repo_metadata.yml
           yaml_path = '_data/repo_metadata.yml'
           if os.path.exists(yaml_path):
               with open(yaml_path, 'r') as f: lines = f.readlines()
-              updated_lines, active_slug, skip_mode = [], None, False
+              updated_lines, active_slug, skip_mode, current_indent = [], None, False, ""
+              
               for line in lines:
-                  if skip_mode:
-                      if line.strip() == "" or line.startswith("      "):
-                          if ":" not in line.strip() or line.strip().startswith("-"): continue
-                      skip_mode = False
+                  # Detect the current repo context via slug
                   if 'repo_slug:' in line:
                       m = re.search(r'repo_slug:\s*["\']?([^"\s\n\']+)["\']?', line)
                       if m: active_slug = m.group(1)
+
+                  # Replace the description key and start skip_mode
                   if 'description:' in line and active_slug in repo_descriptions:
-                      clean_text = repo_descriptions[active_slug].replace('\n', ' ').strip()
-                      indent = line[:line.find('description:')]
-                      updated_lines.append(f'{indent}description: |\n')
-                      updated_lines.append(f'{indent}  {clean_text}\n')
+                      current_indent = line[:line.find('description:')]
+                      updated_lines.append(f'{current_indent}description: |\n')
+                      updated_lines.append(f'{current_indent}  {repo_descriptions[active_slug]}\n')
                       skip_mode = True
                       continue
+                  
+                  # Skip existing multi-line content belonging to the description
+                  if skip_mode:
+                      if not line.strip() or line.startswith(current_indent + " "):
+                          continue
+                      else:
+                          skip_mode = False # Reached next key
+
                   updated_lines.append(line)
+                  
               with open(yaml_path, 'w') as f: f.writelines(updated_lines)
           EOF
 
@@ -179,5 +188,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add _data/*.json _data/repo_metadata.yml
-          git commit -m "Dashboard: Update stats and blinking status" || exit 0
+          git commit -m "Dashboard: Automated Sync of descriptions, stats, and health status" || exit 0
           git push
