@@ -1,6 +1,7 @@
 {
-  "last_updated": "2026-04-27 09:15",
+  "last_updated": "2026-04-27 09:51",
   "projects": {
+    "3GPP RAN and Core Platforms": [],
     "5G Media Streaming": [
       {
         "repo": "rt-5gms-application-provider",
@@ -29,7 +30,7 @@
         "user": "dsilhavy",
         "date": "2026-02-23",
         "days_ago": 63,
-        "color": "orange",
+        "color": "green",
         "blink": false
       },
       {
@@ -39,7 +40,7 @@
         "user": "dsilhavy",
         "date": "2026-02-25",
         "days_ago": 61,
-        "color": "orange",
+        "color": "green",
         "blink": false
       },
       {
@@ -49,7 +50,7 @@
         "user": "shilinding",
         "date": "2026-02-20",
         "days_ago": 66,
-        "color": "orange",
+        "color": "green",
         "blink": false
       },
       {
@@ -173,6 +174,26 @@
         "days_ago": 1077,
         "color": "red",
         "blink": false
+      },
+      {
+        "repo": "rt-mbms-mw",
+        "title": "ROUTE support using GPAC",
+        "url": "https://github.com/5G-MAG/rt-mbms-mw/pull/18",
+        "user": "rbouqueau",
+        "date": "2021-11-30",
+        "days_ago": 1609,
+        "color": "red",
+        "blink": false
+      },
+      {
+        "repo": "rt-mbms-mw",
+        "title": "readme: propose to install in /usr/local instead of /usr (which is a \u2026",
+        "url": "https://github.com/5G-MAG/rt-mbms-mw/pull/15",
+        "user": "rbouqueau",
+        "date": "2021-10-23",
+        "days_ago": 1647,
+        "color": "red",
+        "blink": false
       }
     ],
     "Auxiliary Tools": [
@@ -197,10 +218,11 @@
         "user": "dsilhavy",
         "date": "2026-02-25",
         "days_ago": 61,
-        "color": "orange",
+        "color": "green",
         "blink": false
       }
     ],
+    "Network Capability Exposure": [],
     "5G Broadcast Emergency Alerts": [
       {
         "repo": "rt-mbms-tx-for-qrd-and-crd",
@@ -271,7 +293,7 @@
         "user": "dsilhavy",
         "date": "2026-02-23",
         "days_ago": 63,
-        "color": "orange",
+        "color": "green",
         "blink": false
       }
     ]
