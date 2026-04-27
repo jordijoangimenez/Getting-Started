@@ -34,26 +34,28 @@ jobs:
           import re
           from datetime import datetime
 
-          # 1. Configuration
+          # 1. Configuration - Unified List
           standard_projects = {
+              "3GPP RAN and Core Platforms": ["5G-MAG/rt-5g-core", "5G-MAG/rt-5g-ran-gnb", "5G-MAG/rt-5g-ran-cu", "5G-MAG/rt-5g-ran-du"],
               "5G Media Streaming": ["5G-MAG/rt-5gms-application-provider", "5G-MAG/rt-5gms-application", "5G-MAG/rt-5gms-application-function", "5G-MAG/rt-5gms-application-server", "5G-MAG/rt-5gms-media-stream-handler", "5G-MAG/rt-5gms-media-session-handler", "5G-MAG/rt-5gms-common-android-library", "5G-MAG/rt-5gms-examples"],
               "5G Core Service Consumers": ["5G-MAG/rt-5gc-service-consumers"],
               "UE Data Collection": ["5G-MAG/rt-data-collection-application-function"],
-              "5G Broadcast TV Radio": ["5G-MAG/rt-mbms-tx-for-qrd-and-crd", "5G-MAG/rt-mbms-tx", "5G-MAG/rt-mbms-mw-android", "5G-MAG/rt-mbms-mw", "5G-MAG/rt-mbms-modem", "5G-MAG/rt-wui", "5G-MAG/rt-mbms-examples"],
-              "XR Media": ["5G-MAG/rt-xr-unity-player", "5G-MAG/rt-xr-content", "5G-MAG/rt-xr-blender-exporter"],
+              "5G Broadcast TV Radio": ["5G-MAG/rt-mbms-tx-for-qrd-and-crd", "5G-MAG/rt-mbms-tx", "5G-MAG/rt-mbms-mw-android", "5G-MAG/rt-mbms-mw", "5G-MAG/rt-mbms-modem", "5G-MAG/rt-mbms-wui", "5G-MAG/rt-mbms-examples"],
+              "XR Media": ["5G-MAG/rt-xr-unity-player", "5G-MAG/rt-xr-content", "5G-MAG/rt-xr-blender-exporter", "5G-MAG/rt-xr-glTFast", "5G-MAG/rt-xr-maf-native"],
               "V3C Immersive": ["5G-MAG/rt-v3c-unity-player", "5G-MAG/rt-v3c-decoder-plugin", "5G-MAG/rt-v3c-content"],
               "Beyond 2D": ["5G-MAG/rt-beyond2d-evaluation-framework"],
               "AI ML": ["5G-MAG/rt-ai-ml-evaluation-framework"],
-              "Multimedia Protocols": ["5G-MAG/rt-libflute"],
+              "Multimedia Protocols": ["5G-MAG/rt-libflute", "5G-MAG/rt-mbms-mw"],
               "Auxiliary Tools": ["5G-MAG/rt-common-shared"],
-              "Conversational Avatar": ["5G-MAG/rt-avatar-content", "5G-MAG/rt-avatar-call", "5G-MAG/rt-avatar-unity-tracker"],
+              "Conversational Avatar": ["5G-MAG/rt-avatar-content", "5G-MAG/rt-avatar-call", "5G-MAG/rt-avatar-unity-tracker", "5G-MAG/rt-3gpp-swap"],
               "6G Testbed": ["5G-MAG/6G-Testbed"],
-              "DVB-I over 5G": ["5G-MAG/rt-5gms-application"]
+              "DVB-I over 5G": ["5G-MAG/rt-5gms-application"],
+              "Network Capability Exposure": ["5G-MAG/rt-network-api"]
           }
 
           filtered_projects = {
               "5G Broadcast Emergency Alerts": {"repos": ["5G-MAG/rt-mbms-tx-for-qrd-and-crd"], "filter": "-ea-"},
-              "5G Multicast Broadcast": {"repos": ["5G-MAG/rt-mbs-function","5G-MAG/rt-mbs-transport-function", "5G-MAG/open5gs", "5G-MAG/rt-srsRAN_Project", "5G-MAG/rt-mbs-examples"], "filter": "5mbs"}
+              "5G Multicast Broadcast": {"repos": ["5G-MAG/rt-mbs-function","5G-MAG/rt-mbs-transport-function", "5G-MAG/open5gs", "5G-MAG/rt-srsRAN_Project", "5G-MAG/srsRAN_4G", "5G-MAG/rt-mbs-examples"], "filter": "5mbs"}
           }
 
           def get_json(url):
@@ -61,25 +63,23 @@ jobs:
               req = urllib.request.Request(url)
               req.add_header('User-Agent', 'Github-Action-Bot')
               req.add_header('Accept', 'application/vnd.github+json')
-              if token:
-                  req.add_header('Authorization', f'Bearer {token}')
+              if token: req.add_header('Authorization', f'Bearer {token}')
               try:
-                  time.sleep(0.8)
+                  time.sleep(0.7) # Slight delay to avoid rate limiting
                   with urllib.request.urlopen(req) as response:
                       return json.loads(response.read().decode())
               except Exception as e:
                   print(f"Error fetching {url}: {e}")
                   return None
 
-          # Load existing stats for historical persistence
+          # Historical persistence for stats
           existing_comm_data = {}
           if os.path.exists('_data/community_stats.json'):
               try:
                   with open('_data/community_stats.json', 'r') as f:
                       old_data = json.load(f)
                       for group in old_data.get("projects", {}).values():
-                          for item in group:
-                              existing_comm_data[item['name']] = item
+                          for item in group: existing_comm_data[item['name']] = item
               except: pass
 
           rel_out, pr_out, comm_out, repo_descriptions = {}, {}, {}, {}
@@ -92,17 +92,18 @@ jobs:
                   if not repo_data: continue
                   repo_name = repo.split('/')[-1]
                   
-                  # 1. Collect Metadata for YAML sync
+                  # 1. Metadata descriptions
                   if repo_name not in repo_descriptions:
                       repo_descriptions[repo_name] = repo_data.get('description', '')
 
-                  # 2. Traffic & Community Stats
+                  # 2. Traffic Stats
                   v_api = get_json(f"https://api.github.com/repos/{repo}/traffic/views")
                   c_api = get_json(f"https://api.github.com/repos/{repo}/traffic/clones")
                   c_v_14 = v_api.get('count', 0) if v_api else 0
                   c_c_14 = c_api.get('count', 0) if c_api else 0
                   
                   prev = existing_comm_data.get(repo_name, {})
+                  # Daily increments if available
                   d_v = v_api.get('views', [])[-1].get('count', 0) if (v_api and v_api.get('views')) else 0
                   d_c = c_api.get('clones', [])[-1].get('count', 0) if (c_api and c_api.get('clones')) else 0
                   
@@ -120,7 +121,7 @@ jobs:
                       "total_clones": final_c_total, "status": status, "repo_url": f"https://github.com/{repo}"
                   })
 
-                  # 3. Releases with BLINK Logic (30 days)
+                  # 3. Releases with Blink Logic
                   all_rels = get_json(f"https://api.github.com/repos/{repo}/releases") or []
                   f_tag = (filtered_projects[p_name]['filter'].lower() if p_name in filtered_projects else "")
                   
@@ -138,7 +139,7 @@ jobs:
                       "repo_url": f"https://github.com/{repo}"
                   })
 
-                  # 4. PRs with AUTHOR fix and Blink (30 days)
+                  # 4. Pull Requests
                   prs = get_json(f"https://api.github.com/repos/{repo}/pulls?state=open") or []
                   for pr in prs:
                       created_date = pr.get('created_at', '').split('T')[0]
@@ -152,14 +153,14 @@ jobs:
 
               rel_out[p_name], pr_out[p_name], comm_out[p_name] = rel_list, pull_list, comm_list
 
-          # 5. Save Dashboard JSONs
+          # 5. Output
           if not os.path.exists('_data'): os.makedirs('_data')
           ts = datetime.now().strftime("%Y-%m-%d %H:%M")
-          for n, d in [('releases', rel_out), ('pull_requests', pr_out), ('community_stats', comm_out)]:
-              with open(f'_data/{n}.json', 'w') as f:
-                  json.dump({"last_updated": ts, "projects": d}, f, indent=2)
+          for name, data in [('releases', rel_out), ('pull_requests', pr_out), ('community_stats', comm_out)]:
+              with open(f'_data/{name}.json', 'w') as f:
+                  json.dump({"last_updated": ts, "projects": data}, f, indent=2)
 
-          # 6. SYNC YAML Metadata (Updates descriptions without duplication)
+          # 6. YAML Sync
           yaml_path = '_data/repo_metadata.yml'
           if os.path.exists(yaml_path):
               with open(yaml_path, 'r') as f: lines = f.readlines()
