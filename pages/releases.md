@@ -5,35 +5,6 @@ title: Software Releases
 nav_order: 0
 ---
 
-<style>
-  .release-table {
-    width: 100%; 
-    border-collapse: collapse; 
-    margin-top: 20px; 
-    table-layout: fixed;
-  }
-  .release-table th {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 2px solid #eee;
-  }
-  .release-table td {
-    padding: 12px;
-    border-bottom: 1px solid #eee;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    vertical-align: top;
-  }
-  /* Animation for new releases within 30 days */
-  .blink-animation {
-    animation: blinker 1.5s linear infinite;
-    display: inline-block;
-  }
-  @keyframes blinker {
-    50% { opacity: 0.3; }
-  }
-</style>
-
 <img src="../assets/images/Banner_ReferenceTools.png" alt="Reference Tools Banner" /> 
 
 # Reference Tools Projects: Releases
@@ -61,7 +32,7 @@ nav_order: 0
       <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
       <td>
-        <span class="{% if item.blink %}blink-animation{% endif %}">
+        <span class="date-cell-release {% if item.blink %}blink-animation{% endif %}">
           <strong>{{ item.date }}</strong>
         </span>
       </td>
@@ -84,14 +55,14 @@ nav_order: 0
       <th style="width: 40%;">Version</th>
       <th style="width: 20%;">Date</th>
     </tr>
-  </thead>
+    </thead>
   <tbody>
     {% for item in site.data.releases.projects["5G Broadcast Emergency Alerts"] %}
     <tr>
       <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
       <td>
-        <span class="{% if item.blink %}blink-animation{% endif %}">
+        <span class="date-cell-release {% if item.blink %}blink-animation{% endif %}">
           <strong>{{ item.date }}</strong>
         </span>
       </td>
@@ -121,7 +92,7 @@ nav_order: 0
       <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
       <td>
-        <span class="{% if item.blink %}blink-animation{% endif %}">
+        <span class="date-cell-release {% if item.blink %}blink-animation{% endif %}">
           <strong>{{ item.date }}</strong>
         </span>
       </td>
@@ -151,7 +122,7 @@ nav_order: 0
       <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
       <td>
-        <span class="{% if item.blink %}blink-animation{% endif %}">
+        <span class="date-cell-release {% if item.blink %}blink-animation{% endif %}">
           <strong>{{ item.date }}</strong>
         </span>
       </td>
@@ -181,7 +152,7 @@ nav_order: 0
       <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
       <td>
-        <span class="{% if item.blink %}blink-animation{% endif %}">
+        <span class="date-cell-release {% if item.blink %}blink-animation{% endif %}">
           <strong>{{ item.date }}</strong>
         </span>
       </td>
@@ -211,7 +182,7 @@ nav_order: 0
       <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
       <td>
-        <span class="{% if item.blink %}blink-animation{% endif %}">
+        <span class="date-cell-release {% if item.blink %}blink-animation{% endif %}">
           <strong>{{ item.date }}</strong>
         </span>
       </td>
@@ -241,7 +212,7 @@ nav_order: 0
       <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
       <td>
-        <span class="{% if item.blink %}blink-animation{% endif %}">
+        <span class="date-cell-release {% if item.blink %}blink-animation{% endif %}">
           <strong>{{ item.date }}</strong>
         </span>
       </td>
@@ -271,7 +242,7 @@ nav_order: 0
       <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
       <td>
-        <span class="{% if item.blink %}blink-animation{% endif %}">
+        <span class="date-cell-release {% if item.blink %}blink-animation{% endif %}">
           <strong>{{ item.date }}</strong>
         </span>
       </td>
@@ -301,7 +272,7 @@ nav_order: 0
       <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
       <td>
-        <span class="{% if item.blink %}blink-animation{% endif %}">
+        <span class="date-cell-release {% if item.blink %}blink-animation{% endif %}">
           <strong>{{ item.date }}</strong>
         </span>
       </td>
@@ -331,7 +302,7 @@ nav_order: 0
       <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
       <td>
-        <span class="{% if item.blink %}blink-animation{% endif %}">
+        <span class="date-cell-release {% if item.blink %}blink-animation{% endif %}">
           <strong>{{ item.date }}</strong>
         </span>
       </td>
@@ -361,7 +332,7 @@ nav_order: 0
       <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
       <td>
-        <span class="{% if item.blink %}blink-animation{% endif %}">
+        <span class="date-cell-release {% if item.blink %}blink-animation{% endif %}">
           <strong>{{ item.date }}</strong>
         </span>
       </td>
@@ -391,7 +362,7 @@ nav_order: 0
       <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
       <td>
-        <span class="{% if item.blink %}blink-animation{% endif %}">
+        <span class="date-cell-release {% if item.blink %}blink-animation{% endif %}">
           <strong>{{ item.date }}</strong>
         </span>
       </td>
@@ -421,7 +392,7 @@ nav_order: 0
       <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
       <td>
-        <span class="{% if item.blink %}blink-animation{% endif %}">
+        <span class="date-cell-release {% if item.blink %}blink-animation{% endif %}">
           <strong>{{ item.date }}</strong>
         </span>
       </td>
@@ -451,7 +422,7 @@ nav_order: 0
       <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
       <td>
-        <span class="{% if item.blink %}blink-animation{% endif %}">
+        <span class="date-cell-release {% if item.blink %}blink-animation{% endif %}">
           <strong>{{ item.date }}</strong>
         </span>
       </td>
@@ -481,7 +452,7 @@ nav_order: 0
       <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
       <td>
-        <span class="{% if item.blink %}blink-animation{% endif %}">
+        <span class="date-cell-release {% if item.blink %}blink-animation{% endif %}">
           <strong>{{ item.date }}</strong>
         </span>
       </td>
