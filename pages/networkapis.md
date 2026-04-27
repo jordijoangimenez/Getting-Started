@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: Build an Application
-title: Network APIs
+title: Apps with Network APIs
 nav_order: 5
 has_children: true
 ---
