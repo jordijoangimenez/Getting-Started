@@ -33,12 +33,12 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5gbc">{{ item.repo }}</a></td>
-        <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td>
-          <div style="display: flex; flex-direction: column; gap: 2px;">
-            <span>@{{ item.user }}</span>
+          <div class="author-activity">
+            <span class="author-name">@{{ item.user }}</span>
             {% if item.last_comment_by %}
-              <span class="days-ago" style="line-height: 1.2;">
+              <span class="days-ago">
                 Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
                 on {{ item.last_comment_date }}
               </span>
@@ -79,12 +79,12 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5gbcea">{{ item.repo }}</a></td>
-        <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td>
-          <div style="display: flex; flex-direction: column; gap: 2px;">
-            <span>@{{ item.user }}</span>
+          <div class="author-activity">
+            <span class="author-name">@{{ item.user }}</span>
             {% if item.last_comment_by %}
-              <span class="days-ago" style="line-height: 1.2;">
+              <span class="days-ago">
                 Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
                 on {{ item.last_comment_date }}
               </span>
@@ -125,12 +125,12 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5gms">{{ item.repo }}</a></td>
-        <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td>
-          <div style="display: flex; flex-direction: column; gap: 2px;">
-            <span>@{{ item.user }}</span>
+          <div class="author-activity">
+            <span class="author-name">@{{ item.user }}</span>
             {% if item.last_comment_by %}
-              <span class="days-ago" style="line-height: 1.2;">
+              <span class="days-ago">
                 Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
                 on {{ item.last_comment_date }}
               </span>
@@ -171,12 +171,12 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5mbs">{{ item.repo }}</a></td>
-        <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td>
-          <div style="display: flex; flex-direction: column; gap: 2px;">
-            <span>@{{ item.user }}</span>
+          <div class="author-activity">
+            <span class="author-name">@{{ item.user }}</span>
             {% if item.last_comment_by %}
-              <span class="days-ago" style="line-height: 1.2;">
+              <span class="days-ago">
                 Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
                 on {{ item.last_comment_date }}
               </span>
@@ -217,12 +217,12 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5gcsc">{{ item.repo }}</a></td>
-        <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td>
-          <div style="display: flex; flex-direction: column; gap: 2px;">
-            <span>@{{ item.user }}</span>
+          <div class="author-activity">
+            <span class="author-name">@{{ item.user }}</span>
             {% if item.last_comment_by %}
-              <span class="days-ago" style="line-height: 1.2;">
+              <span class="days-ago">
                 Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
                 on {{ item.last_comment_date }}
               </span>
@@ -263,12 +263,12 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-testbed">{{ item.repo }}</a></td>
-        <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td>
-          <div style="display: flex; flex-direction: column; gap: 2px;">
-            <span>@{{ item.user }}</span>
+          <div class="author-activity">
+            <span class="author-name">@{{ item.user }}</span>
             {% if item.last_comment_by %}
-              <span class="days-ago" style="line-height: 1.2;">
+              <span class="days-ago">
                 Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
                 on {{ item.last_comment_date }}
               </span>
@@ -309,12 +309,12 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-aiml">{{ item.repo }}</a></td>
-        <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td>
-          <div style="display: flex; flex-direction: column; gap: 2px;">
-            <span>@{{ item.user }}</span>
+          <div class="author-activity">
+            <span class="author-name">@{{ item.user }}</span>
             {% if item.last_comment_by %}
-              <span class="days-ago" style="line-height: 1.2;">
+              <span class="days-ago">
                 Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
                 on {{ item.last_comment_date }}
               </span>
@@ -355,12 +355,12 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-beyond2d">{{ item.repo }}</a></td>
-        <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td>
-          <div style="display: flex; flex-direction: column; gap: 2px;">
-            <span>@{{ item.user }}</span>
+          <div class="author-activity">
+            <span class="author-name">@{{ item.user }}</span>
             {% if item.last_comment_by %}
-              <span class="days-ago" style="line-height: 1.2;">
+              <span class="days-ago">
                 Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
                 on {{ item.last_comment_date }}
               </span>
@@ -401,12 +401,12 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-avatar">{{ item.repo }}</a></td>
-        <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td>
-          <div style="display: flex; flex-direction: column; gap: 2px;">
-            <span>@{{ item.user }}</span>
+          <div class="author-activity">
+            <span class="author-name">@{{ item.user }}</span>
             {% if item.last_comment_by %}
-              <span class="days-ago" style="line-height: 1.2;">
+              <span class="days-ago">
                 Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
                 on {{ item.last_comment_date }}
               </span>
@@ -447,12 +447,12 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-dvbi">{{ item.repo }}</a></td>
-        <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td>
-          <div style="display: flex; flex-direction: column; gap: 2px;">
-            <span>@{{ item.user }}</span>
+          <div class="author-activity">
+            <span class="author-name">@{{ item.user }}</span>
             {% if item.last_comment_by %}
-              <span class="days-ago" style="line-height: 1.2;">
+              <span class="days-ago">
                 Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
                 on {{ item.last_comment_date }}
               </span>
@@ -493,12 +493,12 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-md">{{ item.repo }}</a></td>
-        <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td>
-          <div style="display: flex; flex-direction: column; gap: 2px;">
-            <span>@{{ item.user }}</span>
+          <div class="author-activity">
+            <span class="author-name">@{{ item.user }}</span>
             {% if item.last_comment_by %}
-              <span class="days-ago" style="line-height: 1.2;">
+              <span class="days-ago">
                 Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
                 on {{ item.last_comment_date }}
               </span>
@@ -539,12 +539,12 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-uedc">{{ item.repo }}</a></td>
-        <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td>
-          <div style="display: flex; flex-direction: column; gap: 2px;">
-            <span>@{{ item.user }}</span>
+          <div class="author-activity">
+            <span class="author-name">@{{ item.user }}</span>
             {% if item.last_comment_by %}
-              <span class="days-ago" style="line-height: 1.2;">
+              <span class="days-ago">
                 Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
                 on {{ item.last_comment_date }}
               </span>
@@ -585,12 +585,12 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-v3c">{{ item.repo }}</a></td>
-        <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td>
-          <div style="display: flex; flex-direction: column; gap: 2px;">
-            <span>@{{ item.user }}</span>
+          <div class="author-activity">
+            <span class="author-name">@{{ item.user }}</span>
             {% if item.last_comment_by %}
-              <span class="days-ago" style="line-height: 1.2;">
+              <span class="days-ago">
                 Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
                 on {{ item.last_comment_date }}
               </span>
@@ -631,12 +631,12 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-xr">{{ item.repo }}</a></td>
-        <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td>
-          <div style="display: flex; flex-direction: column; gap: 2px;">
-            <span>@{{ item.user }}</span>
+          <div class="author-activity">
+            <span class="author-name">@{{ item.user }}</span>
             {% if item.last_comment_by %}
-              <span class="days-ago" style="line-height: 1.2;">
+              <span class="days-ago">
                 Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
                 on {{ item.last_comment_date }}
               </span>
@@ -677,12 +677,12 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-common">{{ item.repo }}</a></td>
-        <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td>
-          <div style="display: flex; flex-direction: column; gap: 2px;">
-            <span>@{{ item.user }}</span>
+          <div class="author-activity">
+            <span class="author-name">@{{ item.user }}</span>
             {% if item.last_comment_by %}
-              <span class="days-ago" style="line-height: 1.2;">
+              <span class="days-ago">
                 Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
                 on {{ item.last_comment_date }}
               </span>
