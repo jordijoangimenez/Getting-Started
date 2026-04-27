@@ -29,7 +29,7 @@ nav_order: 0
   <tbody>
     {% for item in site.data.releases.projects["5G Broadcast TV Radio"] %}
     <tr>
-      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-github">{{ item.short_name }}</a></td>
+      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-5gbc">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn btn-5gbc">{{ item.tag }}</a></td>
       <td><span class="date-cell-release {% if item.blink %}blink-animation{% endif %}"><strong>{{ item.date }}</strong></span></td>
     </tr>
@@ -56,7 +56,7 @@ nav_order: 0
     {% for item in site.data.releases.projects["5G Broadcast Emergency Alerts"] %}
       {% if item.tag contains "-ea-" %}
     <tr>
-      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-github">{{ item.short_name }}</a></td>
+      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-5gbcea">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn btn-5gbcea">{{ item.tag }}</a></td>
       <td><span class="date-cell-release {% if item.blink %}blink-animation{% endif %}"><strong>{{ item.date }}</strong></span></td>
     </tr>
@@ -83,7 +83,7 @@ nav_order: 0
   <tbody>
     {% for item in site.data.releases.projects["5G Media Streaming"] %}
     <tr>
-      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-github">{{ item.short_name }}</a></td>
+      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-5gms">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn btn-5gms">{{ item.tag }}</a></td>
       <td><span class="date-cell-release {% if item.blink %}blink-animation{% endif %}"><strong>{{ item.date }}</strong></span></td>
     </tr>
@@ -109,7 +109,7 @@ nav_order: 0
   <tbody>
     {% for item in site.data.releases.projects["5G Multicast Broadcast"] %}
     <tr>
-      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-github">{{ item.short_name }}</a></td>
+      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-5mbs">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn btn-5mbs">{{ item.tag }}</a></td>
       <td><span class="date-cell-release {% if item.blink %}blink-animation{% endif %}"><strong>{{ item.date }}</strong></span></td>
     </tr>
@@ -135,7 +135,7 @@ nav_order: 0
   <tbody>
     {% for item in site.data.releases.projects["5G Core Service Consumers"] %}
     <tr>
-      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-github">{{ item.short_name }}</a></td>
+      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-5gcsc">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn btn-5gcsc">{{ item.tag }}</a></td>
       <td><span class="date-cell-release {% if item.blink %}blink-animation{% endif %}"><strong>{{ item.date }}</strong></span></td>
     </tr>
@@ -161,7 +161,7 @@ nav_order: 0
   <tbody>
     {% for item in site.data.releases.projects["6G Testbed"] %}
     <tr>
-      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-github">{{ item.short_name }}</a></td>
+      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-testbed">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn btn-testbed">{{ item.tag }}</a></td>
       <td><span class="date-cell-release {% if item.blink %}blink-animation{% endif %}"><strong>{{ item.date }}</strong></span></td>
     </tr>
@@ -187,7 +187,7 @@ nav_order: 0
   <tbody>
     {% for item in site.data.releases.projects["AI ML"] %}
     <tr>
-      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-github">{{ item.short_name }}</a></td>
+      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-aiml">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn btn-aiml">{{ item.tag }}</a></td>
       <td><span class="date-cell-release {% if item.blink %}blink-animation{% endif %}"><strong>{{ item.date }}</strong></span></td>
     </tr>
@@ -213,7 +213,7 @@ nav_order: 0
   <tbody>
     {% for item in site.data.releases.projects["Beyond 2D"] %}
     <tr>
-      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-github">{{ item.short_name }}</a></td>
+      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-beyond2d">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn btn-beyond2d">{{ item.tag }}</a></td>
       <td><span class="date-cell-release {% if item.blink %}blink-animation{% endif %}"><strong>{{ item.date }}</strong></span></td>
     </tr>
@@ -239,7 +239,7 @@ nav_order: 0
   <tbody>
     {% for item in site.data.releases.projects["Conversational Avatar"] %}
     <tr>
-      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-github">{{ item.short_name }}</a></td>
+      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-avatar">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn btn-avatar">{{ item.tag }}</a></td>
       <td><span class="date-cell-release {% if item.blink %}blink-animation{% endif %}"><strong>{{ item.date }}</strong></span></td>
     </tr>
@@ -265,7 +265,7 @@ nav_order: 0
   <tbody>
     {% for item in site.data.releases.projects["DVB-I over 5G"] %}
     <tr>
-      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-github">{{ item.short_name }}</a></td>
+      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-dvbi">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn btn-dvbi">{{ item.tag }}</a></td>
       <td><span class="date-cell-release {% if item.blink %}blink-animation{% endif %}"><strong>{{ item.date }}</strong></span></td>
     </tr>
@@ -291,7 +291,7 @@ nav_order: 0
   <tbody>
     {% for item in site.data.releases.projects["Multimedia Protocols"] %}
     <tr>
-      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-github">{{ item.short_name }}</a></td>
+      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-md">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn btn-md">{{ item.tag }}</a></td>
       <td><span class="date-cell-release {% if item.blink %}blink-animation{% endif %}"><strong>{{ item.date }}</strong></span></td>
     </tr>
@@ -317,7 +317,7 @@ nav_order: 0
   <tbody>
     {% for item in site.data.releases.projects["UE Data Collection"] %}
     <tr>
-      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-github">{{ item.short_name }}</a></td>
+      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-uedc">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn btn-uedc">{{ item.tag }}</a></td>
       <td><span class="date-cell-release {% if item.blink %}blink-animation{% endif %}"><strong>{{ item.date }}</strong></span></td>
     </tr>
@@ -343,7 +343,7 @@ nav_order: 0
   <tbody>
     {% for item in site.data.releases.projects["V3C Immersive"] %}
     <tr>
-      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-github">{{ item.short_name }}</a></td>
+      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-v3c">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn btn-v3c">{{ item.tag }}</a></td>
       <td><span class="date-cell-release {% if item.blink %}blink-animation{% endif %}"><strong>{{ item.date }}</strong></span></td>
     </tr>
@@ -369,7 +369,7 @@ nav_order: 0
   <tbody>
     {% for item in site.data.releases.projects["XR Media"] %}
     <tr>
-      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-github">{{ item.short_name }}</a></td>
+      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-xr">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn btn-xr">{{ item.tag }}</a></td>
       <td><span class="date-cell-release {% if item.blink %}blink-animation{% endif %}"><strong>{{ item.date }}</strong></span></td>
     </tr>
@@ -395,7 +395,7 @@ nav_order: 0
   <tbody>
     {% for item in site.data.releases.projects["Auxiliary Tools"] %}
     <tr>
-      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-github">{{ item.short_name }}</a></td>
+      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-common">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn btn-common">{{ item.tag }}</a></td>
       <td><span class="date-cell-release {% if item.blink %}blink-animation{% endif %}"><strong>{{ item.date }}</strong></span></td>
     </tr>
