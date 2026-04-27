@@ -23,7 +23,7 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
 
 [Download an overview about the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue }
 
-# What can you currently build with 5G-MAG Reference Tools?
+# Check what you can do with the Reference Tools and Testbeds
 
 <table>
   <tr>
