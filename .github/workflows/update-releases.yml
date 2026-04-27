@@ -93,7 +93,7 @@ jobs:
                   
                   repo_descriptions[repo_name] = (repo_data.get('description') or "").replace('\n', ' ').strip()
 
-                  # 2. Community Stats with Maintenance Logic
+                  # 2. Community Stats
                   v_api = get_json(f"https://api.github.com/repos/{repo}/traffic/views")
                   c_api = get_json(f"https://api.github.com/repos/{repo}/traffic/clones")
                   c_v_14 = v_api.get('count', 0) if v_api else 0
@@ -122,7 +122,7 @@ jobs:
                       "repo_url": f"https://github.com/{repo}"
                   })
 
-                  # 3. Releases (Modified to stay Green and blink if new)
+                  # 3. Releases
                   all_rels = get_json(f"https://api.github.com/repos/{repo}/releases") or []
                   f_tag = (filtered_projects[p_name]['filter'].lower() if p_name in filtered_projects else "")
                   target = next((r for r in all_rels if f_tag in r.get('tag_name', '').lower()), None) if f_tag else next((r for r in all_rels if not r.get('prerelease')), None) or (all_rels[0] if all_rels else None)
@@ -133,18 +133,32 @@ jobs:
                       "short_name": repo_name, "tag": target.get('tag_name') if target else "No Release",
                       "date": rel_date, 
                       "blink": (rel_days <= 30),
-                      "color": "green", # Always green as requested
+                      "color": "green",
                       "url": target.get('html_url') if target else f"https://github.com/{repo}/releases"
                   })
 
-                  # 4. Pull Requests
+                  # 4. Pull Requests (Modified to fetch last comment activity)
                   prs = get_json(f"https://api.github.com/repos/{repo}/pulls?state=open") or []
                   for pr in prs:
                       created_date = pr.get('created_at', '').split('T')[0]
                       days_ago = (datetime.now() - datetime.strptime(created_date, "%Y-%m-%d")).days
+                      
+                      # Fetch last comment for the Liquid template
+                      comments_url = pr.get('comments_url')
+                      last_comment_by = None
+                      last_comment_date = None
+                      if comments_url:
+                          comments = get_json(comments_url)
+                          if comments and len(comments) > 0:
+                              last_comm = comments[-1]
+                              last_comment_by = last_comm.get('user', {}).get('login')
+                              last_comment_date = last_comm.get('created_at', '').split('T')[0]
+
                       pull_list.append({
                           "repo": repo_name, "title": pr.get('title'), "url": pr.get('html_url'),
                           "user": pr.get('user', {}).get('login'),
+                          "last_comment_by": last_comment_by,
+                          "last_comment_date": last_comment_date,
                           "date": created_date, "days_ago": days_ago, 
                           "color": "green" if days_ago <= 90 else "orange" if days_ago <= 180 else "red",
                           "blink": (days_ago <= 30)
@@ -185,5 +199,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add _data/*.json _data/repo_metadata.yml
-          git commit -m "Dashboard: Sync with Maintenance state logic" || exit 0
+          git commit -m "Dashboard: Add last comment activity to PR sync" || exit 0
           git push
