@@ -14,52 +14,28 @@ nav_order: 3
 
 The following repositories are available. Please refer to the "Scope" section of the different projects for more context.
 
-{% include architecture_table.html ids="AV1,AV2,AV3" %}
+{% include architecture_table.html ids="AV1,AV2,AV3,AV4" %}
 
 *Note: Auxiliary repositories are indicated with a dashed border.*
 
 ---
 
-## Avatar Test Content
-[rt-avatar-content](https://github.com/5G-MAG/rt-avatar-content){: .btn .btn-xr }
-
-This repository holds reference MPEG ARF content for real time avatar communication.
-
-Additional information:
-* [Information and how to download, build, install and run](https://github.com/5G-MAG/rt-avatar-content#readme)
-
-## Avatar Call
-[rt-avatar-call](https://github.com/5G-MAG/rt-avatar-call){: .btn .btn-xr }
-
-This repository supports the development of a reference framework for avatar communication. The goal is to demonstrate WebRTC communication using the MPEG ARF and related animation compression.
-
-Additional information:
-* [Information and how to download, build, install and run](https://github.com/5G-MAG/rt-avatar-call#readme)
-
-## Avatar Unity Tracker
-[rt-avatar-unity-tracker](https://github.com/5G-MAG/rt-avatar-unity-tracker){: .btn .btn-xr }
-
-Additional information:
-* [Information and how to download, build, install and run](https://github.com/5G-MAG/rt-avatar-call#readme)
-
----
-
 ## Latest Releases
 
-<table class="release-table" style="width:100%; border-collapse: collapse; margin-top: 20px; table-layout: fixed;">
+<table class="release-table">
   <thead>
-    <tr style="text-align: left; border-bottom: 2px solid #eee;">
-      <th style="padding: 12px; width: 40%;">Repository</th>
-      <th style="padding: 12px; width: 40%;">Version</th>
-      <th style="padding: 12px; width: 20%;">Date</th>
+    <tr>
+      <th style="width: 40%;">Repository</th>
+      <th style="width: 40%;">Version</th>
+      <th style="width: 20%;">Date</th>
     </tr>
   </thead>
   <tbody>
     {% for item in site.data.releases.projects["Conversational Avatar"] %}
-    <tr style="border-bottom: 1px solid #eee;">
-      <td style="padding: 12px; overflow: hidden; text-overflow: ellipsis;"><a href="{{ item.url }}" class="btn">{{ item.short_name }}</a></td>
-      <td style="padding: 12px; overflow: hidden; text-overflow: ellipsis;"><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
-      <td style="padding: 12px;">{{ item.date }}</td>
+    <tr>
+      <td><a href="https://github.com/5G-MAG/{{ item.short_name }}" class="btn btn-avatar">{{ item.short_name }}</a></td>
+      <td><a href="{{ item.url }}" class="btn btn-avatar">{{ item.tag }}</a></td>
+      <td><span class="date-cell-release {% if item.blink %}blink-animation{% endif %}"><strong>{{ item.date }}</strong></span></td>
     </tr>
     {% endfor %}
   </tbody>
