@@ -31,6 +31,6 @@ has_children: true
   <tr>
     <td markdown="span" align="center" width="33%">[eXtended Reality (XR): 3D Scenes and Avatar Communications](./xr.html){: .btn .btn-blue }</td>
     <td markdown="span" align="center" width="33%">[Volumetric Video and Beyond 2D Video Experiences](./volumetric.html){: .btn .btn-blue }</td>
-    <td markdown="span" align="center" width="33%">[Applications and Services with Network APIs](./networkapis.html){: .btn .btn-blue }</td>
+    <td markdown="span" align="center" width="33%">[Applications and Services using Network APIs](./networkapis.html){: .btn .btn-blue }</td>
   </tr>
 </table>
