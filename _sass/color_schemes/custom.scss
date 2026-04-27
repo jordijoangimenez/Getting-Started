@@ -4,6 +4,7 @@
 // -------------------------------------------------------------------
 $link-color: #00A0D2;
 $content-width: 100rem;
+$highlight-green: #28a745; // Standard green for PRs and new releases
 
 // --- Action & Utility Buttons ---
 .btn-github      { color: #ffffff !important; background-color: #000000 !important; }
@@ -11,23 +12,23 @@ $content-width: 100rem;
 .btn-tutorial    { color: #FFFFFF !important; background-color: #00A0D2 !important; }
 
 // --- Platforms ---
-.btn-3gpp        { color: #ffffff !important; background-color: #0070C0 !important; } // 3GPP RAN/Core
-.btn-5gbc        { color: #ffffff !important; background-color: #70AD47 !important; } // 5G Broadcast TVR
-.btn-5gbcea      { color: #ffffff !important; background-color: #7030A0 !important; } // 5G Broadcast Emergency
-.btn-5gms        { color: #000000 !important; background-color: #FFC000 !important; } // 5G Media Streaming
-.btn-5mbs        { color: #ffffff !important; background-color: #1AB39F !important; } // 5G MBS
-.btn-5gcsc       { color: #ffffff !important; background-color: #FF0000 !important; } // 5GC Consumers
-.btn-testbed     { color: #ffffff !important; background-color: #D17F79 !important; } // 6G Testbed (Coral)
-.btn-aiml        { color: #ffffff !important; background-color: #4A5568 !important; } // AI/ML (Graphite)
-.btn-beyond2d    { color: #ffffff !important; background-color: #00A3C1 !important; } // Beyond 2D (Cyan)
-.btn-api         { color: #ffffff !important; background-color: #5C6BC0 !important; } // Network API (Slate Blue)
-.btn-uedc        { color: #ffffff !important; background-color: #607D8B !important; } // Data Collection (Grey/Slate)
-.btn-avatar      { color: #ffffff !important; background-color: #D17F79 !important; } // Avatar (Coral)
-.btn-xr          { color: #ffffff !important; background-color: #ED7D31 !important; } // XR Media
-.btn-v3c         { color: #ffffff !important; background-color: #CC3399 !important; } // V3C Immersive
-.btn-dvbi        { color: #ffffff !important; background-color: #002060 !important; } // DVB-I
-.btn-md          { color: #ffffff !important; background-color: #385723 !important; } // Multimedia Protocols
-.btn-common      { color: #000000 !important; background-color: #BFBFBF !important; } // Shared Tools
+.btn-3gpp        { color: #ffffff !important; background-color: #0070C0 !important; } 
+.btn-5gbc        { color: #ffffff !important; background-color: #70AD47 !important; } 
+.btn-5gbcea      { color: #ffffff !important; background-color: #7030A0 !important; } 
+.btn-5gms        { color: #000000 !important; background-color: #FFC000 !important; } 
+.btn-5mbs        { color: #ffffff !important; background-color: #1AB39F !important; } 
+.btn-5gcsc       { color: #ffffff !important; background-color: #FF0000 !important; } 
+.btn-testbed     { color: #ffffff !important; background-color: #D17F79 !important; } 
+.btn-aiml        { color: #ffffff !important; background-color: #4A5568 !important; } 
+.btn-beyond2d    { color: #ffffff !important; background-color: #00A3C1 !important; } 
+.btn-api         { color: #ffffff !important; background-color: #5C6BC0 !important; } 
+.btn-uedc        { color: #ffffff !important; background-color: #607D8B !important; } 
+.btn-avatar      { color: #ffffff !important; background-color: #D17F79 !important; } 
+.btn-xr          { color: #ffffff !important; background-color: #ED7D31 !important; } 
+.btn-v3c         { color: #ffffff !important; background-color: #CC3399 !important; } 
+.btn-dvbi        { color: #ffffff !important; background-color: #002060 !important; } 
+.btn-md          { color: #ffffff !important; background-color: #385723 !important; } 
+.btn-common      { color: #000000 !important; background-color: #BFBFBF !important; } 
 
 // -------------------------------------------------------------------
 // ARCHITECTURE TABLE
@@ -80,7 +81,7 @@ $content-width: 100rem;
     .repo-id-group  { display: flex; align-items: center; justify-content: center; gap: 8px; }
     .repo-name      { text-align: left; display: flex; flex-direction: column; justify-content: center; }
     .repo-standards { display: flex; justify-content: center; }
-    .repo-license   { display: flex; justify-content: center; color: $link-color; font-weight: 700; font-size: 13px; }
+    .repo-license   { display: flex; justify-content: center; color: #333; font-weight: 700; font-size: 13px; }
     
     .id-pill { 
         min-width: 32px;
@@ -200,10 +201,11 @@ $content-width: 100rem;
 .date-cell-release {
     font-size: 14px;
     white-space: nowrap;
+    color: $highlight-green !important; // Force the green color for the date
 }
 
 // --- BLINKING ANIMATION ---
-// Used for highligthing new releases
+// Used for highlighting new releases (< 30 days)
 .blink-animation {
     animation: release-blinker 1.5s linear infinite;
     display: inline-block;
