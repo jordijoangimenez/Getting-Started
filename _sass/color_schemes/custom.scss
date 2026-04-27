@@ -1,17 +1,42 @@
 // -------------------------------------------------------------------
-// BUTTON COLORS DEFINED HERE
-// These map to the 'category' field in your _data/repo_metadata.yml
+// 1. VARIABLES & CONSTANTS
 // -------------------------------------------------------------------
-$link-color: #00A0D2;
-$content-width: 100rem;
+$link-color:      #00A0D2;
+$content-width:   100rem;
 $highlight-green: #28a745; // Standard green for PRs and new releases
+$muted-text:      #666;
+$border-color:    #eee;
 
-// --- Action & Utility Buttons ---
+// -------------------------------------------------------------------
+// 2. SHARED UTILITIES & ANIMATIONS
+// -------------------------------------------------------------------
+.days-ago {
+    font-size: 0.85em;
+    color: $muted-text;
+    display: block;
+    margin-top: 4px;
+    line-height: 1.2;
+}
+
+.blink-animation {
+    animation: release-blinker 1.5s linear infinite;
+    display: inline-block;
+}
+
+@keyframes release-blinker {
+    50% { opacity: 0.3; }
+}
+
+// -------------------------------------------------------------------
+// 3. BUTTON COLORS (Mapped to repo_metadata.yml)
+// -------------------------------------------------------------------
+
+// Action & Utility
 .btn-github      { color: #ffffff !important; background-color: #000000 !important; }
 .btn-release     { color: #88D66C !important; background-color: #000000 !important; }
 .btn-tutorial    { color: #FFFFFF !important; background-color: #00A0D2 !important; }
 
-// --- Platforms ---
+// Platforms
 .btn-3gpp        { color: #ffffff !important; background-color: #0070C0 !important; } 
 .btn-5gbc        { color: #ffffff !important; background-color: #70AD47 !important; } 
 .btn-5gbcea      { color: #ffffff !important; background-color: #7030A0 !important; } 
@@ -31,7 +56,7 @@ $highlight-green: #28a745; // Standard green for PRs and new releases
 .btn-common      { color: #000000 !important; background-color: #BFBFBF !important; } 
 
 // -------------------------------------------------------------------
-// ARCHITECTURE TABLE
+// 4. ARCHITECTURE TABLE
 // -------------------------------------------------------------------
 .architecture-container {
     width: 100%; 
@@ -47,7 +72,6 @@ $highlight-green: #28a745; // Standard green for PRs and new releases
 
     .repo-header-row {
         padding: 0 20px; 
-        
         div { 
             font-weight: 800; 
             text-transform: uppercase; 
@@ -56,7 +80,6 @@ $highlight-green: #28a745; // Standard green for PRs and new releases
             padding-bottom: 12px;
             display: flex;
             justify-content: center; 
-            
             &:nth-child(1) { justify-content: center; } 
             &:nth-child(2) { justify-content: flex-start; padding-left: 5px; } 
             &:nth-child(6) { justify-content: flex-end; } 
@@ -73,7 +96,6 @@ $highlight-green: #28a745; // Standard green for PRs and new releases
         margin-bottom: 10px; 
         background: #fff;
         overflow: visible !important; 
-        
         &.auxiliary-dashed { border-style: dashed !important; }
         &:hover { background: rgba(0,0,0,0.02); z-index: 50 !important; }
     }
@@ -110,7 +132,6 @@ $highlight-green: #28a745; // Standard green for PRs and new releases
         background: #ffffff !important; 
         border: 1px solid #ddd; border-radius: 10px;
         padding: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); z-index: 9999 !important; 
-        
         &.active { display: block !important; }
 
         .card-btn-container {
@@ -120,7 +141,6 @@ $highlight-green: #28a745; // Standard green for PRs and new releases
         }
 
         .hover-desc { font-size: 13.5px; margin-bottom: 15px; color: #333; line-height: 1.5; text-align: left; }
-        
         .hover-links { 
             display: grid; grid-template-columns: 1fr 1fr; gap: 8px; 
             border-top: 1px solid #eee; padding-top: 12px;
@@ -129,45 +149,20 @@ $highlight-green: #28a745; // Standard green for PRs and new releases
     }
 
     .std-logo { height: 26px; width: auto; object-fit: contain; }
-    
     .repo-deps { 
-        display: flex; 
-        justify-content: center; 
-        gap: 6px; 
-
-        .dep-box { 
-            border: 1px solid #eee; 
-            border-radius: 4px; 
-            padding: 2px 6px; 
-            background: #fff; 
-            display: flex; 
-            align-items: center; 
-            height: 32px; 
-        }
-
-        .dep-img { 
-            height: 24px; 
-            width: auto; 
-            object-fit: contain; 
-        }
+        display: flex; justify-content: center; gap: 6px; 
+        .dep-box { border: 1px solid #eee; border-radius: 4px; padding: 2px 6px; background: #fff; display: flex; align-items: center; height: 32px; }
+        .dep-img { height: 24px; width: auto; object-fit: contain; }
     }
 
     .repo-software { 
-        display: flex; 
-        justify-content: flex-end; 
-        align-items: center; 
-        gap: 8px; 
-        .soft-icon { 
-            height: 24px; 
-            width: 24px; 
-            object-fit: contain; 
-        }
+        display: flex; justify-content: flex-end; align-items: center; gap: 8px; 
+        .soft-icon { height: 24px; width: 24px; object-fit: contain; }
     }
 
     .repo-legend { 
         margin-top: 35px; padding: 20px; border-top: 1px solid #eee; 
         font-size: 12px; color: #666; display: flex; flex-wrap: wrap; gap: 25px; align-items: center;
-
         .legend-group { display: flex; align-items: center; gap: 8px; }
         .leg-box { width: 24px; height: 12px; border: 2px solid #999; &.solid { border-style: solid; } &.dashed { border-style: dashed !important; } }
         .leg-icon { height: 18px; width: auto; object-fit: contain; }
@@ -175,7 +170,7 @@ $highlight-green: #28a745; // Standard green for PRs and new releases
 }
 
 // -------------------------------------------------------------------
-// RELEASE PAGE SPECIFIC STYLES
+// 5. RELEASE & PR TABLES
 // -------------------------------------------------------------------
 .release-table {
     width: 100%; 
@@ -186,31 +181,27 @@ $highlight-green: #28a745; // Standard green for PRs and new releases
     th {
         padding: 12px;
         text-align: left;
-        border-bottom: 2px solid #eee;
+        border-bottom: 2px solid $border-color;
     }
 
     td {
         padding: 12px;
-        border-bottom: 1px solid #eee;
+        border-bottom: 1px solid $border-color;
         overflow: hidden;
         text-overflow: ellipsis;
         vertical-align: top;
     }
-}
 
-.date-cell-release {
-    font-size: 14px;
-    white-space: nowrap;
-    color: $highlight-green !important; // Force the green color for the date
-}
+    .date-cell-release {
+        font-size: 14px;
+        white-space: nowrap;
+        color: $highlight-green !important;
+    }
 
-// --- BLINKING ANIMATION ---
-// Used for highlighting new releases (< 30 days)
-.blink-animation {
-    animation: release-blinker 1.5s linear infinite;
-    display: inline-block;
-}
-
-@keyframes release-blinker {
-    50% { opacity: 0.3; }
+    .author-activity {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        .author-name { font-weight: 500; }
+    }
 }
