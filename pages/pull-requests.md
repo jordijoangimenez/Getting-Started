@@ -520,7 +520,7 @@ nav_order: 1
 <img src="../assets/images/Banner_CommonTools.png"/> 
 
 ## Open PRs - Auxiliary tools common to various projects
-[Documentation](./common-tools/index.html){: .btn .btn-blue }
+[Project Documentation](./common-tools/){: .btn .btn-blue }
 
 <table class="release-table">
   <thead>
