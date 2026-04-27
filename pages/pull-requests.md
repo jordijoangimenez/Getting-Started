@@ -5,53 +5,6 @@ title: Open Pull Requests
 nav_order: 1
 ---
 
-<style>
-  .release-table {
-    width: 100%; 
-    border-collapse: collapse; 
-    margin-top: 20px; 
-    table-layout: fixed;
-  }
-  .release-table th {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 2px solid #eee;
-  }
-  .release-table td {
-    padding: 12px;
-    border-bottom: 1px solid #eee;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    vertical-align: top;
-  }
-  /* Animation for new releases */
-  .blink-animation {
-    animation: blinker 1.5s linear infinite;
-    display: inline-block;
-  }
-  @keyframes blinker {
-    50% { opacity: 0.3; }
-  }
-  /* Center the "No open PRs" text */
-  .no-prs {
-    text-align: center;
-    color: #888;
-    padding: 20px !important;
-    font-style: italic;
-  }
-  /* Style the relative date text */
-  .days-ago {
-    font-size: 0.85em;
-    color: #666;
-    display: block;
-    margin-top: 4px;
-  }
-  /* Ensure the date cell handles the stack correctly */
-  .date-cell {
-    line-height: 1.2;
-  }
-</style>
-
 <img src="../assets/images/Banner_ReferenceTools.png" alt="Reference Tools Banner" /> 
 
 # Reference Tools Projects: Open Pull Requests
@@ -69,8 +22,8 @@ nav_order: 1
   <thead>
     <tr>
       <th style="width: 25%;">Repository</th>
-      <th style="width: 45%;">Pull Request</th>
-      <th style="width: 15%;">Author</th>
+      <th style="width: 40%;">Pull Request</th>
+      <th style="width: 20%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -79,9 +32,19 @@ nav_order: 1
     {% if prs.size > 0 %}
       {% for item in prs %}
       <tr>
-        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn">{{ item.repo }}</a></td>
+        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5gbc">{{ item.repo }}</a></td>
         <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
-        <td>@{{ item.user }}</td>
+        <td>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <span>@{{ item.user }}</span>
+            {% if item.last_comment_by %}
+              <span class="days-ago" style="line-height: 1.2;">
+                Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
+                on {{ item.last_comment_date }}
+              </span>
+            {% endif %}
+          </div>
+        </td>
         <td class="date-cell">
           <span style="color: {{ item.color }}; font-weight: bold;" class="{% if item.blink %}blink-animation{% endif %}">{{ item.date }}</span><br>
           <span class="days-ago">({{ item.days_ago }} days ago)</span>
@@ -105,8 +68,8 @@ nav_order: 1
   <thead>
     <tr>
       <th style="width: 25%;">Repository</th>
-      <th style="width: 45%;">Pull Request</th>
-      <th style="width: 15%;">Author</th>
+      <th style="width: 40%;">Pull Request</th>
+      <th style="width: 20%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -115,9 +78,19 @@ nav_order: 1
     {% if prs.size > 0 %}
       {% for item in prs %}
       <tr>
-        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn">{{ item.repo }}</a></td>
+        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5gbcea">{{ item.repo }}</a></td>
         <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
-        <td>@{{ item.user }}</td>
+        <td>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <span>@{{ item.user }}</span>
+            {% if item.last_comment_by %}
+              <span class="days-ago" style="line-height: 1.2;">
+                Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
+                on {{ item.last_comment_date }}
+              </span>
+            {% endif %}
+          </div>
+        </td>
         <td class="date-cell">
           <span style="color: {{ item.color }}; font-weight: bold;" class="{% if item.blink %}blink-animation{% endif %}">{{ item.date }}</span><br>
           <span class="days-ago">({{ item.days_ago }} days ago)</span>
@@ -141,8 +114,8 @@ nav_order: 1
   <thead>
     <tr>
       <th style="width: 25%;">Repository</th>
-      <th style="width: 45%;">Pull Request</th>
-      <th style="width: 15%;">Author</th>
+      <th style="width: 40%;">Pull Request</th>
+      <th style="width: 20%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -151,9 +124,19 @@ nav_order: 1
     {% if prs.size > 0 %}
       {% for item in prs %}
       <tr>
-        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn">{{ item.repo }}</a></td>
+        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5gms">{{ item.repo }}</a></td>
         <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
-        <td>@{{ item.user }}</td>
+        <td>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <span>@{{ item.user }}</span>
+            {% if item.last_comment_by %}
+              <span class="days-ago" style="line-height: 1.2;">
+                Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
+                on {{ item.last_comment_date }}
+              </span>
+            {% endif %}
+          </div>
+        </td>
         <td class="date-cell">
           <span style="color: {{ item.color }}; font-weight: bold;" class="{% if item.blink %}blink-animation{% endif %}">{{ item.date }}</span><br>
           <span class="days-ago">({{ item.days_ago }} days ago)</span>
@@ -177,8 +160,8 @@ nav_order: 1
   <thead>
     <tr>
       <th style="width: 25%;">Repository</th>
-      <th style="width: 45%;">Pull Request</th>
-      <th style="width: 15%;">Author</th>
+      <th style="width: 40%;">Pull Request</th>
+      <th style="width: 20%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -187,9 +170,19 @@ nav_order: 1
     {% if prs.size > 0 %}
       {% for item in prs %}
       <tr>
-        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn">{{ item.repo }}</a></td>
+        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5mbs">{{ item.repo }}</a></td>
         <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
-        <td>@{{ item.user }}</td>
+        <td>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <span>@{{ item.user }}</span>
+            {% if item.last_comment_by %}
+              <span class="days-ago" style="line-height: 1.2;">
+                Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
+                on {{ item.last_comment_date }}
+              </span>
+            {% endif %}
+          </div>
+        </td>
         <td class="date-cell">
           <span style="color: {{ item.color }}; font-weight: bold;" class="{% if item.blink %}blink-animation{% endif %}">{{ item.date }}</span><br>
           <span class="days-ago">({{ item.days_ago }} days ago)</span>
@@ -213,8 +206,8 @@ nav_order: 1
   <thead>
     <tr>
       <th style="width: 25%;">Repository</th>
-      <th style="width: 45%;">Pull Request</th>
-      <th style="width: 15%;">Author</th>
+      <th style="width: 40%;">Pull Request</th>
+      <th style="width: 20%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -223,9 +216,19 @@ nav_order: 1
     {% if prs.size > 0 %}
       {% for item in prs %}
       <tr>
-        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn">{{ item.repo }}</a></td>
+        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5gcsc">{{ item.repo }}</a></td>
         <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
-        <td>@{{ item.user }}</td>
+        <td>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <span>@{{ item.user }}</span>
+            {% if item.last_comment_by %}
+              <span class="days-ago" style="line-height: 1.2;">
+                Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
+                on {{ item.last_comment_date }}
+              </span>
+            {% endif %}
+          </div>
+        </td>
         <td class="date-cell">
           <span style="color: {{ item.color }}; font-weight: bold;" class="{% if item.blink %}blink-animation{% endif %}">{{ item.date }}</span><br>
           <span class="days-ago">({{ item.days_ago }} days ago)</span>
@@ -249,8 +252,8 @@ nav_order: 1
   <thead>
     <tr>
       <th style="width: 25%;">Repository</th>
-      <th style="width: 45%;">Pull Request</th>
-      <th style="width: 15%;">Author</th>
+      <th style="width: 40%;">Pull Request</th>
+      <th style="width: 20%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -259,9 +262,19 @@ nav_order: 1
     {% if prs.size > 0 %}
       {% for item in prs %}
       <tr>
-        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn">{{ item.repo }}</a></td>
+        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-testbed">{{ item.repo }}</a></td>
         <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
-        <td>@{{ item.user }}</td>
+        <td>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <span>@{{ item.user }}</span>
+            {% if item.last_comment_by %}
+              <span class="days-ago" style="line-height: 1.2;">
+                Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
+                on {{ item.last_comment_date }}
+              </span>
+            {% endif %}
+          </div>
+        </td>
         <td class="date-cell">
           <span style="color: {{ item.color }}; font-weight: bold;" class="{% if item.blink %}blink-animation{% endif %}">{{ item.date }}</span><br>
           <span class="days-ago">({{ item.days_ago }} days ago)</span>
@@ -285,8 +298,8 @@ nav_order: 1
   <thead>
     <tr>
       <th style="width: 25%;">Repository</th>
-      <th style="width: 45%;">Pull Request</th>
-      <th style="width: 15%;">Author</th>
+      <th style="width: 40%;">Pull Request</th>
+      <th style="width: 20%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -295,9 +308,19 @@ nav_order: 1
     {% if prs.size > 0 %}
       {% for item in prs %}
       <tr>
-        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn">{{ item.repo }}</a></td>
+        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-aiml">{{ item.repo }}</a></td>
         <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
-        <td>@{{ item.user }}</td>
+        <td>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <span>@{{ item.user }}</span>
+            {% if item.last_comment_by %}
+              <span class="days-ago" style="line-height: 1.2;">
+                Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
+                on {{ item.last_comment_date }}
+              </span>
+            {% endif %}
+          </div>
+        </td>
         <td class="date-cell">
           <span style="color: {{ item.color }}; font-weight: bold;" class="{% if item.blink %}blink-animation{% endif %}">{{ item.date }}</span><br>
           <span class="days-ago">({{ item.days_ago }} days ago)</span>
@@ -321,8 +344,8 @@ nav_order: 1
   <thead>
     <tr>
       <th style="width: 25%;">Repository</th>
-      <th style="width: 45%;">Pull Request</th>
-      <th style="width: 15%;">Author</th>
+      <th style="width: 40%;">Pull Request</th>
+      <th style="width: 20%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -331,9 +354,19 @@ nav_order: 1
     {% if prs.size > 0 %}
       {% for item in prs %}
       <tr>
-        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn">{{ item.repo }}</a></td>
+        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-beyond2d">{{ item.repo }}</a></td>
         <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
-        <td>@{{ item.user }}</td>
+        <td>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <span>@{{ item.user }}</span>
+            {% if item.last_comment_by %}
+              <span class="days-ago" style="line-height: 1.2;">
+                Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
+                on {{ item.last_comment_date }}
+              </span>
+            {% endif %}
+          </div>
+        </td>
         <td class="date-cell">
           <span style="color: {{ item.color }}; font-weight: bold;" class="{% if item.blink %}blink-animation{% endif %}">{{ item.date }}</span><br>
           <span class="days-ago">({{ item.days_ago }} days ago)</span>
@@ -357,8 +390,8 @@ nav_order: 1
   <thead>
     <tr>
       <th style="width: 25%;">Repository</th>
-      <th style="width: 45%;">Pull Request</th>
-      <th style="width: 15%;">Author</th>
+      <th style="width: 40%;">Pull Request</th>
+      <th style="width: 20%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -367,9 +400,19 @@ nav_order: 1
     {% if prs.size > 0 %}
       {% for item in prs %}
       <tr>
-        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn">{{ item.repo }}</a></td>
+        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-avatar">{{ item.repo }}</a></td>
         <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
-        <td>@{{ item.user }}</td>
+        <td>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <span>@{{ item.user }}</span>
+            {% if item.last_comment_by %}
+              <span class="days-ago" style="line-height: 1.2;">
+                Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
+                on {{ item.last_comment_date }}
+              </span>
+            {% endif %}
+          </div>
+        </td>
         <td class="date-cell">
           <span style="color: {{ item.color }}; font-weight: bold;" class="{% if item.blink %}blink-animation{% endif %}">{{ item.date }}</span><br>
           <span class="days-ago">({{ item.days_ago }} days ago)</span>
@@ -393,8 +436,8 @@ nav_order: 1
   <thead>
     <tr>
       <th style="width: 25%;">Repository</th>
-      <th style="width: 45%;">Pull Request</th>
-      <th style="width: 15%;">Author</th>
+      <th style="width: 40%;">Pull Request</th>
+      <th style="width: 20%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -403,9 +446,19 @@ nav_order: 1
     {% if prs.size > 0 %}
       {% for item in prs %}
       <tr>
-        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn">{{ item.repo }}</a></td>
+        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-dvbi">{{ item.repo }}</a></td>
         <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
-        <td>@{{ item.user }}</td>
+        <td>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <span>@{{ item.user }}</span>
+            {% if item.last_comment_by %}
+              <span class="days-ago" style="line-height: 1.2;">
+                Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
+                on {{ item.last_comment_date }}
+              </span>
+            {% endif %}
+          </div>
+        </td>
         <td class="date-cell">
           <span style="color: {{ item.color }}; font-weight: bold;" class="{% if item.blink %}blink-animation{% endif %}">{{ item.date }}</span><br>
           <span class="days-ago">({{ item.days_ago }} days ago)</span>
@@ -429,8 +482,8 @@ nav_order: 1
   <thead>
     <tr>
       <th style="width: 25%;">Repository</th>
-      <th style="width: 45%;">Pull Request</th>
-      <th style="width: 15%;">Author</th>
+      <th style="width: 40%;">Pull Request</th>
+      <th style="width: 20%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -439,9 +492,19 @@ nav_order: 1
     {% if prs.size > 0 %}
       {% for item in prs %}
       <tr>
-        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn">{{ item.repo }}</a></td>
+        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-md">{{ item.repo }}</a></td>
         <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
-        <td>@{{ item.user }}</td>
+        <td>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <span>@{{ item.user }}</span>
+            {% if item.last_comment_by %}
+              <span class="days-ago" style="line-height: 1.2;">
+                Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
+                on {{ item.last_comment_date }}
+              </span>
+            {% endif %}
+          </div>
+        </td>
         <td class="date-cell">
           <span style="color: {{ item.color }}; font-weight: bold;" class="{% if item.blink %}blink-animation{% endif %}">{{ item.date }}</span><br>
           <span class="days-ago">({{ item.days_ago }} days ago)</span>
@@ -465,8 +528,8 @@ nav_order: 1
   <thead>
     <tr>
       <th style="width: 25%;">Repository</th>
-      <th style="width: 45%;">Pull Request</th>
-      <th style="width: 15%;">Author</th>
+      <th style="width: 40%;">Pull Request</th>
+      <th style="width: 20%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -475,9 +538,19 @@ nav_order: 1
     {% if prs.size > 0 %}
       {% for item in prs %}
       <tr>
-        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn">{{ item.repo }}</a></td>
+        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-uedc">{{ item.repo }}</a></td>
         <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
-        <td>@{{ item.user }}</td>
+        <td>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <span>@{{ item.user }}</span>
+            {% if item.last_comment_by %}
+              <span class="days-ago" style="line-height: 1.2;">
+                Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
+                on {{ item.last_comment_date }}
+              </span>
+            {% endif %}
+          </div>
+        </td>
         <td class="date-cell">
           <span style="color: {{ item.color }}; font-weight: bold;" class="{% if item.blink %}blink-animation{% endif %}">{{ item.date }}</span><br>
           <span class="days-ago">({{ item.days_ago }} days ago)</span>
@@ -501,8 +574,8 @@ nav_order: 1
   <thead>
     <tr>
       <th style="width: 25%;">Repository</th>
-      <th style="width: 45%;">Pull Request</th>
-      <th style="width: 15%;">Author</th>
+      <th style="width: 40%;">Pull Request</th>
+      <th style="width: 20%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -511,9 +584,19 @@ nav_order: 1
     {% if prs.size > 0 %}
       {% for item in prs %}
       <tr>
-        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn">{{ item.repo }}</a></td>
+        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-v3c">{{ item.repo }}</a></td>
         <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
-        <td>@{{ item.user }}</td>
+        <td>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <span>@{{ item.user }}</span>
+            {% if item.last_comment_by %}
+              <span class="days-ago" style="line-height: 1.2;">
+                Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
+                on {{ item.last_comment_date }}
+              </span>
+            {% endif %}
+          </div>
+        </td>
         <td class="date-cell">
           <span style="color: {{ item.color }}; font-weight: bold;" class="{% if item.blink %}blink-animation{% endif %}">{{ item.date }}</span><br>
           <span class="days-ago">({{ item.days_ago }} days ago)</span>
@@ -537,8 +620,8 @@ nav_order: 1
   <thead>
     <tr>
       <th style="width: 25%;">Repository</th>
-      <th style="width: 45%;">Pull Request</th>
-      <th style="width: 15%;">Author</th>
+      <th style="width: 40%;">Pull Request</th>
+      <th style="width: 20%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -547,9 +630,19 @@ nav_order: 1
     {% if prs.size > 0 %}
       {% for item in prs %}
       <tr>
-        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn">{{ item.repo }}</a></td>
+        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-xr">{{ item.repo }}</a></td>
         <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
-        <td>@{{ item.user }}</td>
+        <td>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <span>@{{ item.user }}</span>
+            {% if item.last_comment_by %}
+              <span class="days-ago" style="line-height: 1.2;">
+                Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
+                on {{ item.last_comment_date }}
+              </span>
+            {% endif %}
+          </div>
+        </td>
         <td class="date-cell">
           <span style="color: {{ item.color }}; font-weight: bold;" class="{% if item.blink %}blink-animation{% endif %}">{{ item.date }}</span><br>
           <span class="days-ago">({{ item.days_ago }} days ago)</span>
@@ -573,8 +666,8 @@ nav_order: 1
   <thead>
     <tr>
       <th style="width: 25%;">Repository</th>
-      <th style="width: 45%;">Pull Request</th>
-      <th style="width: 15%;">Author</th>
+      <th style="width: 40%;">Pull Request</th>
+      <th style="width: 20%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -583,9 +676,19 @@ nav_order: 1
     {% if prs.size > 0 %}
       {% for item in prs %}
       <tr>
-        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn">{{ item.repo }}</a></td>
+        <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-common">{{ item.repo }}</a></td>
         <td><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
-        <td>@{{ item.user }}</td>
+        <td>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            <span>@{{ item.user }}</span>
+            {% if item.last_comment_by %}
+              <span class="days-ago" style="line-height: 1.2;">
+                Last comment: <strong>@{{ item.last_comment_by }}</strong><br>
+                on {{ item.last_comment_date }}
+              </span>
+            {% endif %}
+          </div>
+        </td>
         <td class="date-cell">
           <span style="color: {{ item.color }}; font-weight: bold;" class="{% if item.blink %}blink-animation{% endif %}">{{ item.date }}</span><br>
           <span class="days-ago">({{ item.days_ago }} days ago)</span>
