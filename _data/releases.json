@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-27 09:51",
+  "last_updated": "2026-04-27 11:07",
   "projects": {
     "3GPP RAN and Core Platforms": [],
     "5G Media Streaming": [
@@ -8,7 +8,7 @@
         "tag": "rt-5gms-application-provider-1.1.0-rc",
         "date": "2024-09-10",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-5gms-application-provider/releases/tag/rt-5gms-application-provider-1.1.0-rc"
       },
       {
@@ -16,7 +16,7 @@
         "tag": "rt-5gms-application-v1.2.1",
         "date": "2025-01-15",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-5gms-application/releases/tag/rt-5gms-application-v1.2.1"
       },
       {
@@ -32,7 +32,7 @@
         "tag": "rt-5gms-application-server-1.2.4",
         "date": "2025-03-20",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-5gms-application-server/releases/tag/rt-5gms-application-server-1.2.4"
       },
       {
@@ -40,7 +40,7 @@
         "tag": "rt-5gms-media-stream-handler-v1.2.1",
         "date": "2025-01-14",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-5gms-media-stream-handler/releases/tag/rt-5gms-media-stream-handler-v1.2.1"
       },
       {
@@ -48,7 +48,7 @@
         "tag": "rt-5gms-media-session-handler-v1.2.1",
         "date": "2025-01-15",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-5gms-media-session-handler/releases/tag/rt-5gms-media-session-handler-v1.2.1"
       },
       {
@@ -56,7 +56,7 @@
         "tag": "rt-5gms-common-android-library-v1.2.1",
         "date": "2025-01-14",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-5gms-common-android-library/releases/tag/rt-5gms-common-android-library-v1.2.1"
       },
       {
@@ -64,7 +64,7 @@
         "tag": "rt-5gms-examples-v1.2.0",
         "date": "2025-01-28",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-5gms-examples/releases/tag/rt-5gms-examples-v1.2.0"
       }
     ],
@@ -74,7 +74,7 @@
         "tag": "rt-5gc-service-consumers-2.1.0",
         "date": "2025-12-15",
         "blink": false,
-        "color": "orange",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-5gc-service-consumers/releases/tag/rt-5gc-service-consumers-2.1.0"
       }
     ],
@@ -84,7 +84,7 @@
         "tag": "rt-data-collection-application-function-1.1.0",
         "date": "2025-05-13",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-data-collection-application-function/releases/tag/rt-data-collection-application-function-1.1.0"
       }
     ],
@@ -94,7 +94,7 @@
         "tag": "rt-mbms-tx-for-qrd-and-crd-1.0.0",
         "date": "2024-09-05",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-mbms-tx-for-qrd-and-crd/releases/tag/rt-mbms-tx-for-qrd-and-crd-1.0.0"
       },
       {
@@ -102,7 +102,7 @@
         "tag": "v1.0.0",
         "date": "2023-06-21",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-mbms-tx/releases/tag/v1.0.0"
       },
       {
@@ -110,7 +110,7 @@
         "tag": "rt-mbms-mw-android-1.0.0",
         "date": "2024-09-05",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-mbms-mw-android/releases/tag/rt-mbms-mw-android-1.0.0"
       },
       {
@@ -118,7 +118,7 @@
         "tag": "v0.10.0",
         "date": "2022-12-08",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-mbms-mw/releases/tag/v0.10.0"
       },
       {
@@ -126,7 +126,7 @@
         "tag": "v1.2.1",
         "date": "2022-06-30",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-mbms-modem/releases/tag/v1.2.1"
       },
       {
@@ -134,7 +134,7 @@
         "tag": "rt-mbms-examples-1.1.0",
         "date": "2024-11-05",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-mbms-examples/releases/tag/rt-mbms-examples-1.1.0"
       }
     ],
@@ -144,7 +144,7 @@
         "tag": "v1.1.0",
         "date": "2025-02-27",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-xr-unity-player/releases/tag/v1.1.0"
       },
       {
@@ -152,7 +152,7 @@
         "tag": "No Release",
         "date": "-",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-xr-content/releases"
       },
       {
@@ -160,7 +160,7 @@
         "tag": "v1.1.0",
         "date": "2025-04-16",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-xr-blender-exporter/releases/tag/v1.1.0"
       },
       {
@@ -168,7 +168,7 @@
         "tag": "No Release",
         "date": "-",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-xr-maf-native/releases"
       }
     ],
@@ -178,7 +178,7 @@
         "tag": "v1.1",
         "date": "2025-09-30",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-v3c-unity-player/releases/tag/v1.1"
       },
       {
@@ -186,7 +186,7 @@
         "tag": "v1.1",
         "date": "2025-09-30",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-v3c-decoder-plugin/releases/tag/v1.1"
       },
       {
@@ -194,7 +194,7 @@
         "tag": "v1.1",
         "date": "2025-10-09",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-v3c-content/releases/tag/v1.1"
       }
     ],
@@ -204,7 +204,7 @@
         "tag": "v0.2.1",
         "date": "2025-07-24",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-beyond2d-evaluation-framework/releases/tag/v0.2.1"
       }
     ],
@@ -214,7 +214,7 @@
         "tag": "No Release",
         "date": "-",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-ai-ml-evaluation-framework/releases"
       }
     ],
@@ -232,7 +232,7 @@
         "tag": "v0.10.0",
         "date": "2022-12-08",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-mbms-mw/releases/tag/v0.10.0"
       }
     ],
@@ -242,7 +242,7 @@
         "tag": "No Release",
         "date": "-",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-common-shared/releases"
       }
     ],
@@ -252,7 +252,7 @@
         "tag": "No Release",
         "date": "-",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-avatar-content/releases"
       },
       {
@@ -260,7 +260,7 @@
         "tag": "No Release",
         "date": "-",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-avatar-call/releases"
       },
       {
@@ -268,7 +268,7 @@
         "tag": "No Release",
         "date": "-",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-avatar-unity-tracker/releases"
       },
       {
@@ -276,7 +276,7 @@
         "tag": "No Release",
         "date": "-",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-3gpp-swap/releases"
       }
     ],
@@ -286,7 +286,7 @@
         "tag": "No Release",
         "date": "-",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/6G-Testbed/releases"
       }
     ],
@@ -296,7 +296,7 @@
         "tag": "rt-5gms-application-v1.2.1",
         "date": "2025-01-15",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-5gms-application/releases/tag/rt-5gms-application-v1.2.1"
       }
     ],
@@ -307,7 +307,7 @@
         "tag": "rt-mbms-tx-for-qrd-and-crd-ea-1.0.0",
         "date": "2024-09-05",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-mbms-tx-for-qrd-and-crd/releases/tag/rt-mbms-tx-for-qrd-and-crd-ea-1.0.0"
       }
     ],
@@ -317,7 +317,7 @@
         "tag": "No Release",
         "date": "-",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-mbs-function/releases"
       },
       {
@@ -325,7 +325,7 @@
         "tag": "No Release",
         "date": "-",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-mbs-transport-function/releases"
       },
       {
@@ -333,7 +333,7 @@
         "tag": "v1.0.0-5mbs-v2.7.2-o5gs",
         "date": "2025-10-24",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/open5gs/releases/tag/v1.0.0-5mbs-v2.7.2-o5gs"
       },
       {
@@ -341,7 +341,7 @@
         "tag": "No Release",
         "date": "-",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-srsRAN_Project/releases"
       },
       {
@@ -349,7 +349,7 @@
         "tag": "No Release",
         "date": "-",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/srsRAN_4G/releases"
       },
       {
@@ -357,7 +357,7 @@
         "tag": "No Release",
         "date": "-",
         "blink": false,
-        "color": "red",
+        "color": "green",
         "url": "https://github.com/5G-MAG/rt-mbs-examples/releases"
       }
     ]
