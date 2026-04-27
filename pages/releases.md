@@ -24,6 +24,14 @@ nav_order: 0
     text-overflow: ellipsis;
     vertical-align: top;
   }
+  /* Animation for new releases within 30 days */
+  .blink-animation {
+    animation: blinker 1.5s linear infinite;
+    display: inline-block;
+  }
+  @keyframes blinker {
+    50% { opacity: 0.3; }
+  }
 </style>
 
 <img src="../assets/images/Banner_ReferenceTools.png" alt="Reference Tools Banner" /> 
@@ -52,7 +60,11 @@ nav_order: 0
     <tr>
       <td><a href="{{ item.repo_url }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
-      <td><strong>{{ item.date }}</strong></td>
+      <td>
+        <span class="{% if item.blink %}blink-animation{% endif %}">
+          <strong>{{ item.date }}</strong>
+        </span>
+      </td>
     </tr>
     {% endfor %}
   </tbody>
@@ -75,13 +87,15 @@ nav_order: 0
   </thead>
   <tbody>
     {% for item in site.data.releases.projects["5G Broadcast Emergency Alerts"] %}
-      {% if item.tag contains "-ea-" %}
     <tr>
       <td><a href="{{ item.repo_url }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
-      <td><strong>{{ item.date }}</strong></td>
+      <td>
+        <span class="{% if item.blink %}blink-animation{% endif %}">
+          <strong>{{ item.date }}</strong>
+        </span>
+      </td>
     </tr>
-      {% endif %}
     {% endfor %}
   </tbody>
 </table>
@@ -106,7 +120,11 @@ nav_order: 0
     <tr>
       <td><a href="{{ item.repo_url }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
-      <td><strong>{{ item.date }}</strong></td>
+      <td>
+        <span class="{% if item.blink %}blink-animation{% endif %}">
+          <strong>{{ item.date }}</strong>
+        </span>
+      </td>
     </tr>
     {% endfor %}
   </tbody>
@@ -132,7 +150,11 @@ nav_order: 0
     <tr>
       <td><a href="{{ item.repo_url }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
-      <td><strong>{{ item.date }}</strong></td>
+      <td>
+        <span class="{% if item.blink %}blink-animation{% endif %}">
+          <strong>{{ item.date }}</strong>
+        </span>
+      </td>
     </tr>
     {% endfor %}
   </tbody>
@@ -158,7 +180,11 @@ nav_order: 0
     <tr>
       <td><a href="{{ item.repo_url }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
-      <td><strong>{{ item.date }}</strong></td>
+      <td>
+        <span class="{% if item.blink %}blink-animation{% endif %}">
+          <strong>{{ item.date }}</strong>
+        </span>
+      </td>
     </tr>
     {% endfor %}
   </tbody>
@@ -184,7 +210,11 @@ nav_order: 0
     <tr>
       <td><a href="{{ item.repo_url }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
-      <td><strong>{{ item.date }}</strong></td>
+      <td>
+        <span class="{% if item.blink %}blink-animation{% endif %}">
+          <strong>{{ item.date }}</strong>
+        </span>
+      </td>
     </tr>
     {% endfor %}
   </tbody>
@@ -210,7 +240,11 @@ nav_order: 0
     <tr>
       <td><a href="{{ item.repo_url }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
-      <td><strong>{{ item.date }}</strong></td>
+      <td>
+        <span class="{% if item.blink %}blink-animation{% endif %}">
+          <strong>{{ item.date }}</strong>
+        </span>
+      </td>
     </tr>
     {% endfor %}
   </tbody>
@@ -236,7 +270,11 @@ nav_order: 0
     <tr>
       <td><a href="{{ item.repo_url }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
-      <td><strong>{{ item.date }}</strong></td>
+      <td>
+        <span class="{% if item.blink %}blink-animation{% endif %}">
+          <strong>{{ item.date }}</strong>
+        </span>
+      </td>
     </tr>
     {% endfor %}
   </tbody>
@@ -262,7 +300,11 @@ nav_order: 0
     <tr>
       <td><a href="{{ item.repo_url }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
-      <td><strong>{{ item.date }}</strong></td>
+      <td>
+        <span class="{% if item.blink %}blink-animation{% endif %}">
+          <strong>{{ item.date }}</strong>
+        </span>
+      </td>
     </tr>
     {% endfor %}
   </tbody>
@@ -288,7 +330,11 @@ nav_order: 0
     <tr>
       <td><a href="{{ item.repo_url }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
-      <td><strong>{{ item.date }}</strong></td>
+      <td>
+        <span class="{% if item.blink %}blink-animation{% endif %}">
+          <strong>{{ item.date }}</strong>
+        </span>
+      </td>
     </tr>
     {% endfor %}
   </tbody>
@@ -314,7 +360,11 @@ nav_order: 0
     <tr>
       <td><a href="{{ item.repo_url }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
-      <td><strong>{{ item.date }}</strong></td>
+      <td>
+        <span class="{% if item.blink %}blink-animation{% endif %}">
+          <strong>{{ item.date }}</strong>
+        </span>
+      </td>
     </tr>
     {% endfor %}
   </tbody>
@@ -340,7 +390,11 @@ nav_order: 0
     <tr>
       <td><a href="{{ item.repo_url }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
-      <td><strong>{{ item.date }}</strong></td>
+      <td>
+        <span class="{% if item.blink %}blink-animation{% endif %}">
+          <strong>{{ item.date }}</strong>
+        </span>
+      </td>
     </tr>
     {% endfor %}
   </tbody>
@@ -366,7 +420,11 @@ nav_order: 0
     <tr>
       <td><a href="{{ item.repo_url }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
-      <td><strong>{{ item.date }}</strong></td>
+      <td>
+        <span class="{% if item.blink %}blink-animation{% endif %}">
+          <strong>{{ item.date }}</strong>
+        </span>
+      </td>
     </tr>
     {% endfor %}
   </tbody>
@@ -392,7 +450,11 @@ nav_order: 0
     <tr>
       <td><a href="{{ item.repo_url }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
-      <td><strong>{{ item.date }}</strong></td>
+      <td>
+        <span class="{% if item.blink %}blink-animation{% endif %}">
+          <strong>{{ item.date }}</strong>
+        </span>
+      </td>
     </tr>
     {% endfor %}
   </tbody>
@@ -418,7 +480,11 @@ nav_order: 0
     <tr>
       <td><a href="{{ item.repo_url }}" class="btn">{{ item.short_name }}</a></td>
       <td><a href="{{ item.url }}" class="btn">{{ item.tag }}</a></td>
-      <td><strong>{{ item.date }}</strong></td>
+      <td>
+        <span class="{% if item.blink %}blink-animation{% endif %}">
+          <strong>{{ item.date }}</strong>
+        </span>
+      </td>
     </tr>
     {% endfor %}
   </tbody>
