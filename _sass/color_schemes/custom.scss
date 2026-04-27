@@ -187,21 +187,36 @@ $border-color:    #eee;
     td {
         padding: 12px;
         border-bottom: 1px solid $border-color;
-        overflow: hidden;
-        text-overflow: ellipsis;
         vertical-align: top;
+        // Removed overflow: hidden to allow multi-line text
+        word-wrap: break-word; 
     }
 
-    .date-cell-release {
-        font-size: 14px;
+    // This ensures the "Pull Request" title cell still truncates if too long,
+    // but allows the Author/Activity cell to show all lines.
+    .pr-title-cell {
+        overflow: hidden;
+        text-overflow: ellipsis;
         white-space: nowrap;
-        color: $highlight-green !important;
     }
 
     .author-activity {
         display: flex;
         flex-direction: column;
         gap: 2px;
-        .author-name { font-weight: 500; }
+        line-height: 1.3; // Give it some breathing room
+        
+        .author-name { 
+            font-weight: 700; 
+            display: block;
+        }
+
+        // Target the specific "Last comment" span
+        .days-ago {
+            margin-top: 4px;
+            font-size: 11px;
+            color: $muted-text;
+            display: block; // Ensures it drops to a new line
+        }
     }
 }
