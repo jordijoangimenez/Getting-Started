@@ -102,7 +102,6 @@ jobs:
                   d_v = v_api.get('views', [])[-1].get('count', 0) if (v_api and v_api.get('views')) else 0
                   d_c = c_api.get('clones', [])[-1].get('count', 0) if (c_api and c_api.get('clones')) else 0
                   
-                  # Calculate push age for status
                   push_date = datetime.strptime(repo_data.get('pushed_at', '').split('T')[0], "%Y-%m-%d")
                   push_days = (datetime.now() - push_date).days
                   
@@ -123,7 +122,7 @@ jobs:
                       "repo_url": f"https://github.com/{repo}"
                   })
 
-                  # 3. Releases
+                  # 3. Releases (Modified to stay Green and blink if new)
                   all_rels = get_json(f"https://api.github.com/repos/{repo}/releases") or []
                   f_tag = (filtered_projects[p_name]['filter'].lower() if p_name in filtered_projects else "")
                   target = next((r for r in all_rels if f_tag in r.get('tag_name', '').lower()), None) if f_tag else next((r for r in all_rels if not r.get('prerelease')), None) or (all_rels[0] if all_rels else None)
@@ -132,8 +131,9 @@ jobs:
                   
                   rel_list.append({
                       "short_name": repo_name, "tag": target.get('tag_name') if target else "No Release",
-                      "date": rel_date, "blink": (rel_days <= 30),
-                      "color": "green" if rel_days <= 90 else "orange" if rel_days <= 180 else "red",
+                      "date": rel_date, 
+                      "blink": (rel_days <= 30),
+                      "color": "green", # Always green as requested
                       "url": target.get('html_url') if target else f"https://github.com/{repo}/releases"
                   })
 
