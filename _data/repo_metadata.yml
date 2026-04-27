@@ -592,7 +592,7 @@ repos:
     repo_url: "https://github.com/5G-MAG/rt-5gms-application-provider"
     branch: "main"
     license: "5G-MAG PL v1.0"
-    public: false
+    public: true
 
   N3:
     category: "network_api"
