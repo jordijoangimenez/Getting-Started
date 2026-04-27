@@ -5,6 +5,53 @@ title: Open Pull Requests
 nav_order: 1
 ---
 
+<style>
+  .release-table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+    table-layout: fixed;
+  }
+  .release-table th {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #eee;
+  }
+  .release-table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+  }
+  /* Animation for new releases */
+  .blink-animation {
+    animation: blinker 1.5s linear infinite;
+    display: inline-block;
+  }
+  @keyframes blinker {
+    50% { opacity: 0.3; }
+  }
+  /* Center the "No open PRs" text */
+  .no-prs {
+    text-align: center;
+    color: #888;
+    padding: 20px !important;
+    font-style: italic;
+  }
+  /* Style the relative date text */
+  .days-ago {
+    font-size: 0.85em;
+    color: #666;
+    display: block;
+    margin-top: 4px;
+  }
+  /* Ensure the date cell handles the stack correctly */
+  .date-cell {
+    line-height: 1.2;
+  }
+</style>
+
 <img src="../assets/images/Banner_ReferenceTools.png" alt="Reference Tools Banner" /> 
 
 # Reference Tools Projects: Open Pull Requests
