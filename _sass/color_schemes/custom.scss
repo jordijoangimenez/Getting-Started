@@ -6,28 +6,28 @@ $link-color: #00A0D2;
 $content-width: 100rem;
 
 // --- Action & Utility Buttons ---
-.btn-github     { color: #ffffff !important; background-color: #000000 !important; }
-.btn-release    { color: #88D66C !important; background-color: #000000 !important; }
-.btn-tutorial   { color: #FFFFFF !important; background-color: #00A0D2 !important; }
+.btn-github      { color: #ffffff !important; background-color: #000000 !important; }
+.btn-release     { color: #88D66C !important; background-color: #000000 !important; }
+.btn-tutorial    { color: #FFFFFF !important; background-color: #00A0D2 !important; }
 
 // --- Platforms ---
-.btn-3gpp       { color: #ffffff !important; background-color: #0070C0 !important; } // 3GPP RAN/Core
-.btn-5gbc       { color: #ffffff !important; background-color: #70AD47 !important; } // 5G Broadcast TVR
-.btn-5gbcea     { color: #ffffff !important; background-color: #7030A0 !important; } // 5G Broadcast Emergency
-.btn-5gms       { color: #000000 !important; background-color: #FFC000 !important; } // 5G Media Streaming
-.btn-5mbs       { color: #ffffff !important; background-color: #1AB39F !important; } // 5G MBS
-.btn-5gcsc      { color: #ffffff !important; background-color: #FF0000 !important; } // 5GC Consumers
-.btn-testbed    { color: #ffffff !important; background-color: #D17F79 !important; } // 6G Testbed (Coral)
-.btn-aiml       { color: #ffffff !important; background-color: #4A5568 !important; } // AI/ML (Graphite)
-.btn-beyond2d   { color: #ffffff !important; background-color: #00A3C1 !important; } // Beyond 2D (Cyan)
-.btn-api        { color: #ffffff !important; background-color: #5C6BC0 !important; } // Network API (Slate Blue)
-.btn-uedc       { color: #ffffff !important; background-color: #607D8B !important; } // Data Collection (Grey/Slate)
-.btn-avatar     { color: #ffffff !important; background-color: #D17F79 !important; } // Avatar (Coral)
-.btn-xr         { color: #ffffff !important; background-color: #ED7D31 !important; } // XR Media
-.btn-v3c        { color: #ffffff !important; background-color: #CC3399 !important; } // V3C Immersive
-.btn-dvbi       { color: #ffffff !important; background-color: #002060 !important; } // DVB-I
-.btn-md         { color: #ffffff !important; background-color: #385723 !important; } // Multimedia Protocols
-.btn-common     { color: #000000 !important; background-color: #BFBFBF !important; } // Shared Tools
+.btn-3gpp        { color: #ffffff !important; background-color: #0070C0 !important; } // 3GPP RAN/Core
+.btn-5gbc        { color: #ffffff !important; background-color: #70AD47 !important; } // 5G Broadcast TVR
+.btn-5gbcea      { color: #ffffff !important; background-color: #7030A0 !important; } // 5G Broadcast Emergency
+.btn-5gms        { color: #000000 !important; background-color: #FFC000 !important; } // 5G Media Streaming
+.btn-5mbs        { color: #ffffff !important; background-color: #1AB39F !important; } // 5G MBS
+.btn-5gcsc       { color: #ffffff !important; background-color: #FF0000 !important; } // 5GC Consumers
+.btn-testbed     { color: #ffffff !important; background-color: #D17F79 !important; } // 6G Testbed (Coral)
+.btn-aiml        { color: #ffffff !important; background-color: #4A5568 !important; } // AI/ML (Graphite)
+.btn-beyond2d    { color: #ffffff !important; background-color: #00A3C1 !important; } // Beyond 2D (Cyan)
+.btn-api         { color: #ffffff !important; background-color: #5C6BC0 !important; } // Network API (Slate Blue)
+.btn-uedc        { color: #ffffff !important; background-color: #607D8B !important; } // Data Collection (Grey/Slate)
+.btn-avatar      { color: #ffffff !important; background-color: #D17F79 !important; } // Avatar (Coral)
+.btn-xr          { color: #ffffff !important; background-color: #ED7D31 !important; } // XR Media
+.btn-v3c         { color: #ffffff !important; background-color: #CC3399 !important; } // V3C Immersive
+.btn-dvbi        { color: #ffffff !important; background-color: #002060 !important; } // DVB-I
+.btn-md          { color: #ffffff !important; background-color: #385723 !important; } // Multimedia Protocols
+.btn-common      { color: #000000 !important; background-color: #BFBFBF !important; } // Shared Tools
 
 // -------------------------------------------------------------------
 // ARCHITECTURE TABLE
@@ -39,7 +39,6 @@ $content-width: 100rem;
 
     .repo-header-row, .repo-row {
         display: grid; 
-        // Rebalanced column widths
         grid-template-columns: 80px 2fr 120px 120px 200px 120px;
         grid-gap: 15px; 
         align-items: center;
@@ -78,13 +77,11 @@ $content-width: 100rem;
         &:hover { background: rgba(0,0,0,0.02); z-index: 50 !important; }
     }
 
-    // Column Alignment Logic
     .repo-id-group  { display: flex; align-items: center; justify-content: center; gap: 8px; }
     .repo-name      { text-align: left; display: flex; flex-direction: column; justify-content: center; }
     .repo-standards { display: flex; justify-content: center; }
     .repo-license   { display: flex; justify-content: center; color: $link-color; font-weight: 700; font-size: 13px; }
     
-    // Updated ID Pill: Fixed font size, removed bold, and added flexible width
     .id-pill { 
         min-width: 32px;
         height: 32px; 
@@ -93,8 +90,8 @@ $content-width: 100rem;
         display: flex; 
         align-items: center; 
         justify-content: center; 
-        font-weight: 500;       // Removed bold (800)
-        font-size: 10px;        // Smaller font for longer IDs
+        font-weight: 500;
+        font-size: 10px; 
         white-space: nowrap;
     }
 
@@ -132,7 +129,6 @@ $content-width: 100rem;
 
     .std-logo { height: 26px; width: auto; object-fit: contain; }
     
-    // --- DEPENDENCIES ---
     .repo-deps { 
         display: flex; 
         justify-content: center; 
@@ -155,7 +151,6 @@ $content-width: 100rem;
         }
     }
 
-    // --- SOFTWARE ---
     .repo-software { 
         display: flex; 
         justify-content: flex-end; 
@@ -176,4 +171,44 @@ $content-width: 100rem;
         .leg-box { width: 24px; height: 12px; border: 2px solid #999; &.solid { border-style: solid; } &.dashed { border-style: dashed !important; } }
         .leg-icon { height: 18px; width: auto; object-fit: contain; }
     }
+}
+
+// -------------------------------------------------------------------
+// RELEASE PAGE SPECIFIC STYLES
+// -------------------------------------------------------------------
+.release-table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+    table-layout: fixed;
+
+    th {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 2px solid #eee;
+    }
+
+    td {
+        padding: 12px;
+        border-bottom: 1px solid #eee;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        vertical-align: top;
+    }
+}
+
+.date-cell-release {
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+// --- BLINKING ANIMATION ---
+// Used for highligthing new releases
+.blink-animation {
+    animation: release-blinker 1.5s linear infinite;
+    display: inline-block;
+}
+
+@keyframes release-blinker {
+    50% { opacity: 0.3; }
 }
