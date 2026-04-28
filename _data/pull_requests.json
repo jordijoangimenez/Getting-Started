@@ -1,7 +1,6 @@
 {
-  "last_updated": "2026-04-27 11:07",
+  "last_updated": "2026-04-28 01:00",
   "projects": {
-    "3GPP RAN and Core Platforms": [],
     "5G Media Streaming": [
       {
         "repo": "rt-5gms-application-provider",
@@ -11,7 +10,7 @@
         "last_comment_by": "ErikGaida",
         "last_comment_date": "2026-04-21",
         "date": "2026-03-17",
-        "days_ago": 41,
+        "days_ago": 42,
         "color": "green",
         "blink": false
       },
@@ -23,7 +22,7 @@
         "last_comment_by": "dsilhavy",
         "last_comment_date": "2026-03-18",
         "date": "2026-03-13",
-        "days_ago": 45,
+        "days_ago": 46,
         "color": "green",
         "blink": false
       },
@@ -35,7 +34,7 @@
         "last_comment_by": "ErikGaida",
         "last_comment_date": "2026-04-10",
         "date": "2026-02-23",
-        "days_ago": 63,
+        "days_ago": 64,
         "color": "green",
         "blink": false
       },
@@ -47,7 +46,7 @@
         "last_comment_by": "jordijoangimenez",
         "last_comment_date": "2026-03-01",
         "date": "2026-02-25",
-        "days_ago": 61,
+        "days_ago": 62,
         "color": "green",
         "blink": false
       },
@@ -59,7 +58,7 @@
         "last_comment_by": "dsilhavy",
         "last_comment_date": "2026-03-27",
         "date": "2026-02-20",
-        "days_ago": 66,
+        "days_ago": 67,
         "color": "green",
         "blink": false
       },
@@ -71,7 +70,7 @@
         "last_comment_by": null,
         "last_comment_date": null,
         "date": "2026-03-30",
-        "days_ago": 28,
+        "days_ago": 29,
         "color": "green",
         "blink": true
       },
@@ -83,7 +82,7 @@
         "last_comment_by": null,
         "last_comment_date": null,
         "date": "2026-03-30",
-        "days_ago": 28,
+        "days_ago": 29,
         "color": "green",
         "blink": true
       }
@@ -99,7 +98,7 @@
         "last_comment_by": "jordijoangimenez",
         "last_comment_date": "2025-10-22",
         "date": "2024-11-20",
-        "days_ago": 523,
+        "days_ago": 524,
         "color": "red",
         "blink": false
       },
@@ -111,7 +110,7 @@
         "last_comment_by": "rbouqueau",
         "last_comment_date": "2025-10-31",
         "date": "2021-11-30",
-        "days_ago": 1609,
+        "days_ago": 1610,
         "color": "red",
         "blink": false
       },
@@ -123,7 +122,7 @@
         "last_comment_by": "rbouqueau",
         "last_comment_date": "2021-10-23",
         "date": "2021-10-23",
-        "days_ago": 1647,
+        "days_ago": 1648,
         "color": "red",
         "blink": false
       },
@@ -135,7 +134,7 @@
         "last_comment_by": null,
         "last_comment_date": null,
         "date": "2025-08-27",
-        "days_ago": 243,
+        "days_ago": 244,
         "color": "red",
         "blink": false
       }
@@ -149,7 +148,7 @@
         "last_comment_by": "jordijoangimenez",
         "last_comment_date": "2025-10-07",
         "date": "2025-05-09",
-        "days_ago": 353,
+        "days_ago": 354,
         "color": "red",
         "blink": false
       }
@@ -165,7 +164,7 @@
         "last_comment_by": null,
         "last_comment_date": null,
         "date": "2026-03-24",
-        "days_ago": 34,
+        "days_ago": 35,
         "color": "green",
         "blink": false
       }
@@ -179,7 +178,7 @@
         "last_comment_by": null,
         "last_comment_date": null,
         "date": "2026-03-27",
-        "days_ago": 31,
+        "days_ago": 32,
         "color": "green",
         "blink": false
       },
@@ -191,7 +190,7 @@
         "last_comment_by": null,
         "last_comment_date": null,
         "date": "2026-03-12",
-        "days_ago": 46,
+        "days_ago": 47,
         "color": "green",
         "blink": false
       },
@@ -203,7 +202,7 @@
         "last_comment_by": "dsilhavy",
         "last_comment_date": "2023-10-18",
         "date": "2023-05-16",
-        "days_ago": 1077,
+        "days_ago": 1078,
         "color": "red",
         "blink": false
       },
@@ -215,7 +214,7 @@
         "last_comment_by": "rbouqueau",
         "last_comment_date": "2025-10-31",
         "date": "2021-11-30",
-        "days_ago": 1609,
+        "days_ago": 1610,
         "color": "red",
         "blink": false
       },
@@ -227,7 +226,7 @@
         "last_comment_by": "rbouqueau",
         "last_comment_date": "2021-10-23",
         "date": "2021-10-23",
-        "days_ago": 1647,
+        "days_ago": 1648,
         "color": "red",
         "blink": false
       }
@@ -241,7 +240,7 @@
         "last_comment_by": "ErikGaida",
         "last_comment_date": "2026-03-31",
         "date": "2026-03-23",
-        "days_ago": 35,
+        "days_ago": 36,
         "color": "green",
         "blink": false
       }
@@ -257,12 +256,49 @@
         "last_comment_by": "jordijoangimenez",
         "last_comment_date": "2026-03-01",
         "date": "2026-02-25",
-        "days_ago": 61,
+        "days_ago": 62,
         "color": "green",
         "blink": false
       }
     ],
-    "Network Capability Exposure": [],
+    "Network APIs": [
+      {
+        "repo": "rt-5gms-application-provider",
+        "title": "Feature/102 track external provisioning sessions",
+        "url": "https://github.com/5G-MAG/rt-5gms-application-provider/pull/104",
+        "user": "ErikGaida",
+        "last_comment_by": "ErikGaida",
+        "last_comment_date": "2026-04-21",
+        "date": "2026-03-17",
+        "days_ago": 42,
+        "color": "green",
+        "blink": false
+      },
+      {
+        "repo": "rt-5gms-application-provider",
+        "title": "Added import/export Feature",
+        "url": "https://github.com/5G-MAG/rt-5gms-application-provider/pull/101",
+        "user": "ErikGaida",
+        "last_comment_by": "dsilhavy",
+        "last_comment_date": "2026-03-18",
+        "date": "2026-03-13",
+        "days_ago": 46,
+        "color": "green",
+        "blink": false
+      },
+      {
+        "repo": "rt-5gms-application-provider",
+        "title": "Add an Insomnia collection for the M1 and M5 interface including envi\u2026",
+        "url": "https://github.com/5G-MAG/rt-5gms-application-provider/pull/97",
+        "user": "dsilhavy",
+        "last_comment_by": "ErikGaida",
+        "last_comment_date": "2026-04-10",
+        "date": "2026-02-23",
+        "days_ago": 64,
+        "color": "green",
+        "blink": false
+      }
+    ],
     "5G Broadcast Emergency Alerts": [
       {
         "repo": "rt-mbms-tx-for-qrd-and-crd",
@@ -272,7 +308,7 @@
         "last_comment_by": "jordijoangimenez",
         "last_comment_date": "2025-10-22",
         "date": "2024-11-20",
-        "days_ago": 523,
+        "days_ago": 524,
         "color": "red",
         "blink": false
       }
@@ -286,7 +322,7 @@
         "last_comment_by": "jordijoangimenez",
         "last_comment_date": "2026-04-23",
         "date": "2026-04-15",
-        "days_ago": 12,
+        "days_ago": 13,
         "color": "green",
         "blink": true
       },
@@ -298,7 +334,7 @@
         "last_comment_by": "davidjwbbc",
         "last_comment_date": "2026-04-23",
         "date": "2026-04-15",
-        "days_ago": 12,
+        "days_ago": 13,
         "color": "green",
         "blink": true
       },
@@ -310,7 +346,7 @@
         "last_comment_by": "jordijoangimenez",
         "last_comment_date": "2026-04-23",
         "date": "2026-03-27",
-        "days_ago": 31,
+        "days_ago": 32,
         "color": "green",
         "blink": false
       },
@@ -322,7 +358,7 @@
         "last_comment_by": "joseprrm",
         "last_comment_date": "2026-03-13",
         "date": "2026-03-13",
-        "days_ago": 45,
+        "days_ago": 46,
         "color": "green",
         "blink": false
       },
@@ -334,7 +370,7 @@
         "last_comment_by": "jordijoangimenez",
         "last_comment_date": "2026-04-23",
         "date": "2026-03-06",
-        "days_ago": 52,
+        "days_ago": 53,
         "color": "green",
         "blink": false
       },
@@ -346,7 +382,7 @@
         "last_comment_by": null,
         "last_comment_date": null,
         "date": "2026-02-23",
-        "days_ago": 63,
+        "days_ago": 64,
         "color": "green",
         "blink": false
       }

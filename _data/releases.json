@@ -1,7 +1,6 @@
 {
-  "last_updated": "2026-04-27 11:07",
+  "last_updated": "2026-04-28 01:00",
   "projects": {
-    "3GPP RAN and Core Platforms": [],
     "5G Media Streaming": [
       {
         "short_name": "rt-5gms-application-provider",
@@ -300,7 +299,16 @@
         "url": "https://github.com/5G-MAG/rt-5gms-application/releases/tag/rt-5gms-application-v1.2.1"
       }
     ],
-    "Network Capability Exposure": [],
+    "Network APIs": [
+      {
+        "short_name": "rt-5gms-application-provider",
+        "tag": "rt-5gms-application-provider-1.1.0-rc",
+        "date": "2024-09-10",
+        "blink": false,
+        "color": "green",
+        "url": "https://github.com/5G-MAG/rt-5gms-application-provider/releases/tag/rt-5gms-application-provider-1.1.0-rc"
+      }
+    ],
     "5G Broadcast Emergency Alerts": [
       {
         "short_name": "rt-mbms-tx-for-qrd-and-crd",
