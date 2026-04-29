@@ -157,7 +157,6 @@ has_children: true
   {{ table_header }}
   <tbody>
     {% for item in site.data.community_stats.projects["5G Broadcast Emergency Alerts"] %}
-      {% if item.name contains "-ea-" %}
     <tr>
       <td><a href="{{ item.repo_url }}" style="font-weight: bold; color: #0366d6;">{{ item.name }}</a></td>
       <td>⭐ {{ item.stars }}</td>
@@ -170,7 +169,6 @@ has_children: true
         {% else %}<span class="dot dot-blue"></span> <strong>Stable</strong>{% endif %}
       </td>
     </tr>
-      {% endif %}
     {% endfor %}
   </tbody>
 </table>
