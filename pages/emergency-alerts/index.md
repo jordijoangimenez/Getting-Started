@@ -74,8 +74,7 @@ Explore this slide deck for a concise introduction and a set of essential resour
 <table class="health-table">
   {{ table_header }}
   <tbody>
-    {% for item in site.data.community_stats.projects["5G Broadcast TV Radio"] %}
-      {% if item.name contains "-ea-" %}
+    {% for item in site.data.community_stats.projects["5G Broadcast Emergency Alerts"] %}
       <tr>
         <td><a href="{{ item.repo_url }}" style="font-weight: bold; color: #0366d6;">{{ item.name }}</a></td>
         <td>⭐ {{ item.stars }}</td>
@@ -88,7 +87,6 @@ Explore this slide deck for a concise introduction and a set of essential resour
           {% else %}<span class="dot dot-blue"></span> <strong>Stable</strong>{% endif %}
         </td>
       </tr>
-      {% endif %}
     {% endfor %}
   </tbody>
 </table>
