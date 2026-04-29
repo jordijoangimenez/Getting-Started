@@ -1,22 +1,21 @@
 ---
 layout: default
-title: Roadmap
+title: Packages
 parent: UE Data Collection
 has_children: false
-nav_order: 1
+nav_order: 3
 ---
 
 <img src="../../assets/images/Banner_UEDC.png" /> 
 
 [Scope](./scope.html){: .btn .btn-blue } [Project Roadmap](./projects.html){: .btn .btn-blue } [GitHub Repos](./repositories.html){: .btn .btn-github } [Packages](./packages.html){: .btn .btn-blue } [Releases](./repositories.html#latest-releases){: .btn .btn-release } [Tutorials](./tutorials.html){: .btn .btn-tutorial } [Video Library](./tutorials.html#video-library){: .btn .btn-video }
 
-# Projects & Roadmap
+# Packages
 
-## General Project Roadmap
-[Kanban board: Roadmap](https://github.com/orgs/5G-MAG/projects/48/views/8){: .btn .btn-blue }
+This project also provides or makes use of the following packages GitHub Container packages.
 
-## Developer Kanban Boards
+## UE Data Collection, Reporting and Event Exposure
 
-### UE data collection, reporting and event exposure
-Reference implementation of the generic Data Collection AF and its instantiation in the 5GMS Application Function.
-* [**Kanban board**](https://github.com/orgs/5G-MAG/projects/30)
+Components | Package
+ --|--
+ DCAF | [https://github.com/5G-MAG/rt-data-collection-application-function/pkgs/container/data-collection-af](https://github.com/5G-MAG/rt-data-collection-application-function/pkgs/container/data-collection-af)
