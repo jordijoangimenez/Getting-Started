@@ -21,9 +21,11 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Repository</th>
-      <th style="width: 40%;">Pull Request</th>
-      <th style="width: 20%;">Author & Activity</th>
+      <th style="width: 15%;">Repository</th>
+      <th style="width: 10%;">ID</th>
+      <th style="width: 35%;">Pull Request</th>
+      <th style="width: 10%;">Status</th>
+      <th style="width: 15%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -33,7 +35,15 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5gbc">{{ item.repo }}</a></td>
+        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td style="text-align: center;">
+          {% if item.status == "Draft" %}
+            <span class="label label-yellow">{{ item.status }}</span>
+          {% else %}
+            <span class="label label-green">{{ item.status }}</span>
+          {% endif %}
+        </td>
         <td>
           <div class="author-activity">
             <span class="author-name">@{{ item.user }}</span>
@@ -52,7 +62,7 @@ nav_order: 1
       </tr>
       {% endfor %}
     {% else %}
-      <tr><td colspan="4" class="no-prs">No open pull requests</td></tr>
+      <tr><td colspan="6" class="no-prs">No open pull requests</td></tr>
     {% endif %}
   </tbody>
 </table>
@@ -67,9 +77,11 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Repository</th>
-      <th style="width: 40%;">Pull Request</th>
-      <th style="width: 20%;">Author & Activity</th>
+      <th style="width: 15%;">Repository</th>
+      <th style="width: 10%;">ID</th>
+      <th style="width: 35%;">Pull Request</th>
+      <th style="width: 10%;">Status</th>
+      <th style="width: 15%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -79,7 +91,15 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5gbcea">{{ item.repo }}</a></td>
+        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td style="text-align: center;">
+          {% if item.status == "Draft" %}
+            <span class="label label-yellow">{{ item.status }}</span>
+          {% else %}
+            <span class="label label-green">{{ item.status }}</span>
+          {% endif %}
+        </td>
         <td>
           <div class="author-activity">
             <span class="author-name">@{{ item.user }}</span>
@@ -98,7 +118,7 @@ nav_order: 1
       </tr>
       {% endfor %}
     {% else %}
-      <tr><td colspan="4" class="no-prs">No open pull requests</td></tr>
+      <tr><td colspan="6" class="no-prs">No open pull requests</td></tr>
     {% endif %}
   </tbody>
 </table>
@@ -113,9 +133,11 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Repository</th>
-      <th style="width: 40%;">Pull Request</th>
-      <th style="width: 20%;">Author & Activity</th>
+      <th style="width: 15%;">Repository</th>
+      <th style="width: 10%;">ID</th>
+      <th style="width: 35%;">Pull Request</th>
+      <th style="width: 10%;">Status</th>
+      <th style="width: 15%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -125,7 +147,15 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5gms">{{ item.repo }}</a></td>
+        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td style="text-align: center;">
+          {% if item.status == "Draft" %}
+            <span class="label label-yellow">{{ item.status }}</span>
+          {% else %}
+            <span class="label label-green">{{ item.status }}</span>
+          {% endif %}
+        </td>
         <td>
           <div class="author-activity">
             <span class="author-name">@{{ item.user }}</span>
@@ -144,7 +174,7 @@ nav_order: 1
       </tr>
       {% endfor %}
     {% else %}
-      <tr><td colspan="4" class="no-prs">No open pull requests</td></tr>
+      <tr><td colspan="6" class="no-prs">No open pull requests</td></tr>
     {% endif %}
   </tbody>
 </table>
@@ -159,9 +189,11 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Repository</th>
-      <th style="width: 40%;">Pull Request</th>
-      <th style="width: 20%;">Author & Activity</th>
+      <th style="width: 15%;">Repository</th>
+      <th style="width: 10%;">ID</th>
+      <th style="width: 35%;">Pull Request</th>
+      <th style="width: 10%;">Status</th>
+      <th style="width: 15%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -171,7 +203,15 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5mbs">{{ item.repo }}</a></td>
+        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td style="text-align: center;">
+          {% if item.status == "Draft" %}
+            <span class="label label-yellow">{{ item.status }}</span>
+          {% else %}
+            <span class="label label-green">{{ item.status }}</span>
+          {% endif %}
+        </td>
         <td>
           <div class="author-activity">
             <span class="author-name">@{{ item.user }}</span>
@@ -190,7 +230,7 @@ nav_order: 1
       </tr>
       {% endfor %}
     {% else %}
-      <tr><td colspan="4" class="no-prs">No open pull requests</td></tr>
+      <tr><td colspan="6" class="no-prs">No open pull requests</td></tr>
     {% endif %}
   </tbody>
 </table>
@@ -205,9 +245,11 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Repository</th>
-      <th style="width: 40%;">Pull Request</th>
-      <th style="width: 20%;">Author & Activity</th>
+      <th style="width: 15%;">Repository</th>
+      <th style="width: 10%;">ID</th>
+      <th style="width: 35%;">Pull Request</th>
+      <th style="width: 10%;">Status</th>
+      <th style="width: 15%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -217,7 +259,15 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5gcsc">{{ item.repo }}</a></td>
+        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td style="text-align: center;">
+          {% if item.status == "Draft" %}
+            <span class="label label-yellow">{{ item.status }}</span>
+          {% else %}
+            <span class="label label-green">{{ item.status }}</span>
+          {% endif %}
+        </td>
         <td>
           <div class="author-activity">
             <span class="author-name">@{{ item.user }}</span>
@@ -236,7 +286,7 @@ nav_order: 1
       </tr>
       {% endfor %}
     {% else %}
-      <tr><td colspan="4" class="no-prs">No open pull requests</td></tr>
+      <tr><td colspan="6" class="no-prs">No open pull requests</td></tr>
     {% endif %}
   </tbody>
 </table>
@@ -251,9 +301,11 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Repository</th>
-      <th style="width: 40%;">Pull Request</th>
-      <th style="width: 20%;">Author & Activity</th>
+      <th style="width: 15%;">Repository</th>
+      <th style="width: 10%;">ID</th>
+      <th style="width: 35%;">Pull Request</th>
+      <th style="width: 10%;">Status</th>
+      <th style="width: 15%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -263,7 +315,15 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-testbed">{{ item.repo }}</a></td>
+        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td style="text-align: center;">
+          {% if item.status == "Draft" %}
+            <span class="label label-yellow">{{ item.status }}</span>
+          {% else %}
+            <span class="label label-green">{{ item.status }}</span>
+          {% endif %}
+        </td>
         <td>
           <div class="author-activity">
             <span class="author-name">@{{ item.user }}</span>
@@ -282,7 +342,7 @@ nav_order: 1
       </tr>
       {% endfor %}
     {% else %}
-      <tr><td colspan="4" class="no-prs">No open pull requests</td></tr>
+      <tr><td colspan="6" class="no-prs">No open pull requests</td></tr>
     {% endif %}
   </tbody>
 </table>
@@ -297,9 +357,11 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Repository</th>
-      <th style="width: 40%;">Pull Request</th>
-      <th style="width: 20%;">Author & Activity</th>
+      <th style="width: 15%;">Repository</th>
+      <th style="width: 10%;">ID</th>
+      <th style="width: 35%;">Pull Request</th>
+      <th style="width: 10%;">Status</th>
+      <th style="width: 15%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -309,7 +371,15 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-aiml">{{ item.repo }}</a></td>
+        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td style="text-align: center;">
+          {% if item.status == "Draft" %}
+            <span class="label label-yellow">{{ item.status }}</span>
+          {% else %}
+            <span class="label label-green">{{ item.status }}</span>
+          {% endif %}
+        </td>
         <td>
           <div class="author-activity">
             <span class="author-name">@{{ item.user }}</span>
@@ -328,7 +398,7 @@ nav_order: 1
       </tr>
       {% endfor %}
     {% else %}
-      <tr><td colspan="4" class="no-prs">No open pull requests</td></tr>
+      <tr><td colspan="6" class="no-prs">No open pull requests</td></tr>
     {% endif %}
   </tbody>
 </table>
@@ -343,9 +413,11 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Repository</th>
-      <th style="width: 40%;">Pull Request</th>
-      <th style="width: 20%;">Author & Activity</th>
+      <th style="width: 15%;">Repository</th>
+      <th style="width: 10%;">ID</th>
+      <th style="width: 35%;">Pull Request</th>
+      <th style="width: 10%;">Status</th>
+      <th style="width: 15%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -355,7 +427,15 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-beyond2d">{{ item.repo }}</a></td>
+        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td style="text-align: center;">
+          {% if item.status == "Draft" %}
+            <span class="label label-yellow">{{ item.status }}</span>
+          {% else %}
+            <span class="label label-green">{{ item.status }}</span>
+          {% endif %}
+        </td>
         <td>
           <div class="author-activity">
             <span class="author-name">@{{ item.user }}</span>
@@ -374,7 +454,7 @@ nav_order: 1
       </tr>
       {% endfor %}
     {% else %}
-      <tr><td colspan="4" class="no-prs">No open pull requests</td></tr>
+      <tr><td colspan="6" class="no-prs">No open pull requests</td></tr>
     {% endif %}
   </tbody>
 </table>
@@ -389,9 +469,11 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Repository</th>
-      <th style="width: 40%;">Pull Request</th>
-      <th style="width: 20%;">Author & Activity</th>
+      <th style="width: 15%;">Repository</th>
+      <th style="width: 10%;">ID</th>
+      <th style="width: 35%;">Pull Request</th>
+      <th style="width: 10%;">Status</th>
+      <th style="width: 15%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -401,7 +483,15 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-avatar">{{ item.repo }}</a></td>
+        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td style="text-align: center;">
+          {% if item.status == "Draft" %}
+            <span class="label label-yellow">{{ item.status }}</span>
+          {% else %}
+            <span class="label label-green">{{ item.status }}</span>
+          {% endif %}
+        </td>
         <td>
           <div class="author-activity">
             <span class="author-name">@{{ item.user }}</span>
@@ -420,7 +510,7 @@ nav_order: 1
       </tr>
       {% endfor %}
     {% else %}
-      <tr><td colspan="4" class="no-prs">No open pull requests</td></tr>
+      <tr><td colspan="6" class="no-prs">No open pull requests</td></tr>
     {% endif %}
   </tbody>
 </table>
@@ -435,9 +525,11 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Repository</th>
-      <th style="width: 40%;">Pull Request</th>
-      <th style="width: 20%;">Author & Activity</th>
+      <th style="width: 15%;">Repository</th>
+      <th style="width: 10%;">ID</th>
+      <th style="width: 35%;">Pull Request</th>
+      <th style="width: 10%;">Status</th>
+      <th style="width: 15%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -447,7 +539,15 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-dvbi">{{ item.repo }}</a></td>
+        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td style="text-align: center;">
+          {% if item.status == "Draft" %}
+            <span class="label label-yellow">{{ item.status }}</span>
+          {% else %}
+            <span class="label label-green">{{ item.status }}</span>
+          {% endif %}
+        </td>
         <td>
           <div class="author-activity">
             <span class="author-name">@{{ item.user }}</span>
@@ -466,7 +566,7 @@ nav_order: 1
       </tr>
       {% endfor %}
     {% else %}
-      <tr><td colspan="4" class="no-prs">No open pull requests</td></tr>
+      <tr><td colspan="6" class="no-prs">No open pull requests</td></tr>
     {% endif %}
   </tbody>
 </table>
@@ -481,9 +581,11 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Repository</th>
-      <th style="width: 40%;">Pull Request</th>
-      <th style="width: 20%;">Author & Activity</th>
+      <th style="width: 15%;">Repository</th>
+      <th style="width: 10%;">ID</th>
+      <th style="width: 35%;">Pull Request</th>
+      <th style="width: 10%;">Status</th>
+      <th style="width: 15%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -493,7 +595,15 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-md">{{ item.repo }}</a></td>
+        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td style="text-align: center;">
+          {% if item.status == "Draft" %}
+            <span class="label label-yellow">{{ item.status }}</span>
+          {% else %}
+            <span class="label label-green">{{ item.status }}</span>
+          {% endif %}
+        </td>
         <td>
           <div class="author-activity">
             <span class="author-name">@{{ item.user }}</span>
@@ -512,7 +622,7 @@ nav_order: 1
       </tr>
       {% endfor %}
     {% else %}
-      <tr><td colspan="4" class="no-prs">No open pull requests</td></tr>
+      <tr><td colspan="6" class="no-prs">No open pull requests</td></tr>
     {% endif %}
   </tbody>
 </table>
@@ -527,9 +637,11 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Repository</th>
-      <th style="width: 40%;">Pull Request</th>
-      <th style="width: 20%;">Author & Activity</th>
+      <th style="width: 15%;">Repository</th>
+      <th style="width: 10%;">ID</th>
+      <th style="width: 35%;">Pull Request</th>
+      <th style="width: 10%;">Status</th>
+      <th style="width: 15%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -539,7 +651,15 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-api">{{ item.repo }}</a></td>
+        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td style="text-align: center;">
+          {% if item.status == "Draft" %}
+            <span class="label label-yellow">{{ item.status }}</span>
+          {% else %}
+            <span class="label label-green">{{ item.status }}</span>
+          {% endif %}
+        </td>
         <td>
           <div class="author-activity">
             <span class="author-name">@{{ item.user }}</span>
@@ -558,7 +678,7 @@ nav_order: 1
       </tr>
       {% endfor %}
     {% else %}
-      <tr><td colspan="4" class="no-prs">No open pull requests</td></tr>
+      <tr><td colspan="6" class="no-prs">No open pull requests</td></tr>
     {% endif %}
   </tbody>
 </table>
@@ -573,9 +693,11 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Repository</th>
-      <th style="width: 40%;">Pull Request</th>
-      <th style="width: 20%;">Author & Activity</th>
+      <th style="width: 15%;">Repository</th>
+      <th style="width: 10%;">ID</th>
+      <th style="width: 35%;">Pull Request</th>
+      <th style="width: 10%;">Status</th>
+      <th style="width: 15%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -585,7 +707,15 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-uedc">{{ item.repo }}</a></td>
+        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td style="text-align: center;">
+          {% if item.status == "Draft" %}
+            <span class="label label-yellow">{{ item.status }}</span>
+          {% else %}
+            <span class="label label-green">{{ item.status }}</span>
+          {% endif %}
+        </td>
         <td>
           <div class="author-activity">
             <span class="author-name">@{{ item.user }}</span>
@@ -604,7 +734,7 @@ nav_order: 1
       </tr>
       {% endfor %}
     {% else %}
-      <tr><td colspan="4" class="no-prs">No open pull requests</td></tr>
+      <tr><td colspan="6" class="no-prs">No open pull requests</td></tr>
     {% endif %}
   </tbody>
 </table>
@@ -619,9 +749,11 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Repository</th>
-      <th style="width: 40%;">Pull Request</th>
-      <th style="width: 20%;">Author & Activity</th>
+      <th style="width: 15%;">Repository</th>
+      <th style="width: 10%;">ID</th>
+      <th style="width: 35%;">Pull Request</th>
+      <th style="width: 10%;">Status</th>
+      <th style="width: 15%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -631,7 +763,15 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-v3c">{{ item.repo }}</a></td>
+        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td style="text-align: center;">
+          {% if item.status == "Draft" %}
+            <span class="label label-yellow">{{ item.status }}</span>
+          {% else %}
+            <span class="label label-green">{{ item.status }}</span>
+          {% endif %}
+        </td>
         <td>
           <div class="author-activity">
             <span class="author-name">@{{ item.user }}</span>
@@ -650,7 +790,7 @@ nav_order: 1
       </tr>
       {% endfor %}
     {% else %}
-      <tr><td colspan="4" class="no-prs">No open pull requests</td></tr>
+      <tr><td colspan="6" class="no-prs">No open pull requests</td></tr>
     {% endif %}
   </tbody>
 </table>
@@ -665,9 +805,11 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Repository</th>
-      <th style="width: 40%;">Pull Request</th>
-      <th style="width: 20%;">Author & Activity</th>
+      <th style="width: 15%;">Repository</th>
+      <th style="width: 10%;">ID</th>
+      <th style="width: 35%;">Pull Request</th>
+      <th style="width: 10%;">Status</th>
+      <th style="width: 15%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -677,7 +819,15 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-xr">{{ item.repo }}</a></td>
+        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td style="text-align: center;">
+          {% if item.status == "Draft" %}
+            <span class="label label-yellow">{{ item.status }}</span>
+          {% else %}
+            <span class="label label-green">{{ item.status }}</span>
+          {% endif %}
+        </td>
         <td>
           <div class="author-activity">
             <span class="author-name">@{{ item.user }}</span>
@@ -696,7 +846,7 @@ nav_order: 1
       </tr>
       {% endfor %}
     {% else %}
-      <tr><td colspan="4" class="no-prs">No open pull requests</td></tr>
+      <tr><td colspan="6" class="no-prs">No open pull requests</td></tr>
     {% endif %}
   </tbody>
 </table>
@@ -711,9 +861,11 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 25%;">Repository</th>
-      <th style="width: 40%;">Pull Request</th>
-      <th style="width: 20%;">Author & Activity</th>
+      <th style="width: 15%;">Repository</th>
+      <th style="width: 10%;">ID</th>
+      <th style="width: 35%;">Pull Request</th>
+      <th style="width: 10%;">Status</th>
+      <th style="width: 15%;">Author & Activity</th>
       <th style="width: 15%;">Date</th>
     </tr>
   </thead>
@@ -723,7 +875,15 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-common">{{ item.repo }}</a></td>
+        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
+        <td style="text-align: center;">
+          {% if item.status == "Draft" %}
+            <span class="label label-yellow">{{ item.status }}</span>
+          {% else %}
+            <span class="label label-green">{{ item.status }}</span>
+          {% endif %}
+        </td>
         <td>
           <div class="author-activity">
             <span class="author-name">@{{ item.user }}</span>
@@ -742,7 +902,7 @@ nav_order: 1
       </tr>
       {% endfor %}
     {% else %}
-      <tr><td colspan="4" class="no-prs">No open pull requests</td></tr>
+      <tr><td colspan="6" class="no-prs">No open pull requests</td></tr>
     {% endif %}
   </tbody>
 </table>
