@@ -21,12 +21,12 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 15%;">Repository</th>
-      <th style="width: 10%;">ID</th>
+      <th style="width: 30%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 35%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 5%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
-      <th style="width: 15%;">Date</th>
+      <th style="width: 10%;">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -35,7 +35,7 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5gbc">{{ item.repo }}</a></td>
-        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
+        <td style="text-align: center; font-family: monospace;">{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td style="text-align: center;">
           {% if item.status == "Draft" %}
@@ -77,12 +77,12 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 15%;">Repository</th>
-      <th style="width: 10%;">ID</th>
+      <th style="width: 30%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 35%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 5%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
-      <th style="width: 15%;">Date</th>
+      <th style="width: 10%;">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -91,7 +91,7 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5gbcea">{{ item.repo }}</a></td>
-        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
+        <td style="text-align: center; font-family: monospace;">{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td style="text-align: center;">
           {% if item.status == "Draft" %}
@@ -133,12 +133,12 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 15%;">Repository</th>
-      <th style="width: 10%;">ID</th>
+      <th style="width: 30%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 35%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 5%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
-      <th style="width: 15%;">Date</th>
+      <th style="width: 10%;">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -147,7 +147,7 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5gms">{{ item.repo }}</a></td>
-        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
+        <td style="text-align: center; font-family: monospace;">{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td style="text-align: center;">
           {% if item.status == "Draft" %}
@@ -189,12 +189,12 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 15%;">Repository</th>
-      <th style="width: 10%;">ID</th>
+      <th style="width: 30%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 35%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 5%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
-      <th style="width: 15%;">Date</th>
+      <th style="width: 10%;">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -203,7 +203,7 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5mbs">{{ item.repo }}</a></td>
-        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
+        <td style="text-align: center; font-family: monospace;">{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td style="text-align: center;">
           {% if item.status == "Draft" %}
@@ -245,12 +245,12 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 15%;">Repository</th>
-      <th style="width: 10%;">ID</th>
+      <th style="width: 30%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 35%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 5%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
-      <th style="width: 15%;">Date</th>
+      <th style="width: 10%;">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -259,7 +259,7 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-5gcsc">{{ item.repo }}</a></td>
-        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
+        <td style="text-align: center; font-family: monospace;">{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td style="text-align: center;">
           {% if item.status == "Draft" %}
@@ -301,12 +301,12 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 15%;">Repository</th>
-      <th style="width: 10%;">ID</th>
+      <th style="width: 30%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 35%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 5%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
-      <th style="width: 15%;">Date</th>
+      <th style="width: 10%;">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -315,7 +315,7 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-testbed">{{ item.repo }}</a></td>
-        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
+        <td style="text-align: center; font-family: monospace;">{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td style="text-align: center;">
           {% if item.status == "Draft" %}
@@ -357,12 +357,12 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 15%;">Repository</th>
-      <th style="width: 10%;">ID</th>
+      <th style="width: 30%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 35%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 5%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
-      <th style="width: 15%;">Date</th>
+      <th style="width: 10%;">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -371,7 +371,7 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-aiml">{{ item.repo }}</a></td>
-        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
+        <td style="text-align: center; font-family: monospace;">{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td style="text-align: center;">
           {% if item.status == "Draft" %}
@@ -413,12 +413,12 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 15%;">Repository</th>
-      <th style="width: 10%;">ID</th>
+      <th style="width: 30%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 35%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 5%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
-      <th style="width: 15%;">Date</th>
+      <th style="width: 10%;">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -427,7 +427,7 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-beyond2d">{{ item.repo }}</a></td>
-        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
+        <td style="text-align: center; font-family: monospace;">{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td style="text-align: center;">
           {% if item.status == "Draft" %}
@@ -469,12 +469,12 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 15%;">Repository</th>
-      <th style="width: 10%;">ID</th>
+      <th style="width: 30%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 35%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 5%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
-      <th style="width: 15%;">Date</th>
+      <th style="width: 10%;">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -483,7 +483,7 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-avatar">{{ item.repo }}</a></td>
-        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
+        <td style="text-align: center; font-family: monospace;">{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td style="text-align: center;">
           {% if item.status == "Draft" %}
@@ -525,12 +525,12 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 15%;">Repository</th>
-      <th style="width: 10%;">ID</th>
+      <th style="width: 30%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 35%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 5%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
-      <th style="width: 15%;">Date</th>
+      <th style="width: 10%;">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -539,7 +539,7 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-dvbi">{{ item.repo }}</a></td>
-        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
+        <td style="text-align: center; font-family: monospace;">{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td style="text-align: center;">
           {% if item.status == "Draft" %}
@@ -581,12 +581,12 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 15%;">Repository</th>
-      <th style="width: 10%;">ID</th>
+      <th style="width: 30%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 35%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 5%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
-      <th style="width: 15%;">Date</th>
+      <th style="width: 10%;">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -595,7 +595,7 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-md">{{ item.repo }}</a></td>
-        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
+        <td style="text-align: center; font-family: monospace;">{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td style="text-align: center;">
           {% if item.status == "Draft" %}
@@ -637,12 +637,12 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 15%;">Repository</th>
-      <th style="width: 10%;">ID</th>
+      <th style="width: 30%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 35%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 5%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
-      <th style="width: 15%;">Date</th>
+      <th style="width: 10%;">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -651,7 +651,7 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-api">{{ item.repo }}</a></td>
-        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
+        <td style="text-align: center; font-family: monospace;">{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td style="text-align: center;">
           {% if item.status == "Draft" %}
@@ -693,12 +693,12 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 15%;">Repository</th>
-      <th style="width: 10%;">ID</th>
+      <th style="width: 30%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 35%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 5%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
-      <th style="width: 15%;">Date</th>
+      <th style="width: 10%;">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -707,7 +707,7 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-uedc">{{ item.repo }}</a></td>
-        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
+        <td style="text-align: center; font-family: monospace;">{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td style="text-align: center;">
           {% if item.status == "Draft" %}
@@ -749,12 +749,12 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 15%;">Repository</th>
-      <th style="width: 10%;">ID</th>
+      <th style="width: 30%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 35%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 5%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
-      <th style="width: 15%;">Date</th>
+      <th style="width: 10%;">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -763,7 +763,7 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-v3c">{{ item.repo }}</a></td>
-        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
+        <td style="text-align: center; font-family: monospace;">{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td style="text-align: center;">
           {% if item.status == "Draft" %}
@@ -805,12 +805,12 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 15%;">Repository</th>
-      <th style="width: 10%;">ID</th>
+      <th style="width: 30%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 35%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 5%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
-      <th style="width: 15%;">Date</th>
+      <th style="width: 10%;">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -819,7 +819,7 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-xr">{{ item.repo }}</a></td>
-        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
+        <td style="text-align: center; font-family: monospace;">{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td style="text-align: center;">
           {% if item.status == "Draft" %}
@@ -861,12 +861,12 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 15%;">Repository</th>
-      <th style="width: 10%;">ID</th>
+      <th style="width: 30%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 35%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 5%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
-      <th style="width: 15%;">Date</th>
+      <th style="width: 10%;">Date</th>
     </tr>
   </thead>
   <tbody>
@@ -875,7 +875,7 @@ nav_order: 1
       {% for item in prs %}
       <tr>
         <td><a href="https://github.com/5G-MAG/{{ item.repo }}" class="btn btn-common">{{ item.repo }}</a></td>
-        <td style="text-align: center; font-family: monospace;">#{{ item.number }}</td>
+        <td style="text-align: center; font-family: monospace;">{{ item.number }}</td>
         <td class="pr-title-cell"><a href="{{ item.url }}" class="btn">{{ item.title }}</a></td>
         <td style="text-align: center;">
           {% if item.status == "Draft" %}
