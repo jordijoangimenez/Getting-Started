@@ -25,7 +25,7 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
 > ### 📊 Overview
 > Get the full 5G-MAG Reference Tools slide deck for an in-depth look.
 >
-> [Download Slide Deck (PDF)](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue .btn-large }
+> [Download Slide Deck (PDF)](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue .btn-large .btn-arrow }
 
 # Check what you can do with the Reference Tools and Testbeds
 
