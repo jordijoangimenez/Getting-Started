@@ -142,6 +142,10 @@ jobs:
                       created_date = pr.get('created_at', '').split('T')[0]
                       days_ago = (datetime.now() - datetime.strptime(created_date, "%Y-%m-%d")).days
                       
+                      # Check if the PR is a draft
+                      # pr.get('draft') returns True or False
+                      pr_status = "Draft" if pr.get('draft') else "Ready"
+                      
                       # Fetch last comment for the Liquid template
                       comments_url = pr.get('comments_url')
                       last_comment_by = None
@@ -154,11 +158,16 @@ jobs:
                               last_comment_date = last_comm.get('created_at', '').split('T')[0]
 
                       pull_list.append({
-                          "repo": repo_name, "title": pr.get('title'), "url": pr.get('html_url'),
+                          "number": f"#{pr.get('number')}", # Added PR Number
+                          "status": pr_status,              # Added Draft/Final status
+                          "repo": repo_name,
+                          "title": pr.get('title'),
+                          "url": pr.get('html_url'),
                           "user": pr.get('user', {}).get('login'),
                           "last_comment_by": last_comment_by,
                           "last_comment_date": last_comment_date,
-                          "date": created_date, "days_ago": days_ago, 
+                          "date": created_date,
+                          "days_ago": days_ago, 
                           "color": "green" if days_ago <= 90 else "orange" if days_ago <= 180 else "red",
                           "blink": (days_ago <= 30)
                       })
