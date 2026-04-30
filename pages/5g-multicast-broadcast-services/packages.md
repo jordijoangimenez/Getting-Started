@@ -13,9 +13,10 @@ nav_order: 3
 # Packages
 
 This project also provides or makes use of the following packages GitHub Container packages.
-Images and docker compose deployments for MBS are located in the following repository: [https://github.com/5G-MAG/rt-mbs-examples](https://github.com/5G-MAG/rt-mbs-examples)
 
-## Standard Open5GS packages:
+## 5G Core Network Functions (3GPP TS 23.501) based on Open5GS
+
+These packages are compiled from the following repository: [https://github.com/5G-MAG/open5gs](https://github.com/5G-MAG/open5gs)
 
 Components | Package
  --|--
@@ -33,7 +34,11 @@ Components | Package
  SCP | [https://github.com/5G-MAG/open5gs/pkgs/container/scp](https://github.com/5G-MAG/open5gs/pkgs/container/scp)
  SEPP | [https://github.com/5G-MAG/open5gs/pkgs/container/sepp](https://github.com/5G-MAG/open5gs/pkgs/container/sepp)
 
-## MBS related packages:
+## Multicast–Broadcast Services (MBS)
+
+Images and docker compose deployments for MBS are located in the following repository: [https://github.com/5G-MAG/rt-mbs-examples](https://github.com/5G-MAG/rt-mbs-examples)
+
+### MBS Core Network Functions (3GPP TS 23.247) based on Open5GS
 
 Components | Package
  --|--
@@ -44,7 +49,7 @@ Components | Package
  AMF with MBS | [https://github.com/5G-MAG/rt-mbs-examples/pkgs/container/amf_with_mbs](https://github.com/5G-MAG/rt-mbs-examples/pkgs/container/amf_with_mbs)
  UE with MBS | [https://github.com/5G-MAG/rt-mbs-examples/pkgs/container/ue_with_mbs](https://github.com/5G-MAG/rt-mbs-examples/pkgs/container/ue_with_mbs)
 
-## MBS User Services related packages:
+## MBS User Services Network Functions (3GPP TS 26.502)
 
 Components | Package
  --|--
