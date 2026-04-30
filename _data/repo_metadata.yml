@@ -574,14 +574,14 @@ repos:
 # Network Capability Exposure through APIs
   N1:
     category: "network_api"
-    repo_slug: "rt-mcp-server"
+    repo_slug: "rt-common-shared"
     display_name: "MCP Server"
     description: |
       Reference Tools: This repository is related to "Network Capability Exposure through APIs"
-    repo_url: "https://github.com/5G-MAG/rt-mcp-server"
+    repo_url: "https://github.com/5G-MAG/rt-common-shared"
     branch: "main"
     license: "5G-MAG PL v1.0"
-    public: false
+    public: true
 
   N2:
     category: "network_api"
