@@ -1,8 +1,10 @@
 {
-  "last_updated": "2026-04-30 01:01",
+  "last_updated": "2026-04-30 08:50",
   "projects": {
     "5G Media Streaming": [
       {
+        "number": "#104",
+        "status": "Ready",
         "repo": "rt-5gms-application-provider",
         "title": "Feature/102 track external provisioning sessions",
         "url": "https://github.com/5G-MAG/rt-5gms-application-provider/pull/104",
@@ -15,6 +17,8 @@
         "blink": false
       },
       {
+        "number": "#101",
+        "status": "Ready",
         "repo": "rt-5gms-application-provider",
         "title": "Added import/export Feature",
         "url": "https://github.com/5G-MAG/rt-5gms-application-provider/pull/101",
@@ -27,6 +31,8 @@
         "blink": false
       },
       {
+        "number": "#97",
+        "status": "Ready",
         "repo": "rt-5gms-application-provider",
         "title": "Add an Insomnia collection for the M1 and M5 interface including envi\u2026",
         "url": "https://github.com/5G-MAG/rt-5gms-application-provider/pull/97",
@@ -39,6 +45,8 @@
         "blink": false
       },
       {
+        "number": "#49",
+        "status": "Ready",
         "repo": "rt-5gms-application",
         "title": "Feature MWC Demo",
         "url": "https://github.com/5G-MAG/rt-5gms-application/pull/49",
@@ -51,6 +59,8 @@
         "blink": false
       },
       {
+        "number": "#192",
+        "status": "Ready",
         "repo": "rt-5gms-application-function",
         "title": "Update README installation steps for newer Linux distributions",
         "url": "https://github.com/5G-MAG/rt-5gms-application-function/pull/192",
@@ -63,6 +73,8 @@
         "blink": true
       },
       {
+        "number": "#108",
+        "status": "Ready",
         "repo": "rt-5gms-application-server",
         "title": "add cfg and script for CMCD",
         "url": "https://github.com/5G-MAG/rt-5gms-application-server/pull/108",
@@ -75,6 +87,8 @@
         "blink": false
       },
       {
+        "number": "#83",
+        "status": "Ready",
         "repo": "rt-5gms-media-stream-handler",
         "title": "Upgrade Kotlin and dependencies",
         "url": "https://github.com/5G-MAG/rt-5gms-media-stream-handler/pull/83",
@@ -87,6 +101,8 @@
         "blink": true
       },
       {
+        "number": "#62",
+        "status": "Ready",
         "repo": "rt-5gms-media-session-handler",
         "title": "Feature/v1.3.0 changes",
         "url": "https://github.com/5G-MAG/rt-5gms-media-session-handler/pull/62",
@@ -99,6 +115,8 @@
         "blink": true
       },
       {
+        "number": "#36",
+        "status": "Ready",
         "repo": "rt-5gms-common-android-library",
         "title": "Feature/v1.3.0 changes",
         "url": "https://github.com/5G-MAG/rt-5gms-common-android-library/pull/36",
@@ -111,6 +129,8 @@
         "blink": true
       },
       {
+        "number": "#37",
+        "status": "Ready",
         "repo": "rt-5gms-examples",
         "title": "Modify Dockerfile for Application Function dependencies",
         "url": "https://github.com/5G-MAG/rt-5gms-examples/pull/37",
@@ -127,6 +147,8 @@
     "UE Data Collection": [],
     "5G Broadcast TV Radio": [
       {
+        "number": "#9",
+        "status": "Draft",
         "repo": "rt-mbms-tx-for-qrd-and-crd",
         "title": "WiP: Docker support",
         "url": "https://github.com/5G-MAG/rt-mbms-tx-for-qrd-and-crd/pull/9",
@@ -139,6 +161,8 @@
         "blink": false
       },
       {
+        "number": "#18",
+        "status": "Ready",
         "repo": "rt-mbms-mw",
         "title": "ROUTE support using GPAC",
         "url": "https://github.com/5G-MAG/rt-mbms-mw/pull/18",
@@ -151,6 +175,8 @@
         "blink": false
       },
       {
+        "number": "#15",
+        "status": "Ready",
         "repo": "rt-mbms-mw",
         "title": "readme: propose to install in /usr/local instead of /usr (which is a \u2026",
         "url": "https://github.com/5G-MAG/rt-mbms-mw/pull/15",
@@ -163,6 +189,8 @@
         "blink": false
       },
       {
+        "number": "#18",
+        "status": "Draft",
         "repo": "rt-mbms-examples",
         "title": "WIP: Docker setup for MBMS client components",
         "url": "https://github.com/5G-MAG/rt-mbms-examples/pull/18",
@@ -177,6 +205,8 @@
     ],
     "XR Media": [
       {
+        "number": "#27",
+        "status": "Draft",
         "repo": "rt-xr-content",
         "title": "Added anchoring and interactivity in the furniture glTF file",
         "url": "https://github.com/5G-MAG/rt-xr-content/pull/27",
@@ -193,6 +223,8 @@
     "Beyond 2D": [],
     "AI ML": [
       {
+        "number": "#4",
+        "status": "Ready",
         "repo": "rt-ai-ml-evaluation-framework",
         "title": "Bit incremental transfer",
         "url": "https://github.com/5G-MAG/rt-ai-ml-evaluation-framework/pull/4",
@@ -207,6 +239,8 @@
     ],
     "Multimedia Protocols": [
       {
+        "number": "#57",
+        "status": "Draft",
         "repo": "rt-libflute",
         "title": "Feature/#50",
         "url": "https://github.com/5G-MAG/rt-libflute/pull/57",
@@ -219,6 +253,8 @@
         "blink": false
       },
       {
+        "number": "#56",
+        "status": "Ready",
         "repo": "rt-libflute",
         "title": "Feature/end to end test tunneled mode",
         "url": "https://github.com/5G-MAG/rt-libflute/pull/56",
@@ -231,6 +267,8 @@
         "blink": false
       },
       {
+        "number": "#7",
+        "status": "Ready",
         "repo": "rt-libflute",
         "title": "Forward Error Correction",
         "url": "https://github.com/5G-MAG/rt-libflute/pull/7",
@@ -243,6 +281,8 @@
         "blink": false
       },
       {
+        "number": "#18",
+        "status": "Ready",
         "repo": "rt-mbms-mw",
         "title": "ROUTE support using GPAC",
         "url": "https://github.com/5G-MAG/rt-mbms-mw/pull/18",
@@ -255,6 +295,8 @@
         "blink": false
       },
       {
+        "number": "#15",
+        "status": "Ready",
         "repo": "rt-mbms-mw",
         "title": "readme: propose to install in /usr/local instead of /usr (which is a \u2026",
         "url": "https://github.com/5G-MAG/rt-mbms-mw/pull/15",
@@ -269,12 +311,14 @@
     ],
     "Auxiliary Tools": [
       {
+        "number": "#66",
+        "status": "Ready",
         "repo": "rt-common-shared",
         "title": "feature: m1-mcp-server added",
         "url": "https://github.com/5G-MAG/rt-common-shared/pull/66",
         "user": "aaronmontilla",
-        "last_comment_by": "ErikGaida",
-        "last_comment_date": "2026-03-31",
+        "last_comment_by": "dsilhavy",
+        "last_comment_date": "2026-04-30",
         "date": "2026-03-23",
         "days_ago": 38,
         "color": "green",
@@ -285,6 +329,8 @@
     "6G Testbed": [],
     "DVB-I over 5G": [
       {
+        "number": "#49",
+        "status": "Ready",
         "repo": "rt-5gms-application",
         "title": "Feature MWC Demo",
         "url": "https://github.com/5G-MAG/rt-5gms-application/pull/49",
@@ -299,6 +345,22 @@
     ],
     "Network APIs": [
       {
+        "number": "#66",
+        "status": "Ready",
+        "repo": "rt-common-shared",
+        "title": "feature: m1-mcp-server added",
+        "url": "https://github.com/5G-MAG/rt-common-shared/pull/66",
+        "user": "aaronmontilla",
+        "last_comment_by": "dsilhavy",
+        "last_comment_date": "2026-04-30",
+        "date": "2026-03-23",
+        "days_ago": 38,
+        "color": "green",
+        "blink": false
+      },
+      {
+        "number": "#104",
+        "status": "Ready",
         "repo": "rt-5gms-application-provider",
         "title": "Feature/102 track external provisioning sessions",
         "url": "https://github.com/5G-MAG/rt-5gms-application-provider/pull/104",
@@ -311,6 +373,8 @@
         "blink": false
       },
       {
+        "number": "#101",
+        "status": "Ready",
         "repo": "rt-5gms-application-provider",
         "title": "Added import/export Feature",
         "url": "https://github.com/5G-MAG/rt-5gms-application-provider/pull/101",
@@ -323,6 +387,8 @@
         "blink": false
       },
       {
+        "number": "#97",
+        "status": "Ready",
         "repo": "rt-5gms-application-provider",
         "title": "Add an Insomnia collection for the M1 and M5 interface including envi\u2026",
         "url": "https://github.com/5G-MAG/rt-5gms-application-provider/pull/97",
@@ -337,6 +403,8 @@
     ],
     "5G Broadcast Emergency Alerts": [
       {
+        "number": "#9",
+        "status": "Draft",
         "repo": "rt-mbms-tx-for-qrd-and-crd",
         "title": "WiP: Docker support",
         "url": "https://github.com/5G-MAG/rt-mbms-tx-for-qrd-and-crd/pull/9",
@@ -351,30 +419,22 @@
     ],
     "5G Multicast Broadcast": [
       {
-        "repo": "rt-mbs-function",
-        "title": "Feature: TS 29.581 V18.6.0 uplift",
-        "url": "https://github.com/5G-MAG/rt-mbs-function/pull/31",
-        "user": "davidjwbbc",
-        "last_comment_by": "jordijoangimenez",
-        "last_comment_date": "2026-04-23",
-        "date": "2026-04-15",
-        "days_ago": 15,
-        "color": "green",
-        "blink": true
-      },
-      {
+        "number": "#16",
+        "status": "Ready",
         "repo": "rt-mbs-examples",
         "title": "Updates to examples for MBSTF carousel operating mode",
         "url": "https://github.com/5G-MAG/rt-mbs-examples/pull/16",
         "user": "davidjwbbc",
-        "last_comment_by": "dsilhavy",
-        "last_comment_date": "2026-04-28",
+        "last_comment_by": "jordijoangimenez",
+        "last_comment_date": "2026-04-30",
         "date": "2026-03-27",
         "days_ago": 34,
         "color": "green",
         "blink": false
       },
       {
+        "number": "#15",
+        "status": "Ready",
         "repo": "rt-mbs-examples",
         "title": "Copy 5g-mbs-dev repository and fix so it works here",
         "url": "https://github.com/5G-MAG/rt-mbs-examples/pull/15",
@@ -387,6 +447,8 @@
         "blink": false
       },
       {
+        "number": "#14",
+        "status": "Ready",
         "repo": "rt-mbs-examples",
         "title": "Feature/tmux mbstf",
         "url": "https://github.com/5G-MAG/rt-mbs-examples/pull/14",
@@ -399,6 +461,8 @@
         "blink": false
       },
       {
+        "number": "#13",
+        "status": "Draft",
         "repo": "rt-mbs-examples",
         "title": "Add Insomnia collection and environment for TMGI Service API",
         "url": "https://github.com/5G-MAG/rt-mbs-examples/pull/13",

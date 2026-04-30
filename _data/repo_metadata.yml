@@ -577,7 +577,7 @@ repos:
     repo_slug: "rt-common-shared"
     display_name: "MCP Server"
     description: |
-      Reference Tools: This repository is related to "Network Capability Exposure through APIs"
+      This repository holds auxiliary tools common to various projects.
     repo_url: "https://github.com/5G-MAG/rt-common-shared"
     branch: "main"
     license: "5G-MAG PL v1.0"
