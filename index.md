@@ -21,7 +21,11 @@ The <b>5G-MAG Reference Tools Developer Community</b> provides a structured envi
   <li><b>Drive Global Adoption:</b> Through open-source software and tutorials, we empower users and creators to adopt and scale new technologies with confidence.</li>
 </ul>
 
-[Download an overview about the 5G-MAG Reference Tools](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue }
+{: .note }
+> ### 📊 Project Overview
+> Get the full 5G-MAG Reference Tools slide deck for an in-depth look.
+>
+> [Download Slide Deck (PDF)](./docs/Reference_Tools_Overview.pdf){: .btn .btn-blue .btn-large }
 
 # Check what you can do with the Reference Tools and Testbeds
 
