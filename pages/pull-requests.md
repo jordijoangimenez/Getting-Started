@@ -21,10 +21,10 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Repository</th>
-      <th style="width: 5%;">ID</th>
+      <th style="width: 25%;">Repository</th>
+      <th style="width: 3%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
       <th style="width: 10%;">Date</th>
     </tr>
@@ -77,10 +77,10 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Repository</th>
-      <th style="width: 5%;">ID</th>
+      <th style="width: 25%;">Repository</th>
+      <th style="width: 3%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
       <th style="width: 10%;">Date</th>
     </tr>
@@ -133,10 +133,10 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Repository</th>
-      <th style="width: 5%;">ID</th>
+      <th style="width: 25%;">Repository</th>
+      <th style="width: 3%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
       <th style="width: 10%;">Date</th>
     </tr>
@@ -189,10 +189,10 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Repository</th>
-      <th style="width: 5%;">ID</th>
+      <th style="width: 25%;">Repository</th>
+      <th style="width: 3%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
       <th style="width: 10%;">Date</th>
     </tr>
@@ -245,10 +245,10 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Repository</th>
-      <th style="width: 5%;">ID</th>
+      <th style="width: 25%;">Repository</th>
+      <th style="width: 3%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
       <th style="width: 10%;">Date</th>
     </tr>
@@ -301,10 +301,10 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Repository</th>
-      <th style="width: 5%;">ID</th>
+      <th style="width: 25%;">Repository</th>
+      <th style="width: 3%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
       <th style="width: 10%;">Date</th>
     </tr>
@@ -357,10 +357,10 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Repository</th>
-      <th style="width: 5%;">ID</th>
+      <th style="width: 25%;">Repository</th>
+      <th style="width: 3%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
       <th style="width: 10%;">Date</th>
     </tr>
@@ -413,10 +413,10 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Repository</th>
-      <th style="width: 5%;">ID</th>
+      <th style="width: 25%;">Repository</th>
+      <th style="width: 3%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
       <th style="width: 10%;">Date</th>
     </tr>
@@ -469,10 +469,10 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Repository</th>
-      <th style="width: 5%;">ID</th>
+      <th style="width: 25%;">Repository</th>
+      <th style="width: 3%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
       <th style="width: 10%;">Date</th>
     </tr>
@@ -525,10 +525,10 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Repository</th>
-      <th style="width: 5%;">ID</th>
+      <th style="width: 25%;">Repository</th>
+      <th style="width: 3%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
       <th style="width: 10%;">Date</th>
     </tr>
@@ -581,10 +581,10 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Repository</th>
-      <th style="width: 5%;">ID</th>
+      <th style="width: 25%;">Repository</th>
+      <th style="width: 3%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
       <th style="width: 10%;">Date</th>
     </tr>
@@ -637,10 +637,10 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Repository</th>
-      <th style="width: 5%;">ID</th>
+      <th style="width: 25%;">Repository</th>
+      <th style="width: 3%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
       <th style="width: 10%;">Date</th>
     </tr>
@@ -693,10 +693,10 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Repository</th>
-      <th style="width: 5%;">ID</th>
+      <th style="width: 25%;">Repository</th>
+      <th style="width: 3%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
       <th style="width: 10%;">Date</th>
     </tr>
@@ -749,10 +749,10 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Repository</th>
-      <th style="width: 5%;">ID</th>
+      <th style="width: 25%;">Repository</th>
+      <th style="width: 3%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
       <th style="width: 10%;">Date</th>
     </tr>
@@ -805,10 +805,10 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Repository</th>
-      <th style="width: 5%;">ID</th>
+      <th style="width: 25%;">Repository</th>
+      <th style="width: 3%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
       <th style="width: 10%;">Date</th>
     </tr>
@@ -861,10 +861,10 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Repository</th>
-      <th style="width: 5%;">ID</th>
+      <th style="width: 25%;">Repository</th>
+      <th style="width: 3%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
-      <th style="width: 10%;">Status</th>
+      <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
       <th style="width: 10%;">Date</th>
     </tr>
