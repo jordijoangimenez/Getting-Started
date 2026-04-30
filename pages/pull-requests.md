@@ -21,8 +21,8 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 24%;">Repository</th>
-      <th style="width: 4%;">ID</th>
+      <th style="width: 23%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
       <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
@@ -77,8 +77,8 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 24%;">Repository</th>
-      <th style="width: 4%;">ID</th>
+      <th style="width: 23%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
       <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
@@ -133,8 +133,8 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 24%;">Repository</th>
-      <th style="width: 4%;">ID</th>
+      <th style="width: 23%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
       <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
@@ -189,8 +189,8 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 24%;">Repository</th>
-      <th style="width: 4%;">ID</th>
+      <th style="width: 23%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
       <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
@@ -245,8 +245,8 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 24%;">Repository</th>
-      <th style="width: 4%;">ID</th>
+      <th style="width: 23%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
       <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
@@ -301,8 +301,8 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 24%;">Repository</th>
-      <th style="width: 4%;">ID</th>
+      <th style="width: 23%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
       <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
@@ -357,8 +357,8 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 24%;">Repository</th>
-      <th style="width: 4%;">ID</th>
+      <th style="width: 23%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
       <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
@@ -413,8 +413,8 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 24%;">Repository</th>
-      <th style="width: 4%;">ID</th>
+      <th style="width: 23%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
       <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
@@ -469,8 +469,8 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 24%;">Repository</th>
-      <th style="width: 4%;">ID</th>
+      <th style="width: 23%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
       <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
@@ -525,8 +525,8 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 24%;">Repository</th>
-      <th style="width: 4%;">ID</th>
+      <th style="width: 23%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
       <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
@@ -581,8 +581,8 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 24%;">Repository</th>
-      <th style="width: 4%;">ID</th>
+      <th style="width: 23%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
       <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
@@ -637,8 +637,8 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 24%;">Repository</th>
-      <th style="width: 4%;">ID</th>
+      <th style="width: 23%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
       <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
@@ -693,8 +693,8 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 24%;">Repository</th>
-      <th style="width: 4%;">ID</th>
+      <th style="width: 23%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
       <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
@@ -749,8 +749,8 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 24%;">Repository</th>
-      <th style="width: 4%;">ID</th>
+      <th style="width: 23%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
       <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
@@ -805,8 +805,8 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 24%;">Repository</th>
-      <th style="width: 4%;">ID</th>
+      <th style="width: 23%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
       <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
@@ -861,8 +861,8 @@ nav_order: 1
 <table class="release-table">
   <thead>
     <tr>
-      <th style="width: 24%;">Repository</th>
-      <th style="width: 4%;">ID</th>
+      <th style="width: 23%;">Repository</th>
+      <th style="width: 5%;">ID</th>
       <th style="width: 40%;">Pull Request</th>
       <th style="width: 7%;">Status</th>
       <th style="width: 15%;">Author & Activity</th>
