@@ -4,7 +4,7 @@ title: MBS 5GC, NG-RAN, UE
 parent: Tutorials
 grand_parent: 5G Multicast Broadcast Services
 has_children: false
-nav_order: 3
+nav_order: 4
 ---
 
 <img src="../../../assets/images/Banner_5MBS.png" /> 
